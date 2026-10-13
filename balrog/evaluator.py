@@ -258,9 +258,12 @@ class Evaluator:
         agent.reset()
 
         seed = self.config.envs.env_kwargs.seed
-        if seed is None:
-            seed = get_unique_seed(process_num=process_num, episode_idx=episode_idx)
-        random.seed(seed)
+        # print(f"Env seed is set to {seed}")
+
+	if seed is None:
+	    seed = get_unique_seed(process_num=process_num, episode_idx=episode_idx)
+       	     
+	random.seed(seed)
         np.random.seed(seed)
         obs, info = env.reset(seed=seed)
         episode_log = {

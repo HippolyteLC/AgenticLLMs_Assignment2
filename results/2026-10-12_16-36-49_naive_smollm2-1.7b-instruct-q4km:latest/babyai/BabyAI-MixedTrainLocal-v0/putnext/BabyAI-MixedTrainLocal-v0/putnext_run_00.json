@@ -1,0 +1,58 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/putnext",
+    "action_frequency": {
+        "turn left": 26,
+        "go forward": 83,
+        "turn right": 19
+    },
+    "input_tokens": 105382,
+    "output_tokens": 384,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "turn",
+        " turn left",
+        "move forward",
+        "go left",
+        "go right",
+        "move forward",
+        "move backward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move backward",
+        "go backward",
+        "move forward",
+        "Toggle",
+        "Toggle"
+    ],
+    "mission": "put the purple ball next to the blue ball",
+    "progression": 0.0,
+    "process_num": "ForkProcess-4",
+    "seed": 1913017409,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

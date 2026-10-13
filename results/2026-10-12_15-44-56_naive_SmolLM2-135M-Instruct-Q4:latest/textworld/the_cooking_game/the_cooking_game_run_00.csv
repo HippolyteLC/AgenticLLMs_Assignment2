@@ -1,0 +1,462 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,"There are several scenarios related to the supermarket to be executed in the episode Here are some of them:
+
+ It is a showcase:
+
+ Open the showcase when it shows the menu
+   Enter the menu
+     Select Shop then a menu
+         Select the Item then Item  then select Fresh produce
+       Enter the menu
+         Select Fresh Produce then Item  then enter the menu
+     Enter the menu
+                         Select Fresh Produce then enter the menu
+     Enter the menu
+                         Select Fresh Produce then enter the menu
+     Enter the menu
+                         Select Frying food then enter the menu
+       Enter the menu
+                         Select Frying food then enter the menu
+     Enter the menu
+                         Select Frying food then enter the menu
+ Make sure to process ingredients and process them correctly
+ Process items in the grocery or cooking containers
+ Find ingredients that match the color name in the recipe
+ Have all of the ingredients match the recipe
+ Prepare meal using an appropriate cooking tool
+ Cook and process all items
+ Have all of the components ready for processing in the kitchen
+ Wait  steps until the supermarket switches to a different stage
+
+Note: Each scene begins at a different instant when the television switch to different states is triggered",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+1,"Lets have a different perspective on it
+
+ Supermarket  ",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+2,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+3,Current Observation:,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+4,Current Observation:,,"I only understood you as far as wanting to open the showcase.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+5,Current Observation:,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+6,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+7,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+8,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+9,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+10,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+11,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+12,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+13,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+14,"There are five verbs in the input string Each of them is repeated one time:
+
+ I  
+ You  
+ They  
+ One  
+ Another  
+
+You then output an action type for each time you receive an input
+
+Now lets use the output in this episode You will be able to see which one of the two verbs and in which case you will have the corresponding actions
+
+So in the episode you could respond with either
+
+ either Im watching Supermarket
+ either Im on Supermarket
+ or anything else in between These two actions would be in the correct format
+
+For example:
+
+
+ Im watching
+ They are watching
+ or anything else in between
+
+Lets go through each of the verbs once more to see which one is which in which case
+
+ I  
+ You  
+ They  
+
+I do nothing
+I do something
+I eat
+I watch
+They do something
+They eat
+You do nothing",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+15,"The correct answer is
+
+I  
+ You  
+ They  
+
+I do nothing
+I do something
+I eat
+I watch
+They do something
+They eat
+You do nothing",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+16,Current Observation:,,"You are carrying nothing.
+
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+17,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+18,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+19,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+20,"The correct answer is
+
+I  
+ You  
+ They  
+
+I do nothing
+I do something
+I eat
+I watch
+They do something
+They eat
+You do nothing",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+21,Last observation:,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+22,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+23,Current Observation:,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+24,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+25,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+26,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+27,You always keep outputting an action until the episode terminates,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+28,You always keep outputting an action until the episode terminates,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+29,"You always keep outputting an action until the episode terminates
+
+If you want to have a conversation between different characters use the command help:
+ 
+Your characters will respond with:
+
+User: Thats not a verb
+User: Im not quite sure
+
+User: What verb do you mean
+users answer:
+User: Its not a verb
+
+User: So its not a verb
+
+User: Right You cant say what a verb is
+
+User: What should I say
+ 
+Your characters will answer with:
+
+User: You should say what a verb is
+User: Can I say what a verb is
+User:s answer: Im not quite sure
+
+User: Why should I say what a verb is
+User:s answer: Im not quite sure
+
+User: So what verb should I say
+ 
+Your characters will answer with:",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+30,"User: Thats not a verb why should I have to output something
+User:s answer: Im not quite sure
+
+You always have to output one of the above actions at a time and no other text You always have to output an action until the episode terminates",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+31,"User: You should say what a verb is
+User:s answer: Im not quite sure
+
+User: So what verb should I say
+ 
+Your characters will answer with:",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+32,"User: So what verb should I have to say
+User:s answer: Im not quite sure
+
+User: So what verb do I need to use to have a conversation
+User:s answer: Im not quite sure
+
+User: So then what verb should I use
+User:s answer: Im not quite sure
+
+User: So what verb should I use
+ 
+Your characters will answer with:",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+33,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+34,"You always have to input a series of multiple choices until the end of the game
+
+If you want to have a conversation between different characters use the command help:
+ 
+You must input the following text until the phrase You should say what a verb is is entered:
+
+Your characters will respond with:
+
+User: You should say what a verb is
+User:m answer: Im not quite sure
+
+Your characters will answer with:",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+35,"User: Im not quite sure
+
+User: 
+Should be say what a verb
+
+Use any other option
+
+python
+ You are in the kitchen of a small but wellloved restaurant
+ You are preparing a meal
+
+What do you say",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+36,You always have to output one of the above actions at a time and no other text You always have to output one of the above actions at a time and no other text You always have to output one of the above actions at a time and no other text You always have to output one of the above actions at a time until the episode terminates,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+37,"You are at the kitchen of a small but wellloved restaurant You prepare a meal
+You are sitting down for your meal
+You are eating your meal
+You are going to enjoy a meal",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+38,"You are at the kitchen of a small but wellloved restaurant and you prepare a meal after lunch
+
+And finally
+You are eating your meal
+After consuming your meal you are taking your meal back to your table",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+39,"My character always says Oh
+
+I am in the kitchen of a small but wellloved restaurant I have prepared a meal",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+40,Current Observation: you always have to input one of the above actions at a time until the episode terminates,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+41,"Thats not a verb I recognise
+
+                                                                                                                                 Supermarket ",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+42,"Thats not a verb
+
+I would have to give it to the characters",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+43,"User: Did they say Oh
+User:s answer: Im not quite sure
+
+User: So what verb do you need to say",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+44,"User: Im not quite sure
+
+User: so what verb do I need to say
+ 
+Current Observation:",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+45,You are at the kitchen of a small but wellloved restaurant You prepare a meal,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+46,"User: Im not quite sure
+
+User: Do you eat
+
+Your characters will answer with Does not eat",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+47,"Thats not a verb I recognise
+
+User: I did not say Oh
+
+User:s answer: Im not quite sure
+
+User: So what verb do I need to say
+User: s answer: Im not quite sure
+
+User: You need to input one of the above actions at a time and no other text which is  You say what a verb is 
+ You are in the kitchen of a small but wellloved restaurant 
+ You are prepared to eat your meal
+ You are eating your meal 
+ You are going to enjoy a meal",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+48,Oops,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+49,Your character should always use the verb You can type,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+50,User: I am in the kitchen of a small but wellloved restaurant I have prepared a meal,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+51,You are at the kitchen of a small but wellloved restaurant You prepare a meal,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+52,You are at the kitchen of a small but wellloved restaurant You prepare a meal,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+53,You are at the kitchen of a small but wellloved restaurant You prepare a meal,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+54,"User: Im not quite sure  Im not quite sure
+
+User: So what verb do I need to say  Does Im not quite sure
+
+Current Observation:",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+55,Its not exactly the same thing but I think its the same thing,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+56,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+57,"Thats not a verb I recognise
+
+I said that I cant remember when I said that but Im not sure why Im typing something and not remembering when I changed I have prepared Can anyone please point and tell me whats missing now",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+58,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+59,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+60,You said you didnt know what was missing but Im not really sure now Are there any words I should use instead,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+61,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+62,"The current output of Mystery is Mystery
+Users would normally expect me to give an answer such as This game requires an answer or This game is fun",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+63,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+64,"Im glad I can assist you so please keep your responses in the order they happened to become most accessible when you asked them If youre experiencing an issue please use the standard format of the list and list actions
+
+Lets move ahead",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+65,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+66,If youre struggling to get your answers to this question simply move the current prompt to the beginning and get it processed for next episode,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+67,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+68,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+69,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+70,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+71,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+72,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+73,"Thats not an action or verb
+
+So the current answer was 
+
+You have to output a few different actions and nothing else",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+74,"Current Observation:
+Thats not a verb I recognise
+
+                                                                                                                                 Supermarket ",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+75,"Current Observation:
+Thats not a verb I recognise
+
+                                                                                                                                 Supermarket ",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+76,"Current Observation:
+You forgot to finish your sentence",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+77,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+78,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+79,Current Observation:,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,True
