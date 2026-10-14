@@ -1,0 +1,46 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "go forward": 59,
+        "turn left": 32,
+        "turn right": 22,
+        "pick up": 15
+    },
+    "input_tokens": 98302,
+    "output_tokens": 384,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "turn back",
+        "go right",
+        "move forward"
+    ],
+    "mission": "pick up the green key, then go to the purple ball",
+    "progression": 0.0,
+    "process_num": "ForkProcess-2",
+    "seed": 3303751901,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

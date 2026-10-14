@@ -7,7 +7,8 @@ URL="http://localhost:11434/v1"
 
 # List of models you want to iterate over
 MODELS=(
-    "qwen2.5-3b-instruct-q4_k_m:latest"
+    "gemma-4-E2B-it-Q4_K_M:latest"
+    #"qwen2.5-3b-instruct-q4_k_m:latest"
     "smollm2-1.7b-instruct-q4km:latest"
     "qwen3.5-0.8b-Q4:latest"
 )
@@ -21,11 +22,11 @@ for MODEL_ID in "${MODELS[@]}"; do
     python eval.py \
       client.client_name=ollama \
       client.model_id="${MODEL_ID}" \
-      eval.num_workers=1 \
+      eval.num_workers=2 \
       agent.type=naive \
-      client.base_url="${URL}" \
-      eval.num_episodes.babyai=1 \
-      eval.num_episodes.textworld=1 
+      client.base_url="${URL}"
+      eval.num_episodes.babyai=5 \
+      eval.num_episodes.textworld=5
 
     echo "Completed evaluation for ${MODEL_ID}"
     echo ""

@@ -1,0 +1,212 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,"-= Laundry Place =-
+You have stumbled into a laundry place. Not the laundry place you'd expect. No, this is a laundry place.
+
+You see a rack. I guess it's true what they say, if you're looking for a rack, go to TextWorld. But there isn't a thing on it.
+
+There is a closed TextWorld style gateway leading east. There is an exit to the north. Don't worry, it is unblocked. There is an exit to the south. Don't worry, it is unblocked.",0,False
+1,go north,,"-= Restroom =-
+You find yourself in a restroom. A typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded. You don't like doors? Why not try going north, that entranceway is unguarded. There is an unguarded exit to the south.",0,False
+2,go east,,"-= Kitchen =-
+You've entered a kitchen. The room seems oddly familiar, as though it were only superficially different from the other rooms in the building.
+
+
+
+There is an unguarded exit to the east. You don't like doors? Why not try going north, that entranceway is unblocked. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+3,go north,,"-= Studio =-
+You are in a studio. A typical one.
+
+You see a bookshelf. The bookshelf is standard. Unfortunately, there isn't a thing on it.
+
+You need an unblocked exit? You should try going east. You don't like doors? Why not try going north, that entranceway is unguarded. You don't like doors? Why not try going south, that entranceway is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+4,go east,,"-= Basement =-
+You've stumbled into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the basement. Let's see what's in here.
+
+You can make out a locked coffer.
+
+There is an open hatch leading east. There is an open gate leading north. There is an unguarded exit to the south. You need an unguarded exit? You should try going west.",0,False
+5,open gate,,That's already open.,0,False
+6,look,,"-= Basement =-
+You've stumbled into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the basement. Let's see what's in here.
+
+You can make out a locked coffer.
+
+There is an open hatch leading east. There is an open gate leading north. There is an unguarded exit to the south. You need an unguarded exit? You should try going west.",0,False
+7,look,,"-= Basement =-
+You've stumbled into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the basement. Let's see what's in here.
+
+You can make out a locked coffer.
+
+There is an open hatch leading east. There is an open gate leading north. There is an unguarded exit to the south. You need an unguarded exit? You should try going west.",0,False
+8,look,,"-= Basement =-
+You've stumbled into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the basement. Let's see what's in here.
+
+You can make out a locked coffer.
+
+There is an open hatch leading east. There is an open gate leading north. There is an unguarded exit to the south. You need an unguarded exit? You should try going west.",0,False
+9,go east,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+10,take a picture,,You can't see any such thing.,0,False
+11,move south,,You must name something more substantial.,0,False
+12,move west,,You must name something more substantial.,0,False
+13,open hatches,,You can't see any such thing.,0,False
+14,move south,,You must name something more substantial.,0,False
+15,move west,,You must name something more substantial.,0,False
+16,move west,,You must name something more substantial.,0,False
+17,move west,,You must name something more substantial.,0,False
+18,move west,,You must name something more substantial.,0,False
+19,move west,,You must name something more substantial.,0,False
+20,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+21,go east,,You can't go that way.,0,False
+22,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+23,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+24,ask,,What do you want to ask yourself for?,0,False
+25,pick your question,,I didn't understand that sentence.,0,False
+26,turn the lights off,,You can't see any such thing.,0,False
+27,open the door,,That's already open.,0,False
+28,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+29,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+30,open the door,,That's already open.,0,False
+31,open the door,,That's already open.,0,False
+32,you have a key it is a key with a word on it it says left,,That's not a verb I recognise.,0,False
+33,move east,,You must name something more substantial.,0,False
+34,ask,,What do you want to ask yourself for?,0,False
+35,go north,,You can't go that way.,0,False
+36,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+37,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+38,go,,You'll have to say which compass direction to go in.,0,False
+39,go north,,You can't go that way.,0,False
+40,pick,,What do you want to pick up?,0,False
+41,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+42,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+43,open,,What do you want to open?,0,False
+44,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+45,open,,What do you want to open?,0,False
+46,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+47,open,,What do you want to open?,0,False
+48,close,,What do you want to close?,0,False
+49,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+50,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+51,pick,,What do you want to pick up?,0,False
+52,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+53,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+54,take,,What do you want to take?,0,False
+55,open,,What do you want to open?,0,False
+56,pick,,What do you want to pick up?,0,False
+57,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+58,take,,What do you want to take?,0,False
+59,look,,"-= Office =-
+Welcome to the office.
+
+Were you looking for a desk? Because look over there, it's a desk. But the thing is empty, unfortunately. You see a chair. Why don't you take a picture of it, it'll last longer! The chair appears to be empty. Aw, here you were, all excited for there to be things on it!
+
+There is an open door leading south. There is an open hatch leading west.",0,False
+60,pick,,What do you want to pick up?,0,False
+61,open,,What do you want to open?,0,False
+62,pick,,What do you want to pick up?,0,False
+63,pick,,What do you want to pick up?,0,False
+64,pick,,What do you want to pick up?,0,False
+65,pick,,What do you want to pick up?,0,False
+66,pick,,What do you want to pick up?,0,False
+67,pick,,What do you want to pick up?,0,False
+68,pick,,What do you want to pick up?,0,False
+69,pick,,What do you want to pick up?,0,False
+70,pick,,What do you want to pick up?,0,False
+71,pick,,What do you want to pick up?,0,False
+72,pick,,What do you want to pick up?,0,False
+73,pick,,What do you want to pick up?,0,False
+74,pick,,What do you want to pick up?,0,False
+75,pick,,What do you want to pick up?,0,False
+76,pick,,What do you want to pick up?,0,False
+77,pick,,What do you want to pick up?,0,False
+78,pick,,What do you want to pick up?,0,False
+79,"Observation:
+What do you want to pick up",,You can't see any such thing.,0,True

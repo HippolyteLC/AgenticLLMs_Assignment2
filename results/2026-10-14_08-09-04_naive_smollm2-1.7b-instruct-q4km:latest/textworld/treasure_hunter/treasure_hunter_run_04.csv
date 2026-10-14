@@ -1,0 +1,339 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+1,go north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+2,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+3,go north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+4,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+5,go north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+6,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+7," DishPit 
+Youve entered a dishpit
+
+ Passkey 
+You find a passkey on the floor
+
+ Observation 
+Youre observing the passageways and compartments in a dishpit
+
+ Observing the passageways and compartments 
+Youre noticing the passageways and compartments in the dishpit
+
+ Crate 
+You find a crate
+
+ Player 
+Youre just a player playing textbased adventure games here
+
+ Looking around 
+Youre just looking around and observing
+
+ You 
+You are a player playing a text adventure game TextWorld
+
+ You see things 
+You are seeing things in this game
+
+ Youre a text adventure player 
+Youre just a player playing a text adventure game TextWorld
+
+ You like doors 
+You like doors
+
+ Exploring 
+You enjoy exploring
+
+ Observing 
+You enjoy observing
+
+ Youre looking at you 
+Youre just looking at yourself
+
+ You are a person 
+Youre just a person
+
+ Looking around 
+Youre looking around
+
+ Looking forward 
+Youre looking forward
+
+ Looking back 
+Youre looking back
+
+ Looking in 
+Youre just looking at things
+
+ Looking to the sides 
+Youre just looking at your sides
+
+ Looking at the bottom 
+Youre just looking at the lower surface
+
+ Looking at the sides 
+Youre just looking at the sides
+
+ Looking at your hands 
+Youre just looking at your hands
+
+ Exploring 
+You enjoy exploring
+
+ Observing 
+You enjoy observing
+
+ Looking forward 
+Youre just looking forward
+
+ Looking back 
+Youre just looking back
+
+ Looking at me 
+Youre just looking at me
+
+ Looking at your hands 
+Youre just looking at your hands
+
+ Looking at the bottom 
+Youre looking at the lower surface
+
+ Looking at the sides 
+Youre just looking at the sides
+
+ A door is blocked 
+No a door is blocked
+
+ A door is open 
+A door is open
+
+ A door is unblocked 
+No that door is blocked But this one here is open
+
+ A door is blocked with a passkey 
+No that door is blocked
+
+ A door is blocked with a crate 
+Its locked now",,You can't see any such thing.,0,False
+8,go east,,You can't go that way.,0,False
+9,go west,,You can't go that way.,0,False
+10,go east,,You can't go that way.,0,False
+11,No that door is blocked And I havent touched anything,,I only understood you as far as wanting to no.,0,False
+12,No that door is blocked,,I only understood you as far as wanting to no.,0,False
+13,No,,That was a rhetorical question.,0,False
+14,No,,That was a rhetorical question.,0,False
+15,go north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+16,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+17,No,,That was a rhetorical question.,0,False
+18,go north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+19,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+20,go north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+21,go north,,You can't go that way.,0,False
+22,go north,,You can't go that way.,0,False
+23,go north,,You can't go that way.,0,False
+24,go north,,You can't go that way.,0,False
+25,go west,,You have to open the hatch first.,0,False
+26,go west,,You have to open the hatch first.,0,False
+27,go west,,You have to open the hatch first.,0,False
+28,go west,,You have to open the hatch first.,0,False
+29,go west,,You have to open the hatch first.,0,False
+30,go north,,You can't go that way.,0,False
+31,go north,,You can't go that way.,0,False
+32,go north,,You can't go that way.,0,False
+33,go north,,You can't go that way.,0,False
+34,go north,,You can't go that way.,0,False
+35,go north,,You can't go that way.,0,False
+36,pick direction,,I didn't understand that sentence.,0,False
+37,go north,,You can't go that way.,0,False
+38,pick an exit,,I didn't understand that sentence.,0,False
+39,ok,,That's not a verb I recognise.,0,False
+40,pick direction,,I didn't understand that sentence.,0,False
+41,go north,,You can't go that way.,0,False
+42,go north,,You can't go that way.,0,False
+43,go north,,You can't go that way.,0,False
+44,pick direction,,I didn't understand that sentence.,0,False
+45,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+46,ok,,That's not a verb I recognise.,0,False
+47,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+48,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+49,look,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+50,take the passkey,,You pick up the passkey from the ground.,0,False
+51,pick up the passkey,,You already have that.,0,False
+52,take,,"(the passkey)
+You already have that.",0,False
+53,pick up,,"(the passkey)
+You already have that.",0,False
+54,take,,"(the passkey)
+You already have that.",0,False
+55,look,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.",0,False
+56,go north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+57,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+58,pick up the key,,You can't see any such thing.,0,False
+59,take,,"(hatch)
+That's fixed in place.",0,False
+60,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+61,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+62,move west,,You must name something more substantial.,0,False
+63,search,,"(the passkey)
+You find nothing of interest.",0,False
+64,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+65,pick up the open box,,You can't see any such thing.,0,False
+66,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+67,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+68,move west,,You must name something more substantial.,0,False
+69,pick up the open door,,You can't see any such thing.,0,False
+70,lift,,That's not a verb I recognise.,0,False
+71,grab,,That's not a verb I recognise.,0,False
+72,pick up the locked container,,You can't see any such thing.,0,False
+73,pick up the open door,,You can't see any such thing.,0,False
+74,move south,,You must name something more substantial.,0,False
+75,pick up the unmovable object,,You can't see any such thing.,0,False
+76,open,,"(the passkey)
+It isn't something you can open.",0,False
+77,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+78,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+79,move north,,You must name something more substantial.,0,True

@@ -1,0 +1,466 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go south,,"You have to open the sliding door first.
+
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+1,open sliding door,,"You open sliding door.
+
+
+>                                                                                                                                -= Supermarket =-0/3",0,False
+2,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+3,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/5",0,False
+4,look,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/6",0,False
+5,go north,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/7",0,False
+6,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/8",0,False
+7,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/9",0,False
+8,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/10",0,False
+9,examine raw white tuna,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/10",0,False
+10,look,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/11",0,False
+11,go north,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/12",0,False
+12,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/13",0,False
+13,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/14",0,False
+14,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/15",0,False
+15,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/16",0,False
+16,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/17",0,False
+17,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/18",0,False
+18,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/19",0,False
+19,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/20",0,False
+20,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/21",0,False
+21,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/22",0,False
+22,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/23",0,False
+23,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/24",0,False
+24,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Supermarket =-0/25",0,False
+25,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/26",0,False
+26,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/27",0,False
+27,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/28",0,False
+28,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/29",0,False
+29,go north,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/30",0,False
+30,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/31",0,False
+31,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/32",0,False
+32,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/33",0,False
+33,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/34",0,False
+34,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/35",0,False
+35,examine block of cheese,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/35",0,False
+36,examine raw white tuna,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/35",0,False
+37,look,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/36",0,False
+38,go north,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/37",0,False
+39,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/38",0,False
+40,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/39",0,False
+41,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/40",0,False
+42,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/41",0,False
+43,examine raw white tuna,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/41",0,False
+44,examine block of cheese,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/41",0,False
+45,look,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/42",0,False
+46,go north,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/43",0,False
+47,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/44",0,False
+48,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/45",0,False
+49,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/46",0,False
+50,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/47",0,False
+51,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/48",0,False
+52,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/49",0,False
+53,look,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/50",0,False
+54,examine raw white tuna,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/50",0,False
+55,examine block of cheese,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/50",0,False
+56,go north,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/51",0,False
+57,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-0/52",0,False
+58,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-0/53",0,False
+59,take raw white tuna from showcase,,"You take the white tuna from the showcase.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Supermarket =-1/54",1,False
+60,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-1/55",1,False
+61,take block of cheese from showcase,,"You take the block of cheese from the showcase.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Supermarket =-2/56",2,False
+62,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-2/57",2,False
+63,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/58",2,False
+64,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/59",2,False
+65,take block of cheese from showcase,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/59",2,False
+66,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-2/60",2,False
+67,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/61",2,False
+68,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/62",2,False
+69,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/63",2,False
+70,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-2/64",2,False
+71,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Street =-2/65",2,False
+72,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Street =-2/66",2,False
+73,look,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-2/67",2,False
+74,go north,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/68",2,False
+75,examine raw white tuna,,"You couldn't pay me to eat that raw white tuna.
+
+
+>                                                                                                                                -= Supermarket =-2/69",2,False
+76,take block of cheese from showcase,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/69",2,False
+77,examine block of cheese,,"You couldn't pay me to eat that block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/70",2,False
+78,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/71",2,False
+79,go south,,"-= Street =-
+Well how about that, you are in a place we're calling a street. You can barely contain your excitement.
+
+
+
+There is an open sliding door leading north. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-2/72",2,True

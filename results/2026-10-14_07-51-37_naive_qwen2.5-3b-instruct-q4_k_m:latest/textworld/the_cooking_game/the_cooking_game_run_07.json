@@ -1,0 +1,57 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go west": 1,
+        "go south": 7,
+        "go north": 9,
+        "examine bed": 10,
+        "look": 9,
+        "take key from bed": 1,
+        "take cookbook from sofa": 1,
+        "examine sofa": 1,
+        "examine cookbook": 2,
+        "examine carrot": 4,
+        "take carrot from counter": 3,
+        "examine yellow potato": 3,
+        "examine purple potato": 3,
+        "slice carrot with knife": 1,
+        "slice purple potato with knife": 2,
+        "take purple potato from counter": 1,
+        "slice yellow potato with knife": 1,
+        "take yellow potato from counter": 1,
+        "take knife from table": 1,
+        "dice purple potato with knife": 1
+    },
+    "input_tokens": 116952,
+    "output_tokens": 238,
+    "done": true,
+    "episode_return": 7.0,
+    "num_steps": 62,
+    "failed_candidates": [],
+    "progression": 0.058823529411764705,
+    "process_num": "ForkProcess-2",
+    "seed": 2259516570,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

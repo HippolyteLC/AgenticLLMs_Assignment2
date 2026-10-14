@@ -1,0 +1,56 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pickup",
+    "action_frequency": {
+        "turn left": 25,
+        "go forward": 28,
+        "turn right": 9,
+        "pick up": 2
+    },
+    "input_tokens": 47854,
+    "output_tokens": 219,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 64,
+    "failed_candidates": [
+        "turn around",
+        "move forward",
+        "go left",
+        "go left",
+        "go left",
+        "Move forward",
+        "go left",
+        "go right",
+        "go left",
+        "I misunderstood the instructions earlier It seems you have a new observation:\n\na wall  step forward\na wall  step right",
+        "go right",
+        "go right",
+        "go right"
+    ],
+    "mission": "pick up the blue box",
+    "progression": 0.0,
+    "process_num": "ForkProcess-2",
+    "seed": 1747538828,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

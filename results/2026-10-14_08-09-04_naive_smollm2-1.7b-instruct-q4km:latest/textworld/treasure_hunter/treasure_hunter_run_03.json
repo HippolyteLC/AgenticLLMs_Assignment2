@@ -1,0 +1,61 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "go north": 3,
+        "take the hatch": 1,
+        "move your hand to the latchkey": 1,
+        "look north": 1,
+        "move north": 22,
+        "take the Microsoft limited edition hatch": 1,
+        "open the hatch": 2,
+        "take the Microsoft limited edition latchkey": 1,
+        "take the latchkey": 1,
+        "take the Microsoft limited edition ladder": 2,
+        "take the Microsoft latch key": 3,
+        "pick up the Microsoft latch key": 2,
+        "look": 4,
+        "take the Microsoft limited edition hatch key": 18,
+        "pick up the Microsoft limited edition hatch key": 4,
+        "get up": 1,
+        "move forward": 5,
+        "look at the floor": 1,
+        "look at the north side": 1,
+        "Take the Microsoft limited edition hatch key": 1,
+        "no": 1,
+        "Observation": 2,
+        "move away": 1,
+        "move south": 1
+    },
+    "input_tokens": 69048,
+    "output_tokens": 412,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": "ForkProcess-2",
+    "seed": 1317568306,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

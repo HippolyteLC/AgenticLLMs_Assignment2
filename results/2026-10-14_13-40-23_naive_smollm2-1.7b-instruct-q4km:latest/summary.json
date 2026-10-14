@@ -1,0 +1,9 @@
+{
+    "average_progress": 0.0,
+    "standard_error": 0.0,
+    "environments": {},
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "client": null,
+    "agent": null
+}

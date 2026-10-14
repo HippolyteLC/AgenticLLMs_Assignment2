@@ -1,0 +1,47 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "go forward": 19,
+        "turn right": 1
+    },
+    "input_tokens": 13304,
+    "output_tokens": 129,
+    "done": true,
+    "episode_return": 0.71875,
+    "num_steps": 20,
+    "failed_candidates": [
+        "turn right\ngo forward\ngo forward\npick up\ntoggle",
+        "go forward\ngo forward\ngo forward\nturn right\npick up\ntoggle",
+        "go forward\ngo forward\nturn right\npick up\ntoggle",
+        "go forward\ngo forward\nturn right\npick up\ntoggle",
+        "go forward\ngo forward\nturn right\npick up\ntoggle",
+        "go forward\ngo forward\nturn right\npick up\ntoggle"
+    ],
+    "mission": "go to the green key",
+    "progression": 1.0,
+    "process_num": "ForkProcess-1",
+    "seed": 2428675767,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}
