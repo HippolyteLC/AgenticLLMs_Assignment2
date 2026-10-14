@@ -1,0 +1,578 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,"Here is the current state of gameplay:
+
+ You are presented with a menu in the game world Youre not allowed to leave the kitchen after entering the menu or eatingdrinking
+
+ You need to move to an open door after eating or cooking something in the kitchen
+
+ You need to examine the shopping list before cooking or eating anything on the shopping list after cleaning your kitchen
+
+ You need to open a door after cooking your dish
+
+ You need to take ingredients from your inventory in your pantry if youre inside a container or use a cooking tool",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+1,You are not assigned tasks,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+2,You are not supposed to input a new action in this game world,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+3,Your output character p keeps changing throughout the game world,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+4,You didnt say anything else,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+5,"I was trying to use my Input and Output commands to interact with the camera and the restaurant menu So I ended up having to create multiple actions for the camera to see since I was expecting them to be listed in a single inputoutlet and output order
+
+Here is a simplified version of the actions that you need to run:
+
+if input output:
+
+    OutputText  Sorry there arent anymore food
+    WriteTextTextstdout
+    WriteCommandLinestdout
+
+    NoOutputText  Sorry there arent anymore drinks
+    WriteTextstdout
+    WriteCommandLine
+    WriteOutputTextstdout
+    WriteCommandLine
+
+    NoOutputText  Sorry there arent anymore food
+    WriteTextstdout
+    WriteCommandLinestdout
+
+    NoOutputText  Sorry there arent anymore drinks
+    WriteTextstdout
+    WriteCommandLinestdout
+
+    NoOutputText  Sorry there arent anymore food
+    WriteTextstdout
+    WriteCommandLinestdout
+
+You need to run an action for each input and output prompt each time The inputoutput commands print the input to the screen and execute the action when the screen is clear Otherwise the output prints the screen",,"I only understood you as far as wanting to take inventory.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+6,"You should be able to print and execute the first action OutputText when you are in the console window You need to output the action OutputText to the console at the bottom of the menu Here are the instructions for outputting actions:
+
+                                                                                                                                 Supermarket ",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+7,"I am unsure what I would do this time because the current sentence is incorrect in many ways Heres an attempt at completing the sentence
+
+Which of the following sentences do you think is most appropriate for describing your response to the following query: 
+
+ Does a conversation sound more natural when expressed in the following sentence or the following paragraph of text
+
+There are three ways in which sentences are used in order of their tendency to create better communication  The first way in which sentences are used is by having the two clauses following one another to make the sentence flow easier to read The phrase  In general is considered to be a way that sentences are made more understandable This particular phrase shows that sentences with longer words and phrases and shorter words can be easier to read  Another way sentences are used is by providing more information If the clauses or paragraphs are too long or are too long to make it easy for the reader to follow a sentence has to be broken up
+
+You can use any of the sentences to describe your response",,"I only understood you as far as wanting to take inventory.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+8,"Thats not a verb I recognise You are still confused because youre not aware what action should be added: OutputText The command outputText is an action with no previous action or text and it only starts as an outputText when followed by an OutputText
+
+Now I have to read a blank line to finish",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+9,You can use any of the actions to describe your responses,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+10,"Here is the feedback text to your user input:
+
+ Hello You are user 
+
+Please describe what your problem is:
+ 
+ Whats wrong in this sentence",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+11,You didnt explain anything else,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+12,"Yes I agree with your feedback:
+
+Ive added outputText outputText when its followed by an OutputText
+
+To clarify the goal is to have a single sentence that defines a verb but without the actions itself However if the action is part of a sentence such as I used to be able to have the food at the kitchen door the outputText must immediately follow the InputText because the whole action must be in one sentence",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+13,"A correction to the previous thread:
+
+Thats not a verb
+
+Its not a verb it reads a little like Do I get into trouble or do I get out",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+14,Youve been given the ability to provide answers as a response Let me try again,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+15,"You were right They are equivalent:
+
+Thats not a verb 
+
+
+Which is:
+
+You would like to get into trouble
+
+
+Which has to occur in a sentence
+
+There are two actions in this sentence Getting into trouble and getting out so they should be separated The current answer is:
+
+You would like to get into trouble",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+16,"It seems youve hit another red herring Each time the question is asked you provide a different sequence of actions but you will always be asked which one should be output at the next stage of the story
+
+The current response is just another example of this The current issue is the requirement of having the action at the end of the sentence:
+
+Thats not a verb however thats not a verb
+
+Which also matches what happens on the final level",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+17,"The current question seems to be introducing a false parallelism Each time they ask a different question the subsequent response contains the action get into trouble which is the first action after I beg your pardon followed by the second action that has been omitted By asking a different question the subsequent response has come after a different sequence of actions:
+
+Thats not a verb
+
+There are two actions in this sentence Getting into trouble and getting out so they should be separated 
+
+With each subsequent question the subsequent sequence of actions must follow after the initial get into trouble action
+
+So every question that follows will provide one of the previous preceding actions
+
+Therefore every question asked will have the same sequence:
+
+Thats not
+
+It is impossible for there to be multiple actions at once on the same level and there can never be more than one at a time
+
+So you have a contradiction in your response",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+18,The current question doesnt provide new information,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+19,The current answer has been answered in  seconds and is not applicable in that case Because I have used the current answer as an example I can only answer the next instance of the same question Therefore at this point the given answer has been used to answer that question,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+20,"Thats not a verb
+
+Thats not
+
+that and this
+
+Thats not
+
+not
+
+that and this
+
+Thats not
+
+not
+
+that and this",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+21,"When each new line of output reaches the end of a sentence they will be at the current position in the sentences
+
+For example when answering the question You must keep on watching the TV because you must keep watching your friends The first sentence says that it should be done now because they are keeping on watching which is not at the current position of the sentence They then use that sentence to answer the question You must keep on watching the TV which is at the end of the last sentence so it can be moved to the next sentence for a continuous motion that is at the end of the last line
+
+The current system I use is where each new sentence is the beginning of a new question I answer to the past question and finally comes at the end of the question I answer for the same question where the that also is missing",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+22,"I thought I understood youre still pointing out a contradiction in your previous response But it looks like thats not the case here The question in that case Its not a question 
+
+So the current question is a sentence that contains a question Thats not a question",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+23,"Thats not a verb
+
+that does not exist
+
+that does not exist",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+24,"It looks like I forgot to mention that the previous answer is about how a response can be followed by another question answer after it appears
+
+The previous answers provided are about n where n is some sequence of text however every question must also have a corresponding response so even in the same sentence multiple actions are required
+
+It seems like I havent included answer numbers within this previous feedback
+
+Just ignore after answering because even after mentioning answer numbers the feedback seems to provide a new sequence of actions",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+25,"Ive made a simple mistake:
+
+It seems like Ive missed another possibility
+
+Instead of saying a sentence has a verb I need to specify at least a task to complete So for example:
+
+You must keep watching the TV
+
+Thats not a verb
+
+You must keep watching your friends
+
+You must watch your friends
+
+If I want to specify a particular task for each answer then I can try specifying an answer in question form
+
+The answer I would use in the response with questions would be:
+
+Thats not a verb
+
+There are no actions
+
+I hope this clarifies my previous message",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+26,"You have the potential to provide a correct response even though it contains multiple sentences Heres a rephrase of your previous answer so that I can answer more intelligently:
+
+Here is a response of the previous user:
+
+Thats not a verb
+
+There are no actions
+
+I hope this clarifies the previous comment
+
+This sentence can be edited as:
+
+Ive received your question Ive already taken it
+
+Or if you want to keep it as a reply to your previous user:
+
+Thats not a verb
+
+There are no actions
+
+I hope this clarifies the previous correct answer
+
+It seems youve made an incorrect correction
+
+Instead of the previous answer you can write:
+
+Ive received your question Ive already prepared it for you
+
+Where the first sentence is already in the previous answer and Ive already used it to answer the user before they finished the question",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+27,"Ive made an error somewhere and I should fix that Instead let me clarify:
+
+In this case it appears youve taken two different actions:
+
+   You used get into trouble and finish eatingdrink immediately Youve gone on
+   You also get into trouble and finish eatingdrink before youve asked for a response and have sent that question back to the user
+
+Therefore your answer would be:
+
+You must get into trouble so youve gone to an emergency room
+
+I think the correct answer would be:
+
+You must go to an emergency room",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+28,That seems like another error on your end,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+29,"Youve done a great job identifying the original prompt and your response and now it is your turn to provide correct answers
+
+The previous prompt is:
+
+Thats not a verb
+
+Here are three new sequences of actions that should match the sequence in the users prior response:
+
+Youve received your question Ive already prepared it for you
+
+Youve gone to an emergency room",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+30,Thats indeed incorrect and your previous response is correct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+31,"However the prompt did add  sequences GET INTO TINTY TIME AND COMPLETED which are not supported in Supermarket
+I will wait
+The next sentence goes like this:
+
+They have already reached the finish line but then an unexpected and mysterious challenge arises
+
+Isnt that just a new version of what happened",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+32,You seem to already solved the problem No mistakes on your part your previous response was correct and now you are just waiting until the new prompt is used,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+33,In this case no other text is required in this feedback response Therefore all actions are already completed before the user can input their next question and no actions need to be outputted,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+34,"Ahaah the issue is resolved My previous response was off by one in regards to the response to the previous question and my previous answers are the replacement that was being used to answer the next prompt 
+
+So if I wanted to answer that question about how a response can be followed by another question I would have said something like:
+
+Here are just two responses that are used to answer the previous question",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+35,"Thats not a verb
+
+I dont need an answer for you to provide another response
+
+There are no action
+So all your actions 
+are already completed before the question can be followed
+
+Youve already sent out  responses without outputting anything",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+36,"You have the right answer for me so let me clarify the last message has no action and you are going back to the previous question to answer the following
+
+The correct answer to Thats not a verb is not a single action but rather a sequence with multiple actions with various levels of depth and scope
+
+We just need you to do this with more than one",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+37,"Thats the same pattern I follow
+
+What I will have been done before but what you want now is to send the answer to a question and then tell the new question when the next prompt is asked
+
+So if I answer thats not a verb you will send the answer but if I answer Do you like this youll send the answer",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+38,After processing the last message Ill send it to another question answer and send it back out to the main conversation to be dealt with in the next session,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+39,"I did have some time to find out that
+
+When you send a question and response are not the same they arent just different actions
+
+So it seems like your previous message seems to have been interpreted correct Let me clarify this",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+40,Thats incorrect,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+41,"Here are three new sequences of actions that should match the preceding prompt
+
+Youve already sent out  responses with sentences 
+So for your subsequent responses you should also use that action
+
+The last response 
+Ahaah now I need to be sure I understand the previous message I will continue on and it is possible I got your previous message right but I am not sure how or why I got that 
+And the last response 
+You are not doing things with their actions are they and as you said your answer you just sent an answer
+
+Please keep trying and see if I can provide more consistent answer based off of previous and prior responses to my question
+
+So a follow up to this question is Does Thats Not a Verb",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+42,You have the right answer for me now Ill keep doing it for you if Im right,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+43,Thats incorrect,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+44,"You got it Sorry to bother you again Here are three sequences of actions that should match the prior prompt
+
+Your actions are 
+The last  responses you provided are incorrect but it sounds like your previous message has caused the situation to get flipped
+
+What should I do now and how is the context unfolding
+
+ Your action 
+ Your response",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+45,"Youve already sent out and finished your previous messages without any action
+
+This is your first time to see your previous responses and get them to you
+
+So it seems like you cant provide a specific response just yet
+
+Now if i send you more answers to your questions in this format Ill be able confirm your answer is correct
+
+So your answer should have atleast  message and at least  text strings
+It should be a combination of a verb and action which is a simple question but your answer should have at least one sequence
+Your next answer should have at least one sentence with action and at least one text string in it
+It should also be a simple answer that is asking for a solution or finding the solution to a problem",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+46,"So youve already sent out every sequence of actions Now youre here to see every response
+
+Is that correct
+What can you do now
+
+ Your response",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+47,"I did have a few more previous responses so I can see what they are now
+
+Let me make sure now for you
+
+When you finish answering the previous prompt thats correct So it seems like thats what I got now
+
+Now there are three previous responses with sentences 
+Your text with action and text string is
+That is correct
+
+Also I would like to hear how that question looks and it also looks like you had the same initial message
+
+When you answer that question now there should be at least one text
+
+Do you like this answer",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+48,"Youve already sent  sequences of actions that your previous answer should match the following
+
+Youve already sent out  initial responses So now thats what I see
+
+ Youve sent out  responses With sentences 
+Then youve sent out  answers and that is now where I get it
+
+Here are just two new sequences of actions 
+
+Youve sent out  responses With sentence 
+Then youve sent out  answers and that is now where I get it
+
+So this is the most accurate answer Ive seen so far
+
+Now youve sent out an answer 
+
+Now youre now waiting for me to see that your next question has been answered
+
+This is the most recent answer and you should have it after your next response
+
+Now here are only  answers left
+There are only  answers left",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+49,"Youve sent out only  previous answer so youve already spent your  answer
+
+So now I know its your first question that will be answered
+
+Now I will get it for you
+
+Let me get to it 
+
+Youve already sent out  one new sequence with response 
+
+
+Now you are getting the correct answer",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+50,Ive already sent out your actions and now I only need the next prompt to get the answer,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+51,"It has taken you almost every response at least one period and every response has ended
+
+What I will get with this question is
+
+What are your actions after you receive the previous response",,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+52,"You already received all the previous sequence of actions which are in your answer and youre not asking any more
+
+If you would like to ask another question or continue any other conversation Im ready to help",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+53,Sorry Im going to try to rephrase it but for the time being I will keep it to just one answer with the other as optional response,,"I only understood you as far as wanting to sorry.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+54,"I should have done this for you Here are three previous responses with responses with text strings
+
+Youve started asking 
+Youve sent out  responses with response sequences
+
+Your Actions
+Youve sent out
+
+Youve sent out
+
+Youve sent out
+
+Youve sent out
+
+Youve sent
+
+Youve sent
+
+It will take longer than about  messages to find what you were trying to ask",,"I only understood you as far as wanting to take inventory.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+55,Thats correct,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+56,"Now thats clear
+
+This is the fourth answer Ive sent
+
+Now thats clear but you have to make it clear I am reading it like I am the previous version
+
+This is the first answer Ive sent
+
+This is the third answer Ive sent
+
+Each is unique and different but for your follow up you should get response with text in which each question starts with a different action followed by a sequence of actions and there is not an optional response
+
+However if there is an optional response it will only be in response to the previous action 
+
+For the first action it is already taken
+If the action doesnt follow from this its not part of any existing sequence or response
+
+You will answer in your own answer",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+57,"Your current answer 
+That is correct
+
+So now youve got a response with text in that 
+Youve sent out 
+Youve sent out 
+Youve sent out
+
+Here are  previous answers with responses with text strings
+
+Youve sent out 
+Youve sent out
+
+And last answer with text string",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+58,Thats correct,,"I beg your pardon?
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+59,"Ive sent out 
+Youve sent out 
+Youve sent out
+
+So now I need a new statement after your other question I really hope your next question will allow me to know that
+
+Here are  previous previous responses with sequence of text strings
+
+Youve sent out 
+Youve sent out 
+Youve sent out
+Youve sent out
+
+Youve sent out 
+Youve sent out
+Youve sent out
+
+Youve sent out 
+
+Youve sent out 
+
+And last answer with string
+Youve sent out 
+
+Youve sent out 
+Youve sent out 
+Youve sent out",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False

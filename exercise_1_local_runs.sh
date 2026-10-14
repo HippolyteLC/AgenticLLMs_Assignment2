@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# chmod +x [PATH], to enable running script
+
 # Define your Ollama base URL (change if hosted elsewhere, e.g., http://localhost:11434/v1)
 URL="http://localhost:11434/v1"
 
@@ -7,7 +9,6 @@ URL="http://localhost:11434/v1"
 MODELS=(
     "qwen2.5-3b-instruct-q4_k_m:latest"
     "smollm2-1.7b-instruct-q4km:latest"
-    "SmolLM2-135M-Instruct-Q4:latest"
     "qwen3.5-0.8b-Q4:latest"
 )
 
@@ -20,12 +21,15 @@ for MODEL_ID in "${MODELS[@]}"; do
     python eval.py \
       client.client_name=ollama \
       client.model_id="${MODEL_ID}" \
-      eval.num_workers=4 \
+      eval.num_workers=1 \
       agent.type=naive \
-      client.base_url="${URL}"
+      client.base_url="${URL}" \
+      eval.num_episodes.babyai=1 \
+      eval.num_episodes.textworld=1 
 
     echo "Completed evaluation for ${MODEL_ID}"
     echo ""
 done
 
 echo "All evaluations finished!"
+

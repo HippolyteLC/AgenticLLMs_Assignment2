@@ -1,0 +1,129 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+1,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+2,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+3,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+4,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+5,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+6,pick up,,"a wall 1 step forward
+a wall 2 steps right",0,False
+7,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+8,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+9,pick up,,"a wall 1 step forward
+a wall 2 steps right",0,False
+10,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+11,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+12,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+13,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+14,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+15,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+16,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+17,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+18,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+19,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+20,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+21,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+22,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+23,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+24,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+25,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+26,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+27,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+28,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+29,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+30,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+31,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+32,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+33,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+34,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+35,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+36,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+37,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+38,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+39,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+40,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+41,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+42,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+43,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+44,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+45,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+46,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+47,drop,,"a wall 1 step forward
+a wall 2 steps right",0,False
+48,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+49,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+50,toggle,,"a wall 5 steps forward
+a wall 1 step right",0,False
+51,drop,,"a wall 5 steps forward
+a wall 1 step right",0,False
+52,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+53,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+54,toggle,,"a wall 5 steps forward
+a wall 1 step right",0,False
+55,drop,,"a wall 5 steps forward
+a wall 1 step right",0,False
+56,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+57,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+58,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,False
+59,toggle,,"a wall 5 steps forward
+a wall 1 step right",0,False
+60,drop,,"a wall 5 steps forward
+a wall 1 step right",0,False
+61,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+62,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+63,pick up,,"a wall 5 steps forward
+a wall 1 step right",0,True
