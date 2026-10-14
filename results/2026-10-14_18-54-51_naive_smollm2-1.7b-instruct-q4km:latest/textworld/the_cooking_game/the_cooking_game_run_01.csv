@@ -1,0 +1,329 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0," You can look around to examine the room and surroundings
+ You can look at the bed to examine the bed more closely
+ You can examine to look around inside the bed
+ You can make a bed to prepare the bed for a bed
+ You can pick up the bed to hold the bed in your hand
+ You can look under the bed to inspect the floor in that area
+ You can go under the bed to move downward under the bed
+ You can lie down on the bed to lie down on the bed
+ You can lie under the bed to stow under the bed
+ You can get inbed to climb into the bed
+ You can lie on the bed to lie on the bed
+ You can lie under the bed to stow under the bed
+ You can lie a few steps under the bed to crawl under the bed
+ You can lie down on top of the bed to lie on top of the bed
+ You can lie at the foot of the bed to lie at the foot of the bed
+ You can lie under the headboard to lie under the headboard
+
+You are doing great Keep going The next command is:",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+1,"You can examine the bedroom table to look at the table in the bedroom
+ You can move to the bedroom door to go through the bedroom door
+ You can open a bedroom door to enter through the bedroom door
+ You can look through the window of the bedroom in the bedroom room
+ You can climb on the bed to climb on the bed in the room
+ You can slide off the bed to slide off the bed in the bedroom
+ You can pick up the bed in the bedroom
+ You can walk on the bed to walk on the bed in the bedroom
+ You can step on the bed to step on the bed in the bedroom
+ You can look understairs to look at the stairs in the bedroom
+ You can lay down on the bed to lie down on the bed in the room
+ You can lay down on the bed at the foot of the bed to lie down at the foot of the bed in the bedroom
+ You can climb under the bed to crawl under the bed in the bedroom
+ You can move under the bed to stow under the bed in the bedroom
+ You can lie on the floor under the bed to lie on the floor under the bed in the bedroom
+ You can lay under the bed to lie under the bed in the room
+ You can lie on the bed in the bedroom to lie on the bed in the room
+ You can lie down below the bed to lie down below the bed in the room
+ You can look at the dresser in the bedroom to look at the dresser in the bedroom
+ You can examine the bedroom to examine the room in the bedroom
+ You can look through the doorway to look through the doorway in the bedroom
+ You can pick up the dresser to look at the dresser in the bedroom
+ You can move the dresser in the bedroom
+ You can climb the dresser to climb up the dresser in the bedroom
+ You can look under the bed in the bedroom
+
+You always have to output one of the above actions at a time and no other text You always have to output an action until the episode terminates The next command is:",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+2,"You can look around to examine the room
+ You can look at the bed to examine the bed
+ You can look at the closet to examine the closet
+ You can look around inside the closet to inspect
+ You can examine to look around inside the closet
+ You can open cupboards in the bedroom to examine cupboards in the bedroom",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+3,"To correct my previous response slide under the bed should be omitted in your text The correct response is:
+
+You can look around inside the closet to inspect The correct response is:
+You can look around to examine The correct response is:
+
+ You can look at the closet to examine",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+4,"You can look under the bed to examine it
+ You can look at the mattress to examine the mattress
+ You can look into the closet to examine the closet
+ You can look at the bedframe to examine the bedframe
+ You can open the closet to examine the closet",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+5,You can pick up the bed frame to get a closer look,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+6,You can pick up the bed frame to see whats inside,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+7,You can examine the bed frame to examine the bed frame,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+8,"You can look around to examine the room
+ You can look at the wall to examine the wall
+ You can examine to look around
+ You can look under the bed to see whats underneath
+ You can examine the bed to examine the bed
+ You can look at the closet to examine the closet",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+9,"You can examine the bed to examine the bed
+ You can pick up the bed frame to examine the bedframe
+ You can look under the bed to examine whats underneath",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+10,"You can pick up the drawer to examine the drawers
+ You can pick up the mirror to examine the mirror
+ You can pick up the dresser to examine the dresser
+ You can pick up the window to examine the window",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+11,"You can look under the bed to examine whats underneath
+ You can pick up the window to examine the window",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+12,"You can pick up the window to examine the window
+ You can look under the bed to examine whats underneath
+ You can look under the bed in the room",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+13,"You can pick up the bed to examine the bed
+ You can pick up the bed frame to examine the bedframe
+ You can pick up the lamp to examine the lamp
+You can pick up the mirror to examine the mirror
+You can pick up the nightstand to examine the nightstand",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+14,"You can look under the bed to examine 
+
+Here is the corrected statement:
+
+ You can pick up the bed frame to examine",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+15,You can pick up the bedframe to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+16,You can pick up the bedframe to examine the bedframe,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+17,You can pick up the drawer to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+18,You can examine the mattress to examine the mattress,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+19,You can pick up the bed to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+20,You can examine the closets,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+21,You can pick up the bedframe to examine the bedframe,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+22,You can pick up the door to examine the door,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+23,"You can examine the kitchen to examine the kitchen
+ You can pick up the stove to examine the stove
+ You can pick up the sink to examine the sink
+You can pick up a coffee to examine the coffee
+You can pick up a pot to examine the pot",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+24,You can pick up the drawer to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+25,You can examine the bedroom,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+26,You can examine the bed to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+27,You can pick up the blanket to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+28,You can examine the bed to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+29,You can pick up the bed to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+30,You can pick up the blanket to examine,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+31,You can pick up the nightstand to examine the nightstand,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+32,You can pick up the nightstand to examine the nightstand,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+33,You can examine your bedclothes with a verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+34,You can pick up the blanket to examine the blanket,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+35,You can examine the bedside table to examine the bedside table,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+36,You can pick up the lamp to examine the lamp,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+37,You can examine the lamp to examine the lamp,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+38,You can pick up the clothes basket to examine the clothes basket,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+39,You can examine the clothes to examine the clothes,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+40,You can examine the bedclothes to examine the bedclothes,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+41,You can examine the bedside drawer to examine the bedside drawer,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+42,You can set the lamp on the lampstand to change the light,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+43,You can pick up the lamp to examine the lamp,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+44,You can examine the dresser for an action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+45,You can push the bed to examine the bed,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+46,You can pick up the door handle to examine the door handle,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+47,You can take the quilt out of the quilt cover to examine the quilt,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+48,You can look at the curtains for an object,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+49,You can look at the wall for an action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+50,You can take the blanket to examine the blanket,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+51,You can pick up the bed cover to examine the bed cover,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+52,You can push the bed clothes basket to examine the bed clothes basket,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+53,You can move the wall to move the wall,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+54,You can push the dresser to examine the dresser,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+55,You can take the curtain to examine the curtain,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+56,You can move the bookcase to examine the bookcase,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+57,You can place the lamp on the lampstand to examine the lamp,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+58,You can pull the bed to examine the bed,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+59,You can pick up the curtain to examine the curtain,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+60,You can put the dresser on the wall to examine the dresser,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+61,You can take a photo of the room to examine the room,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+62,You can pick up the pillow to examine the pillow,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+63,Ive started the episode,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+64,You can take a photograph of the bed to examine the photograph,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+65,"You can use verbs like move take slide throw drop punch kick stab shot to describe actions and you have only to repeat this verb for each new action in this game so I would first output:
+
+You can move the bed into examine the bed
+
+You have  actions left in this episode",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+66,You can take the blanket to examine the blanket,,"I beg your pardon?
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+67,You can pick up the bookshelf to examine the bookshelf,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+68,You can put the blanket over examine the blanket,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+69,You can push the dresser over examine the dresserexamine the bookcase,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+70,You can look under examine the desk,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+71,"You can move the suitcase examine the suitcase
+
+You have  actions left in this episode",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+72,You can examine the closet to examine the closet,,"I beg your pardon?
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+73,You can open the desk to open the desk,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+74,You can move desk top examine desk top,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+75,You can pull the curtain to examine the curtain,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+76,You can examine the dresser to examine the dresser,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+77,You can look under examine the bookshelf,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+78,You can examine the floor to examine the floor,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+79,You can open cupboard to examine the cupboard,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,True

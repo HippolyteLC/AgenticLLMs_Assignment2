@@ -1,0 +1,61 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go east": 2,
+        "examine cookbook": 4,
+        "go north": 5,
+        "open plain door": 1,
+        "examine plain door": 1,
+        "examine shelf": 17,
+        "look for ingredients": 1,
+        "examine knife": 2,
+        "go south": 2,
+        "examine yellow potato": 1,
+        "go west": 1,
+        "examine sofa": 18,
+        "look": 6,
+        "open front door": 2,
+        "inventory": 4,
+        "take knife": 2,
+        "chop purple potato": 1,
+        "slice purple potato": 1,
+        "take purple potato": 1,
+        "examine shelves": 3,
+        "take yellow apple": 2,
+        "examine table": 1,
+        "take cookbook": 1,
+        "examine yellow apple": 1
+    },
+    "input_tokens": 122098,
+    "output_tokens": 290,
+    "done": true,
+    "episode_return": 46.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.11764705882352941,
+    "process_num": null,
+    "seed": 764213415,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "go forward": 87,
+        "turn left": 41
+    },
+    "input_tokens": 109922,
+    "output_tokens": 542,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "turn left\nturn left\nturn left\ngo forward\ngo forward\npick up\ngo forward\nturn right\ngo forward\ntoggle",
+        "turn left\ngo forward\nturn left\ngo forward\npick up\nturn right\ngo forward\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle",
+        "go forward\ngo forward\nturn left\ngo forward\nturn left\ntoggle"
+    ],
+    "mission": "pick up the blue ball, then go to the red box",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 269696096,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

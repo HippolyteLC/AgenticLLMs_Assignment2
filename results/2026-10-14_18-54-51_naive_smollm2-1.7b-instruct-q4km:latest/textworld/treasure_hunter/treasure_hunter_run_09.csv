@@ -1,0 +1,178 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+1,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.
+
+There is a TextWorld style latchkey on the floor.",0,False
+2,drop latchkey,,The TextWorld style latchkey is already here.,0,False
+3,look at latchkey,,The TextWorld style latchkey is cold to the touch,0,False
+4,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.
+
+There is a TextWorld style latchkey on the floor.",0,False
+5,look at latchkey,,The TextWorld style latchkey is cold to the touch,0,False
+6,drop latchkey,,The TextWorld style latchkey is already here.,0,False
+7,take latchkey,,You pick up the TextWorld style latchkey from the ground.,0,False
+8,pick up latchkey,,You already have that.,0,False
+9,take,,"(hatch)
+That's fixed in place.",0,False
+10,go to northeast,,You can't see any such thing.,0,False
+11,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+12,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+13,go to northernmost,,You can't see any such thing.,0,False
+14,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+15,go north,,You can't go that way.,0,False
+16,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+17,go east,,You have to open the hatch first.,0,False
+18,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+19,unlock hatch,,"(with the TextWorld style latchkey)
+That doesn't seem to fit the lock.",0,False
+20,take exit,,You can't see any such thing.,0,False
+21,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+22,pick up latchkey,,You already have that.,0,False
+23,go to southeastern corner,,You can't see any such thing.,0,False
+24,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+25,go northeast,,You can't go that way.,0,False
+26,take north,,You must name something more substantial.,0,False
+27,take exit,,You can't see any such thing.,0,False
+28,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+29,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+30,unlock hatch,,"(with the TextWorld style latchkey)
+That doesn't seem to fit the lock.",0,False
+31,pick up key,,You can't see any such thing.,0,False
+32,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+33,examine hatcheted,,You can't see any such thing.,0,False
+34,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+35,examine hatcheted,,You can't see any such thing.,0,False
+36,take exit,,You can't see any such thing.,0,False
+37,go to southeastern corner,,You can't see any such thing.,0,False
+38,go north,,You can't go that way.,0,False
+39,move north,,You must name something more substantial.,0,False
+40,pick up north,,You must name something more substantial.,0,False
+41,pick up south,,You must name something more substantial.,0,False
+42,take east,,You must name something more substantial.,0,False
+43,take exit,,You can't see any such thing.,0,False
+44,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+45,unlock hatch,,"(with the TextWorld style latchkey)
+That doesn't seem to fit the lock.",0,False
+46,unlock hatch,,"(with the TextWorld style latchkey)
+That doesn't seem to fit the lock.",0,False
+47,open lock,,You can't see any such thing.,0,False
+48,drop keycard,,You can't see any such thing.,0,False
+49,go north,,You can't go that way.,0,False
+50,go north,,You can't go that way.,0,False
+51,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+52,move south,,You must name something more substantial.,0,False
+53,pull up,,You must name something more substantial.,0,False
+54,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+55,unlock hatch,,"(with the TextWorld style latchkey)
+That doesn't seem to fit the lock.",0,False
+56,find the latchkey,,That's not a verb I recognise.,0,False
+57,open door,,You can't see any such thing.,0,False
+58,find the door,,That's not a verb I recognise.,0,False
+59,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+60,pull up,,You must name something more substantial.,0,False
+61,move north,,You must name something more substantial.,0,False
+62,unlock door,,You can't see any such thing.,0,False
+63,climb,,"(the TextWorld style latchkey)
+Little is to be achieved by that.",0,False
+64,find object,,That's not a verb I recognise.,0,False
+65,you cant,,That's not a verb I recognise.,0,False
+66,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+67,unlock hatch,,"(with the TextWorld style latchkey)
+That doesn't seem to fit the lock.",0,False
+68,pull up,,You must name something more substantial.,0,False
+69,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+70,pull up,,You must name something more substantial.,0,False
+71,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+72,pull up,,You must name something more substantial.,0,False
+73,pull up,,You must name something more substantial.,0,False
+74,latchkey,,That's not a verb I recognise.,0,False
+75,move north,,You must name something more substantial.,0,False
+76,pull up,,You must name something more substantial.,0,False
+77,unlock door,,You can't see any such thing.,0,False
+78,open door,,You can't see any such thing.,0,False
+79,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,True

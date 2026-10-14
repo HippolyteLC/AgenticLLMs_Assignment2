@@ -1,0 +1,61 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "look": 3,
+        "go east": 1,
+        "examine sofa": 1,
+        "examine closed front door": 3,
+        "go south": 1,
+        "examine cookbook": 5,
+        "take green hot pepper from counter": 15,
+        "examine knife": 2,
+        "take knife from counter": 1,
+        "slice green hot pepper with knife": 8,
+        "chop orange bell pepper with knife": 4,
+        "take orange bell pepper from counter": 4,
+        "slice orange bell pepper with knife": 2,
+        "prepare meal": 2,
+        "eat meal": 2,
+        "take tomato from counter": 8,
+        "chop green hot pepper with knife": 2,
+        "fry green hot pepper with stove": 5,
+        "cook green hot pepper with stove": 2,
+        "take green hot pepper from cabinet": 1,
+        "take orange bell pepper from cabinet": 1,
+        "dice orange bell pepper with knife": 1,
+        "fry orange bell pepper with stove": 2,
+        "take knife from cabinet": 4
+    },
+    "input_tokens": 124684,
+    "output_tokens": 1743,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1705272848,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "take Microsoft limited edition latchkey": 1,
+        "go north": 10,
+        "open Microsoft limited edition hatch": 6,
+        "unlock Microsoft limited edition hatch with Microsoft limited edition latchkey": 1,
+        "look": 11,
+        "go west": 12,
+        "take passkey": 1,
+        "go east": 13,
+        "go south": 9,
+        "take": 1,
+        "take counter": 1,
+        "inventory": 4,
+        "open Microsoft hatch": 1,
+        "open closed hatch": 2,
+        "open hatch": 2,
+        "unlock hatch with passkey": 1,
+        "open case": 2,
+        "visit armchair": 1,
+        "visit opened case": 1
+    },
+    "input_tokens": 125384,
+    "output_tokens": 264,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1766486905,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

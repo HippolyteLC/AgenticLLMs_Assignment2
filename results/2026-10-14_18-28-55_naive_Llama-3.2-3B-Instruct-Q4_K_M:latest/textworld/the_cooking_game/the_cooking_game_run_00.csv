@@ -1,0 +1,313 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+1,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+2,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-0/1",0,False
+3,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+4,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+5,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+6,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+7,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+8,take cheese,,"You take the block of cheese from the showcase.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Supermarket =-1/3",1,False
+9,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-1/3",1,False
+10,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a raw white tuna.
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-1/4",1,False
+11,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-1/4",1,False
+12,take tuna,,"You take the white tuna from the showcase.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Supermarket =-2/5",2,False
+13,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/5",2,False
+14,take tuna,,"You already have that.
+
+
+
+>                                                                                                                                -= Supermarket =-2/6",2,False
+15,lock door south,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Supermarket =-2/6",2,False
+16,goeast,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-2/6",2,False
+17,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Supermarket =-2/7",2,False
+18,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/8",2,False
+19,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/8",2,False
+20,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/8",2,False
+21,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/8",2,False
+22,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Supermarket =-2/9",2,False
+23,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/10",2,False
+24,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Supermarket =-2/11",2,False
+25,go south,,"You have to open the sliding door first.
+
+
+>                                                                                                                                -= Supermarket =-2/12",2,False
+26,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/12",2,False
+27,take lettuce,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/12",2,False
+28,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/12",2,False
+29,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+30,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+31,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+32,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+33,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+34,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+35,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+36,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+37,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+38,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+39,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+40,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+41,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+42,open door south,,"I only understood you as far as wanting to open sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+43,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+44,examine door south,,"I only understood you as far as wanting to examine sliding door.
+
+>                                                                                                                                -= Supermarket =-2/13",2,False
+45,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/14",2,False
+46,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/15",2,False
+47,take cookbook,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/15",2,False
+48,inventory,,"You are carrying: a raw white tuna and a block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/16",2,False
+49,go south,,"You have to open the sliding door first.
+
+
+>                                                                                                                                -= Supermarket =-2/17",2,False
+50,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. But the thing is empty. This always happens!
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-2/18",2,False
+51,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/19",2,False
+52,open showcase,,"It isn't something you can open.
+
+
+>                                                                                                                                -= Supermarket =-2/20",2,False
+53,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/21",2,False
+54,open showcase,,"It isn't something you can open.
+
+
+>                                                                                                                                -= Supermarket =-2/22",2,False
+55,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/23",2,False
+56,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/24",2,False
+57,open showcase,,"It isn't something you can open.
+
+
+>                                                                                                                                -= Supermarket =-2/25",2,False
+58,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/26",2,False
+59,examine knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/26",2,False
+60,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/27",2,False
+61,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/28",2,False
+62,inventory,,"You are carrying: a raw white tuna and a block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/29",2,False
+63,go south,,"You have to open the sliding door first.
+
+
+>                                                                                                                                -= Supermarket =-2/30",2,False
+64,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/31",2,False
+65,examine doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/31",2,False
+66,open doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/31",2,False
+67,examine doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/31",2,False
+68,examine doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/31",2,False
+69,examine doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/31",2,False
+70,examine showcase,,"The showcase is reliable.
+
+
+>                                                                                                                                -= Supermarket =-2/32",2,False
+71,examine doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/32",2,False
+72,examine doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/32",2,False
+73,go south,,"You have to open the sliding door first.
+
+
+>                                                                                                                                -= Supermarket =-2/33",2,False
+74,inventory,,"You are carrying: a raw white tuna and a block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/34",2,False
+75,open sliding door,,"You open sliding door.
+
+
+>                                                                                                                                -= Supermarket =-2/35",2,False
+76,examine doors,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-2/35",2,False
+77,examine door,,"It is what it is, a sliding door. It is open.
+
+
+>                                                                                                                                -= Supermarket =-2/36",2,False
+78,inventory,,"You are carrying: a raw white tuna and a block of cheese.
+
+
+>                                                                                                                                -= Supermarket =-2/37",2,False
+79,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Supermarket =-2/38",2,True

@@ -1,0 +1,478 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go east,,"You have to open the commercial glass door first.
+
+
+>                                                                                                                                -= Street =-0/2",0,False
+1,open commercial glass door,,"You open commercial glass door.
+
+
+>                                                                                                                                -= Street =-0/3",0,False
+2,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/4",0,False
+3,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/5",0,False
+4,look,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/6",0,False
+5,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/7",0,False
+6,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/8",0,False
+7,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/9",0,False
+8,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/10",0,False
+9,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/11",0,False
+10,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/12",0,False
+11,look,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/13",0,False
+12,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/14",0,False
+13,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/15",0,False
+14,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/16",0,False
+15,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/17",0,False
+16,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/18",0,False
+17,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/19",0,False
+18,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/20",0,False
+19,look,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/21",0,False
+20,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/22",0,False
+21,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/23",0,False
+22,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/24",0,False
+23,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/25",0,False
+24,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/26",0,False
+25,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/27",0,False
+26,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/28",0,False
+27,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Supermarket =-0/29",0,False
+28,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/30",0,False
+29,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/31",0,False
+30,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/32",0,False
+31,examine showcase,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/32",0,False
+32,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/33",0,False
+33,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Supermarket =-0/34",0,False
+34,look,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/35",0,False
+35,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/36",0,False
+36,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Supermarket =-0/37",0,False
+37,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/38",0,False
+38,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/39",0,False
+39,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/40",0,False
+40,examine showcase,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/40",0,False
+41,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/41",0,False
+42,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/42",0,False
+43,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Supermarket =-0/43",0,False
+44,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/44",0,False
+45,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/45",0,False
+46,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/46",0,False
+47,examine showcase,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/46",0,False
+48,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/47",0,False
+49,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/48",0,False
+50,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/49",0,False
+51,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/50",0,False
+52,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Supermarket =-0/51",0,False
+53,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/52",0,False
+54,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/53",0,False
+55,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/54",0,False
+56,examine showcase,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/54",0,False
+57,go east,,"-= Supermarket =-
+Okay, so you're in a supermarket, cool, but is it standard? You better believe it is.
+
+You see a showcase. The showcase is metallic. Unfortunately, there isn't a thing on it.
+
+There is an open commercial glass door leading west.
+
+
+>                                                                                                                                -= Supermarket =-0/55",0,False
+58,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Supermarket =-0/56",0,False
+59,examine showcase,,"The showcase is undependable.
+
+
+>                                                                                                                                -= Supermarket =-0/57",0,False
+60,go west,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/58",0,False
+61,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/59",0,False
+62,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/60",0,False
+63,examine showcase,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/60",0,False
+64,go west,,"You can't go that way.
+
+
+>                                                                                                                                -= Street =-0/61",0,False
+65,examine commercial glass door,,"The commercial glass door looks noble. It is open.
+
+
+>                                                                                                                                -= Street =-0/62",0,False
+66,look,,"-= Street =-
+Well how about that, you are in the place we're calling the street. I guess you better just go and list everything you see here.
+
+
+
+There is an open commercial glass door leading east. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/63",0,False
+67,go south,,"-= Driveway =-
+You're now in the driveway.
+
+
+
+There is a closed fiberglass door leading east. You don't like doors? Why not try going north, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Driveway =-0/64",0,False
+68,look,,"-= Driveway =-
+You're now in the driveway.
+
+
+
+There is a closed fiberglass door leading east. You don't like doors? Why not try going north, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Driveway =-0/65",0,False
+69,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/65",0,False
+70,go east,,"You have to open the fiberglass door first.
+
+
+>                                                                                                                                -= Driveway =-0/66",0,False
+71,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/66",0,False
+72,open closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/66",0,False
+73,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/66",0,False
+74,open closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/66",0,False
+75,go east,,"You have to open the fiberglass door first.
+
+
+>                                                                                                                                -= Driveway =-0/67",0,False
+76,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/67",0,False
+77,open closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/67",0,False
+78,look,,"-= Driveway =-
+You're now in the driveway.
+
+
+
+There is a closed fiberglass door leading east. You don't like doors? Why not try going north, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Driveway =-0/68",0,False
+79,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/68",0,True

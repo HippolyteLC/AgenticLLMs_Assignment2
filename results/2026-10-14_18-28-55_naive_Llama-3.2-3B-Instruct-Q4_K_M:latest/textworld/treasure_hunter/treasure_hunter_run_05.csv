@@ -1,0 +1,217 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+1,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is a closed TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.
+
+There is a TextWorld limited edition keycard on the floor.",0,False
+2,pick up keycard,,You pick up the TextWorld limited edition keycard from the ground.,0,False
+3,look,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is a closed TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+4,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+5,open suitcase,,You can't see any such thing.,0,False
+6,inventory,,You are carrying: a TextWorld limited edition keycard.,0,False
+7,look,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+8,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is a closed TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+9,open suitcase,,The suitcase is welded shut.,0,False
+10,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+11,open TextWorld limited edition portal,,I only understood you as far as wanting to open the TextWorld limited edition keycard.,0,False
+12,open TextWorld limited edition keycard,,It isn't something you can open.,0,False
+13,go north,,You can't go that way.,0,False
+14,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is a closed TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+15,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+16,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is a closed TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+17,go north,,You have to open the TextWorld limited edition portal first.,0,False
+18,open TextWorld limited edition portal,,You have to unlock the TextWorld limited edition portal with the TextWorld limited edition keycard first.,0,False
+19,unlock TextWorld limited edition portal with TextWorld limited edition keycard,,You unlock TextWorld limited edition portal.,0,False
+20,take,,What do you want to take?,0,False
+21,go north,,You have to open the TextWorld limited edition portal first.,0,False
+22,drop TextWorld limited edition keycard,,You drop the TextWorld limited edition keycard on the ground.,0,False
+23,inventory,,You are carrying nothing.,0,False
+24,go east,,You can't go that way.,0,False
+25,look,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is a closed TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.
+
+There is a TextWorld limited edition keycard on the floor.",0,False
+26,open suitcase,,The suitcase is welded shut.,0,False
+27,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+28,open TextWorld limited edition keycard,,You can't see any such thing.,0,False
+29,go north,,You can't go that way.,0,False
+30,open TextWorld limited edition portal,,You can't see any such thing.,0,False
+31,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is a closed TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.
+
+There is a TextWorld limited edition keycard on the floor.",0,False
+32,open TextWorld limited edition keycard,,It isn't something you can open.,0,False
+33,take TextWorld limited edition keycard,,You pick up the TextWorld limited edition keycard from the ground.,0,False
+34,open TextWorld limited edition portal,,You open TextWorld limited edition portal.,0,False
+35,unlock TextWorld limited edition portal with TextWorld limited edition keycard,,That's unlocked at the moment.,0,False
+36,look,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is an open TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+37,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+38,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is an open TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+39,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+40,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is an open TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+41,take suitcase,,That's fixed in place.,0,False
+42,open suitcase,,The suitcase is welded shut.,0,False
+43,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+44,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is an open TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+45,go west,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+46,exit,,But you aren't in anything at the moment.,0,False
+47,inventory,,You are carrying: a TextWorld limited edition keycard.,0,False
+48,look,,"-= Bathroom =-
+Of every bathroom you could have sauntered into, you had to saunter into a typical one.
+
+
+
+There is an exit to the east. Don't worry, it is unguarded.",0,False
+49,inventory,,You are carrying: a TextWorld limited edition keycard.,0,False
+50,go east,,"-= Cellar =-
+You arrive in a cellar. A normal kind of place. Let's see what's in here.
+
+You can make out a suitcase.
+
+There is an open TextWorld limited edition portal leading north. You need an unguarded exit? You should try going west.",0,False
+51,open suitcase,,The suitcase is welded shut.,0,False
+52,go north,,"-= Kitchen =-
+You make another one of your grand eccentric entrances into a kitchen.
+
+You make out a locked locker, which looks normal, in the room. You can see a closed refrigerator.
+
+There is a closed rectangular hatch leading east. There is an open TextWorld limited edition portal leading south.
+
+There is a keycard on the floor.",0,False
+53,pick up keycard,,"(the keycard)
+You pick up the keycard from the ground.",0,False
+54,open fridge,,You can't see any such thing.,0,False
+55,open locker,,You have to unlock the locker with the keycard first.,0,False
+56,take keycard,,"(the keycard)
+You already have that.",0,False
+57,unlock locker,,"(with the locker)
+The locker is fixed in place.",0,False
+58,force unlock locker,,That's not a verb I recognise.,0,False
+59,try to open locker,,That's not a verb I recognise.,0,False
+60,take locker,,That's fixed in place.,0,False
+61,take keycard from the floor,,"Which do you mean, the keycard or the TextWorld limited edition keycard?",0,False
+62,open fridge,,You can't see any such thing.,0,False
+63,go west,,You can't go that way.,0,False
+64,open TextWorld limited edition portal,,That's already open.,0,False
+65,open fridge,,You can't see any such thing.,0,False
+66,open TextWorld limited edition portal,,That's already open.,0,False
+67,go north,,You can't go that way.,0,False
+68,go east,,You have to open the rectangular hatch first.,0,False
+69,open rectangular hatch,,You have to unlock the rectangular hatch with the rectangular key first.,0,False
+70,take key,,You can't see any such thing.,0,False
+71,look,,"-= Kitchen =-
+You make another one of your grand eccentric entrances into a kitchen.
+
+You make out a locked locker, which looks normal, in the room. You can see a closed refrigerator.
+
+There is a closed rectangular hatch leading east. There is an open TextWorld limited edition portal leading south.",0,False
+72,go east,,You have to open the rectangular hatch first.,0,False
+73,open rectangular hatch,,You have to unlock the rectangular hatch with the rectangular key first.,0,False
+74,take rectangular key,,I only understood you as far as wanting to take rectangular hatch.,0,False
+75,take rectangular hatch,,That's fixed in place.,0,False
+76,take rectangular hatch,,That's fixed in place.,0,False
+77,open rectangular hatch,,You have to unlock the rectangular hatch with the rectangular key first.,0,False
+78,take rectangular key,,I only understood you as far as wanting to take rectangular hatch.,0,False
+79,unlock rectangular hatch with rectangular key,,I only understood you as far as wanting to unlock rectangular hatch with rectangular hatch.,0,True

@@ -1,0 +1,55 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "examine BBQ": 2,
+        "go east": 4,
+        "take raw purple potato": 3,
+        "drop raw purple potato": 3,
+        "look": 2,
+        "go west": 6,
+        "cook raw purple potato with BBQ": 1,
+        "examine patio table": 1,
+        "take patio table from patio table": 1,
+        "examine patio chair": 2,
+        "drop patio chair": 1,
+        "open patio door": 1,
+        "go north": 1,
+        "go south": 1,
+        "take raw yellow potato from counter": 1,
+        "cook raw yellow potato with BBQ": 1,
+        "examine stove": 1,
+        "cook raw yellow potato with stove": 1
+    },
+    "input_tokens": 53548,
+    "output_tokens": 1169,
+    "done": true,
+    "episode_return": 35.0,
+    "num_steps": 33,
+    "failed_candidates": [],
+    "progression": 0.11764705882352941,
+    "process_num": null,
+    "seed": 1490710146,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

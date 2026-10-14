@@ -1,0 +1,487 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go west,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is a closed fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/2",0,False
+1,examine the exit,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/2",0,False
+2,examine fiberglass door,,"It's a grand fiberglass door It is closed.
+
+
+>                                                                                                                                -= Driveway =-0/3",0,False
+3,open fiberglass door,,"You open fiberglass door.
+
+
+>                                                                                                                                -= Driveway =-0/4",0,False
+4,examine,,"(fiberglass door)
+It's a grand fiberglass door It is open.
+
+
+>                                                                                                                                -= Driveway =-0/5",0,False
+5,look,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/6",0,False
+6,examine the open fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/6",0,False
+7,go east,,"-= Street =-
+You're now in the street.
+
+
+
+There is a closed commercial glass door leading north. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Street =-0/7",0,False
+8,go west,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/8",0,False
+9,examine exit,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/8",0,False
+10,go west,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/9",0,False
+11,look,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/10",0,False
+12,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/11",0,False
+13,examine sofa again,,"I only understood you as far as wanting to examine the sofa.
+
+>                                                                                                                                -= Livingroom =-0/11",0,False
+14,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/12",0,False
+15,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/13",0,False
+16,look,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/14",0,False
+17,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/15",0,False
+18,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/16",0,False
+19,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/17",0,False
+20,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/18",0,False
+21,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/19",0,False
+22,examine the cookbook,,"You can't see any such thing.
+
+>                                                                                                                                -= Livingroom =-0/19",0,False
+23,go east,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/20",0,False
+24,examine the driveway,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/20",0,False
+25,go west,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/21",0,False
+26,inventory,,"You are carrying nothing.
+
+
+>                                                                                                                                -= Livingroom =-0/22",0,False
+27,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/23",0,False
+28,go east,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/24",0,False
+29,examine the driveway,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/24",0,False
+30,go west,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/25",0,False
+31,inventory,,"You are carrying nothing.
+
+
+>                                                                                                                                -= Livingroom =-0/26",0,False
+32,look,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/27",0,False
+33,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/28",0,False
+34,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/29",0,False
+35,go east,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/30",0,False
+36,go east,,"-= Street =-
+You're now in the street.
+
+
+
+There is a closed commercial glass door leading north. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Street =-0/31",0,False
+37,go west,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/32",0,False
+38,go west,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/33",0,False
+39,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/34",0,False
+40,go south,,"-= Bedroom =-
+You are in a bedroom. A normal one.
+
+You can see a bed. But the thing is empty, unfortunately.
+
+There is an exit to the north.
+
+
+>                                                                                                                                -= Bedroom =-0/35",0,False
+41,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/36",0,False
+42,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/37",0,False
+43,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/38",0,False
+44,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/39",0,False
+45,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/40",0,False
+46,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/41",0,False
+47,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/42",0,False
+48,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/43",0,False
+49,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/44",0,False
+50,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/45",0,False
+51,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/46",0,False
+52,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/47",0,False
+53,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/48",0,False
+54,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/49",0,False
+55,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/50",0,False
+56,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/51",0,False
+57,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/52",0,False
+58,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/53",0,False
+59,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/54",0,False
+60,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/55",0,False
+61,examine bed,,"The bed is wobbly.
+
+
+>                                                                                                                                -= Bedroom =-0/56",0,False
+62,examine bookshelf,,"You can't see any such thing.
+
+>                                                                                                                                -= Bedroom =-0/56",0,False
+63,look,,"-= Bedroom =-
+You are in a bedroom. A normal one.
+
+You can see a bed. But the thing is empty, unfortunately.
+
+There is an exit to the north.
+
+
+>                                                                                                                                -= Bedroom =-0/57",0,False
+64,go north,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/58",0,False
+65,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/59",0,False
+66,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/60",0,False
+67,examine fiberglass door,,"It's a grand fiberglass door It is open.
+
+
+>                                                                                                                                -= Livingroom =-0/61",0,False
+68,go east,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/62",0,False
+69,examine driveway,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/62",0,False
+70,go east,,"-= Street =-
+You're now in the street.
+
+
+
+There is a closed commercial glass door leading north. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Street =-0/63",0,False
+71,go west,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/64",0,False
+72,examine driveway,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/64",0,False
+73,go west,,"-= Livingroom =-
+Well, here we are in a livingroom.
+
+You can make out a sofa. Make a note of this, you might have to put stuff on or in it later on. The sofa is comfy. But the thing is empty.
+
+There is an open fiberglass door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/65",0,False
+74,inventory,,"You are carrying nothing.
+
+
+>                                                                                                                                -= Livingroom =-0/66",0,False
+75,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/67",0,False
+76,go west,,"-= Kitchen =-
+You find yourself in a kitchen. A typical one.
+
+You can see a fridge. You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal an oven. Now why would someone leave that there? You scan the room, seeing a table. On the table you can see a cookbook. I mean, just wow! Isn't TextWorld just the best? Oh, great. Here's a counter. Now why would someone leave that there? On the counter you can make out a red apple, a tomato, a red hot pepper, a yellow apple and a knife. What's that over there? It looks like it's a stove. But the thing hasn't got anything on it. Aw, here you were, all excited for there to be things on it!
+
+There is a closed frosted-glass door leading south. There is an exit to the east. Don't worry, there is no door. You don't like doors? Why not try going north, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Kitchen =-0/68",0,False
+77,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+pork chop
+  red apple
+  red onion
+  yellow onion
+  yellow potato
+
+Directions:
+slice the pork chop
+  grill the pork chop
+  chop the red apple
+  grill the red apple
+  slice the red onion
+  roast the red onion
+  dice the yellow onion
+  roast the yellow onion
+  slice the yellow potato
+  roast the yellow potato
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/69",0,False
+78,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+pork chop
+  red apple
+  red onion
+  yellow onion
+  yellow potato
+
+Directions:
+slice the pork chop
+  grill the pork chop
+  chop the red apple
+  grill the red apple
+  slice the red onion
+  roast the red onion
+  dice the yellow onion
+  roast the yellow onion
+  slice the yellow potato
+  roast the yellow potato
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/70",0,False
+79,go north,,"-= Corridor =-
+You arrive in a corridor. A normal one.
+
+
+
+There is a closed patio door leading east. There is an exit to the north. You need an exit without a door? You should try going south.
+
+
+>                                                                                                                                -= Corridor =-0/71",0,True

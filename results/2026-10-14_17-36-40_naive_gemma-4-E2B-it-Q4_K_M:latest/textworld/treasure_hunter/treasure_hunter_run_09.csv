@@ -1,0 +1,282 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,open box,,You have to unlock the TextWorld style box with the TextWorld style latchkey first.,0,False
+1,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+2,inventory,,You are carrying nothing.,0,False
+3,take box,,That's fixed in place.,0,False
+4,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+5,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.
+
+There is a TextWorld style latchkey on the floor.",0,False
+6,take latchkey,,You pick up the TextWorld style latchkey from the ground.,0,False
+7,open box,,You can't see any such thing.,0,False
+8,insert latchkey into box,,You can't see any such thing.,0,False
+9,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+10,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+11,open box,,You have to unlock the TextWorld style box with the TextWorld style latchkey first.,0,False
+12,unlock box with latchkey,,You unlock the TextWorld style box.,0,False
+13,take box,,That's fixed in place.,0,False
+14,goal,,,0,False
+15,error,,That's not a verb I recognise.,0,False
+16,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a closed ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+17,take box,,That's fixed in place.,0,False
+18,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+19,go east,,You have to open the hatch first.,0,False
+20,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+21,unlock hatch with latchkey,,That doesn't seem to fit the lock.,0,False
+22,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+23,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a closed ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+24,take box,,That's fixed in place.,0,False
+25,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+26,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+27,unlock hatch with latchkey,,That doesn't seem to fit the lock.,0,False
+28,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+29,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a closed ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+30,take box,,That's fixed in place.,0,False
+31,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a closed ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+32,open box,,"You open the TextWorld style box, revealing a latchkey.",0,False
+33,take latchkey,,"(the latchkey)
+You take the latchkey from the TextWorld style box.",0,False
+34,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+35,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+36,unlock hatch with latchkey,,"(the latchkey)
+You unlock hatch.",0,False
+37,go east,,You have to open the hatch first.,0,False
+38,open hatch,,You open hatch.,0,False
+39,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+40,go east,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.
+
+There is a passkey on the floor.",0,False
+41,take passkey,,You pick up the passkey from the ground.,0,False
+42,go south,,You have to open the gate first.,0,False
+43,open gate,,You have to unlock the gate with the passkey first.,0,False
+44,unlock gate with passkey,,You unlock gate.,0,False
+45,look,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.",0,False
+46,go west,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+47,go east,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.",0,False
+48,look,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.",0,False
+49,take passkey,,You already have that.,0,False
+50,look,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.",0,False
+51,open hatch,,That's already open.,0,False
+52,go west,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+53,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box is empty, what a horrible day!
+
+There is an unguarded exit to the north.",0,False
+54,take box,,That's fixed in place.,0,False
+55,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box is empty, what a horrible day!
+
+There is an unguarded exit to the north.",0,False
+56,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+57,go east,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.",0,False
+58,open gate,,You open gate.,0,False
+59,go south,,"-= Canteen =-
+You find yourself in a canteen. An ordinary kind of place.
+
+You make out a closed chest. You scan the room, seeing a fridge!
+
+There is a closed gateway leading east. There is an open gate leading north.",0,False
+60,open chest,,You open the chest.,0,False
+61,take key from chest,,You can't see any such thing.,0,False
+62,look,,"-= Canteen =-
+You find yourself in a canteen. An ordinary kind of place.
+
+You make out an opened chest. Empty! What kind of nightmare TextWorld is this? You scan the room, seeing a fridge!
+
+There is a closed gateway leading east. There is an open gate leading north.",0,False
+63,go east,,You have to open the gateway first.,0,False
+64,open gateway,,You open gateway.,0,False
+65,look,,"-= Canteen =-
+You find yourself in a canteen. An ordinary kind of place.
+
+You make out an opened chest. Empty! What kind of nightmare TextWorld is this? You scan the room, seeing a fridge!
+
+There is an open gateway leading east. There is an open gate leading north.",0,False
+66,go north,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is an open gate leading south. There is an open hatch leading west.",0,False
+67,take bowl,,That's fixed in place.,0,False
+68,look,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is an open gate leading south. There is an open hatch leading west.",0,False
+69,take bowl,,That's fixed in place.,0,False
+70,look,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is an open gate leading south. There is an open hatch leading west.",0,False
+71,go west,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+72,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box is empty, what a horrible day!
+
+There is an unguarded exit to the north.",0,False
+73,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+74,go east,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is an open gate leading south. There is an open hatch leading west.",0,False
+75,take bowl,,That's fixed in place.,0,False
+76,take bowl,,That's fixed in place.,0,False
+77,look,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is an open gate leading south. There is an open hatch leading west.",0,False
+78,go west,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+79,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box is empty, what a horrible day!
+
+There is an unguarded exit to the north.",0,True

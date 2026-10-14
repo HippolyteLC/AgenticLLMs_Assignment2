@@ -1,0 +1,157 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+1,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/3",0,False
+2,take purple potato from counter,,"You take the purple potato from the counter.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Kitchen =-1/4",1,False
+3,slice purple potato with knife,,"You need to take the knife first.
+
+
+>                                                                                                                                -= Kitchen =-1/5",1,False
+4,take knife from table,,"You take the knife from the table.
+
+
+>                                                                                                                                -= Kitchen =-1/6",1,False
+5,chop orange bell pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/6",1,False
+6,take orange bell pepper from counter,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/6",1,False
+7,take red hot pepper from counter,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/6",1,False
+8,take yellow onion from counter,,"I only understood you as far as wanting to take the yellow potato.
+
+>                                                                                                                                -= Kitchen =-1/6",1,False
+9,take yellow potato from counter,,"You take the yellow potato from the counter.
+
+
+>                                                                                                                                -= Kitchen =-1/7",1,False
+10,prepare meal,,"You still miss something.
+
+
+>                                                                                                                                -= Kitchen =-1/8",1,False
+11,print goal,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-1/8",1,False
+12,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+13,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+14,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+15,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+16,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+17,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+18,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+19,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+20,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+21,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+22,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+23,take block of cheese from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+24,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-1/10",1,False
+25,open fridge,,"You open the fridge, revealing an orange bell pepper, a block of cheese and a green hot pepper.
+
+
+>                                                                                                                                -= Kitchen =-1/11",1,False
+26,take orange bell pepper from fridge,,"You take the orange bell pepper from the fridge.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Kitchen =-2/12",2,False
+27,slice orange bell pepper with knife,,"You slice the orange bell pepper.
+
+
+                                                      *** You lost! ***
+
+You scored 2 out of a possible 17, in 12 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>                                                                                                                                 -= Kitchen =-2/12",2,True

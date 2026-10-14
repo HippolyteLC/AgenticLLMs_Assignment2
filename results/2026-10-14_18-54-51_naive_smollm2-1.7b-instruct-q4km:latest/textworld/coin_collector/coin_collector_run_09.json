@@ -1,0 +1,52 @@
+{
+    "task": "coin_collector",
+    "action_frequency": {
+        "go north": 13,
+        "go east": 15,
+        "go west": 17,
+        "go south": 8,
+        "no": 8,
+        "go east no": 1,
+        "Observation:\nYou cant go south": 1,
+        "Observation: You cant go that way": 10,
+        "Observation: Go east": 1,
+        "Observation: You cant go west": 1,
+        "Observation: I cant go west": 1,
+        "Observation: I cant go north": 1,
+        "Observation: I cant go east": 1,
+        "Observation: Thats not a verb I recognise": 1,
+        "Observation: You always have to output an action until the episode terminates": 1
+    },
+    "input_tokens": 71406,
+    "output_tokens": 358,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1755143833,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

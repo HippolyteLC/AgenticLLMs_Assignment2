@@ -1,0 +1,60 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go north": 6,
+        "open wooden door": 1,
+        "look": 14,
+        "examine BBQ": 4,
+        "cook something with BBQ": 3,
+        "examine patio table": 3,
+        "take patio table": 1,
+        "examine cookbook": 3,
+        "examine toolbox": 4,
+        "take toolbox": 3,
+        "go south": 4,
+        "go west": 3,
+        "open sliding patio door": 2,
+        "go east": 2,
+        "cook something with BBQ with something providing heat": 1,
+        "examine workbench": 11,
+        "put toolbox on workbench": 1,
+        "take toolbox from workbench": 4,
+        "drop toolbox": 1,
+        "examine door": 1,
+        "take something from workbench": 5,
+        "open toolbox": 1,
+        "take something from patio table": 2
+    },
+    "input_tokens": 167184,
+    "output_tokens": 1331,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2938872493,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

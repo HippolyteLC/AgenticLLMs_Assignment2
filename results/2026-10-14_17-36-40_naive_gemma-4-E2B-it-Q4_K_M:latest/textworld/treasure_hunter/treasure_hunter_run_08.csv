@@ -1,0 +1,101 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+1,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+2,take pan,,That's fixed in place.,0,False
+3,go east,,You have to open the rectangular portal first.,0,False
+4,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+5,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+6,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+7,inventory,,You are carrying: a key.,0,False
+8,go north,,You have to open the gateway first.,0,False
+9,open gateway,,You have to unlock the gateway with the key first.,0,False
+10,unlock gateway with key,,You unlock gateway.,0,False
+11,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+12,take pan,,That's fixed in place.,0,False
+13,door east,,That's not a verb I recognise.,0,False
+14,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+15,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+16,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+17,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+18,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+19,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+20,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+21,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+22,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+23,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+24,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+25,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+26,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+27,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+28,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+29,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+30,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+31,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+32,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+33,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+34,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+35,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+36,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+37,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+38,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+39,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+40,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+41,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+42,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+43,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+44,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+45,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+46,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+47,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+48,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+49,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+50,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+51,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+52,go east,,You have to open the rectangular portal first.,0,False
+53,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+54,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+55,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+56,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+57,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+58,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+59,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+60,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+61,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+62,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+63,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+64,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+65,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+66,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+67,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+68,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+69,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+70,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+71,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+72,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+73,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+74,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+75,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+76,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+77,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+78,unlock portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+79,open portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,True

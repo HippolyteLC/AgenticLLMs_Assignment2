@@ -1,0 +1,429 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+1,go north,,"-= Livingroom =-
+You find yourself in a livingroom. An usual one.
+
+You make out a sofa. But oh no! there's nothing on this piece of trash. You swear loudly.
+
+There is a closed fiberglass door leading west. You don't like doors? Why not try going north, that entranceway is not blocked by one. There is an exit to the south.
+
+
+>                                                                                                                                -= Livingroom =-0/3",0,False
+2,go south,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/4",0,False
+3,examine stove,,"Useful for frying things.
+
+
+>                                                                                                                                -= Kitchen =-0/5",0,False
+4,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/6",0,False
+5,open fridge,,"You open the fridge, revealing an orange bell pepper, a block of cheese and a green hot pepper.
+
+
+>                                                                                                                                -= Kitchen =-0/7",0,False
+6,take cheese from fridge,,"You take the block of cheese from the fridge.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Kitchen =-1/8",1,False
+7,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+8,slice block of cheese,,"What do you want to slice the block of cheese with?
+
+>                                                                                                                                -= Kitchen =-1/9",1,False
+9,slice block of cheese with knife,,"You need to take the knife first.
+
+
+>                                                                                                                                -= Kitchen =-1/10",1,False
+10,take knife from table,,"You take the knife from the table.
+
+
+>                                                                                                                                -= Kitchen =-1/11",1,False
+11,dice red hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/11",1,False
+12,examine red hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/11",1,False
+13,dice red hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/11",1,False
+14,examine red hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/11",1,False
+15,examine oven,,"Useful for roasting things.
+
+
+>                                                                                                                                -= Kitchen =-1/12",1,False
+16,go west,,"You have to open the screen door first.
+
+
+>                                                                                                                                -= Kitchen =-1/13",1,False
+17,open screen door,,"You open screen door.
+
+
+>                                                                                                                                -= Kitchen =-1/14",1,False
+18,examine red hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/14",1,False
+19,go west,,"-= Backyard =-
+Guess what, you are in a place we're calling a backyard.
+
+You can make out a patio table. The patio table is stylish. But the thing hasn't got anything on it. Hey, want to see a patio chair? Look over there, a patio chair. The patio chair is stylish. The patio chair appears to be empty. You see a closed BBQ right there by you.
+
+There is an open screen door leading east. There is a closed barn door leading south. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-1/15",1,False
+20,examine red hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-1/15",1,False
+21,examine red hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-1/15",1,False
+22,examine oven,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-1/15",1,False
+23,go west,,"-= Garden =-
+You've entered a garden. You can barely contain your excitement.
+
+
+
+There is an exit to the east.
+
+There is a white onion, a carrot, a red onion, a red hot pepper, a yellow onion, a red apple, a yellow bell pepper and a yellow apple on the floor.
+
+
+>                                                                                                                                -= Garden =-1/16",1,False
+24,take red hot pepper from floor,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/16",1,False
+25,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/17",1,False
+26,take red hot pepper from floor,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/17",1,False
+27,examine red hot pepper,,"You couldn't pay me to eat that red hot pepper.
+
+
+>                                                                                                                                -= Garden =-1/18",1,False
+28,go west,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-1/19",1,False
+29,go south,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-1/20",1,False
+30,look,,"-= Garden =-
+You've entered a garden. You can barely contain your excitement.
+
+
+
+There is an exit to the east.
+
+There is a white onion, a carrot, a red onion, a red hot pepper, a yellow onion, a red apple, a yellow bell pepper and a yellow apple on the floor.
+
+
+>                                                                                                                                -= Garden =-1/21",1,False
+31,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/22",1,False
+32,take red onion from floor,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/22",1,False
+33,examine carrot,,"You couldn't pay me to eat that carrot.
+
+
+>                                                                                                                                -= Garden =-1/23",1,False
+34,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/24",1,False
+35,go south,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-1/25",1,False
+36,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/26",1,False
+37,take red onion from floor,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/26",1,False
+38,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/27",1,False
+39,go west,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-1/28",1,False
+40,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/29",1,False
+41,take red onion from floor,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/29",1,False
+42,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/30",1,False
+43,go south,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-1/31",1,False
+44,go west,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-1/32",1,False
+45,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/33",1,False
+46,go east,,"-= Backyard =-
+Guess what, you are in a place we're calling a backyard.
+
+You can make out a patio table. The patio table is stylish. But the thing hasn't got anything on it. Hey, want to see a patio chair? Look over there, a patio chair. The patio chair is stylish. The patio chair appears to be empty. You see a closed BBQ right there by you.
+
+There is an open screen door leading east. There is a closed barn door leading south. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-1/34",1,False
+47,look,,"-= Backyard =-
+Guess what, you are in a place we're calling a backyard.
+
+You can make out a patio table. The patio table is stylish. But the thing hasn't got anything on it. Hey, want to see a patio chair? Look over there, a patio chair. The patio chair is stylish. The patio chair appears to be empty. You see a closed BBQ right there by you.
+
+There is an open screen door leading east. There is a closed barn door leading south. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-1/35",1,False
+48,examine BBQ,,"Useful for grilling things.
+
+
+>                                                                                                                                -= Backyard =-1/36",1,False
+49,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-1/36",1,False
+50,go east,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. The fridge contains an orange bell pepper and a green hot pepper. You make out a closed oven. You can see a table. You see a cookbook on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is an open screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-1/37",1,False
+51,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+52,slice red onion with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+53,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+54,take red onion from floor,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+55,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+56,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+57,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+58,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+59,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/38",1,False
+60,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. The fridge contains an orange bell pepper and a green hot pepper. You make out a closed oven. You can see a table. You see a cookbook on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is an open screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-1/39",1,False
+61,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/39",1,False
+62,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. The fridge contains an orange bell pepper and a green hot pepper. You make out a closed oven. You can see a table. You see a cookbook on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is an open screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-1/40",1,False
+63,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/40",1,False
+64,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/40",1,False
+65,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/40",1,False
+66,go west,,"-= Backyard =-
+Guess what, you are in a place we're calling a backyard.
+
+You can make out a patio table. The patio table is stylish. But the thing hasn't got anything on it. Hey, want to see a patio chair? Look over there, a patio chair. The patio chair is stylish. The patio chair appears to be empty. You see a closed BBQ right there by you.
+
+There is an open screen door leading east. There is a closed barn door leading south. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-1/41",1,False
+67,look,,"-= Backyard =-
+Guess what, you are in a place we're calling a backyard.
+
+You can make out a patio table. The patio table is stylish. But the thing hasn't got anything on it. Hey, want to see a patio chair? Look over there, a patio chair. The patio chair is stylish. The patio chair appears to be empty. You see a closed BBQ right there by you.
+
+There is an open screen door leading east. There is a closed barn door leading south. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-1/42",1,False
+68,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-1/42",1,False
+69,examine red onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-1/42",1,False
+70,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Backyard =-1/43",1,False
+71,go west,,"-= Garden =-
+You've entered a garden. You can barely contain your excitement.
+
+
+
+There is an exit to the east.
+
+There is a white onion, a carrot, a red onion, a red hot pepper, a yellow onion, a red apple, a yellow bell pepper and a yellow apple on the floor.
+
+
+>                                                                                                                                -= Garden =-1/44",1,False
+72,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/45",1,False
+73,take red onion,,"You pick up the red onion from the ground.
+
+
+
+>                                                                                                                                -= Garden =-1/46",1,False
+74,look,,"-= Garden =-
+You've entered a garden. You can barely contain your excitement.
+
+
+
+There is an exit to the east.
+
+There is a white onion, a carrot, a red hot pepper, a yellow onion, a red apple, a yellow bell pepper and a yellow apple on the floor.
+
+
+>                                                                                                                                -= Garden =-1/47",1,False
+75,go west,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-1/48",1,False
+76,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/49",1,False
+77,drop red onion,,"You drop the red onion on the ground.
+
+
+>                                                                                                                                -= Garden =-1/50",1,False
+78,examine red onion,,"That's a red onion!
+
+
+>                                                                                                                                -= Garden =-1/51",1,False
+79,take red onion,,"You pick up the red onion from the ground.
+
+
+
+>                                                                                                                                -= Garden =-1/52",1,True

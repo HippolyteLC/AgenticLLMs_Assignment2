@@ -1,0 +1,41 @@
+{
+    "average_progress": 12.588235294117647,
+    "standard_error": 3.033905544467221,
+    "environments": {
+        "babyai": {
+            "progression_percentage": 24.0,
+            "standard_error": 6.0398675482166,
+            "episodes_played": 50
+        },
+        "textworld": {
+            "progression_percentage": 1.176470588235294,
+            "standard_error": 0.5816626264388755,
+            "episodes_played": 30
+        }
+    },
+    "total_input_tokens": 6226531,
+    "total_output_tokens": 109947,
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go west": 8,
+        "go east": 4,
+        "go north": 2,
+        "go south": 1,
+        "open fiberglass door": 1,
+        "open commercial glass door": 4,
+        "examine street": 1,
+        "look": 16,
+        "take raw pork chop": 9,
+        "examine showcase": 10,
+        "examine cookbook": 16,
+        "examination showcase": 1,
+        "drop raw pork chop": 1,
+        "slice raw pork chop with knife": 1,
+        "chop raw pork chop with knife": 1,
+        "cook pork chop with stove": 1,
+        "drop something": 1,
+        "drop nothing": 1,
+        "take whatever is in the showcase": 1
+    },
+    "input_tokens": 126623,
+    "output_tokens": 1238,
+    "done": true,
+    "episode_return": 67.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.058823529411764705,
+    "process_num": null,
+    "seed": 3996259982,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

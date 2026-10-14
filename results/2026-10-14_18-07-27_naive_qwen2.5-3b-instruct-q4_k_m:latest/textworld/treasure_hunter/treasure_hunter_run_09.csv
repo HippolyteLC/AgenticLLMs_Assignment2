@@ -1,0 +1,259 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+1,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+2,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.
+
+There is a TextWorld style latchkey on the floor.",0,False
+3,take latchkey,,You pick up the TextWorld style latchkey from the ground.,0,False
+4,go east,,You have to open the hatch first.,0,False
+5,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+6,unlock hatch with latchkey,,That doesn't seem to fit the lock.,0,False
+7,take latchkey,,You already have that.,0,False
+8,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+9,go east,,You have to open the hatch first.,0,False
+10,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+11,unlock hatch with latchkey,,That doesn't seem to fit the lock.,0,False
+12,take latchkey,,You already have that.,0,False
+13,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+14,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+15,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+16,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+17,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+18,unlock hatch with latchkey,,That doesn't seem to fit the lock.,0,False
+19,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+20,take latchkey,,You already have that.,0,False
+21,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+22,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+23,unlock hatch with latchkey,,That doesn't seem to fit the lock.,0,False
+24,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+25,take latchkey,,You already have that.,0,False
+26,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+27,go east,,You have to open the hatch first.,0,False
+28,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+29,unlock hatch with latchkey,,That doesn't seem to fit the lock.,0,False
+30,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+31,take latchkey,,You already have that.,0,False
+32,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+33,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+34,unlock box with latchkey,,You unlock the TextWorld style box.,0,False
+35,take object from box,,You can't see any such thing.,0,False
+36,open box,,"You open the TextWorld style box, revealing a latchkey.",0,False
+37,take object from box,,You can't see any such thing.,0,False
+38,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box contains a latchkey.
+
+There is an unguarded exit to the north.",0,False
+39,put latchkey in box,,"(the TextWorld style latchkey in the TextWorld style box)
+You put the TextWorld style latchkey into the TextWorld style box.",0,False
+40,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+41,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+42,go east,,You have to open the hatch first.,0,False
+43,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+44,unlock hatch with latchkey,,You can't see any such thing.,0,False
+45,take latchkey,,You can't see any such thing.,0,False
+46,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+47,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box contains a TextWorld style latchkey and a latchkey.
+
+There is an unguarded exit to the north.",0,False
+48,take latchkey,,"(the latchkey)
+You take the latchkey from the TextWorld style box.",0,False
+49,open hatch,,You can't see any such thing.,0,False
+50,unlock hatch with latchkey,,You can't see any such thing.,0,False
+51,go south,,You can't go that way.,0,False
+52,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box contains a TextWorld style latchkey.
+
+There is an unguarded exit to the north.",0,False
+53,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+54,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+55,unlock hatch with latchkey,,You unlock hatch.,0,False
+56,open hatch,,You open hatch.,0,False
+57,go north,,You can't go that way.,0,False
+58,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+59,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box contains a TextWorld style latchkey.
+
+There is an unguarded exit to the north.",0,False
+60,take latchkey,,"(the latchkey)
+You already have that.",0,False
+61,open hatch,,You can't see any such thing.,0,False
+62,unlock hatch with latchkey,,You can't see any such thing.,0,False
+63,open hatch,,You can't see any such thing.,0,False
+64,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+65,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+66,take latchkey,,You already have that.,0,False
+67,open hatch,,That's already open.,0,False
+68,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+69,go east,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.
+
+There is a passkey on the floor.",0,False
+70,take passkey,,You pick up the passkey from the ground.,0,False
+71,go west,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+72,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+73,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box contains a TextWorld style latchkey.
+
+There is an unguarded exit to the north.",0,False
+74,take latchkey,,"(the latchkey)
+You already have that.",0,False
+75,unlock hatch with passkey,,You can't see any such thing.,0,False
+76,open hatch,,You can't see any such thing.,0,False
+77,look,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out an opened ordinary looking TextWorld style box close by. The TextWorld style box contains a TextWorld style latchkey.
+
+There is an unguarded exit to the north.",0,False
+78,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is an open hatch leading east. There is an unblocked exit to the south.",0,False
+79,go east,,"-= Scullery =-
+You are in a scullery. An usual kind of place. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You make out a bowl. Wow, isn't TextWorld just the best? The bowl is typical. But the thing hasn't got anything on it.
+
+There is a closed gate leading south. There is an open hatch leading west.",0,True
