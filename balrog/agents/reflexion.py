@@ -34,26 +34,36 @@ class CustomAgent(BaseAgent):
         # last_obs = self.prompt_builder._last_short_term_obs
 
         evaluator_instructions = """
-        """
+Evaluate your trajectory so far, focusing on the outcome of your previous action relative to the current observation.
+Output your evaluation strictly in the following format:
+
+<|EVALUATION|>YOUR_EVALUATION_TEXT<|END|>
+""".strip()
         trajectory[-1].content += "\n\n" + evaluator_instructions 
         evaluation = self.client.generate(trajectory)
         
         self_reflection_instructions = f"""
-        {evaluation}
-        """
-        self_reflection_input[-1].content += "\n\n" + self_reflection_instructions 
+Based on the latest evaluation above, reflect on what went right, what went wrong, and how you should adapt your strategy going forward.
+Output your reflection strictly in the following format:
+
+<|REFLECTION|>YOUR_REFLECTION_TEXT<|END|>
+""".strip()
+        self_reflection_input[-1].content += "\n\n" + evaluation.completion + "\n" + self_reflection_instructions 
         self_reflection = self.client.generate(self_reflection_input)
         self.experience.append(self_reflection.completion)
         
-        experiences = "\n".join(self.experience)
+        experiences =  "<|EXPERIENCES|>\n" + "\n".join(self.experience) + "\n<|END|>"
         action_instruction = f"""
-        {experiences}
-        """
+Review your accumulated past experiences, then choose the single best next action. 
+You must output your final answer strictly in the following format:
 
-        action_input[-1].content += "\n\n" + action_instruction
+<|ACTION|>YOUR_CHOSEN_ACTION<|END|>
+""".strip()
+
+        action_input[-1].content += "\n\n" + experiences + "\n" + action_instruction
         response = self.client.generate(action_input)
         
-        return response._extract_action(response.completion)
+        return self._extract_action(response)
 
     def _extract_action(self, response_text):
         """Extract the plan and action from the LLM's response text.
@@ -64,8 +74,16 @@ class CustomAgent(BaseAgent):
         Returns:
             tuple: A tuple containing the extracted plan and action.
         """
-        action_match = re.search(r"ACTION:\s*(.*)", response_text, re.IGNORECASE | re.DOTALL)
+        final_answer = copy.deepcopy(response_text)
+        completion_text = final_answer.completion
+        match = re.search(r"<\|ACTION\|>(.*?)<\|END\|>", completion_text, re.DOTALL)
 
-        action = action_match.group(1).strip() if action_match else None
+        if match:
+            extracted_action = match.group(1).strip()
+        else:
+            # Fallback to the entire completion if not matched
+            extracted_action = "Failed to obtain a valid action from the reasoning."
 
-        return action
+        final_answer = final_answer._replace(completion=extracted_action)
+
+        return final_answer
