@@ -15,10 +15,18 @@ class ReflexionAgent(BaseAgent):
         self.evaluations = []
         self.actions = []
         
-
     def reset(self):
         self.prompt_builder.reset()
-        self.experience = []
+        self.experience = deque(maxlen=config.agent.max_experiences)
+
+    def check_tokens(text: str, begin_token: str, end_token: str) -> str:
+        if begin_token not in text:
+            text = begin_token + text
+
+        if end_token not in text:
+            text = text + end_token
+
+        return text
 
     def act(self, obs, prev_action=None):
         """Generate the next action and update the plan based on the current observation.
@@ -48,7 +56,7 @@ Output your evaluation strictly in the following format:
 <|EVALUATION|>YOUR_EVALUATION_TEXT<|END|>
 """.strip()
         trajectory[-1].content += "\n\n" + evaluator_instructions 
-        evaluation = self.client.generate(trajectory).completion
+        evaluation = self.check_tokens(self.client.generate(trajectory).completion, "<|EVALUATION|>","<|END|>")
         self.evaluations.append(evaluation)
         
         self_reflection_instructions = f"""
@@ -59,7 +67,7 @@ Output your reflection strictly in the following format:
 """.strip()
         self_reflection_input[-1].content += "\n\n" + evaluation + "\n" + self_reflection_instructions 
         self_reflection = self.client.generate(self_reflection_input)
-        self.experience.append(self_reflection.completion)
+        self.experience.append(self.check_tokens(self_reflection.completion, "<|REFLECTION|>", "<|END|>"))
         
         experiences =  "<|EXPERIENCES|>\n" + "\n".join(self.experience) + "\n<|END|>"
         action_instruction = f"""
@@ -72,7 +80,7 @@ You must output your final answer strictly in the following format:
 
         action_input[-1].content += "\n\n" + experiences + "\n" + action_instruction
         response = self.client.generate(action_input)
-        self.actions.append(response.completion)
+        self.actions.append(self.check_tokens(response.completion, "<|ACTION|>", "<|END|>"))
         
         return self._extract_action(response)
 

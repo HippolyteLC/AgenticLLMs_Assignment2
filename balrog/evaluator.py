@@ -339,9 +339,9 @@ class Evaluator:
                         [
                             step,
                             action,
-                            agent.actions,
+                            agent.actions[-1],
                             reasoning,
-                            agent.evaluations,
+                            agent.evaluations[-1],
                             experience,
                             obs["text"]["long_term_context"],
                             reward,
