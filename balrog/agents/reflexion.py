@@ -49,13 +49,12 @@ You must output your final answer strictly in the following format:
 
 ACTION_B = """
 Review your past experiences. Consider your previous action and the current observation. 
-Then, decide on the next best action to achieve the goal of this game. 
-You must choose exactly one of the listed actions and output it strictly in the following format:
+
+Then, you must choose exactly one of the listed actions and output it strictly in the following format:
 
 <|ACTION|>YOUR_CHOSEN_ACTION<|END|>
 
-Replace YOUR_CHOSEN_ACTION with the chosen action. Output no other text, explanation, or reasoning.
-"""
+Replace YOUR_CHOSEN_ACTION with the chosen action."""
 
 
 class ReflexionAgent(BaseAgent):
@@ -107,7 +106,7 @@ class ReflexionAgent(BaseAgent):
         evaluator_instructions = """
 
         """
-        evaluator_instructions = EVALUATION_A.strip()
+        evaluator_instructions = EVALUATION_B.strip()
         trajectory[-1].content += "\n\n" + evaluator_instructions 
         evaluation = self.client.generate(trajectory).completion
         self.evaluations.append(evaluation)
