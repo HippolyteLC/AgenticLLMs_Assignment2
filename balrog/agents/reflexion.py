@@ -122,9 +122,10 @@ class ReflexionAgent(BaseAgent):
         action_instruction = ACTION_B.strip()
         action_input[-1].content += "\n\n" + experiences + "\n" + action_instruction
         response = self.client.generate(action_input)
+
         action = self.check_tokens(response.completion, "<|ACTION|>")
         self.actions.append(action)
-        response._replace(completion=action)
+        response = response._replace(completion=action)
         final_response = self._extract_action(response)
         # if self.config.agent.verbose:
         #     print("Current action:\n",final_response.completion)
