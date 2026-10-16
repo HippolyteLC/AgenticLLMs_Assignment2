@@ -213,6 +213,11 @@ class OpenAIWrapper(LLMClientWrapper):
                 "messages": converted_messages,
                 "model": self.model_id,
                 "max_tokens": self.client_kwargs.get("max_tokens", 1024),
+                "extra_body": {
+                    "options": {
+                        "num_ctx": 8192
+                    }
+                },
             }
 
             temperature = self.client_kwargs.get("temperature")
