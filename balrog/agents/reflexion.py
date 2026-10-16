@@ -52,9 +52,14 @@ Review your past experiences. Consider your previous action and the current obse
 
 Then, you must choose exactly one of the listed actions and output it strictly in the following format:
 
-<|ACTION|>YOUR_CHOSEN_ACTION<|END|>
+<|ACTION|>CHOSEN_ACTION<|END|>
 
-Replace YOUR_CHOSEN_ACTION with the chosen action."""
+Replace CHOSEN_ACTION with the chosen action as plain text.
+
+For example: 
+
+<|ACTION|>some_action<|END|>
+"""
 
 
 class ReflexionAgent(BaseAgent):
