@@ -4,12 +4,18 @@ import copy
 from balrog.agents.base import BaseAgent
 
 
-class CustomAgent(BaseAgent):
+class ReflexionAgent(BaseAgent):
     """An agent that generates actions and plans based on observations with a customizable approach."""
 
     def __init__(self, client_factory, prompt_builder):
         super().__init__(client_factory, prompt_builder)
         self.client = client_factory()
+        self.experience = []
+        self.evaluations = []
+        self.actions = []
+
+    def reset(self):
+        self.prompt_builder.reset()
         self.experience = []
 
     def act(self, obs, prev_action=None):
@@ -41,6 +47,7 @@ Output your evaluation strictly in the following format:
 """.strip()
         trajectory[-1].content += "\n\n" + evaluator_instructions 
         evaluation = self.client.generate(trajectory)
+        self.evaluations.append(evaluation.completion)
         
         self_reflection_instructions = f"""
 Based on the latest evaluation above, reflect on what went right, what went wrong, and how you should adapt your strategy going forward.
@@ -62,6 +69,7 @@ You must output your final answer strictly in the following format:
 
         action_input[-1].content += "\n\n" + experiences + "\n" + action_instruction
         response = self.client.generate(action_input)
+        self.actions.append(response.completion)
         
         return self._extract_action(response)
 

@@ -257,6 +257,8 @@ class Evaluator:
         env = make_env(self.env_name, task, self.config)
         agent.reset()
 
+        experiences = "\n".join(agent.experiences) if self.config.agent.type == "reflexion" else None
+
         seed = self.config.envs.env_kwargs.seed
         if seed is None:
             seed = get_unique_seed(process_num=process_num, episode_idx=episode_idx)
@@ -286,7 +288,10 @@ class Evaluator:
         # Open the CSV file and write the header
         with open(csv_filename, mode="w", newline="", encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file, escapechar="˘", quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(["Step", "Action", "Reasoning", "Observation", "Reward", "Done"])
+            if not experiences:            
+                csv_writer.writerow(["Step", "Action", "Reasoning", "Observation", "Reward", "Done"])
+            else:
+                csv_writer.writerow(["Step", "Action", "Actions_raw", "Reasoning", "Evaluations", "Experience", "Observation", "Reward", "Done"])
 
             # If the agent is an FewShotAgent, load the in-context learning episode
             if isinstance(agent, FewShotAgent):
@@ -327,17 +332,32 @@ class Evaluator:
                     else obs["text"]["long_term_context"]
                 )
                 action = response.completion
-                # Write the step data to the CSV file
-                csv_writer.writerow(
-                    [
-                        step,
-                        action,
-                        reasoning,
-                        obs["text"]["long_term_context"],
-                        reward,
-                        done,
-                    ]
-                )
+                # Write the step data to the CSV 
+                if experiences:
+                    csv_writer.writerow(
+                        [
+                            step,
+                            action,
+                            self.actions
+                            reasoning,
+                            self.evaluations
+                            experiences,
+                            obs["text"]["long_term_context"],
+                            reward,
+                            done,
+                        ]
+                    )
+                else:
+                    csv_writer.writerow(
+                        [
+                            step,
+                            action,
+                            reasoning,
+                            obs["text"]["long_term_context"],
+                            reward,
+                            done,
+                        ]
+                    )                   
 
                 pbar.update(1)
 

@@ -8,6 +8,7 @@ from .few_shot import FewShotAgent
 from .naive import NaiveAgent
 from .robust_naive import RobustNaiveAgent
 from .robust_cot import RobustCoTAgent
+from .reflexion import ReflexionAgent
 
 
 class AgentFactory:
@@ -50,6 +51,8 @@ class AgentFactory:
             return DummyAgent(client_factory, prompt_builder)
         elif self.config.agent.type == "custom":
             return CustomAgent(client_factory, prompt_builder)
+        elif self.config.agent.type == "reflexion":
+            return ReflexionAgent(client_factory, prompt_builder)
         elif self.config.agent.type == "few_shot":
             return FewShotAgent(client_factory, prompt_builder, self.config.agent.max_icl_history)
         elif self.config.agent.type == "robust_naive":
