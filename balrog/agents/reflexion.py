@@ -64,6 +64,7 @@ class ReflexionAgent(BaseAgent):
         super().__init__(client_factory, prompt_builder)
         self.client = client_factory()
         self.max_experiences = config.agent.max_experiences
+        self.verbosity = config.agent.verbose
         self.experience = deque(maxlen=self.max_experiences)
         self.evaluations = []
         self.actions = []

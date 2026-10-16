@@ -7,7 +7,8 @@ agent:
   max_icl_history: 1000   # Maximum number of ICL steps to keep in history (if using 'few_shot' type of agent)
   cache_icl: False
   max_experiences: 4 # Maximum number of experiences stored in Reflexion Agent
-
+  verbose: False         # Whether the agent prints actions in terminal
+  
 eval:
   output_dir: "results"  # Directory where evaluation results will be saved
   resume_from: null      # Path to to the incomplete results file to resume an incomplete run
