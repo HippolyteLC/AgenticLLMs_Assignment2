@@ -11,15 +11,18 @@ class ReflexionAgent(BaseAgent):
     def __init__(self, client_factory, prompt_builder, config):
         super().__init__(client_factory, prompt_builder)
         self.client = client_factory()
-        self.experience = deque(maxlen=config.agent.max_experiences)
+        self.max_experiences = config.agent.max_experiences
+        self.experience = deque(maxlen=self.max_experiences)
         self.evaluations = []
         self.actions = []
         
     def reset(self):
         self.prompt_builder.reset()
-        self.experience = deque(maxlen=config.agent.max_experiences)
+        self.experience = deque(maxlen=self.max_experiences)
+        self.evaluations=[]
+        self.actions=[]
 
-    def check_tokens(text: str, begin_token: str, end_token: str) -> str:
+    def check_tokens(self, text: str, begin_token: str, end_token: str) -> str:
         if begin_token not in text:
             text = begin_token + text
 
@@ -66,8 +69,9 @@ Output your reflection strictly in the following format:
 <|REFLECTION|>YOUR_REFLECTION_TEXT<|END|>
 """.strip()
         self_reflection_input[-1].content += "\n\n" + evaluation + "\n" + self_reflection_instructions 
-        self_reflection = self.client.generate(self_reflection_input)
-        self.experience.append(self.check_tokens(self_reflection.completion, "<|REFLECTION|>", "<|END|>"))
+        self_reflection = self.client.generate(self_reflection_input) 
+        self_reflection = self.check_tokens(self_reflection.completion, "<|REFLECTION|>", "<|END|>")
+        self.experience.append(self_reflection)
         
         experiences =  "<|EXPERIENCES|>\n" + "\n".join(self.experience) + "\n<|END|>"
         action_instruction = f"""
