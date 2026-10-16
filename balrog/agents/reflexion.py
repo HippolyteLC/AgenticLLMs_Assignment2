@@ -3,16 +3,18 @@ import copy
 
 from balrog.agents.base import BaseAgent
 
+from collections import deque
 
 class ReflexionAgent(BaseAgent):
     """An agent that generates actions and plans based on observations with a customizable approach."""
 
-    def __init__(self, client_factory, prompt_builder):
+    def __init__(self, client_factory, prompt_builder, config):
         super().__init__(client_factory, prompt_builder)
         self.client = client_factory()
         self.experience = []
-        self.evaluations = []
+        self.evaluations = deque(maxlen=config.agent.max_experiences)
         self.actions = []
+        
 
     def reset(self):
         self.prompt_builder.reset()
