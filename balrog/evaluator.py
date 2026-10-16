@@ -257,7 +257,7 @@ class Evaluator:
         env = make_env(self.env_name, task, self.config)
         agent.reset()
 
-        experiences = "\n".join(agent.experiences) if self.config.agent.type == "reflexion" else None
+        experience = "\n".join(agent.experience) if self.config.agent.type == "reflexion" else None
 
         seed = self.config.envs.env_kwargs.seed
         if seed is None:
@@ -288,7 +288,7 @@ class Evaluator:
         # Open the CSV file and write the header
         with open(csv_filename, mode="w", newline="", encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file, escapechar="˘", quoting=csv.QUOTE_MINIMAL)
-            if not experiences:            
+            if not experience:            
                 csv_writer.writerow(["Step", "Action", "Reasoning", "Observation", "Reward", "Done"])
             else:
                 csv_writer.writerow(["Step", "Action", "Actions_raw", "Reasoning", "Evaluations", "Experience", "Observation", "Reward", "Done"])
@@ -333,15 +333,15 @@ class Evaluator:
                 )
                 action = response.completion
                 # Write the step data to the CSV 
-                if experiences:
+                if experience:
                     csv_writer.writerow(
                         [
                             step,
                             action,
-                            self.actions
+                            agent.actions,
                             reasoning,
-                            self.evaluations
-                            experiences,
+                            agent.evaluations,
+                            experience,
                             obs["text"]["long_term_context"],
                             reward,
                             done,

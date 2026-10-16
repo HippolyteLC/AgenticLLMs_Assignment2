@@ -10,7 +10,7 @@ agent:
 eval:
   output_dir: "results"  # Directory where evaluation results will be saved
   resume_from: null      # Path to to the incomplete results file to resume an incomplete run
-  num_workers: 16        # Number of parallel workers. Increase for faster evaluation if you have enough resources
+  num_workers: 1        # Number of parallel workers. Increase for faster evaluation if you have enough resources
   num_episodes:          # Minimum number of episodes to run for each environment. You can optionally increase this to get more reliable results
     nle: 5               # Number of episodes for the 'nle' environment
     minihack: 5          # Number of episodes for each 'minihack' task

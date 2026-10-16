@@ -34,7 +34,7 @@ class ReflexionAgent(BaseAgent):
 
         # user is the environment, assistant is the llm reasoning, self reflection, evaluation
 
-        trajectory = copy.deepcopy(self.prompt_builder.get_prompt()) # contains only 
+        trajectory = copy.deepcopy(self.prompt_builder.get_prompt()) 
         self_reflection_input = copy.deepcopy(trajectory)
         action_input = copy.deepcopy(trajectory)
         # last_obs = self.prompt_builder._last_short_term_obs
@@ -46,22 +46,23 @@ Output your evaluation strictly in the following format:
 <|EVALUATION|>YOUR_EVALUATION_TEXT<|END|>
 """.strip()
         trajectory[-1].content += "\n\n" + evaluator_instructions 
-        evaluation = self.client.generate(trajectory)
-        self.evaluations.append(evaluation.completion)
+        evaluation = self.client.generate(trajectory).completion
+        self.evaluations.append(evaluation)
         
         self_reflection_instructions = f"""
-Based on the latest evaluation above, reflect on what went right, what went wrong, and how you should adapt your strategy going forward.
+Based on your previous action relative to the current observation, and the latest evaluation above, reflect on what went right, what went wrong, and how you should adapt your strategy going forward.
 Output your reflection strictly in the following format:
 
 <|REFLECTION|>YOUR_REFLECTION_TEXT<|END|>
 """.strip()
-        self_reflection_input[-1].content += "\n\n" + evaluation.completion + "\n" + self_reflection_instructions 
+        self_reflection_input[-1].content += "\n\n" + evaluation + "\n" + self_reflection_instructions 
         self_reflection = self.client.generate(self_reflection_input)
         self.experience.append(self_reflection.completion)
         
         experiences =  "<|EXPERIENCES|>\n" + "\n".join(self.experience) + "\n<|END|>"
         action_instruction = f"""
-Review your accumulated past experiences, then choose the single best next action. 
+Review your accumulated past experiences and consider your previous action relative to the current observation, 
+then choose the single best next action. 
 You must output your final answer strictly in the following format:
 
 <|ACTION|>YOUR_CHOSEN_ACTION<|END|>
