@@ -125,8 +125,8 @@ class ReflexionAgent(BaseAgent):
         self.actions.append(action)
         response._replace(completion=action)
         final_response = self._extract_action(response)
-        if self.config.agent.verbose:
-            print("Current action:\n",final_response.completion)
+        # if self.config.agent.verbose:
+        #     print("Current action:\n",final_response.completion)
 
         return final_response
 
