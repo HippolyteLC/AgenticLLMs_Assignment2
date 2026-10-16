@@ -84,8 +84,9 @@ You must output your final answer strictly in the following format:
 
         action_input[-1].content += "\n\n" + experiences + "\n" + action_instruction
         response = self.client.generate(action_input)
-        self.actions.append(self.check_tokens(response.completion, "<|ACTION|>", "<|END|>"))
-        
+        action = self.check_tokens(response.completion, "<|ACTION|>", "<|END|>")
+        self.actions.append(action)
+        response._replace(completion=action)
         return self._extract_action(response)
 
     def _extract_action(self, response_text):
