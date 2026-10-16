@@ -125,8 +125,11 @@ class ReflexionAgent(BaseAgent):
         action = self.check_tokens(response.completion, "<|ACTION|>")
         self.actions.append(action)
         response._replace(completion=action)
-        
-        return self._extract_action(response)
+        final_response = self._extract_action(response)
+        if self.config.agent.verbose:
+            print("Current action:\n",final_response.completion)
+
+        return final_response
 
     def _extract_action(self, response_text):
         """Extract the plan and action from the LLM's response text.
