@@ -64,7 +64,7 @@ class ReflexionAgent(BaseAgent):
         super().__init__(client_factory, prompt_builder)
         self.client = client_factory()
         self.max_experiences = config.agent.max_experiences
-        self.verbosity = config.agent.verbose
+        self.verbose = config.agent.verbose
         self.experience = deque(maxlen=self.max_experiences)
         self.evaluations = []
         self.actions = []
@@ -127,8 +127,8 @@ class ReflexionAgent(BaseAgent):
         self.actions.append(action)
         response = response._replace(completion=action)
         final_response = self._extract_action(response)
-        # if self.config.agent.verbose:
-        #     print("Current action:\n",final_response.completion)
+        if self.verbose:
+            print("Current action:\n",final_response.completion)
 
         return final_response
 
