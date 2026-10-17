@@ -28,6 +28,23 @@ You must choose a valid action and output it strictly in the following format:
 Do not output any explanation or extra text.
 """.strip()
 
+NAIVE_INSTRUCTION_B = """
+Consider your past lessons below and the current observation to choose your next action.
+
+Past Lessons:
+{experiences}
+
+Then, you must choose exactly one of the listed actions and output it strictly in the following format:
+
+<|ACTION|>CHOSEN_ACTION<|END|>
+
+Replace CHOSEN_ACTION with the chosen action as plain text.
+
+For example: 
+
+<|ACTION|>some_action<|END|>
+"""
+
 class RobustNaiveReflexion(BaseAgent):
     """An agent that generates actions based on observations without complex reasoning."""
 
@@ -78,7 +95,7 @@ class RobustNaiveReflexion(BaseAgent):
             experiences = "None."
 
         # Updated instructions to require a very strict output format + reflexion
-        instruction = NAIVE_INSTRUCTION.format(experiences=experiences)
+        instruction = NAIVE_INSTRUCTION_B.format(experiences=experiences)
 
         if messages and messages[-1].role == "user":
             messages[-1].content += "\n\n" + experiences + "\n" + instruction
