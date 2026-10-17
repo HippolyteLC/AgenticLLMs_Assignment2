@@ -104,6 +104,8 @@ class RobustNaiveReflexion(BaseAgent):
         final_answer = self._extract_final_answer(response)
         return final_answer
 
+
+
     def _extract_final_answer(self, answer):
         """Extract the action from the completion by looking for <|ACTION|> and <|END|> tags.
 
@@ -113,16 +115,21 @@ class RobustNaiveReflexion(BaseAgent):
         Returns:
             LLMResponse: The sanitized response containing just the extracted action.
         """
-        completion_text = answer.completion
-        # Use a regex to find the text inside <|ACTION|> and <|END|>
-        match = re.search(r"<\|ACTION\|>(.*?)<\|END\|>", completion_text, re.DOTALL)
-        if match:
-            extracted_action = match.group(1).strip()
-        else:
-            # If no match is found, fallback to the original completion or handle as needed
-            extracted_action = completion_text.strip()
+        text = answer.completion
+        
+        outer = (
+            re.search(r"<\|ACTION\|>(.*?)<\|END\|>", text, re.DOTALL) or
+            re.search(r"<\|(.*?)\|+>", text, re.DOTALL) or
+            re.search(r"<(.*?)>", text, re.DOTALL)
+        )
+        content = outer.group(1).strip() if outer else text.strip()
+        
+        inner = (
+            re.search(r"<\|(.*?)\|+>", content, re.DOTALL) or
+            re.search(r"<(.*?)>", content, re.DOTALL)
+        )
+        extracted_action = inner.group(1).strip() if inner else content
 
         final_answer = copy.deepcopy(answer)
-        final_answer = final_answer._replace(completion=extracted_action)
-
-        return final_answer
+        
+        return final_answer._replace(completion=extracted_action)
