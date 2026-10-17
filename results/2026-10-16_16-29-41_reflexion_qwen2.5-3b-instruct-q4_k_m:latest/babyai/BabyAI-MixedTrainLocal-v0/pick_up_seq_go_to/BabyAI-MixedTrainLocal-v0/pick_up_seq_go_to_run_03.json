@@ -1,0 +1,67 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "turn right": 17,
+        "go forward": 69,
+        "turn left": 41,
+        "pick up": 1
+    },
+    "input_tokens": 235232,
+    "output_tokens": 1378,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "go to the green key",
+        "go to the green key",
+        "go to the green box",
+        "go to the green box",
+        "go to the green key",
+        "go to the green box",
+        "go to the green key",
+        "go to the green box",
+        "go to the green key",
+        "go to the green key",
+        "go to the green key",
+        "go to the green box",
+        "go to the green box",
+        "go to the green box",
+        "go to the green box",
+        "GO FORWARD",
+        "go to the green box",
+        "go to the green box",
+        "go to the green key",
+        "go to the green key",
+        "go to the green key",
+        "go to the green key"
+    ],
+    "mission": "pick up the green key, then go to the green box",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2395195794,
+    "agent": {
+        "type": "reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 4,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

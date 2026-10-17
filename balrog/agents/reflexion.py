@@ -6,12 +6,15 @@ from balrog.agents.base import BaseAgent
 from collections import deque
 
 EVALUATION_A = """
+ROLE: You are an evaluator. Only output (success/fail) evaluations, DO NOT output actions.
+
 Evaluate your trajectory so far, focusing on the outcome of your previous action relative to the current observation.
 Output your evaluation strictly in the following format:
 
 <|EVALUATION|>YOUR_EVALUATION_TEXT<|END|>
 """
 EVALUATION_B = """
+ROLE: You are an evaluator. Only output (success/fail) evaluations, DO NOT output actions.
 Consider the observations and the actions you have performed so far. 
 Each observation is a consequence of the action that precedes it. 
 When evaluating, consider the goal of this game and the game description provided earlier.  
@@ -23,12 +26,14 @@ Example output: fail
 """
 
 SELF_REFLECTION_A= """ 
+ROLE: You are a self-relfection agent. Only output self-reflections, DO NOT output actions.
 Based on your previous action relative to the current observation, and the latest evaluation above, reflect on what went right, what went wrong, and how you should adapt your strategy going forward.
 Output your reflection strictly in the following format:
 
-<|REFLECTION|>YOUR_REFLECTION_TEXT<|END|>
+<|REFLECTION|>1-2 sentences of self-reflection<|END|>
 """
 SELF_REFLECTION_B = """
+ROLE: You are a self-relfection agent. Only output self-reflections, DO NOT output actions.
 Given your previous action and the current observation, and the evaluation above of your previous action (success/fail),
 reflect on the following: 
 1. Why was my action a success or fail?
@@ -40,6 +45,7 @@ Make sure to provide a concise and compact reflection, which provides clear verb
 """
 
 ACTION_A = """
+ROLE: you are an actor. Only output actions. 
 Review your accumulated past experiences and consider your previous action relative to the current observation, 
 then choose the single best next action. 
 You must output your final answer strictly in the following format:
@@ -48,6 +54,8 @@ You must output your final answer strictly in the following format:
 """
 
 ACTION_B = """
+ROLE: you are an actor. Only output actions. 
+
 Review your past experiences. Consider your previous action and the current observation. 
 
 Then, you must choose exactly one of the listed actions and output it strictly in the following format:
@@ -109,9 +117,6 @@ class ReflexionAgent(BaseAgent):
         self_reflection_input = copy.deepcopy(trajectory)
         action_input = copy.deepcopy(trajectory)
         # last_obs = self.prompt_builder._last_short_term_obs
-        evaluator_instructions = """
-
-        """
         evaluator_instructions = EVALUATION_B.strip()
         trajectory[-1].content += "\n\n" + evaluator_instructions 
         evaluation = self.client.generate(trajectory).completion

@@ -1,0 +1,60 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "go north": 7,
+        "look": 13,
+        "go south<|END>": 1,
+        "look north": 20,
+        "open cuboid portal": 2,
+        "take cuboid keycard": 7,
+        "open cuboid portal<|END>": 1,
+        "look east": 4,
+        "look south": 1,
+        "look west": 5,
+        "look for the cuboid portal. If found, open it next.": 1,
+        "look for cuboid portal in more detail": 1,
+        "look for cuboid portal in more detail<|END>": 3,
+        "look for cuboid portal in all directions<|END>": 1,
+        "look for cuboid portal anywhere or open any visible doors/containers in this context<|END>": 3,
+        "look for cuboid portal or check for any enclosed structures<|END>": 1,
+        "look<|END>": 1,
+        "look for cuboid portal<|END>": 1,
+        "look north<|END>": 1,
+        "look cuboid portal north<|END>": 5,
+        "open door south<|END>": 1
+    },
+    "input_tokens": 154245,
+    "output_tokens": 896,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2817664717,
+    "agent": {
+        "type": "reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 4,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

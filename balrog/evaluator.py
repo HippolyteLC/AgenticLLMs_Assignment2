@@ -255,8 +255,13 @@ class Evaluator:
             dict: Log of the episode containing statistics and results.
         """
         env = make_env(self.env_name, task, self.config)
+
+        # Self reflect if robust cot reflexion agent
+        if robust_cot_reflexion:
+            agent.self_reflect()
         agent.reset()
 
+        robust_cot_reflexion = True if self.config.agent.type == "robust_cot_reflexion" else False
         reflexion = True if self.config.agent.type == "reflexion" else False
 
         seed = self.config.envs.env_kwargs.seed
@@ -376,6 +381,9 @@ class Evaluator:
                         pbar.update(pbar.total - pbar.n)
                     pbar.set_postfix_str("DONE")
                     break
+
+            if robust_cot_reflexion:
+                agent.update_reward(reward) # update reward for Reflexion CoT agent
 
             if pbar.n < pbar.total:
                 pbar.update(pbar.total - pbar.n)

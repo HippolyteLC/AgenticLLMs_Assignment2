@@ -1,0 +1,59 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "inventory": 2,
+        "go north": 5,
+        "go south": 4,
+        "examine": 4,
+        "look": 7,
+        "open cuboid portal leading north": 9,
+        "examine cuboid keycard on the floor": 3,
+        "examine cuboid keycard": 10,
+        "take cuboid keycard": 1,
+        "take rectangular hatch leading west": 5,
+        "go west": 1,
+        "unlock rectangular hatch leading west": 3,
+        "unlock cuboid portal leading north": 3,
+        "examine cuboid portal leading north": 12,
+        "examine cuboid portal": 3,
+        "check for keys in containers": 1,
+        "check cuboid portal": 3,
+        "open small container with non-euclidean logo": 1,
+        "examine small container with non-euclidean logo": 1,
+        "open non-euclidean safe": 2
+    },
+    "input_tokens": 130052,
+    "output_tokens": 628,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2532338022,
+    "agent": {
+        "type": "reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 4,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

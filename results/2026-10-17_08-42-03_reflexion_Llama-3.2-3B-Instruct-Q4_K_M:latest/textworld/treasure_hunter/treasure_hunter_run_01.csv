@@ -1,0 +1,143 @@
+Step,Action,Actions_raw,Reasoning,Evaluations,Experience,Observation,Reward,Done
+0,go north,<|ACTION|>go north<|END|>,,success,"Reflection on Current Situation:
+
+1. My previous action, ""arriving in a cubicle"", was a success because I effectively utilized the available command and successfully generated my current observation.
+2. To achieve the goal of finding the specific object, I should focus on exploring the available rooms and contents, rather than getting trapped in indecision about trivialities (e.g. the mantle). Actions that help me achieve the goal include 'look' to gather more information, 'go north' to explore the adjacent room, and 'take' to collect any visible objects.
+3. For future actions, I should maintain a clear focus on achieving the goal and avoid getting caught up in minor details, while simultaneously considering the limited amount of steps available. Effective self-feedback cues will include evaluating my actions based on their direct relevance to achieving the objective, and avoiding self-indulgences like excessive description of non-essential details.","-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+1,go south,<|ACTION|>go south<|END|>,,success,"Reflection on Current Situation:
+
+1. My previous action, ""arriving in a cubicle"", was a success because I effectively utilized the available command and successfully generated my current observation.
+2. To achieve the goal of finding the specific object, I should focus on exploring the available rooms and contents, rather than getting trapped in indecision about trivialities (e.g. the mantle). Actions that help me achieve the goal include 'look' to gather more information, 'go north' to explore the adjacent room, and 'take' to collect any visible objects.
+3. For future actions, I should maintain a clear focus on achieving the goal and avoid getting caught up in minor details, while simultaneously considering the limited amount of steps available. Effective self-feedback cues will include evaluating my actions based on their direct relevance to achieving the objective, and avoiding self-indulgences like excessive description of non-essential details.
+Self-reflection:
+
+1. My action ""go north"" led to a success because it initially helped me move away from the cookery, allowing me to explore different rooms and increase my chances of finding the goal.
+2. Actions that can help me achieve the goal include exploring various rooms, taking and putting objects in containers, and searching for objects directly. Additionally, managing my inventory, considering door and container locks, and taking the initiative to open locked objects are all crucial.
+3. To improve my decision-making, I should weigh the pros and cons of each action at the beginning of each turn, consider previous steps and observations, and think about potential outcomes before selecting a direction or object to interact with; also, it would be beneficial to reflect on my previous explorations and their outcomes.","-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+2,look,<|ACTION|>look<|END|>,,fail,"Reflection on Current Situation:
+
+1. My previous action, ""arriving in a cubicle"", was a success because I effectively utilized the available command and successfully generated my current observation.
+2. To achieve the goal of finding the specific object, I should focus on exploring the available rooms and contents, rather than getting trapped in indecision about trivialities (e.g. the mantle). Actions that help me achieve the goal include 'look' to gather more information, 'go north' to explore the adjacent room, and 'take' to collect any visible objects.
+3. For future actions, I should maintain a clear focus on achieving the goal and avoid getting caught up in minor details, while simultaneously considering the limited amount of steps available. Effective self-feedback cues will include evaluating my actions based on their direct relevance to achieving the objective, and avoiding self-indulgences like excessive description of non-essential details.
+Self-reflection:
+
+1. My action ""go north"" led to a success because it initially helped me move away from the cookery, allowing me to explore different rooms and increase my chances of finding the goal.
+2. Actions that can help me achieve the goal include exploring various rooms, taking and putting objects in containers, and searching for objects directly. Additionally, managing my inventory, considering door and container locks, and taking the initiative to open locked objects are all crucial.
+3. To improve my decision-making, I should weigh the pros and cons of each action at the beginning of each turn, consider previous steps and observations, and think about potential outcomes before selecting a direction or object to interact with; also, it would be beneficial to reflect on my previous explorations and their outcomes.
+My recent action was a failure because I didn't consider that the cubicle I arrived back at had changed, and my goal was not fulfilled despite taking 4 steps. 
+
+Key actions that help me achieve the goal include: exploring different areas to find the target object, taking note of locked containers, and unlocking doors or containers. To improve future actions, I can keep track of my inventory, observe all available exits, and prioritize unlocking doors with matching keys. This reflection will help me adapt and make informed decisions to stay focused on the goal and within the 40-step limit.","-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+3,inventory,<|ACTION|>inventory<|END|>,,fail,"Reflection on Current Situation:
+
+1. My previous action, ""arriving in a cubicle"", was a success because I effectively utilized the available command and successfully generated my current observation.
+2. To achieve the goal of finding the specific object, I should focus on exploring the available rooms and contents, rather than getting trapped in indecision about trivialities (e.g. the mantle). Actions that help me achieve the goal include 'look' to gather more information, 'go north' to explore the adjacent room, and 'take' to collect any visible objects.
+3. For future actions, I should maintain a clear focus on achieving the goal and avoid getting caught up in minor details, while simultaneously considering the limited amount of steps available. Effective self-feedback cues will include evaluating my actions based on their direct relevance to achieving the objective, and avoiding self-indulgences like excessive description of non-essential details.
+Self-reflection:
+
+1. My action ""go north"" led to a success because it initially helped me move away from the cookery, allowing me to explore different rooms and increase my chances of finding the goal.
+2. Actions that can help me achieve the goal include exploring various rooms, taking and putting objects in containers, and searching for objects directly. Additionally, managing my inventory, considering door and container locks, and taking the initiative to open locked objects are all crucial.
+3. To improve my decision-making, I should weigh the pros and cons of each action at the beginning of each turn, consider previous steps and observations, and think about potential outcomes before selecting a direction or object to interact with; also, it would be beneficial to reflect on my previous explorations and their outcomes.
+My recent action was a failure because I didn't consider that the cubicle I arrived back at had changed, and my goal was not fulfilled despite taking 4 steps. 
+
+Key actions that help me achieve the goal include: exploring different areas to find the target object, taking note of locked containers, and unlocking doors or containers. To improve future actions, I can keep track of my inventory, observe all available exits, and prioritize unlocking doors with matching keys. This reflection will help me adapt and make informed decisions to stay focused on the goal and within the 40-step limit.
+Upon reflection, I realize that my previous action ""go south"" was a failure because it took me out of the cubicle, but I had just entered it before. This mistake highlights the importance of carefully considering the agent's location in the game world.
+
+To achieve the goal of finding the target object, I should focus on exploring the cubicle more thoroughly. Actions like ""look"", ""inventory"", and ""examine"" the mantle might provide valuable information that can help me solve the puzzle.
+
+To provide feedback for future actions, I will remind myself to:
+
+* Double-check the agent's location before moving to a new room.
+* Prioritize exploring the current area thoroughly before trying to move to a new room.
+* Use descriptive actions like ""look"" and ""inventory"" to gather information about the environment and identify potential clues.
+
+By incorporating these strategies, I hope to minimize mistakes and increase the likelihood of achieving the game's goal.",You are carrying nothing.,0,False
+4,go north,<|ACTION|>go north<|END|>,,fail,"Self-reflection:
+
+1. My action ""go north"" led to a success because it initially helped me move away from the cookery, allowing me to explore different rooms and increase my chances of finding the goal.
+2. Actions that can help me achieve the goal include exploring various rooms, taking and putting objects in containers, and searching for objects directly. Additionally, managing my inventory, considering door and container locks, and taking the initiative to open locked objects are all crucial.
+3. To improve my decision-making, I should weigh the pros and cons of each action at the beginning of each turn, consider previous steps and observations, and think about potential outcomes before selecting a direction or object to interact with; also, it would be beneficial to reflect on my previous explorations and their outcomes.
+My recent action was a failure because I didn't consider that the cubicle I arrived back at had changed, and my goal was not fulfilled despite taking 4 steps. 
+
+Key actions that help me achieve the goal include: exploring different areas to find the target object, taking note of locked containers, and unlocking doors or containers. To improve future actions, I can keep track of my inventory, observe all available exits, and prioritize unlocking doors with matching keys. This reflection will help me adapt and make informed decisions to stay focused on the goal and within the 40-step limit.
+Upon reflection, I realize that my previous action ""go south"" was a failure because it took me out of the cubicle, but I had just entered it before. This mistake highlights the importance of carefully considering the agent's location in the game world.
+
+To achieve the goal of finding the target object, I should focus on exploring the cubicle more thoroughly. Actions like ""look"", ""inventory"", and ""examine"" the mantle might provide valuable information that can help me solve the puzzle.
+
+To provide feedback for future actions, I will remind myself to:
+
+* Double-check the agent's location before moving to a new room.
+* Prioritize exploring the current area thoroughly before trying to move to a new room.
+* Use descriptive actions like ""look"" and ""inventory"" to gather information about the environment and identify potential clues.
+
+By incorporating these strategies, I hope to minimize mistakes and increase the likelihood of achieving the game's goal.
+Action 'inventory' was a fail because I didn't notice the spork on the floor, which is a crucial clue in the game, suggesting I need to work on my 'look' command more thoroughly and not be distracted by the goal reminder.
+
+To achieve the goal, I should focus on actions that allow me to collect and examine objects in the environment, such as 'look', 'open', and 'take'. I should also prioritize actions that help me progress through the maze, like 'go' commands.
+
+For future self-reflection, I should:
+
+- Use the 'look' command more frequently to gather information about the environment.
+- Prioritize examining objects in the environment that are not necessarily in my inventory.
+- Reframe my goal reminder as a motivational clue rather than a detailed description.
+
+This will help me maximize my chances of selecting actions that will help me achieve the goal of finding the target object in the maze.","-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+5,take spork,<|ACTION|>take spork<|END|>,,fail,"My recent action was a failure because I didn't consider that the cubicle I arrived back at had changed, and my goal was not fulfilled despite taking 4 steps. 
+
+Key actions that help me achieve the goal include: exploring different areas to find the target object, taking note of locked containers, and unlocking doors or containers. To improve future actions, I can keep track of my inventory, observe all available exits, and prioritize unlocking doors with matching keys. This reflection will help me adapt and make informed decisions to stay focused on the goal and within the 40-step limit.
+Upon reflection, I realize that my previous action ""go south"" was a failure because it took me out of the cubicle, but I had just entered it before. This mistake highlights the importance of carefully considering the agent's location in the game world.
+
+To achieve the goal of finding the target object, I should focus on exploring the cubicle more thoroughly. Actions like ""look"", ""inventory"", and ""examine"" the mantle might provide valuable information that can help me solve the puzzle.
+
+To provide feedback for future actions, I will remind myself to:
+
+* Double-check the agent's location before moving to a new room.
+* Prioritize exploring the current area thoroughly before trying to move to a new room.
+* Use descriptive actions like ""look"" and ""inventory"" to gather information about the environment and identify potential clues.
+
+By incorporating these strategies, I hope to minimize mistakes and increase the likelihood of achieving the game's goal.
+Action 'inventory' was a fail because I didn't notice the spork on the floor, which is a crucial clue in the game, suggesting I need to work on my 'look' command more thoroughly and not be distracted by the goal reminder.
+
+To achieve the goal, I should focus on actions that allow me to collect and examine objects in the environment, such as 'look', 'open', and 'take'. I should also prioritize actions that help me progress through the maze, like 'go' commands.
+
+For future self-reflection, I should:
+
+- Use the 'look' command more frequently to gather information about the environment.
+- Prioritize examining objects in the environment that are not necessarily in my inventory.
+- Reframe my goal reminder as a motivational clue rather than a detailed description.
+
+This will help me maximize my chances of selecting actions that will help me achieve the goal of finding the target object in the maze.
+Upon reflection, I realize my last action was a fail because I transitioned out of the cubicles without inventory management, potentially missing out on crucial items. A successful action in this game would involve exploiting inventory options or collecting essential items, such as the spork I found recently. To enhance my decision-making, I will keep inventory management in mind when exploring, ensuring that I take notice of and collect all relevant items, even seemingly trivial ones like the spork.","You pick up the spork from the ground.
+
+
+
+                              *** You lost! ***
+
+You scored 0 out of a possible 1, in 6 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>",0,True

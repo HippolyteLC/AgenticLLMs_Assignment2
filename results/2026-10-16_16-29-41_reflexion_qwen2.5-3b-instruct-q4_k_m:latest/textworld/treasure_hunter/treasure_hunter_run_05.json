@@ -1,0 +1,62 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "look": 31,
+        "go east": 5,
+        "go west": 6,
+        "go north": 6,
+        "take TextWorld limited edition keycard<|END>": 4,
+        "take TextWorld limited edition keycard": 1,
+        "go north<|END>": 1,
+        "look<|END>": 5,
+        "look northeast<|END>": 2,
+        "go cellar": 2,
+        "go cellar<|END>": 2,
+        "look east<|END>": 2,
+        "look northeast": 1,
+        "look east": 3,
+        "look south": 1,
+        "look north<|END>": 1,
+        "look north": 1,
+        "look southeast": 1,
+        "LOOK NORTH": 1,
+        "walk north": 1,
+        "walk east": 1,
+        "walk north<|END>": 1,
+        "walk west<|END>": 1
+    },
+    "input_tokens": 159115,
+    "output_tokens": 755,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2993272891,
+    "agent": {
+        "type": "reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 4,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

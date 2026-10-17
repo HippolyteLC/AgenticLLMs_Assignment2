@@ -1,0 +1,61 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "look": 20,
+        "go east": 4,
+        "go west": 3,
+        "go south": 2,
+        "go north": 1,
+        "go north<|END>": 1,
+        "look<|END>": 1,
+        "look EAST": 2,
+        "look NORTH": 1,
+        "look WEST": 1,
+        "LOOK NORTH": 13,
+        "GO NORTH": 5,
+        "GO WEST": 4,
+        "LOOK": 3,
+        "GO SOUTH": 6,
+        "GO EAST": 4,
+        "LOOK\u4e1c\u5317": 1,
+        "OPEN GATE": 2,
+        "LOOK.NORTH": 1,
+        "LOOK EAST<|END>": 1,
+        "LOOK EAST": 3,
+        "LOOK WEST": 1
+    },
+    "input_tokens": 198574,
+    "output_tokens": 795,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 136607480,
+    "agent": {
+        "type": "reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 4,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

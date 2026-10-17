@@ -6,47 +6,46 @@ from balrog.agents.base import BaseAgent
 from collections import deque
 
 EVALUATION_A = """
+ROLE: You are an evaluator. Only output (success/fail) evaluations, DO NOT output actions.
+
 Evaluate your trajectory so far, focusing on the outcome of your previous action relative to the current observation.
 Output your evaluation strictly in the following format:
 
 <|EVALUATION|>YOUR_EVALUATION_TEXT<|END|>
 """
 EVALUATION_B = """
-Evaluate the previous action relative to the current observation. 
+ROLE: You are an evaluator. Only output (success/fail) evaluations, DO NOT output actions.
+Consider the observations and the actions you have performed so far. 
+Each observation is a consequence of the action that precedes it. 
 When evaluating, consider the goal of this game and the game description provided earlier.  
-Also consider previous observations and actions.
-You must output a binary reward signal (success OR fail). 
-Output your evaluation in the following format: 
+Evaluate the previous action relative to the current observation. 
+You must output a binary reward signal: success/fail. 
 
-<|EVALUATION|>YOUR_EVALUATION<|END|> 
+Example output: success
+Example output: fail
 """
 
 SELF_REFLECTION_A= """ 
+ROLE: You are a self-relfection agent. Only output self-reflections, DO NOT output actions.
 Based on your previous action relative to the current observation, and the latest evaluation above, reflect on what went right, what went wrong, and how you should adapt your strategy going forward.
 Output your reflection strictly in the following format:
 
-<|REFLECTION|>YOUR_REFLECTION_TEXT<|END|>
+<|REFLECTION|>1-2 sentences of self-reflection<|END|>
 """
 SELF_REFLECTION_B = """
-Given your previous action, the current observation, and the evaluation above of your previous action (success/fail),
-reflect on the action. Why was the action a success or fail? What actions help me achieve the goal of this game, as described in the game description earlier?
+ROLE: You are a self-relfection agent. Only output self-reflections, DO NOT output actions.
+Given your previous action and the current observation, and the evaluation above of your previous action (success/fail),
+reflect on the following: 
+1. Why was my action a success or fail?
+2. What actions help me achieve the goal of this game, as described in the game description earlier?
 3. How can I provide feedback to myself for future actions so that I maximize the likelihood of 
 selecting an action that will help me achieve the goal of the game? 
 
 Make sure to provide a concise and compact reflection, which provides clear verbal cues for future decision making and reasoning. 
 """
-SELF_REFLECTION_C = """
-ROLE: You are a critic reviewing your own play. Do NOT choose a game action here.
-
-Each observation is the consequence of the action before it. Using the game description and the
-history above, judge whether your PREVIOUS action made progress toward the goal, then reflect on it.
-
-Reply in exactly this format and nothing else:
-<verdict>success OR fail</verdict>
-<reflection>1-2 short sentences: why it worked or failed, and what to do next to reach the goal</reflection>
-""".strip()
 
 ACTION_A = """
+ROLE: you are an actor. Only output actions. 
 Review your accumulated past experiences and consider your previous action relative to the current observation, 
 then choose the single best next action. 
 You must output your final answer strictly in the following format:
@@ -55,7 +54,7 @@ You must output your final answer strictly in the following format:
 """
 
 ACTION_B = """
-ROLE: You are the player. Choose the next game action.
+ROLE: you are an actor. Only output actions. 
 
 Review your past experiences. Consider your previous action and the current observation. 
 
@@ -79,15 +78,17 @@ class ReflexionAgent(BaseAgent):
         self.client = client_factory()
         self.max_experiences = config.agent.max_experiences
         self.verbose = config.agent.verbose
-        self.experience = deque(maxlen=self.max_experiences)
-        self.evaluations = []
-        self.actions = []
+        self.exp_buffer = deque(maxlen=self.max_experiences)
         
     def reset(self):
         self.prompt_builder.reset()
-        self.experience = deque(maxlen=self.max_experiences)
-        self.evaluations=[]
-        self.actions=[]
+
+    def evaluate(self):
+        pass
+
+    def self_reflect(self, reward):
+        messages =
+
 
     def check_tokens(self, text: str, begin_token: str, end_token: str="<|END|>") -> str:
         if begin_token not in text:
@@ -112,17 +113,24 @@ class ReflexionAgent(BaseAgent):
             self.prompt_builder.update_action(prev_action)
         self.prompt_builder.update_observation(obs)
 
-        trajectory = copy.deepcopy(self.prompt_builder.get_prompt()) 
-        action_input = copy.deepcopy(trajectory)
+        # user is the environment, assistant is the llm reasoning, self reflection, evaluation
 
-        if prev_action:
-            trajectory[-1].content += "\n\n" + SELF_REFLECTION_C 
-            self_reflection = self.client.generate(trajectory).completion
-            self.experience.append(self_reflection)
-            
-            experiences =  "Here are some past experiences, the most recent and the end:" + "\n".join(self.experience)
-        else: 
-            experiences = "You have not taken any actions yet."
+        trajectory = copy.deepcopy(self.prompt_builder.get_prompt()) 
+        self_reflection_input = copy.deepcopy(trajectory)
+        action_input = copy.deepcopy(trajectory)
+        # last_obs = self.prompt_builder._last_short_term_obs
+        evaluator_instructions = EVALUATION_B.strip()
+        trajectory[-1].content += "\n\n" + evaluator_instructions 
+        evaluation = self.client.generate(trajectory).completion
+        self.evaluations.append(evaluation)
+        
+        self_reflection_instructions = SELF_REFLECTION_B.strip()
+        self_reflection_input[-1].content += "\n\n" + evaluation + "\n" + self_reflection_instructions 
+        self_reflection = self.client.generate(self_reflection_input).completion
+        self.experience.append(self_reflection)
+        
+        experiences =  "Here are your past experiences. The most recent is at the end: " + "\n".join(self.experience)
+        
         action_instruction = ACTION_B.strip()
         action_input[-1].content += "\n\n" + experiences + "\n" + action_instruction
         response = self.client.generate(action_input)

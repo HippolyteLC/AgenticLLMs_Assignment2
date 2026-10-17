@@ -26,7 +26,6 @@ for MODEL_ID in "${MODELS[@]}"; do
       eval.num_workers=1 \
       agent.type=naive \
       client.base_url="${URL}"
-      eval.num_episodes={babyai:10, textworld:10}
       #eval.num_episodes.babyai=5 \
       #eval.num_episodes.textworld=5
 
