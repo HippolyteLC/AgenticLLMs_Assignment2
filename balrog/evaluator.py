@@ -38,6 +38,7 @@ class EvaluatorManager:
             output_dir (str, optional): Directory to save evaluation outputs. Defaults to ".".
         """
         self.config = config
+        self.robust_naive_reflexion = True if self.config.agent.type == "robust_naive_relfexion" else False
         self.original_cwd = original_cwd
         self.output_dir = output_dir
 
@@ -88,11 +89,22 @@ class EvaluatorManager:
         """
         results = defaultdict(list)
         total_episodes = len(self.tasks)
+        prev_task = None
         with tqdm(total=total_episodes, desc="Evaluating Episodes", position=0) as pbar:
+            count = 0
             for env_name, task, episode_idx in self.tasks:
                 evaluator = self.env_evaluators[env_name]
-                agent = agent_factory.create_agent()
-                episode_log = evaluator.run_episode(task, agent, position=1, episode_idx=episode_idx)
+                if count == 0:
+                    agent = agent_factory.create_agent()
+                    episode_log = evaluator.run_episode(task, agent, position=1, episode_idx=episode_idx)
+                elif count > 0 and self.robust_naive_reflexion:
+                    if task != prev_task: 
+                        # refresh agent for a different task 
+                        agent = agent_factory.create_agent()
+                    episode_log, agent = evaluator.run_episode(task, agent, position=1, episode_idx=episode_idx)
+                else:
+                    episode_log = evaluator.run_episode(task, agent, position=1, episode_idx=episode_idx)
+                prev_task = task
                 results[env_name].append(episode_log)
                 pbar.update(1)
         return results
@@ -412,5 +424,6 @@ class Evaluator:
             Path(json_filename).parent.mkdir(exist_ok=True, parents=True)
             with open(json_filename, "w") as f:
                 json.dump(episode_log, f, indent=4)
-
+        if robust_naive_reflexion:
+            return episode_log, agent
         return episode_log
