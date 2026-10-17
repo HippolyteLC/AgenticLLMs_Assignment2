@@ -41,10 +41,10 @@ class RobustNaiveReflexion(BaseAgent):
     def update_reward(self, reward):
         self.last_ep_reward = reward
 
-    def self_reflect(self, reward):
+    def self_reflect(self):
         messages = self.prompt_builder.get_prompt()
-        messages[-1].content += "\n\n" + f"Last episode reward: {reward}" + SR_PROMPT
-        reponse = self.client.generate(messages)
+        messages[-1].content += "\n\n" + f"Last episode reward: {self.last_ep_reward}" + SR_PROMPT
+        response = self.client.generate(messages)
 
         completion_text = response.completion
         match = re.search(r"<\|REFLECTION\|>(.*?)<\|END\|>", completion_text, re.DOTALL)
@@ -81,7 +81,7 @@ class RobustNaiveReflexion(BaseAgent):
         instruction = NAIVE_INSTRUCTION.format(experiences=experiences)
 
         if messages and messages[-1].role == "user":
-            messages[-1].content += "\n\n" + experiences + "\n" + naive_instruction
+            messages[-1].content += "\n\n" + experiences + "\n" + instruction
 
         response = self.client.generate(messages)
         final_answer = self._extract_final_answer(response)

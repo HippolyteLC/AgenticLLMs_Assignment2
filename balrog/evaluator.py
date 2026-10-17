@@ -258,8 +258,8 @@ class Evaluator:
 
         robust_naive_reflexion = True if self.config.agent.type == "robust_naive_reflexion" else False
         # Self reflect if robust cot reflexion agent
-        if robust_naive_reflexion:
-            agent.self_reflect()
+        # if robust_naive_reflexion:
+        #     agent.self_reflect()
 
         agent.reset()
 
@@ -385,6 +385,7 @@ class Evaluator:
 
             if robust_naive_reflexion:
                 agent.update_reward(reward) # update reward for Reflexion CoT agent
+                agent.self_reflect()
 
             if pbar.n < pbar.total:
                 pbar.update(pbar.total - pbar.n)
