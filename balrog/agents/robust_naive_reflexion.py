@@ -3,6 +3,7 @@ import re
 
 from balrog.agents.base import BaseAgent
 
+from collections import deque
 
 SR_PROMPT = """ 
 Analyze why the previous episode failed or succeeded based on the trajectory and reward above. 
@@ -15,7 +16,7 @@ Output your reflection strictly in the following format:
 No other text or explanation.
 """.strip()
 
-NAIVE_INSTRUCTION = f"""
+NAIVE_INSTRUCTION = """
 Consider your past lessons below and the current observation to choose your next action.
 
 Past Lessons:

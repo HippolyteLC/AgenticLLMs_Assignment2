@@ -24,7 +24,7 @@ for MODEL_ID in "${MODELS[@]}"; do
       client.client_name=ollama \
       client.model_id="${MODEL_ID}" \
       eval.num_workers=1 \
-      agent.type=reflexion \
+      agent.type=robust_naive_reflexion \
       client.base_url="${URL}"
       #eval.num_episodes.babyai=5 \
       #eval.num_episodes.textworld=5
