@@ -1,0 +1,867 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,,"a wall 4 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 2 steps forward
+a grey key 1 step right and 3 steps forward",0,False
+1,turn left,,"a wall 2 steps forward
+a wall 3 steps left
+a blue ball 2 steps right and 1 step forward",0,False
+2,turn right,,"a wall 4 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 2 steps forward
+a grey key 1 step right and 3 steps forward",0,False
+3,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 1 step forward
+a grey key 1 step right and 2 steps forward",0,False
+4,pick up,,"a wall 3 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 1 step forward
+a grey key 1 step right and 2 steps forward",0,False
+5,"Your actions below: 
+turn left
+turn left
+take two steps forward",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a blue ball 1 step left
+a grey key 1 step right and 1 step forward",0,False
+6,pick up,,"a wall 2 steps forward
+a blue ball 1 step left
+a grey key 1 step right and 1 step forward",0,False
+7,drop,,"a wall 2 steps forward
+a blue ball 1 step left
+a grey key 1 step right and 1 step forward",0,False
+8,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left
+a grey key 1 step right",0,False
+9,go right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left
+a grey key 1 step right",0,False
+10,pick up,,"a wall 1 step forward
+a wall 2 steps left
+a grey key 1 step right",0,False
+11,turn right,,"a wall 1 step left
+a grey key 1 step forward",0,False
+12,No actions were chosen.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+13,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+14,pick up,,"You carry a grey key
+a wall 5 steps forward
+a wall 1 step left",0,False
+15,pick up,,"You carry a grey key
+a wall 5 steps forward
+a wall 1 step left",0,False
+16,pick up,,"You carry a grey key
+a wall 5 steps forward
+a wall 1 step left",0,False
+17,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 4 steps forward
+a wall 1 step left",0,False
+18,pick up,,"You carry a grey key
+a wall 4 steps forward
+a wall 1 step left",0,False
+19,drop,,"a wall 1 step left
+a grey key 1 step forward",0,False
+20,You have now reached the end of the simple navigation game. Do you want to play another round or are you ready to move on?,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+21,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+22,PICK UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+23,PICK UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+24,No actions were chosen before.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+25,toggle,,"a wall 1 step left
+a grey key 1 step forward",0,False
+26,picked up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+27,no_next_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+28,You are to repeat your past lessons.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+29,pick up,,"You carry a grey key
+a wall 4 steps forward
+a wall 1 step left",0,False
+30,pick up,,"You carry a grey key
+a wall 4 steps forward
+a wall 1 step left",0,False
+31,pick up,,"You carry a grey key
+a wall 4 steps forward
+a wall 1 step left",0,False
+32,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 3 steps forward
+a wall 1 step left",0,False
+33,drop,,"a wall 1 step left
+a grey key 1 step forward",0,False
+34,No action is chosen.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+35,end,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+36,ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+37,no_action_chosen.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+38,"None. 
+I am to learn no actions for some time. 
+The last statement to be answered is to choose a no-longer-repeated action.",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a grey key 1 step forward",0,False
+39,pick up,,"You carry a grey key
+a wall 3 steps forward
+a wall 1 step left",0,False
+40,turn left,,"You carry a grey key
+a wall 1 step forward
+a wall 3 steps right",0,False
+41,turn right,,"You carry a grey key
+a wall 3 steps forward
+a wall 1 step left",0,False
+42,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 2 steps forward
+a wall 1 step left",0,False
+43,pick up some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 1 step left",0,False
+44,turn left,,"You carry a grey key
+a wall 1 step forward
+a wall 1 step right",0,False
+45,| ACTION |,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 1 step right",0,False
+46,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 1 step right",0,False
+47,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 1 step right",0,False
+48,turn left,,"You carry a grey key
+a wall 6 steps forward
+a wall 1 step right
+a blue ball 1 step left and 5 steps forward",0,False
+49,No action was chosen.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 5 steps forward
+a wall 1 step right
+a blue ball 1 step left and 4 steps forward",0,False
+50,Some text,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 4 steps forward
+a wall 1 step right
+a blue ball 1 step left and 3 steps forward",0,False
+51,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 3 steps forward
+a wall 1 step right
+a blue ball 1 step left and 2 steps forward",0,False
+52,turn_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 2 steps forward
+a wall 1 step right
+a blue ball 1 step left and 1 step forward",0,False
+53,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 1 step right
+a blue ball 1 step left",0,False
+54,turn right,,"You carry a grey key
+a wall 1 step forward
+a wall 1 step left",0,False
+55,turn right,,"You carry a grey key
+a wall 6 steps forward
+a wall 1 step left
+a blue ball 1 step right",0,False
+56,turn left,,"You carry a grey key
+a wall 1 step forward
+a wall 1 step left",0,False
+57,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 1 step left",0,False
+58,turn right,,"You carry a grey key
+a wall 6 steps forward
+a wall 1 step left
+a blue ball 1 step right",0,False
+59,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 5 steps forward
+a wall 1 step left",0,False
+60,turn right,,"You carry a grey key
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step right and 1 step forward",0,False
+61,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 5 steps forward
+a blue ball 1 step right",0,False
+62,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 4 steps forward
+a wall 2 steps right",0,False
+63,turn left,,"You carry a grey key
+a wall 5 steps forward
+a wall 3 steps left",0,False
+64,turn right,,"You carry a grey key
+a wall 4 steps forward
+a wall 2 steps right",0,False
+65,Turn right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+66,right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 2 steps forward
+a wall 2 steps right",0,False
+67,Turn Right some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+68,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+69,go_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+70,pick up,,"You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+71,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+72,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+73,Pick Up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+74,pick some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+75,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+76,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+77,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+78,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+79,right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+80,toggle,,"You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+81,Choose some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+82,Choose Left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+83,right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+84,left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+85,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+86,turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+87,right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+88,right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+89,Choose some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+90,right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+91,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+92,right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+93,Choose left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+94,Choose up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+95,"Your turn.
+
+Up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+96,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+97,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+98,Toggle,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+99,Toggle,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+100,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+101,Toggle,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+102,Choose!,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+103,"You carry a grey key
+a wall 1 step forward
+a wall 2 steps right
+
+No.
+
+Choose some!",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+104,Pick up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+105,Toggle,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+106,turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+107,drop,,"You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+108,CHOOSE_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+109,|some_action|,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+110,turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+111,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+112,move,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+113,turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+114,Toggle,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+115,Toggle,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+116,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+117,move,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+118,go_forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+119,Some_Action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+120,Turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+121,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+122,turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+123,turn,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+124,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+125,move,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+126,move,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,False
+127,pick_up CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey key
+a wall 1 step forward
+a wall 2 steps right",0,True

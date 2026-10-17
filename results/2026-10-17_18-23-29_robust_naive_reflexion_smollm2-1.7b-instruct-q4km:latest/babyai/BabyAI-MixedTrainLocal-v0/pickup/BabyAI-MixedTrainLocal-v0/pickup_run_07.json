@@ -1,0 +1,83 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pickup",
+    "action_frequency": {
+        "turn right": 11,
+        "go forward": 34,
+        "turn left": 7,
+        "drop": 1,
+        "pick up": 8,
+        "toggle": 3
+    },
+    "input_tokens": 58545,
+    "output_tokens": 457,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 64,
+    "failed_candidates": [
+        "END",
+        "None",
+        "move left",
+        "None",
+        "END",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "I'm ready to assist you with your game. What should be my next action?",
+        "None",
+        "CHOAN_ACTION",
+        "None.",
+        "None",
+        "None",
+        "move forward",
+        "move forward",
+        "None",
+        "None.",
+        "choose",
+        "none",
+        "None.",
+        "END",
+        "move forward",
+        "None.",
+        "None.\n\n\n(No need to explain as it is the correct observation.)",
+        "some_action",
+        "Your turn to create a new question with a description, a set of choices, and action-observations.",
+        "None.",
+        "None",
+        "move left",
+        "None.\n\nYou have no current observations."
+    ],
+    "mission": "pick up the grey key",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 107014980,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>My current observation does not provide the input needed to improve the current agent's response for navigation and obstacle avoidance. My previous response did not analyze the observation correctly and did not focus on a necessary interaction or a missing navigation path."
+    ]
+}

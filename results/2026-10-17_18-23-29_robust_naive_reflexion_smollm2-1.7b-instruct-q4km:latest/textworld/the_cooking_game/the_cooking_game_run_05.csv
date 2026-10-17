@@ -1,0 +1,321 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go south,,"You can't go that way.
+
+
+>                                                                                                                                -= Street =-0/2",0,False
+1,look north,,"You see nothing unexpected in that direction.
+
+
+>                                                                                                                                -= Street =-0/3",0,False
+2,look,,"-= Street =-
+You're now in the street.
+
+
+
+There is a closed commercial glass door leading north. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Street =-0/4",0,False
+3,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/4",0,False
+4,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/4",0,False
+5,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/4",0,False
+6,look north,,"You see nothing unexpected in that direction.
+
+
+>                                                                                                                                -= Street =-0/5",0,False
+7,look east,,"You see nothing unexpected in that direction.
+
+
+>                                                                                                                                -= Street =-0/6",0,False
+8,Some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/6",0,False
+9,look east,,"You see nothing unexpected in that direction.
+
+
+>                                                                                                                                -= Street =-0/7",0,False
+10,look south,,"You see nothing unexpected in that direction.
+
+
+>                                                                                                                                -= Street =-0/8",0,False
+11,go south,,"You can't go that way.
+
+
+>                                                                                                                                -= Street =-0/9",0,False
+12,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/9",0,False
+13,pick up the key,,"You can't see any such thing.
+
+>                                                                                                                                -= Street =-0/9",0,False
+14,go west,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is a closed fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/10",0,False
+15,go west,,"You have to open the fiberglass door first.
+
+
+>                                                                                                                                -= Driveway =-0/11",0,False
+16,go west,,"You have to open the fiberglass door first.
+
+
+>                                                                                                                                -= Driveway =-0/12",0,False
+17,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/12",0,False
+18,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/12",0,False
+19,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/12",0,False
+20,go east,,"-= Street =-
+You're now in the street.
+
+
+
+There is a closed commercial glass door leading north. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Street =-0/13",0,False
+21,go north,,"You have to open the commercial glass door first.
+
+
+>                                                                                                                                -= Street =-0/14",0,False
+22,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/14",0,False
+23,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/14",0,False
+24,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/14",0,False
+25,go west,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is a closed fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/15",0,False
+26,look,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is a closed fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/16",0,False
+27,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/16",0,False
+28,look,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is a closed fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/17",0,False
+29,look,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is a closed fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/18",0,False
+30,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/18",0,False
+31,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/18",0,False
+32,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/18",0,False
+33,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Driveway =-0/19",0,False
+34,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/19",0,False
+35,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/19",0,False
+36,open,,"(fiberglass door)
+You open fiberglass door.
+
+
+>                                                                                                                                -= Driveway =-0/20",0,False
+37,look,,"-= Driveway =-
+You find yourself in a driveway. You begin to take stock of what's here.
+
+
+
+There is an open fiberglass door leading west. There is an exit to the east. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/21",0,False
+38,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/21",0,False
+39,prepare_the_kitchen_for_a_meal,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/21",0,False
+40,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/21",0,False
+41,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+42,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+43,make_the_oven_available,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+44,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+45,Observation,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+46,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+47,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+48,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+49,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+50,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+51,observation,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+52,Observation,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+53,pick,,"(up fiberglass door)
+That's fixed in place.
+
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+54,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+55,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+56,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+57,">
+
+None",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+58,look,,"I beg your pardon?
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+59,">
+
+none",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+60,some other action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+61,Some_Action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+62,some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+63,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+64,choose,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+65,Some_Action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+66,pick,,"(up fiberglass door)
+That's fixed in place.
+
+
+>                                                                                                                                -= Driveway =-0/24",0,False
+67,choose,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/24",0,False
+68,pick,,"(up fiberglass door)
+That's fixed in place.
+
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+69,">
+
+None.",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+70,">
+
+none",,"I beg your pardon?
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+71,Consider this observation based on your past lessons and current action.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+72,pick,,"(up fiberglass door)
+That's fixed in place.
+
+
+>                                                                                                                                -= Driveway =-0/26",0,False
+73,">
+
+none",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/26",0,False
+74,pick,,"I beg your pardon?
+
+>                                                                                                                                -= Driveway =-0/26",0,False
+75,look,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/26",0,False
+76,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/26",0,False
+77,chose,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/26",0,False
+78,use my knowledge,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/26",0,False
+79,chose,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Driveway =-0/26",0,True

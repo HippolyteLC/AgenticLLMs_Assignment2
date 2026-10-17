@@ -1,0 +1,73 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "EXAMINE": 1,
+        "none": 17,
+        "None.": 13,
+        "There is nothing to examine in the kitchen.": 1,
+        "look": 7,
+        "ask_agent": 5,
+        "Observation:\n```\nnone\n```\n\n> none\n\nActions:\n- look\n- examine\n- talk\n- examine the inventory\n- go west\n- look east\n- examine the door\n- go east\n- examine the kitchen\n- go north\n- examine the BBQ\n- examine the patio table\n- examine the BBQ again": 1,
+        "None": 8,
+        "END": 1,
+        "agent.look": 1,
+        "pickup_object": 1,
+        "you must choose the action for the current observation": 1,
+        "None.\n\nYou have no previous actions to choose from.": 1,
+        "ask_a_question": 1,
+        "pick_up_patio_table": 1,
+        "take_out_patio_table": 1,
+        "your_choice": 2,
+        "open the kitchen": 1,
+        "No": 1,
+        "I choose to open the kitchen": 1,
+        "CHOSEN_ACTION": 2,
+        "CASE_ACTION": 1,
+        "CASE_ACTION CHOSEN_ACTION CASE_ACTION": 1,
+        "open": 2,
+        "chop": 2,
+        "some_action": 1,
+        "cook": 1,
+        "END|'None'": 1,
+        "COOK_FOOD": 1,
+        "-some_action(-|-END)": 1,
+        ">                                                                                                                     -= Start =-0/6": 1
+    },
+    "input_tokens": 125937,
+    "output_tokens": 725,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2099247424,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "Output no specific reflection"
+    ]
+}

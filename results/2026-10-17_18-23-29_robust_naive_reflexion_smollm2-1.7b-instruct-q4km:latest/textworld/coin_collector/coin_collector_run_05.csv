@@ -1,0 +1,118 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,east,,"-= Studio =-
+Look at you, bigshot, walking into a studio like it isn't some huge deal.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded. You need an unguarded exit? You should try going north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+1,West,,"-= Office =-
+You are in an office. An ordinary kind of place.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded. There is an unblocked exit to the south. There is an exit to the west. Don't worry, it is unguarded.",0,False
+2,no,,That was a rhetorical question.,0,False
+3,I was about to explore this mazeforgottenroom.,,I only understood you as far as wanting to take inventory.,0,False
+4,take coin,,You can't see any such thing.,0,False
+5,east,,"-= Studio =-
+Look at you, bigshot, walking into a studio like it isn't some huge deal.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded. You need an unguarded exit? You should try going north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+6,east,,"-= Pantry =-
+You've seen better pantrys, but at least this one seems pretty usual. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded. There is an exit to the north. Don't worry, it is unguarded. You don't like doors? Why not try going south, that entranceway is unblocked. You need an unguarded exit? You should try going west.",0,False
+7,END,,That's not a verb I recognise.,0,False
+8,end,,That's not a verb I recognise.,0,False
+9,east,,"-= Kitchenette =-
+You've entered a kitchenette. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+10,look north,,You see nothing unexpected in that direction.,0,False
+11,look west,,You see nothing unexpected in that direction.,0,False
+12,look north,,You see nothing unexpected in that direction.,0,False
+13,look north,,You see nothing unexpected in that direction.,0,False
+14,pick east,,I didn't understand that sentence.,0,False
+15,none,,That's not a verb I recognise.,0,False
+16,look north,,You see nothing unexpected in that direction.,0,False
+17,north,,You can't go that way.,0,False
+18,none,,That's not a verb I recognise.,0,False
+19,"You asked for the current state of the AI in the text-based adventure game. You will need to ask for more information about the game before you can ask your question about the AI. You can do this by saying ""Text adventure game AI""",,That's not a verb I recognise.,0,False
+20,pick east,,I didn't understand that sentence.,0,False
+21,look north CHOSEN_ACTION,,I only understood you as far as wanting to look north.,0,False
+22,pick east,,I didn't understand that sentence.,0,False
+23,pick east,,I didn't understand that sentence.,0,False
+24,no,,That was a rhetorical question.,0,False
+25,move_n_east,,That's not a verb I recognise.,0,False
+26,you_are_here,,That's not a verb I recognise.,0,False
+27,some_action,,That's not a verb I recognise.,0,False
+28,pick east,,I didn't understand that sentence.,0,False
+29,pick east,,I didn't understand that sentence.,0,False
+30,pick east,,I didn't understand that sentence.,0,False
+31,pick east,,I didn't understand that sentence.,0,False
+32,pick east,,I didn't understand that sentence.,0,False
+33,pick east,,I didn't understand that sentence.,0,False
+34,pick east,,I didn't understand that sentence.,0,False
+35,pick east,,I didn't understand that sentence.,0,False
+36,None.,,That's not a verb I recognise.,0,False
+37,pick east,,I didn't understand that sentence.,0,False
+38,pick east.,,I didn't understand that sentence.,0,False
+39,None.,,That's not a verb I recognise.,0,False
+40,None,,That's not a verb I recognise.,0,False
+41,Pick west,,I didn't understand that sentence.,0,False
+42,None.,,That's not a verb I recognise.,0,False
+43,pick east,,I didn't understand that sentence.,0,False
+44,pick east,,I didn't understand that sentence.,0,False
+45,"Your current observation: None.
+
+You need to make an action. The current lesson list is: None.
+
+Do you want to learn more about how your observations help you move forward (None.)?",,That's not a verb I recognise.,0,False
+46,"Observation: None.
+
+No need to pick north west left right west or east west north.
+
+Pretty much none.",,That's not a verb I recognise.,0,False
+47,-none-><|END,,That's not a verb I recognise.,0,False
+48,observation,,That's not a verb I recognise.,0,False
+49,some_action,,That's not a verb I recognise.,0,False
+50,END,,That's not a verb I recognise.,0,False
+51,observation,,That's not a verb I recognise.,0,False
+52,"Observation: None.
+
+No need to pick north west left right west or east west north.
+
+Pretty much none.",,That's not a verb I recognise.,0,False
+53,pick east,,I didn't understand that sentence.,0,False
+54,chose action,,That's not a verb I recognise.,0,False
+55,some_action,,That's not a verb I recognise.,0,False
+56,some_action,,That's not a verb I recognise.,0,False
+57,Some action,,That's not a verb I recognise.,0,False
+58,some_action,,That's not a verb I recognise.,0,False
+59,- none,,That's not a verb I recognise.,0,False
+60,some_action,,That's not a verb I recognise.,0,False
+61,some_action,,That's not a verb I recognise.,0,False
+62,some_action,,That's not a verb I recognise.,0,False
+63,No,,That was a rhetorical question.,0,False
+64,take,,What do you want to take?,0,False
+65,take coin,,You can't see any such thing.,0,False
+66,No,,That was a rhetorical question.,0,False
+67,Choose a verb or an action to perform.,,That's not a verb I recognise.,0,False
+68,Take coin,,You can't see any such thing.,0,False
+69,some_action,,That's not a verb I recognise.,0,False
+70,take coin,,You can't see any such thing.,0,False
+71,some_action,,That's not a verb I recognise.,0,False
+72,choose action,,That's not a verb I recognise.,0,False
+73,take coin,,You can't see any such thing.,0,False
+74,No,,That was a rhetorical question.,0,False
+75,No,,That was a rhetorical question.,0,False
+76,None,,That's not a verb I recognise.,0,False
+77,No,,That was a rhetorical question.,0,False
+78,choose action,,That's not a verb I recognise.,0,False
+79,none,,That's not a verb I recognise.,0,True

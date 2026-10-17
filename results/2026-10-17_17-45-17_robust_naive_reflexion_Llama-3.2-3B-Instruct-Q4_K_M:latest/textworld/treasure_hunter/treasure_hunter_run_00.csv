@@ -1,0 +1,318 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.
+
+There is a key on the floor.",0,False
+1,"<|GO|
+SOUTH",,That's not a verb I recognise.,0,False
+2,GO SOUTH,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+3,GO SOUTH,,You have to open the passageway first.,0,False
+4,open closed passageway,,You can't see any such thing.,0,False
+5,open closed passageway,,You can't see any such thing.,0,False
+6,go north,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.
+
+There is a key on the floor.",0,False
+7,ITEM,,That's not a verb I recognise.,0,False
+8,open drawer,,That's already open.,0,False
+9,take key,,You pick up the key from the ground.,0,False
+10,open closed passageway,,You can't see any such thing.,0,False
+11,br/,,That's not a verb I recognise.,0,False
+12,look,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+13,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+14,.open closed passageway,,That's not a verb I recognise.,0,False
+15,go north,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+16,take key,,You already have that.,0,False
+17,GO,,You'll have to say which compass direction to go in.,0,False
+18,inventory,,You are carrying: a key.,0,False
+19,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+20,open closed passageway,,You can't see any such thing.,0,False
+21,go east,,"-= Kitchenette =-
+You've come into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the kitchenette.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked. There is an unguarded exit to the west.",0,False
+22,go north,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+23,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+24,open unguarded door,,You can't see any such thing.,0,False
+25,open door,,You can't see any such thing.,0,False
+26,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+27,go north,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+28,go east,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+29,go north,,You can't go that way.,0,False
+30,look,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+31,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+32,inventory,,You are carrying: a key.,0,False
+33,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+34,go north,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+35,go east,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+36,open closed passageway,,You can't see any such thing.,0,False
+37,go south,,"-= Kitchenette =-
+You've come into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the kitchenette.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked. There is an unguarded exit to the west.",0,False
+38,go north,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+39,open door,,You can't see any such thing.,0,False
+40,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+41,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+42,go south,,You have to open the passageway first.,0,False
+43,open closed passageway,,You can't see any such thing.,0,False
+44,open closed passageway,,You can't see any such thing.,0,False
+45,open closed passageway,,You can't see any such thing.,0,False
+46,take key,,You already have that.,0,False
+47,go east,,"-= Kitchenette =-
+You've come into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the kitchenette.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked. There is an unguarded exit to the west.",0,False
+48,go north,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+49,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+50,south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+51,open closed passageway,,You can't see any such thing.,0,False
+52,GO EAST,,"-= Kitchenette =-
+You've come into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the kitchenette.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked. There is an unguarded exit to the west.",0,False
+53,go north,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+54,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+55,south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+56,go east,,"-= Kitchenette =-
+You've come into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the kitchenette.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked. There is an unguarded exit to the west.",0,False
+57,go north,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+58,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+59,go east,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+60,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+61,goal,,,0,False
+62,inventory,,You are carrying: a key.,0,False
+63,open closed passageway,,You can't see any such thing.,0,False
+64,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+65,go north,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+66,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+67,go east,,"-= Kitchenette =-
+You've come into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the kitchenette.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked. There is an unguarded exit to the west.",0,False
+68,go north,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+69,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+70,open closed passageway,,You can't see any such thing.,0,False
+71,go east,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+72,inventory,,You are carrying: a key.,0,False
+73,OPEN,,"(the key)
+It isn't something you can open.",0,False
+74,take,,"(the key)
+You already have that.",0,False
+75,go south,,"-= Kitchenette =-
+You've come into an usual room. Your mind races to think of what kind of room would be usual. And then it hits you. Of course. You're in the kitchenette.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked. There is an unguarded exit to the west.",0,False
+76,go north,,"-= Cookhouse =-
+Of every cookhouse you could have shown up in, you had to walk into a normal one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+77,go west,,"-= Laundromat =-
+You find yourself in a laundromat. An usual one.
+
+What's that over there? It looks like it's a drawer. Hmm. You always thought you'd be more excited to see a drawer in a room. What a letdown! The drawer is empty! You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. But there isn't a thing on it.
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+78,go south,,"-= Basement =-
+You've entered a basement.
+
+
+
+There is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.",0,False
+79,inventory,,You are carrying: a key.,0,True

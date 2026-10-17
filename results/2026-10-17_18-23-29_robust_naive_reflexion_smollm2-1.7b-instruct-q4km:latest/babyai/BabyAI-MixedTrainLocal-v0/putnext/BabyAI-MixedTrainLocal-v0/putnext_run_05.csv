@@ -1,0 +1,741 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,,"a wall 1 step forward
+a wall 3 steps right",0,False
+1,turn right,,"a wall 3 steps forward
+a wall 1 step left
+a purple ball 3 steps right and 2 steps forward",0,False
+2,go forward,,"a wall 2 steps forward
+a wall 1 step left
+a purple ball 3 steps right and 1 step forward",0,False
+3,go forward,,"a wall 1 step forward
+a wall 1 step left
+a purple ball 3 steps right",0,False
+4,pick up,,"a wall 1 step forward
+a wall 1 step left
+a purple ball 3 steps right",0,False
+5,pick up,,"a wall 1 step forward
+a wall 1 step left
+a purple ball 3 steps right",0,False
+6,pick up,,"a wall 1 step forward
+a wall 1 step left
+a purple ball 3 steps right",0,False
+7,drag,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a purple ball 3 steps right",0,False
+8,go forward,,"a wall 1 step forward
+a wall 1 step left
+a purple ball 3 steps right",0,False
+9,turn right,,"a wall 1 step left
+a purple ball 3 steps forward",0,False
+10,turn right,,"a wall 6 steps forward
+a wall 1 step right
+a purple ball 3 steps left",0,False
+11,go forward,,"a wall 5 steps forward
+a wall 1 step right",0,False
+12,go forward,,"a wall 4 steps forward
+a wall 1 step right",0,False
+13,turn right,,"a wall 1 step forward
+a wall 3 steps right",0,False
+14,"I choose ""go forward"" for this observation.",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps right",0,False
+15,go forward,,"a wall 1 step forward
+a wall 3 steps right",0,False
+16,pick up,,"a wall 1 step forward
+a wall 3 steps right",0,False
+17,turn right,,"a wall 3 steps forward
+a wall 1 step left
+a purple ball 3 steps right and 2 steps forward",0,False
+18,CHOOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step left
+a purple ball 3 steps right and 1 step forward",0,False
+19,turn right,,"a wall 6 steps forward
+a wall 2 steps left
+a purple ball 1 step left and 3 steps forward",0,False
+20,turn right,,"a wall 5 steps forward
+a wall 1 step right",0,False
+21,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+22,turn right,,"a wall 2 steps forward
+a wall 1 step left
+a purple ball 3 steps right and 1 step forward",0,False
+23,pick up,,"a wall 2 steps forward
+a wall 1 step left
+a purple ball 3 steps right and 1 step forward",0,False
+24,go forward,,"a wall 1 step forward
+a wall 1 step left
+a purple ball 3 steps right",0,False
+25,turn right,,"a wall 1 step left
+a purple ball 3 steps forward",0,False
+26,turn right,,"a wall 6 steps forward
+a wall 1 step right
+a purple ball 3 steps left",0,False
+27,pick up,,"a wall 6 steps forward
+a wall 1 step right
+a purple ball 3 steps left",0,False
+28,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right",0,False
+29,go forward,,"a wall 4 steps forward
+a wall 1 step right",0,False
+30,pick up,,"a wall 4 steps forward
+a wall 1 step right",0,False
+31,pick up,,"a wall 4 steps forward
+a wall 1 step right",0,False
+32,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+33,TURN RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+34,TURN REAR,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+35,TURN LEFT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+36,TURN RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+37,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+38,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+39,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+40,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+41,go forward,,"a wall 1 step forward
+a wall 1 step right",0,False
+42,finish,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+43,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+44,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+45,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+46,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+47,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+48,MOVE_LEFT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+49,turn left,,"a wall 1 step right
+a grey box 5 steps forward",0,False
+50,move_back,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a grey box 4 steps forward",0,False
+51,MOVE_RIGHT CHOSE_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a grey box 3 steps forward",0,False
+52,MOVE RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a grey box 2 steps forward",0,False
+53,MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a grey box 1 step forward",0,False
+54,move_left CHOSEN_MOVE_LEFT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a grey box 1 step forward",0,False
+55,go forward CHOSEN_MOVE,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a grey box 1 step forward",0,False
+56,pick up,,"You carry a grey box
+a wall 2 steps forward
+a wall 1 step right",0,False
+57,pick up,,"You carry a grey box
+a wall 2 steps forward
+a wall 1 step right",0,False
+58,ACTION_CHOSEN|\>pick up the wall<|END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step right",0,False
+59,move_right CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step right",0,False
+60,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step right",0,False
+61,MOVE_RIGHT RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step right",0,False
+62,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step right",0,False
+63,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step right",0,False
+64,turn right,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+65,move_left CHOSEN_MOVE_LEFT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+66,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+67,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+68,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+69,move_right RIGHT CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+70,go_forward CHOSEN_MOVE,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+71,pick up CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+72,turn_left CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+73,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+74,move_right CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+75,go_forward CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+76,move_right CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+77,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+78,move_right CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+79,move right CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+80,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+81,pick up CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+82,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+83,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+84,pick up CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+85,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+86,turn_left CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+87,move right CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+88,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+89,move_right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+90,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+91,move right CHOSEN_MOVE_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+92,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+93,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+94,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+95,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+96,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+97,NONE,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+98,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+99,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+100,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+101,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+102,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+103,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+104,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+105,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+106,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+107,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+108,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+109,toggle,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+110,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+111,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+112,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+113,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+114,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+115,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+116,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+117,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+118,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+119,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+120,move_left_chose_none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+121,move_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+122,ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+123,move_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+124,move_left CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+125,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+126,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,False
+127,pick up,,"You carry a grey box
+a wall 1 step forward
+a wall 1 step left",0,True

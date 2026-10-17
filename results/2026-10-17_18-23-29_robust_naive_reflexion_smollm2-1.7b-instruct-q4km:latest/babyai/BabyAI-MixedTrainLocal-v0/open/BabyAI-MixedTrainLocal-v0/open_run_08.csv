@@ -1,0 +1,763 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,,"a wall 3 steps forward
+a wall 3 steps left",0,False
+1,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 3 steps left",0,False
+2,left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+3,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+4,move,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+5,move CHOSEN_MOVE,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+6,look CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+7,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+8,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+9,turn left,,"a wall 3 steps forward
+a wall 1 step right",0,False
+10,go right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+11,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+12,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+13,go right ENDD,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+14,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+15,left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+16,turn right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+17,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+18,turn left CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+19,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+20,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+21,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+22,go right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+23,move right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+24,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+25,PICK UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+26,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+27,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+28,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+29,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+30,turn right CHOSEN_ACTION CHOSE,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+31,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+32,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+33,GO FORWARD,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+34,go right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+35,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+36,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+37,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+38,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+39,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+40,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+41,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+42,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+43,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+44,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+45,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+46,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+47,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+48,move right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+49,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+50,look,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+51,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+52,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+53,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+54,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+55,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+56,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+57,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+58,CHOOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+59,move right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+60,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+61,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+62,move right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+63,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+64,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+65,"The only available action in this observation is no action, so it should have no plain text representation. Thus, a replacement for CHOSEN_ACTION in the format ""chosen_action_with_no_action_value"" would be chosen.
+
+So, in the required format:
+
+""chosen_action_with_no_action_value""",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+66,go right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+67,turn left,,"a wall 1 step right
+a yellow key 2 steps left and 4 steps forward
+a locked yellow door 6 steps forward",0,False
+68,move right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 2 steps left and 3 steps forward
+a locked yellow door 5 steps forward",0,False
+69,move up.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 2 steps left and 2 steps forward
+a locked yellow door 4 steps forward",0,False
+70,pick up,,"a wall 1 step right
+a yellow key 2 steps left and 2 steps forward
+a locked yellow door 4 steps forward",0,False
+71,pick up,,"a wall 1 step right
+a yellow key 2 steps left and 2 steps forward
+a locked yellow door 4 steps forward",0,False
+72,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 2 steps left and 1 step forward
+a locked yellow door 3 steps forward",0,False
+73,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 2 steps left
+a locked yellow door 2 steps forward",0,False
+74,pick up.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+75,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+76,I do not understand the format you are using at this point. I do not know how to generate such a response. Please let me know how to proceed with this format.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+77,toggle,,"a wall 1 step right
+a locked yellow door 1 step forward",0,False
+78,move back.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+79,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+80,no_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+81,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+82,go_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+83,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+84,turn right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+85,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+86,move back,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+87,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+88,turn right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+89,turn_right_if_available,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+90,The desired action is: None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+91,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+92,no_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+93,go_forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+94,turn_right_if_possible,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+95,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+96,move_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+97,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+98,turn_right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+99,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+100,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+101,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+102,locked yellow door drop no_object,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+103,turn_right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+104,turn_right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+105,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+106,pick up,,"a wall 1 step right
+a locked yellow door 1 step forward",0,False
+107,turn_right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+108,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+109,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+110,locked yellow door drop no_object.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+111,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+112,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+113,turn_right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+114,lock yellow door no_object.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+115,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+116,move_left no_object.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+117,lock yellow door drop no_object.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+118,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+119,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+120,locked yellow door up no_object.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+121,go_forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+122,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+123,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+124,take_object,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+125,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+126,Turn_right.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,False
+127,Turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a locked yellow door 1 step forward",0,True

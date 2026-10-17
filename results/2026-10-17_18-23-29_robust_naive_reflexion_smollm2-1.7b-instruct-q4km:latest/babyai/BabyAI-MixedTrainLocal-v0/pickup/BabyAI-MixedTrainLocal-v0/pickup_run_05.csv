@@ -1,0 +1,441 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right
+a blue key 1 step left",0,False
+1,pick up,,"a wall 3 steps forward
+a wall 1 step right
+a blue key 1 step left",0,False
+2,turn_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+3,">CHOSEN_ACTION CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action
+
+Choose here the correct Action
+pick_up no_marker <",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+4,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+5,CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+6,toggle,,"a wall 1 step forward
+a wall 1 step right",0,False
+7,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+8,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+9,>CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CHOSEN_Action CH,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+10,go forward,,"a wall 1 step forward
+a wall 1 step right",0,False
+11,go forward CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+12,WAIT_TO_PRESENT_YOURS_LEARNED_PART,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+13,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+14,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+15,end,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+16,ch-ch-CHESS-CHES-CHES-CHESS-CHES-CHES-CHES-CHES-CH-CH-CHCHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+17,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+18,ch-ch-CHESS-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHCHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+19,CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+20,CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+21,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHCHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+22,CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+23,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHCHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+24,CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+25,GO_FORWARD,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+26,GO_FORWARD,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+27,PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+28,PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+29,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHCHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+30,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHCHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+31,NO_CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+32,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHCHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+33,TURN_RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+34,ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+35,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHCHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+36,CHES-CHES-CHES-CHES PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+37,CHES-CHES-CHES-CHES PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+38,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CH CHES-CHES-CHES-CHES PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+39,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+40,no_chosen_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+41,CHOSEN_ACTION|||END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+42,NO_CHOOSED_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+43,PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+44,CHOSEN_ACTION|\>PICK_UP<|END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+45,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+46,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+47,CHOSEN_ACTION:|CHES-CHES-CHES-CHES|\>,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+48,CHOSEN_ACTION | CHES-CHES-CHES-CHES | PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+49,CHOSEN_ACTION|CHES-CHES-CHES-CHES|PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+50,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+51,CHOSEN_ACTION | PICK_UP,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+52,NO_CHOOSED_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+53,CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+54,CHOSEN_ACTION|no_chosen_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+55,CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+56,|CHES-CHES-CHES-CHES|-CHES|-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CH-CH-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES-CHES|END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+57,TURN LEFT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+58,YOU-YOU-YOU-YOU-YOU/YOU-YOU-YOU-YOU-YOU/\-YOU-YOU/YOU-YOU-YOU-YOU-YOU/END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+59,CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+60,YOU-YOU-Yo-YOU-YOU/YOU-YOU-You-YO-yo-YOU//YOU-YO-u-YOO-You/YO-YO-YO-YOU-ye-YOU/YOU-YO/YOU-YO-YO-YO-you-YOU/YOU-YO-YO-YO-ю-ю/YOU-YO-YOU-YO-ю-ю/YOU-YO-YOU-YO-ю-ю/END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+61,TURN RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+62,TURN RIGHT,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+63,"ACTION-ACTIVATION-ACTION-TRIGGER-PARAMETERS-ACTIVATION-ACTION-FINISH-CONCLUSION-RESOURCES-OPERATOR-ASSISTANCE-PARAMETERS-FUNCTIONALITY-APPLICATION-INSTANTATION-APPLICATION-OVERRIDE-TRIGGER-ACTIVATION-PARAMETERS-OPPONENT-ASSISTANCE
+CHOSEN-ACTION 
+CHES-CHES-CHES-CHES/END",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,True

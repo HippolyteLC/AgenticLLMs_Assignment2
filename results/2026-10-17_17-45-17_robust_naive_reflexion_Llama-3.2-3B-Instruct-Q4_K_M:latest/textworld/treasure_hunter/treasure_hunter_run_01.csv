@@ -1,0 +1,104 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+1,open spork,,It isn't something you can open.,0,False
+2,go south,,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+3,go north,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+4,open spork,,It isn't something you can open.,0,False
+5,go south,,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+6,inventory,,You are carrying nothing.,0,False
+7,go north,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+8,open spork,,It isn't something you can open.,0,False
+9,go,,You'll have to say which compass direction to go in.,0,False
+10,go south,,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+11,inventory,,You are carrying nothing.,0,False
+12,go north,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+13,go south,,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+14,|inventory|,,That's not a verb I recognise.,0,False
+15,inventory,,You are carrying nothing.,0,False
+16,go south,,You can't go that way.,0,False
+17,go west,,You can't go that way.,0,False
+18,inventory,,You are carrying nothing.,0,False
+19,go west,,You can't go that way.,0,False
+20,open american style passageway,,You can't see any such thing.,0,False
+21,go west,,You can't go that way.,0,False
+22,go south,,You can't go that way.,0,False
+23,open american style passageway,,You can't see any such thing.,0,False
+24,ACTION,,That's not a verb I recognise.,0,False
+25,go south,,You can't go that way.,0,False
+26,open american style passageway,,You can't see any such thing.,0,False
+27,go north,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+28,open american style passageway,,You have to unlock the American style passageway with the American style passkey first.,0,False
+29,look,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+30,take spork,,"You pick up the spork from the ground.
+
+
+
+                              *** You lost! ***
+
+You scored 0 out of a possible 1, in 26 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>",0,True

@@ -1,0 +1,310 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,,"a wall 3 steps forward
+a wall 2 steps right",0,False
+1,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 2 steps right",0,False
+2,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+3,turn right,,"a wall 2 steps forward
+a wall 1 step left",0,False
+4,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+5,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+6,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+7,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+8,turn left,,"a wall 1 step forward
+a wall 1 step right",0,False
+9,drop,,"a wall 1 step forward
+a wall 1 step right",0,False
+10,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+11,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+12,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+13,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+14,turn right,,"a wall 1 step forward
+a wall 1 step left",0,False
+15,turn left,,"a wall 1 step forward
+a wall 1 step right",0,False
+16,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+17,go forward,,"a wall 1 step forward
+a wall 1 step right",0,False
+18,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+19,pick up,,"a wall 1 step forward
+a wall 1 step right",0,False
+20,I'm ready to assist you with your game. What should be my next action?,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+21,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+22,turn left,,"a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 5 steps forward",0,False
+23,CHOAN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+24,turn left,,"a wall 6 steps forward
+a wall 2 steps left",0,False
+25,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 2 steps left",0,False
+26,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 2 steps left",0,False
+27,pick up,,"a wall 4 steps forward
+a wall 2 steps left",0,False
+28,toggle,,"a wall 4 steps forward
+a wall 2 steps left",0,False
+29,pick up,,"a wall 4 steps forward
+a wall 2 steps left",0,False
+30,turn left,,"a wall 2 steps forward
+a wall 3 steps left",0,False
+31,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left",0,False
+32,turn right,,"a wall 4 steps forward
+a wall 1 step left",0,False
+33,move forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step left",0,False
+34,move forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step left",0,False
+35,toggle,,"a wall 2 steps forward
+a wall 1 step left",0,False
+36,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+37,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+38,choose,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+39,turn right,,"a wall 6 steps forward
+a wall 1 step left
+a grey key 3 steps right and 5 steps forward",0,False
+40,turn right,,"a wall 6 steps forward
+a wall 1 step right",0,False
+41,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right",0,False
+42,toggle,,"a wall 5 steps forward
+a wall 1 step right",0,False
+43,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right",0,False
+44,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+45,move forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+46,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+47,turn right,,"a wall 1 step forward
+a wall 1 step left",0,False
+48,"None.
+
+
+(No need to explain as it is the correct observation.)",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+49,pick up,,"a wall 1 step forward
+a wall 1 step left",0,False
+50,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+51,"Your turn to create a new question with a description, a set of choices, and action-observations.",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+52,pick up,,"a wall 1 step forward
+a wall 1 step left",0,False
+53,turn right,,"a wall 6 steps forward
+a wall 1 step left",0,False
+54,turn right,,"a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 5 steps forward",0,False
+55,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+56,pick up,,"a wall 5 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+57,turn right,,"a wall 1 step forward
+a wall 2 steps right",0,False
+58,turn left,,"a wall 5 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+59,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right
+a grey key 2 steps left and 3 steps forward",0,False
+60,turn left,,"a wall 6 steps forward
+a wall 3 steps left
+a grey key 3 steps right and 2 steps forward",0,False
+61,move left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 3 steps left
+a grey key 3 steps right and 1 step forward",0,False
+62,"None.
+
+You have no current observations.",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 3 steps left
+a grey key 3 steps right",0,False
+63,turn right,,"a wall 3 steps right
+a grey key 3 steps forward",0,True

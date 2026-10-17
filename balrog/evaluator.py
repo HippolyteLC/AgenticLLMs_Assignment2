@@ -413,6 +413,7 @@ class Evaluator:
             episode_log["seed"] = seed
             episode_log["agent"] = OmegaConf.to_container(self.config.agent, resolve=True)
             episode_log["client"] = OmegaConf.to_container(self.config.client, resolve=True)
+            episode_log["final_experience_buffer"] = list(agent.exp_buffer)
 
             # Save the episode_log to a JSON file
             json_filename = os.path.join(

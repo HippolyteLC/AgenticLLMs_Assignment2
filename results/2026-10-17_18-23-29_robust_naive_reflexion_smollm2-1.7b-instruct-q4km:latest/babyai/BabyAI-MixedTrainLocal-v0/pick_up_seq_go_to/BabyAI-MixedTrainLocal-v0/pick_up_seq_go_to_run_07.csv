@@ -1,0 +1,932 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,,"a wall 2 steps forward
+a wall 2 steps right
+a red ball 2 steps left and 1 step forward
+a grey ball 1 step left and 1 step forward",0,False
+1,go left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+2,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+3,go forward,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+4,pick up,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+5,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+6,go forward,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+7,pick up,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+8,go forward,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+9,turn left,,"a wall 1 step right
+a red ball 2 steps forward
+a grey ball 1 step forward",0,False
+10,turn right,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+11,drop,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+12,CHOOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+13,drop,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+14,None.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+15,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+16,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+17,end,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+18,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+19,go forward,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+20,drop,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+21,turn right,,"a wall 2 steps forward
+a wall 1 step left",0,False
+22,turn left,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+23,go forward,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+24,go forward,,"a wall 1 step forward
+a wall 2 steps right
+a red ball 2 steps left
+a grey ball 1 step left",0,False
+25,turn left,,"a wall 1 step right
+a red ball 2 steps forward
+a grey ball 1 step forward",0,False
+26,pick up,,"You carry a grey ball
+a wall 1 step right
+a red ball 2 steps forward",0,False
+27,drop,,"a wall 1 step right
+a red ball 2 steps forward
+a grey ball 1 step forward",0,False
+28,"No, your current observation states: a wall 1 step right, a red ball 2 steps forward, and a grey ball 1 step forward.",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a red ball 2 steps forward
+a grey ball 1 step forward",0,False
+29,red_ball_forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a red ball 2 steps forward
+a grey ball 1 step forward",0,False
+30,No,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a red ball 2 steps forward
+a grey ball 1 step forward",0,False
+31,pick up,,"You carry a grey ball
+a wall 1 step right
+a red ball 2 steps forward",0,False
+32,none,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+33,ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+34,pick up,,"You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+35,drop,,"You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+36,"turn right
+turn right
+turn right
+turn right
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+37,pick up,,"You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+38,red_ball_forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+39,no,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+40,take_red_ball_over,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+41,pick up,,"You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+42,"The observation currently is:
+a wall 1 step right
+a red ball 1 step forward
+a grey ball 1 step forward
+
+No, your action is currently none.
+
+Here are the actions:
+- turn left
+- turn right
+- go forward
+- pick up
+- drop
+- toggle
+
+And your current position is
+- You carry a grey ball: a wall 1 step right 1 step in front of you: a red ball 2 steps forward
+
+You must choose an action and a direction to proceed.
+
+A suitable action for you would be to ""turn left"", which would change your position and put a wall in front of you in a few seconds, and make you turn left, facing the grey ball's wall.",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+43,Go forward,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+44,turn_around,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+45,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+46,|ACTION|,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+47,pick up,,"You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+48,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+49,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+50,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+51,turn_around,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+52,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+53,Turn around,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+54,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+55,pick,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+56,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+57,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+58,Turn right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+59,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+60,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+61,Pick up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+62,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+63,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+64,Pick up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+65,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+66,turn_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+67,some_action CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+68,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+69,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+70,pick,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+71,turn_right CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+72,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+73,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+74,turn right,,"You carry a grey ball
+a wall 1 step forward
+a wall 3 steps right
+a red ball 1 step left",0,False
+75,turn left,,"You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+76,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+77,your_response_to_my_choice,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+78,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+79,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+80,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+81,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+82,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+83,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+84,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+85,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+86,Turn Right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+87,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+88,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+89,Turn Right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+90,toggle,,"You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+91,some_random_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+92,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+93,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+94,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+95,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+96,some_action.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+97,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+98,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+99,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+100,some_action,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+101,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+102,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+103,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+104,turn_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+105,ACTION?,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+106,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+107,none_,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+108,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+109,move_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+110,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+111,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+112,END,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+113,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+114,move_left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+115,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+116,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+117,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+118,move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+119,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+120,move,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+121,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+122,move,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+123,None,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+124,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+125,pick_up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+126,move CHOSEN_ACTION,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,False
+127,Move_right,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a grey ball
+a wall 1 step right
+a red ball 1 step forward",0,True

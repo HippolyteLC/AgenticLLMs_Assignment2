@@ -1,0 +1,66 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "take Microsoft limited edition latchkey": 4,
+        "unlock Microsoft limited edition hatch with Microsoft limited edition latchkey": 1,
+        "go north": 3,
+        "open Microsoft limited edition hatch": 10,
+        "open hatch": 1,
+        "OPEN Microsoft limited edition hatch with Microsoft limited edition latchkey": 1,
+        "go west": 9,
+        "take passkey": 1,
+        "open dresser": 1,
+        "go east": 8,
+        "go south": 8,
+        "inventory": 7,
+        "OPEN": 2,
+        "drop Microsoft limited edition latchkey": 1,
+        "look": 2,
+        "take": 2,
+        "open attic safe": 1,
+        "open Microsoft limited edition latchkey": 2,
+        "take Microsoft limited edition hatch": 6,
+        "go": 5,
+        "END": 2,
+        "GO": 1,
+        "open stand": 1,
+        "open closed hatch leading south": 1
+    },
+    "input_tokens": 94084,
+    "output_tokens": 1034,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2651919046,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>Don't open an already open door, and make sure to try moving north or west to make progress through the attic."
+    ]
+}

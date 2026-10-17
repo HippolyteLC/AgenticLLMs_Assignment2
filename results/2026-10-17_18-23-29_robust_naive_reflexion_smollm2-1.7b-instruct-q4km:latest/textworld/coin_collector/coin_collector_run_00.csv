@@ -1,0 +1,94 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,None,,That's not a verb I recognise.,0,False
+1,None,,That's not a verb I recognise.,0,False
+2,go north,,"-= Salon =-
+You've seen better salons, but at least this one seems pretty typical. You begin to take stock of what's in the room.
+
+
+
+There is an unblocked exit to the east. There is an exit to the north. Don't worry, it is unblocked. There is an unguarded exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+3,END,,That's not a verb I recognise.,0,False
+4,I will output the first verb I found in the text.,,I only understood you as far as wanting to take inventory.,0,False
+5,END,,That's not a verb I recognise.,0,False
+6,Choose an action,,That's not a verb I recognise.,0,False
+7,END,,That's not a verb I recognise.,0,False
+8,ASK,,What do you want to ask yourself for?,0,False
+9,END,,You can't see any such thing.,0,False
+10,None.,,That's not a verb I recognise.,0,False
+11,ask,,What do you want to ask yourself for?,0,False
+12,None,,You can't see any such thing.,0,False
+13,NO,,That was a rhetorical question.,0,False
+14,END,,That's not a verb I recognise.,0,False
+15,ASK,,What do you want to ask yourself for?,0,False
+16,None,,You can't see any such thing.,0,False
+17,go east,,"-= Cozy Chamber =-
+You are in a chamber. A cozy one. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+18,ask,,What do you want to ask yourself for?,0,False
+19,none,,You can't see any such thing.,0,False
+20,none,,That's not a verb I recognise.,0,False
+21,none,,That's not a verb I recognise.,0,False
+22,none,,That's not a verb I recognise.,0,False
+23,none,,That's not a verb I recognise.,0,False
+24,none,,That's not a verb I recognise.,0,False
+25,none,,That's not a verb I recognise.,0,False
+26,no,,That was a rhetorical question.,0,False
+27,search,,What do you want to search?,0,False
+28,none,,You can't see any such thing.,0,False
+29,None,,That's not a verb I recognise.,0,False
+30,None,,That's not a verb I recognise.,0,False
+31,No,,That was a rhetorical question.,0,False
+32,go north,,You can't go that way.,0,False
+33,go east,,You can't go that way.,0,False
+34,search south,,You must name something more substantial.,0,False
+35,search east,,You must name something more substantial.,0,False
+36,search northeast,,You must name something more substantial.,0,False
+37,"current observation: you must name something more substantial.
+
+none.",,That's not a verb I recognise.,0,False
+38,search north,,You must name something more substantial.,0,False
+39,take coin,,You can't see any such thing.,0,False
+40,go east,,You can't go that way.,0,False
+41,take coin,,You can't see any such thing.,0,False
+42,search northeast,,You must name something more substantial.,0,False
+43,none,,That's not a verb I recognise.,0,False
+44,search south,,You must name something more substantial.,0,False
+45,END,,That's not a verb I recognise.,0,False
+46,None,,That's not a verb I recognise.,0,False
+47,CHOOSED_ACTION,,That's not a verb I recognise.,0,False
+48,none,,That's not a verb I recognise.,0,False
+49,take_coin,,That's not a verb I recognise.,0,False
+50,take coin,,You can't see any such thing.,0,False
+51,move_right,,That's not a verb I recognise.,0,False
+52,END,,That's not a verb I recognise.,0,False
+53,none,,That's not a verb I recognise.,0,False
+54,END,,That's not a verb I recognise.,0,False
+55,MOVE_RIGHT,,That's not a verb I recognise.,0,False
+56,ACTION_FIRST,,That's not a verb I recognise.,0,False
+57,move_right,,That's not a verb I recognise.,0,False
+58,"Observation so far: 
+None",,That's not a verb I recognise.,0,False
+59,END,,That's not a verb I recognise.,0,False
+60,MOVE_RIGHT,,That's not a verb I recognise.,0,False
+61,None.,,That's not a verb I recognise.,0,False
+62,move_right,,That's not a verb I recognise.,0,False
+63,None.,,That's not a verb I recognise.,0,False
+64,MOVE_RIGHT,,That's not a verb I recognise.,0,False
+65,move_left,,That's not a verb I recognise.,0,False
+66,BACKSPACE,,That's not a verb I recognise.,0,False
+67,BACKSPACE,,That's not a verb I recognise.,0,False
+68,BACKSPACE,,That's not a verb I recognise.,0,False
+69,None.,,That's not a verb I recognise.,0,False
+70,move_right,,That's not a verb I recognise.,0,False
+71,"I must ask, you are trying to communicate using this text-based game as a reference, right? You did not provide any direct previous lessons that I can relate to, thus I assume you have no previous games.",,I only understood you as far as wanting to take inventory.,0,False
+72,go inventory,,You can't see any such thing.,0,False
+73,go left,,You can't see any such thing.,0,False
+74,go left,,You can't see any such thing.,0,False
+75,none,,That's not a verb I recognise.,0,False
+76,back_right,,That's not a verb I recognise.,0,False
+77,back_left,,That's not a verb I recognise.,0,False
+78,pickup,,That's not a verb I recognise.,0,False
+79,go north,,You can't go that way.,0,True

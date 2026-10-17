@@ -1,0 +1,73 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "go N": 1,
+        "go east": 1,
+        "open": 8,
+        "choose_key": 3,
+        "END": 3,
+        "open the gateway": 1,
+        "None.": 7,
+        "none": 6,
+        "CHOOSEN_ACTION": 3,
+        "look": 7,
+        "open the closed rectangle portal": 1,
+        "You're done with your last attempt. Let's try one more time.": 1,
+        "None": 15,
+        "Choose one of the past lessons listed below:\n\nPast Lessons: \n None": 1,
+        "choose_past_lesson": 1,
+        "pick_a_past_lesson": 3,
+        "you": 1,
+        "Look": 1,
+        "Some_action none": 3,
+        "take_a_past_lesson": 1,
+        "take_a_past_lesson CHOSEN": 1,
+        "pick_a_past_lesson CHOSEN_ACTION": 1,
+        "SELECT_ACTION": 1,
+        "pick/select": 1,
+        "choose_a_tool": 1,
+        "pick_up": 2,
+        "tool": 1,
+        "IN-DEBTS": 1,
+        "end": 1,
+        "|no_option|": 1,
+        "|some_action|": 1
+    },
+    "input_tokens": 75730,
+    "output_tokens": 680,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 618421978,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|no reaction|>YOUR_SHORT_REFLECTION_TEXT\n\n\nP.S. No postscript."
+    ]
+}

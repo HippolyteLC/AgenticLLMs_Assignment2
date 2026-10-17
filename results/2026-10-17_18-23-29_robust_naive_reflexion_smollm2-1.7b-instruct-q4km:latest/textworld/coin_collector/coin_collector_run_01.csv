@@ -1,0 +1,176 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,You can't go that way.,0,False
+1,go south,,"-= Cubicle =-
+You've entered a cubicle. You start to take note of what's in the room.
+
+
+
+There is an unblocked exit to the east. There is an exit to the north. Don't worry, it is unguarded. There is an unguarded exit to the south. There is an exit to the west. Don't worry, it is unguarded.",0,False
+2,go west,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+3,go south,,"-= Bathroom =-
+You are in a bathroom. It seems to be pretty ordinary here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.",0,False
+4,take coin,,You can't see any such thing.,0,False
+5,go south,,You can't go that way.,0,False
+6,go east,,You can't go that way.,0,False
+7,go west,,You can't go that way.,0,False
+8,None.,,That's not a verb I recognise.,0,False
+9,None.,,That's not a verb I recognise.,0,False
+10,|(none)/,,That's not a verb I recognise.,0,False
+11,None,,That's not a verb I recognise.,0,False
+12,None,,That's not a verb I recognise.,0,False
+13,pick_something,,That's not a verb I recognise.,0,False
+14,try_new_action,,That's not a verb I recognise.,0,False
+15,none,,That's not a verb I recognise.,0,False
+16,Some_action,,That's not a verb I recognise.,0,False
+17,INITIAL_ACTION,,That's not a verb I recognise.,0,False
+18,pick_action,,That's not a verb I recognise.,0,False
+19,go_to_next_question,,That's not a verb I recognise.,0,False
+20,pick_up_cactus,,That's not a verb I recognise.,0,False
+21,go north,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+22,north,,"-= Forgotten Basement =-
+You arrive in a basement. A forgotten one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded.",0,False
+23,north,,You can't go that way.,0,False
+24,north,,You can't go that way.,0,False
+25,go east,,You can't go that way.,0,False
+26,go west,,You can't go that way.,0,False
+27,pick up door,,You can't see any such thing.,0,False
+28,go north,,You can't go that way.,0,False
+29,go west CHOSEN_ACTION,,I only understood you as far as wanting to go west.,0,False
+30,south,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+31,south,,"-= Bathroom =-
+You are in a bathroom. It seems to be pretty ordinary here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.",0,False
+32,go north,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+33,no,,That was a rhetorical question.,0,False
+34,exit,,But you aren't in anything at the moment.,0,False
+35,south,,"-= Bathroom =-
+You are in a bathroom. It seems to be pretty ordinary here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.",0,False
+36,exit,,But you aren't in anything at the moment.,0,False
+37,north,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+38,go north CHOSEN_ACTION,,I only understood you as far as wanting to go north.,0,False
+39,south,,"-= Bathroom =-
+You are in a bathroom. It seems to be pretty ordinary here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.",0,False
+40,north,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+41,none,,That's not a verb I recognise.,0,False
+42,none,,That's not a verb I recognise.,0,False
+43,north,,"-= Forgotten Basement =-
+You arrive in a basement. A forgotten one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded.",0,False
+44,exit,,But you aren't in anything at the moment.,0,False
+45,south,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+46,south,,"-= Bathroom =-
+You are in a bathroom. It seems to be pretty ordinary here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.",0,False
+47,exit,,But you aren't in anything at the moment.,0,False
+48,go north,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+49,none,,That's not a verb I recognise.,0,False
+50,south,,"-= Bathroom =-
+You are in a bathroom. It seems to be pretty ordinary here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.",0,False
+51,exit,,But you aren't in anything at the moment.,0,False
+52,go south CHOSEN_ACTION,,I only understood you as far as wanting to go south.,0,False
+53,go north CHOSEN_ACTION,,I only understood you as far as wanting to go north.,0,False
+54,go north,,"-= Cookhouse =-
+Well how about that, you are in the place we're calling the cookhouse.
+
+
+
+There is an unblocked exit to the east. You need an unguarded exit? You should try going north. You don't like doors? Why not try going south, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+55,south CHOSEN_ACTION,,I only understood you as far as wanting to (go) south.,0,False
+56,north,,"-= Forgotten Basement =-
+You arrive in a basement. A forgotten one.
+
+
+
+There is an exit to the south. Don't worry, it is unguarded.",0,False
+57,EXIT,,But you aren't in anything at the moment.,0,False
+58,go north,,You can't go that way.,0,False
+59,none,,That's not a verb I recognise.,0,False
+60,none,,That's not a verb I recognise.,0,False
+61,none,,That's not a verb I recognise.,0,False
+62,none,,That's not a verb I recognise.,0,False
+63,north CHOSEN_ACTION,,I only understood you as far as wanting to (go) north.,0,False
+64,north CHOSEN_ACTION,,I only understood you as far as wanting to (go) north.,0,False
+65,north CHOSEN_ACTION,,I only understood you as far as wanting to (go) north.,0,False
+66,north CHOSEN_ACTION,,I only understood you as far as wanting to (go) north.,0,False
+67,north CHOSEN_ACTION,,I only understood you as far as wanting to (go) north.,0,False
+68,north Chosen action,,I only understood you as far as wanting to (go) north.,0,False
+69,NONE,,That's not a verb I recognise.,0,False
+70,none,,That's not a verb I recognise.,0,False
+71,None,,That's not a verb I recognise.,0,False
+72,north,,You can't go that way.,0,False
+73,none,,That's not a verb I recognise.,0,False
+74,take coin,,You can't see any such thing.,0,False
+75,take coin CHOSEN_ACTION,,You can't see any such thing.,0,False
+76,some verb,,That's not a verb I recognise.,0,False
+77,none,,That's not a verb I recognise.,0,False
+78,north,,You can't go that way.,0,False
+79,some_action,,That's not a verb I recognise.,0,True

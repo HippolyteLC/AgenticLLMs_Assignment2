@@ -1,0 +1,286 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go,,"You'll have to say which compass direction to go in.
+
+
+>                                                                                                                                -= Backyard =-0/2",0,False
+1,go north,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a carrot, a red onion, a tomato, a yellow bell pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-0/3",0,False
+2,look,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a carrot, a red onion, a tomato, a yellow bell pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-0/4",0,False
+3,look,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a carrot, a red onion, a tomato, a yellow bell pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-0/5",0,False
+4,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-0/6",0,False
+5,move,,"What do you want to move?
+
+>                                                                                                                                -= Garden =-0/6",0,False
+6,END,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-0/6",0,False
+7,move east,,"You must name something more substantial.
+
+
+>                                                                                                                                -= Garden =-0/7",0,False
+8,move,,"What do you want to move?
+
+>                                                                                                                                -= Garden =-0/7",0,False
+9,move east,,"You must name something more substantial.
+
+
+>                                                                                                                                -= Garden =-0/8",0,False
+10,move east,,"You must name something more substantial.
+
+
+>                                                                                                                                -= Garden =-0/9",0,False
+11,move east,,"You must name something more substantial.
+
+
+>                                                                                                                                -= Garden =-0/10",0,False
+12,move east,,"You must name something more substantial.
+
+
+>                                                                                                                                -= Garden =-0/11",0,False
+13,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+14,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+15,pick any one,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+16,PICK_ANY,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+17,CHOOSE,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+18,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+19,ACTIONACCOUNT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+20,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+21,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+22,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+23,no no no no no no no,,"I only understood you as far as wanting to no.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+24,pick a flower,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+25,move east 1 pick a flower,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-0/11",0,False
+26,move north,,"You must name something more substantial.
+
+
+>                                                                                                                                -= Garden =-0/12",0,False
+27,move_north,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+28,move north 1 pick a flower,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+29,move_one_north 1 pick_a_flower,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+30,pick a flower,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+31,PICK_A_FLOWER,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+32,pick_a_flower,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+33,No_Specific_Action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+34,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+35,choose_a_verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+36,I cannot see any verb recognized.,,"I only understood you as far as wanting to take inventory.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+37,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+38,ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+39,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+40,pick_a_verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+41,pick_a_verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/12",0,False
+42,go,,"You'll have to say which compass direction to go in.
+
+
+>                                                                                                                                -= Garden =-0/13",0,False
+43,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-0/14",0,False
+44,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+45,move_north,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+46,choose_a_verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+47,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+48,choose a verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+49,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+50,"pick_a_verb, pick_a_verb",,"You seem to want to talk to someone, but I can't see whom.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+51,pick a verb,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+52,pick_a_verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+53,pick a verb,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+54,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+55,you_can_choose_one_of_these_options,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+56,pick_a_verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+57,choose_a_verb,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/14",0,False
+58,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-0/15",0,False
+59,pick a word,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Garden =-0/15",0,False
+60,pick_a_word,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/15",0,False
+61,pick a word,,"I didn't understand that sentence.
+
+>                                                                                                                                -= Garden =-0/15",0,False
+62,"say ""none""",,"(to yourself)
+There is no reply.
+
+
+>                                                                                                                                -= Garden =-0/16",0,False
+63,CHOOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/16",0,False
+64,CHOOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/16",0,False
+65,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/16",0,False
+66,CHOOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/16",0,False
+67,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/16",0,False
+68,go,,"You'll have to say which compass direction to go in.
+
+
+>                                                                                                                                -= Garden =-0/17",0,False
+69,north,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-0/18",0,False
+70,CHOOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/18",0,False
+71,south,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is a closed barn door leading east. There is a closed sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+72,pick up patio,,"Which do you mean, sliding patio door, the patio table or the patio chair?
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+73,some_action,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+74,CHOOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+75,|some_action|,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+76,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+77,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+78,some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Backyard =-0/19",0,False
+79,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Backyard =-0/19",0,True

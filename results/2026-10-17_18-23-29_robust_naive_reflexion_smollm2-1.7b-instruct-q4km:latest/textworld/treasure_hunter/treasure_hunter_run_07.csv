@@ -1,0 +1,111 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,You can't go that way.,0,False
+1,turn_around,,That's not a verb I recognise.,0,False
+2,turn_around,,That's not a verb I recognise.,0,False
+3,look,,"-= Spare Room =-
+You have walked into a spare room. Not the spare room you'd expect. No, this is a spare room.
+
+You can make out an opened safe. The safe is empty! This is the worst thing that could possibly happen, ever!
+
+You don't like doors? Why not try going east, that entranceway is unblocked. You need an unblocked exit? You should try going south.",0,False
+4,turn_around,,That's not a verb I recognise.,0,False
+5,turn_around,,That's not a verb I recognise.,0,False
+6,turn_around,,That's not a verb I recognise.,0,False
+7,look,,"-= Spare Room =-
+You have walked into a spare room. Not the spare room you'd expect. No, this is a spare room.
+
+You can make out an opened safe. The safe is empty! This is the worst thing that could possibly happen, ever!
+
+You don't like doors? Why not try going east, that entranceway is unblocked. You need an unblocked exit? You should try going south.",0,False
+8,turn_around,,That's not a verb I recognise.,0,False
+9,look,,"-= Spare Room =-
+You have walked into a spare room. Not the spare room you'd expect. No, this is a spare room.
+
+You can make out an opened safe. The safe is empty! This is the worst thing that could possibly happen, ever!
+
+You don't like doors? Why not try going east, that entranceway is unblocked. You need an unblocked exit? You should try going south.",0,False
+10,no_chosen_action,,That's not a verb I recognise.,0,False
+11,look,,"-= Spare Room =-
+You have walked into a spare room. Not the spare room you'd expect. No, this is a spare room.
+
+You can make out an opened safe. The safe is empty! This is the worst thing that could possibly happen, ever!
+
+You don't like doors? Why not try going east, that entranceway is unblocked. You need an unblocked exit? You should try going south.",0,False
+12,no_action,,That's not a verb I recognise.,0,False
+13,turn_around,,That's not a verb I recognise.,0,False
+14,END,,That's not a verb I recognise.,0,False
+15,look,,"-= Spare Room =-
+You have walked into a spare room. Not the spare room you'd expect. No, this is a spare room.
+
+You can make out an opened safe. The safe is empty! This is the worst thing that could possibly happen, ever!
+
+You don't like doors? Why not try going east, that entranceway is unblocked. You need an unblocked exit? You should try going south.",0,False
+16,can't_decide,,That's not a verb I recognise.,0,False
+17,none_chosen_chose,,That's not a verb I recognise.,0,False
+18,none_chosen_action,,That's not a verb I recognise.,0,False
+19,none_chosen_action_chosen_action,,That's not a verb I recognise.,0,False
+20,none_chosen_action_chosen_action,,That's not a verb I recognise.,0,False
+21,none_chosen_action,,That's not a verb I recognise.,0,False
+22,end,,That's not a verb I recognise.,0,False
+23,none,,That's not a verb I recognise.,0,False
+24,none,,That's not a verb I recognise.,0,False
+25,look_around,,That's not a verb I recognise.,0,False
+26,look_at_the_item,,That's not a verb I recognise.,0,False
+27,look,,"-= Spare Room =-
+You have walked into a spare room. Not the spare room you'd expect. No, this is a spare room.
+
+You can make out an opened safe. The safe is empty! This is the worst thing that could possibly happen, ever!
+
+You don't like doors? Why not try going east, that entranceway is unblocked. You need an unblocked exit? You should try going south.",0,False
+28,pick_up_the_object,,That's not a verb I recognise.,0,False
+29,None,,That's not a verb I recognise.,0,False
+30,none,,That's not a verb I recognise.,0,False
+31,None,,That's not a verb I recognise.,0,False
+32,quit,,Are you sure you want to quit?,0,False
+33,none,,Please answer yes or no.>,0,False
+34,quit,,Please answer yes or no.>,0,False
+35,no,,,0,False
+36,none,,That's not a verb I recognise.,0,False
+37,quit,,Are you sure you want to quit?,0,False
+38,quit,,Please answer yes or no.>,0,False
+39,None,,Please answer yes or no.>,0,False
+40,pick_up_the_key,,Please answer yes or no.>,0,False
+41,END,,Please answer yes or no.>,0,False
+42,none,,Please answer yes or no.>,0,False
+43,none,,Please answer yes or no.>,0,False
+44,None,,Please answer yes or no.>,0,False
+45,none,,Please answer yes or no.>,0,False
+46,none,,Please answer yes or no.>,0,False
+47,none,,Please answer yes or no.>,0,False
+48,None,,Please answer yes or no.>,0,False
+49,None.,,Please answer yes or no.>,0,False
+50,END,,Please answer yes or no.>,0,False
+51,choose,,Please answer yes or no.>,0,False
+52,pick-up-the-key,,Please answer yes or no.>,0,False
+53,none,,Please answer yes or no.>,0,False
+54,none,,Please answer yes or no.>,0,False
+55,pick-up-the-key,,Please answer yes or no.>,0,False
+56,some_action,,Please answer yes or no.>,0,False
+57,None.,,Please answer yes or no.>,0,False
+58,pickupkey,,Please answer yes or no.>,0,False
+59,pickupkey,,Please answer yes or no.>,0,False
+60,No,,,0,False
+61,find_key,,That's not a verb I recognise.,0,False
+62,findkey_by_position,,That's not a verb I recognise.,0,False
+63,none,,That's not a verb I recognise.,0,False
+64,None,,That's not a verb I recognise.,0,False
+65,pickupkey,,That's not a verb I recognise.,0,False
+66,pickupkey,,That's not a verb I recognise.,0,False
+67,not_pickupkey,,That's not a verb I recognise.,0,False
+68,observe_environment,,That's not a verb I recognise.,0,False
+69,move_camera,,That's not a verb I recognise.,0,False
+70,findkey,,That's not a verb I recognise.,0,False
+71,pickupkey,,That's not a verb I recognise.,0,False
+72,none,,That's not a verb I recognise.,0,False
+73,- None,,That's not a verb I recognise.,0,False
+74,No,,That was a rhetorical question.,0,False
+75,None,,That's not a verb I recognise.,0,False
+76,no_action,,That's not a verb I recognise.,0,False
+77,I don't need help in that regard.,,I only understood you as far as wanting to take inventory.,0,False
+78,no_action,,That's not a verb I recognise.,0,False
+79,none,,That's not a verb I recognise.,0,True

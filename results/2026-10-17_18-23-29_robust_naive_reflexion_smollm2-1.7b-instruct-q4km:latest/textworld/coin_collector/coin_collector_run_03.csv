@@ -1,0 +1,154 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go east,,"-= Canteen =-
+You've just shown up in a canteen.
+
+
+
+You need an unguarded exit? You should try going west.",0,False
+1,go west,,"-= Pantry =-
+Guess what, you are in the place we're calling the pantry.
+
+
+
+There is an exit to the east. Don't worry, it is unblocked. There is an unblocked exit to the north. There is an exit to the west. Don't worry, it is unblocked.",0,False
+2,go north,,"-= Workshop =-
+You are in a workshop. A standard kind of place.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an unblocked exit to the north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+3,go east,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+4,go south,,You can't go that way.,0,False
+5,take coin,,You can't see any such thing.,0,False
+6,END,,That's not a verb I recognise.,0,False
+7,take coin,,You can't see any such thing.,0,False
+8,take coin CHOSEN_ACTION,,You can't see any such thing.,0,False
+9,go east,,You can't go that way.,0,False
+10,end,,That's not a verb I recognise.,0,False
+11,go south,,You can't go that way.,0,False
+12,go north,,You can't go that way.,0,False
+13,The end,,That's not a verb I recognise.,0,False
+14,take coin,,You can't see any such thing.,0,False
+15,go east CHOSEN_ACTION END,,I only understood you as far as wanting to go east.,0,False
+16,go east,,You can't go that way.,0,False
+17,GO,,You'll have to say which compass direction to go in.,0,False
+18,END,,That's not a verb I recognise.,0,False
+19,The end,,That's not a verb I recognise.,0,False
+20,go north,,You can't go that way.,0,False
+21,END,,That's not a verb I recognise.,0,False
+22,The end,,That's not a verb I recognise.,0,False
+23,CHOSEN_ACTION,,That's not a verb I recognise.,0,False
+24,go north,,You can't go that way.,0,False
+25,None of the given actions matches the current observation.,,That's not a verb I recognise.,0,False
+26,None,,That's not a verb I recognise.,0,False
+27,Some_action None,,That's not a verb I recognise.,0,False
+28,"None.
+
+You've been instructed to remember the commands provided in the input and to choose exactly one of the listed actions and output it strictly in the format specified.
+
+So far, you have received no commands.
+
+However, for now, you must output None.
+
+Here's my current response.",,That's not a verb I recognise.,0,False
+29,None,,That's not a verb I recognise.,0,False
+30,None,,That's not a verb I recognise.,0,False
+31,None,,That's not a verb I recognise.,0,False
+32,Some_action None,,That's not a verb I recognise.,0,False
+33,Observation: None,,That's not a verb I recognise.,0,False
+34,take coin,,You can't see any such thing.,0,False
+35,None,,That's not a verb I recognise.,0,False
+36,Goal: None,,That's not a verb I recognise.,0,False
+37,None,,That's not a verb I recognise.,0,False
+38,None,,That's not a verb I recognise.,0,False
+39,goal,,,0,False
+40,Observation: None,,That's not a verb I recognise.,0,False
+41,None,,That's not a verb I recognise.,0,False
+42,observation,,That's not a verb I recognise.,0,False
+43,take_coin,,That's not a verb I recognise.,0,False
+44,go north,,You can't go that way.,0,False
+45,None,,That's not a verb I recognise.,0,False
+46,look,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+47,go west,,"-= Workshop =-
+You are in a workshop. A standard kind of place.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an unblocked exit to the north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+48,go east,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+49,END,,That's not a verb I recognise.,0,False
+50,none,,That's not a verb I recognise.,0,False
+51,look,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+52,none,,That's not a verb I recognise.,0,False
+53,goal,,,0,False
+54,END,,That's not a verb I recognise.,0,False
+55,None,,That's not a verb I recognise.,0,False
+56,ACTION,,That's not a verb I recognise.,0,False
+57,look,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+58,go east,,You can't go that way.,0,False
+59,look,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+60,None,,That's not a verb I recognise.,0,False
+61,None,,That's not a verb I recognise.,0,False
+62,go east,,You can't go that way.,0,False
+63,look,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+64,none,,That's not a verb I recognise.,0,False
+65,look,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+66,|some_action|END,,That's not a verb I recognise.,0,False
+67,look,,"-= Kitchen =-
+You're now in the kitchen.
+
+
+
+There is an exit to the west. Don't worry, it is unblocked.",0,False
+68,None,,That's not a verb I recognise.,0,False
+69,go east,,You can't go that way.,0,False
+70,END,,That's not a verb I recognise.,0,False
+71,None,,That's not a verb I recognise.,0,False
+72,take coin,,You can't see any such thing.,0,False
+73,take coin,,You can't see any such thing.,0,False
+74,None,,That's not a verb I recognise.,0,False
+75,none,,That's not a verb I recognise.,0,False
+76,None,,That's not a verb I recognise.,0,False
+77,None,,That's not a verb I recognise.,0,False
+78,END,,That's not a verb I recognise.,0,False
+79,None,,That's not a verb I recognise.,0,True

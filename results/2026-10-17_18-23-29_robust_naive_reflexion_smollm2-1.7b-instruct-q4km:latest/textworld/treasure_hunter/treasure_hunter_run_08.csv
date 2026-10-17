@@ -1,0 +1,132 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go N,,You have to open the gateway first.,0,False
+1,go east,,You have to open the rectangular portal first.,0,False
+2,open,,"(the key)
+It isn't something you can open.",0,False
+3,choose_key,,That's not a verb I recognise.,0,False
+4,END,,That's not a verb I recognise.,0,False
+5,open the gateway,,You have to unlock the gateway with the key first.,0,False
+6,choose_key,,That's not a verb I recognise.,0,False
+7,None.,,That's not a verb I recognise.,0,False
+8,none,,That's not a verb I recognise.,0,False
+9,choose_key,,That's not a verb I recognise.,0,False
+10,CHOOSEN_ACTION,,That's not a verb I recognise.,0,False
+11,CHOOSEN_ACTION,,That's not a verb I recognise.,0,False
+12,CHOOSEN_ACTION,,That's not a verb I recognise.,0,False
+13,open,,"(the key)
+It isn't something you can open.",0,False
+14,open,,"(the key)
+It isn't something you can open.",0,False
+15,none,,That's not a verb I recognise.,0,False
+16,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+17,open the closed rectangle portal,,You can't see any such thing.,0,False
+18,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+19,You're done with your last attempt. Let's try one more time.,,That's not a verb I recognise.,0,False
+20,open,,"(the key)
+It isn't something you can open.",0,False
+21,None,,That's not a verb I recognise.,0,False
+22,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+23,"Choose one of the past lessons listed below:
+
+Past Lessons: 
+ None",,That's not a verb I recognise.,0,False
+24,choose_past_lesson,,That's not a verb I recognise.,0,False
+25,pick_a_past_lesson,,That's not a verb I recognise.,0,False
+26,open,,"(the key)
+It isn't something you can open.",0,False
+27,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+28,None,,That's not a verb I recognise.,0,False
+29,None,,That's not a verb I recognise.,0,False
+30,None.,,That's not a verb I recognise.,0,False
+31,None,,That's not a verb I recognise.,0,False
+32,none,,That's not a verb I recognise.,0,False
+33,open,,"(the key)
+It isn't something you can open.",0,False
+34,you,,That's not a verb I recognise.,0,False
+35,open,,"(the key)
+It isn't something you can open.",0,False
+36,none,,That's not a verb I recognise.,0,False
+37,None,,That's not a verb I recognise.,0,False
+38,open,,"(the key)
+It isn't something you can open.",0,False
+39,pick_a_past_lesson,,That's not a verb I recognise.,0,False
+40,pick_a_past_lesson,,That's not a verb I recognise.,0,False
+41,None,,That's not a verb I recognise.,0,False
+42,None,,That's not a verb I recognise.,0,False
+43,None,,That's not a verb I recognise.,0,False
+44,Look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+45,Some_action none,,That's not a verb I recognise.,0,False
+46,Some_action none,,That's not a verb I recognise.,0,False
+47,take_a_past_lesson,,That's not a verb I recognise.,0,False
+48,None,,That's not a verb I recognise.,0,False
+49,take_a_past_lesson CHOSEN,,That's not a verb I recognise.,0,False
+50,none,,That's not a verb I recognise.,0,False
+51,None,,That's not a verb I recognise.,0,False
+52,None.,,That's not a verb I recognise.,0,False
+53,Some_action none,,That's not a verb I recognise.,0,False
+54,None,,That's not a verb I recognise.,0,False
+55,None.,,That's not a verb I recognise.,0,False
+56,pick_a_past_lesson CHOSEN_ACTION,,That's not a verb I recognise.,0,False
+57,None,,That's not a verb I recognise.,0,False
+58,None.,,That's not a verb I recognise.,0,False
+59,None.,,That's not a verb I recognise.,0,False
+60,SELECT_ACTION,,That's not a verb I recognise.,0,False
+61,None.,,That's not a verb I recognise.,0,False
+62,None,,That's not a verb I recognise.,0,False
+63,None,,That's not a verb I recognise.,0,False
+64,None,,That's not a verb I recognise.,0,False
+65,pick/select,,That's not a verb I recognise.,0,False
+66,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+67,choose_a_tool,,That's not a verb I recognise.,0,False
+68,pick_up,,That's not a verb I recognise.,0,False
+69,END,,That's not a verb I recognise.,0,False
+70,tool,,That's not a verb I recognise.,0,False
+71,IN-DEBTS,,That's not a verb I recognise.,0,False
+72,end,,That's not a verb I recognise.,0,False
+73,pick_up,,That's not a verb I recognise.,0,False
+74,|no_option|,,That's not a verb I recognise.,0,False
+75,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+76,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+77,|some_action|,,That's not a verb I recognise.,0,False
+78,none,,That's not a verb I recognise.,0,False
+79,END,,That's not a verb I recognise.,0,True

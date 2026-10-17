@@ -1,0 +1,100 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,CHOSEN_ACTION,,That's not a verb I recognise.,0,False
+1,look,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+2,go south,,"-= Cellar =-
+You make a grand eccentric entrance into a cellar. I guess you better just go and list everything you see here.
+
+
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+There is a passkey on the floor.",0,False
+3,CHOSEN_ACTION,,That's not a verb I recognise.,0,False
+4,END,,That's not a verb I recognise.,0,False
+5,none,,That's not a verb I recognise.,0,False
+6,inspect,,That's not a verb I recognise.,0,False
+7,picks up,,That's not a verb I recognise.,0,False
+8,No.,,That was a rhetorical question.,0,False
+9,No.,,That was a rhetorical question.,0,False
+10,none,,That's not a verb I recognise.,0,False
+11,pick_up,,That's not a verb I recognise.,0,False
+12,none,,That's not a verb I recognise.,0,False
+13,Inspect,,That's not a verb I recognise.,0,False
+14,none,,That's not a verb I recognise.,0,False
+15,picks up,,That's not a verb I recognise.,0,False
+16,none,,That's not a verb I recognise.,0,False
+17,inventory,,You are carrying nothing.,0,False
+18,no,,That was a rhetorical question.,0,False
+19,none,,That's not a verb I recognise.,0,False
+20,none,,That's not a verb I recognise.,0,False
+21,picked up,,That's not a verb I recognise.,0,False
+22,"go back and learn the verb ""inspect""",,You can't see any such thing.,0,False
+23,"go back and learn the verb ""inspect""",,You can't see any such thing.,0,False
+24,None,,That's not a verb I recognise.,0,False
+25,None,,That's not a verb I recognise.,0,False
+26,ignore,,That's not a verb I recognise.,0,False
+27,No,,That was a rhetorical question.,0,False
+28,observation,,That's not a verb I recognise.,0,False
+29,None,,That's not a verb I recognise.,0,False
+30,none,,That's not a verb I recognise.,0,False
+31,go forward,,You can't see any such thing.,0,False
+32,input,,That's not a verb I recognise.,0,False
+33,inventory,,You are carrying nothing.,0,False
+34,some_action,,That's not a verb I recognise.,0,False
+35,all_available_past_lessons,,That's not a verb I recognise.,0,False
+36,go,,You'll have to say which compass direction to go in.,0,False
+37,none,,That's not a verb I recognise.,0,False
+38,GO,,You'll have to say which compass direction to go in.,0,False
+39,north,,"-= Dish-Pit =-
+You've entered a dish-pit.
+
+
+
+There is a closed hatch leading west. You don't like doors? Why not try going south, that entranceway is unguarded.",0,False
+40,GO,,You'll have to say which compass direction to go in.,0,False
+41,none,,That's not a verb I recognise.,0,False
+42,None.,,That's not a verb I recognise.,0,False
+43,"|some_action|chosen_action
+
+Replace chosen_action with the action you think best.",,That's not a verb I recognise.,0,False
+44,chosen_action,,That's not a verb I recognise.,0,False
+45,none,,That's not a verb I recognise.,0,False
+46,none,,That's not a verb I recognise.,0,False
+47,none,,That's not a verb I recognise.,0,False
+48,CHOOSEN_ACTION,,That's not a verb I recognise.,0,False
+49,|some_action|chosen_action,,That's not a verb I recognise.,0,False
+50,None,,That's not a verb I recognise.,0,False
+51,|some_action|chosen_action,,That's not a verb I recognise.,0,False
+52,some_action,,That's not a verb I recognise.,0,False
+53,none,,That's not a verb I recognise.,0,False
+54,none,,That's not a verb I recognise.,0,False
+55,north,,You can't go that way.,0,False
+56,none,,That's not a verb I recognise.,0,False
+57,current_observation,,That's not a verb I recognise.,0,False
+58,END,,That's not a verb I recognise.,0,False
+59,none,,That's not a verb I recognise.,0,False
+60,north,,You can't go that way.,0,False
+61,none,,That's not a verb I recognise.,0,False
+62,north,,You can't go that way.,0,False
+63,no,,That was a rhetorical question.,0,False
+64,none,,That's not a verb I recognise.,0,False
+65,some_action,,That's not a verb I recognise.,0,False
+66,none,,That's not a verb I recognise.,0,False
+67,observation,,That's not a verb I recognise.,0,False
+68,observation,,That's not a verb I recognise.,0,False
+69,none,,That's not a verb I recognise.,0,False
+70,none,,That's not a verb I recognise.,0,False
+71,None,,That's not a verb I recognise.,0,False
+72,none,,That's not a verb I recognise.,0,False
+73,observation,,That's not a verb I recognise.,0,False
+74,none,,That's not a verb I recognise.,0,False
+75,none,,That's not a verb I recognise.,0,False
+76,your_turn,,That's not a verb I recognise.,0,False
+77,END,,That's not a verb I recognise.,0,False
+78,ACTION,,That's not a verb I recognise.,0,False
+79,some_action,,That's not a verb I recognise.,0,True

@@ -1,0 +1,70 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "CHOSEN_ACTION": 8,
+        "EXIT": 1,
+        "none": 11,
+        ">                                                                                                                                -= Street =-0/3": 1,
+        "consider_the": 1,
+        "consider": 2,
+        "|": 1,
+        "some_action": 3,
+        "END": 3,
+        "CHOOSED_ACTION": 7,
+        "ACT": 2,
+        "choose": 4,
+        "None.\n\nThe game continues with the status:\n\nNone.\n\nOutput:\n\nNone.": 1,
+        "None": 12,
+        "CHOOSEN_ACTION": 1,
+        "Observation:\nI beg your pardon?\n\n>                                                                                                                                -= Street =-0/2\n\nChoose:\nnone": 1,
+        "Some_action": 1,
+        "Observation:\nI beg your pardon?\n\n>                                                                                                                                -= Street =-0/2": 2,
+        "None.": 4,
+        "take_inventory": 2,
+        "CHOENN_ACTION": 3,
+        "pick": 1,
+        "picking.": 1,
+        "ASK_FOR_LESSON": 2,
+        "Current Observation:\nThat's not a verb I recognise.\n\n>                                                                                                                                -= Street =-0/3": 1,
+        "ask_for_lesson": 2,
+        "pick_up": 1,
+        "INVALID_ACTION": 1
+    },
+    "input_tokens": 111031,
+    "output_tokens": 1424,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 4094494590,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>Movement/location failure. Attempt to enter the room to the right of the commercial glass door to locate the toolbox or storage container"
+    ]
+}

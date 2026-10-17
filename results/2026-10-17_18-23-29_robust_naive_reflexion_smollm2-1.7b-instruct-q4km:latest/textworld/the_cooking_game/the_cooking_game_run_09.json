@@ -1,0 +1,66 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "examine fridge": 1,
+        "None": 13,
+        "pick_up_fridge": 6,
+        "fridge": 1,
+        "look": 5,
+        "None.": 10,
+        "Action": 2,
+        "choose_next_action": 1,
+        "ACTION": 2,
+        "look\n\nReplace \"look\" with the specific action you choose.": 1,
+        "move": 1,
+        "picksupplies": 9,
+        "none": 1,
+        "pickupproduct": 11,
+        "picksupplies CHOSEN_picksupplies": 1,
+        "END": 5,
+        "CHOENZED_picksupplies": 1,
+        "CHOENZEN_picksupplies": 1,
+        "take_off_kitchen_supplies": 1,
+        "picksuppliespicked": 3,
+        "Observation:\nThat's not a verb I recognise.\n\n>                                                                                                                                -= Kitchen =-0/8\n\nNone.\n\nAction:\nnone": 1,
+        "None.\n\nThere are no past lessons provided.": 1,
+        "picksupplieschosen_action_picksupplies_picked\n\nRemember, choose carefully.": 1,
+        "picksuppliespicked\n\nRemember, choose carefully.": 1
+    },
+    "input_tokens": 133974,
+    "output_tokens": 1705,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 3689306214,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "None"
+    ]
+}

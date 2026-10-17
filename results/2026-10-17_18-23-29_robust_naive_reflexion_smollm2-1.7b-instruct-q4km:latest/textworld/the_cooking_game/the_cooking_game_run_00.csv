@@ -1,0 +1,259 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+1,kitchen,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+2,explore,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/2",0,False
+3,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/3",0,False
+4,look,,"-= Supermarket =-
+You're now in a supermarket.
+
+Oh wow! Is that what I think it is? It is! It's a showcase. On the showcase you can make out a block of cheese and a raw white tuna.
+
+There is a closed sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+5,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+6,QUESTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+7,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+8,some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+9,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+10,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+11,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+12,CHOOSE_AN_INTERJECTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+13,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+14,CHOOSE_AN_INTERJECTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+15,EXCHANGING_ACTN,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+16,CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+17,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+18,CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+19,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+20,some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+21,CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+22,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+23,CHOOSE_AN_ACTIONS AS _TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+24,Some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+25,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+26,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+27,CHOOSE_AN_ACTION_AS_TEXT CHOSEN_ACTION END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+28,CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+29,CHOOSE_AN_ACTION_AS_TEXT.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+30,CHOOSE_AN_ACTION_AS_TEXT.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+31,CHOSE_AN_ACTION.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+32,CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+33,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+34,ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+35,CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT_AS_TEXT_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+36,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+37,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+38,CHOOSE_AN_ACTIONS,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+39,NONE,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+40,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+41,AMAZON_BOOK,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+42,AMAZON_BOOK,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+43,CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+44,AMAZON_BOOK,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+45,AMAZON_BOOK_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+46,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+47,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+48,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+49,CHOOSE_AN_ACTION_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+50,CHOOSE_AN_ACTION CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION CHOOSE_AN_ACTION AS_TEXT CHOOSE_AN_ACTION_AS_TEXT CHOOSE_AN_ACTION CHOOSE_AN_ACTION CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+51,CHOOSEN_ACTIONS,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+52,ASK,,"What do you want to ask yourself for?
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+53,AMAZON_BOOK,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+54,ASK,,"What do you want to ask yourself for?
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+55,ASK,,"What do you want to ask yourself for?
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+56,ASK,,"What do you want to ask yourself for?
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+57,CHOOSE_A_QUESTION_ACTION,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+58,ASK,,"What do you want to ask yourself for?
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+59,CHOOSE_A_PAST_LESSON,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+60,THE_NEXT_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+61,AMAZON_BOOK_AS_TEXT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+62,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+63,CASTING_NEW_SPELL,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+64,ASK,,"What do you want to ask yourself for?
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+65,CHOOSE_AN_ACTION_AS_TEXT,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+66,CASE_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+67,AMAZON_BOOK,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+68,ask,,"What do you want to ask yourself for?
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+69,>NONE,,"You can't see any such thing.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+70,NONE,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+71,CHOOSING_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+72,CHOOSING_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+73,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+74,CASTING_NEW_SPELL,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+75,choose an action for you,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+76,choose an action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+77,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+78,choose an action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,False
+79,CHOOSE_AN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Supermarket =-0/4",0,True

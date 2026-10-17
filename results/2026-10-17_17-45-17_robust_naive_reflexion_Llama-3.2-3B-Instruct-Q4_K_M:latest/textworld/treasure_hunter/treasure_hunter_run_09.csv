@@ -1,0 +1,130 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.
+
+There is a TextWorld style latchkey on the floor.",0,False
+1,take latchkey,,You pick up the TextWorld style latchkey from the ground.,0,False
+2,open TextWorld style box,,I only understood you as far as wanting to open the TextWorld style latchkey.,0,False
+3,GO,,You'll have to say which compass direction to go in.,0,False
+4,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+5,go east,,You have to open the hatch first.,0,False
+6,open TextWorld style box,,I only understood you as far as wanting to open the TextWorld style latchkey.,0,False
+7,open TextWorld style latchkey,,It isn't something you can open.,0,False
+8,go east,,You have to open the hatch first.,0,False
+9,open closed hatch,,You can't see any such thing.,0,False
+10,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+11,open closed hatch,,You can't see any such thing.,0,False
+12,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+13,ACTON,,That's not a verb I recognise.,0,False
+14,go east,,You have to open the hatch first.,0,False
+15,open closed hatch,,You can't see any such thing.,0,False
+16,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+17,open closed hatch,,You can't see any such thing.,0,False
+18,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+19,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,False
+20,open locked TextWorld style box,,You can't see any such thing.,0,False
+21,open locked ordinary looking TextWorld style box,,You can't see any such thing.,0,False
+22,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+23,take ordinary looking TextWorld style box,,You can't see any such thing.,0,False
+24,go north,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+25,go east,,You have to open the hatch first.,0,False
+26,open closed hatch,,You can't see any such thing.,0,False
+27,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+28,open closed hatch,,You can't see any such thing.,0,False
+29,go east,,You have to open the hatch first.,0,False
+30,open closed hatch,,You can't see any such thing.,0,False
+31,go east,,You have to open the hatch first.,0,False
+32,ACTION,,That's not a verb I recognise.,0,False
+33,OPEN,,"(the TextWorld style latchkey)
+It isn't something you can open.",0,False
+34,go east,,You have to open the hatch first.,0,False
+35,open closed hatch,,You can't see any such thing.,0,False
+36,take TextWorld style latchkey,,You already have that.,0,False
+37,go east,,You have to open the hatch first.,0,False
+38,OPEN,,"(the TextWorld style latchkey)
+It isn't something you can open.",0,False
+39,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+40,open closed hatch,,You can't see any such thing.,0,False
+41,go east,,You have to open the hatch first.,0,False
+42,take hatch,,That's fixed in place.,0,False
+43,open fixed_hatch,,You can't see any such thing.,0,False
+44,go east,,You have to open the hatch first.,0,False
+45,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+46,go east,,You have to open the hatch first.,0,False
+47,open fixed_hatch,,You can't see any such thing.,0,False
+48,go east,,You have to open the hatch first.,0,False
+49,GO EAST,,You have to open the hatch first.,0,False
+50,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+51,open hatch,,You have to unlock the hatch with the latchkey first.,0,False
+52,unlock hatch with TextWorld style latchkey,,That doesn't seem to fit the lock.,0,False
+53,unlock door next to hatch,,You can't see any such thing.,0,False
+54,go east,,You have to open the hatch first.,0,False
+55,open fixed_hatch,,You can't see any such thing.,0,False
+56,END,,That's not a verb I recognise.,0,False
+57,go east,,You have to open the hatch first.,0,False
+58,open fixed_hatch,,You can't see any such thing.,0,False
+59,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+60,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+61,GO EAST,,You have to open the hatch first.,0,False
+62,open fixed_hatch,,You can't see any such thing.,0,False
+63,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+64,go east,,You have to open the hatch first.,0,False
+65,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+66,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+67,open fixed_hatch,,You can't see any such thing.,0,False
+68,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+69,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+70,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+71,open fixed_hatch,,You can't see any such thing.,0,False
+72,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+73,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+74,go EAST,,You have to open the hatch first.,0,False
+75,open locked_hatch containing_text,,You can't see any such thing.,0,False
+76,look,,"-= Spare Room =-
+You make another one of your grand eccentric entrances into a spare room.
+
+
+
+There is a closed hatch leading east. There is an unblocked exit to the south.",0,False
+77,open east_hatch,,You can't see any such thing.,0,False
+78,inventory,,You are carrying: a TextWorld style latchkey.,0,False
+79,go south,,"-= Lounge =-
+Ah, the lounge. This is some kind of lounge, really great normal vibes in this place, a wonderful normal atmosphere.
+
+You make out a locked ordinary looking TextWorld style box close by.
+
+There is an unguarded exit to the north.",0,True
