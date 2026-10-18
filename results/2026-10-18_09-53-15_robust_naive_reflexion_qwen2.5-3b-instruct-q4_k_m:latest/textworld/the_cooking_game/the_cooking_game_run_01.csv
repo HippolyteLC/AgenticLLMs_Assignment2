@@ -1,0 +1,595 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bedroom =-0/1",0,False
+1,go east,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is a closed front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/2",0,False
+2,go east,,"You have to open the front door first.
+
+
+>                                                                                                                                -= Livingroom =-0/3",0,False
+3,open front door,,"You open front door.
+
+
+>                                                                                                                                -= Livingroom =-0/4",0,False
+4,go east,,"-= Driveway =-
+You find yourself in a driveway. A typical kind of place.
+
+
+
+There is an open front door leading west. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/5",0,False
+5,go west,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/6",0,False
+6,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/7",0,False
+7,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/8",0,False
+8,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/9",0,False
+9,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/10",0,False
+10,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/11",0,False
+11,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/12",0,False
+12,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/13",0,False
+13,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/14",0,False
+14,go west,,"-= Bedroom =-
+Well, here we are in a bedroom. I guess you better just go and list everything you see here.
+
+If you haven't noticed it already, there seems to be something there by the wall, it's a bed. The bed is large. But the thing is empty, unfortunately.
+
+You don't like doors? Why not try going east, that entranceway is not blocked by one. You don't like doors? Why not try going north, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Bedroom =-0/15",0,False
+15,go east,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/16",0,False
+16,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/17",0,False
+17,go west,,"-= Bedroom =-
+Well, here we are in a bedroom. I guess you better just go and list everything you see here.
+
+If you haven't noticed it already, there seems to be something there by the wall, it's a bed. The bed is large. But the thing is empty, unfortunately.
+
+You don't like doors? Why not try going east, that entranceway is not blocked by one. You don't like doors? Why not try going north, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Bedroom =-0/18",0,False
+18,go east,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/19",0,False
+19,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/20",0,False
+20,go south,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. On the counter you can make out a knife. You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/21",0,False
+21,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. On the counter you can make out a knife. You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/22",0,False
+22,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. On the counter you can make out a knife. You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/23",0,False
+23,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/24",0,False
+24,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/25",0,False
+25,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/26",0,False
+26,slice green hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/26",0,False
+27,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/27",0,False
+28,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/28",0,False
+29,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/29",0,False
+30,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/30",0,False
+31,examine knife,,"The knife appears out of place here
+
+
+>                                                                                                                                -= Kitchen =-0/31",0,False
+32,examine knife,,"The knife appears out of place here
+
+
+>                                                                                                                                -= Kitchen =-0/32",0,False
+33,slice green hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/32",0,False
+34,slice green hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/32",0,False
+35,examine knife,,"The knife appears out of place here
+
+
+>                                                                                                                                -= Kitchen =-0/33",0,False
+36,examine knife,,"The knife appears out of place here
+
+
+>                                                                                                                                -= Kitchen =-0/34",0,False
+37,take knife from knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/34",0,False
+38,take knife from knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/34",0,False
+39,take knife from knife from Kitchen,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/34",0,False
+40,examine knife,,"The knife appears out of place here
+
+
+>                                                                                                                                -= Kitchen =-0/35",0,False
+41,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/35",0,False
+42,take knife from knife from Kitchen,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/35",0,False
+43,examine knife,,"The knife appears out of place here
+
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+44,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+45,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+46,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+47,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+48,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+49,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+50,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+51,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+52,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+53,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+54,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+55,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+56,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+57,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+58,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+59,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+60,goal,,>                                                                                                                                -= Kitchen =-0/37,0,False
+61,goal,,>                                                                                                                                -= Kitchen =-0/38,0,False
+62,goal,,>                                                                                                                                -= Kitchen =-0/39,0,False
+63,goal,,>                                                                                                                                -= Kitchen =-0/40,0,False
+64,goal,,>                                                                                                                                -= Kitchen =-0/41,0,False
+65,goal,,>                                                                                                                                -= Kitchen =-0/42,0,False
+66,goal,,>                                                                                                                                -= Kitchen =-0/43,0,False
+67,goal,,>                                                                                                                                -= Kitchen =-0/44,0,False
+68,goal,,>                                                                                                                                -= Kitchen =-0/45,0,False
+69,goal,,>                                                                                                                                -= Kitchen =-0/46,0,False
+70,goal,,>                                                                                                                                -= Kitchen =-0/47,0,False
+71,goal,,>                                                                                                                                -= Kitchen =-0/48,0,False
+72,goal,,>                                                                                                                                -= Kitchen =-0/49,0,False
+73,goal,,>                                                                                                                                -= Kitchen =-0/50,0,False
+74,goal,,>                                                                                                                                -= Kitchen =-0/51,0,False
+75,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. On the counter you can make out a knife. You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/52",0,False
+76,ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/52",0,False
+77,look at cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/53",0,False
+78,look at cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/54",0,False
+79,look at cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/55",0,True

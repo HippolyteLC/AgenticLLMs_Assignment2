@@ -11,7 +11,6 @@ MODELS=(
     "qwen2.5-3b-instruct-q4_k_m:latest"
     # "Llama-3.2-3B-Instruct-Q4_K_M:latest"
     # "smollm2-1.7b-instruct-q4km:latest"
-    # "qwen3.5-0.8b-Q4:latest"
 )
 
 # Iterate through each model in the list

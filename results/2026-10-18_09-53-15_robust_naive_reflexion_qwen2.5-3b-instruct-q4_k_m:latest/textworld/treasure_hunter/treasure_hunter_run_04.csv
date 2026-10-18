@@ -1,0 +1,481 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+1,look,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+2,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+3,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+4,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+5,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+6,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+7,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+8,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+9,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+10,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+11,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+12,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+13,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+14,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+15,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+16,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+17,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+18,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+19,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+20,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+21,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+22,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+23,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+24,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+25,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+26,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+27,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+28,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+29,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+30,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+31,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+32,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+33,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+34,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+35,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+36,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+37,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+38,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+39,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+40,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+41,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+42,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+43,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+44,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+45,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+46,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+47,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+48,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+49,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+50,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+51,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+52,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+53,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+54,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+55,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+56,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+57,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+58,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+59,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+60,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+61,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+62,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+63,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+64,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+65,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+66,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+67,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+68,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+69,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+70,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+71,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+72,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+73,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+74,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+75,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+76,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+77,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+78,GO NORTH,,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+79,GO SOUTH,,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,True

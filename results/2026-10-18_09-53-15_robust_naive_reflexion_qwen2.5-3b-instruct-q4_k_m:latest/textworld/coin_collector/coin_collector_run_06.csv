@@ -1,0 +1,186 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+1,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+2,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+3,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+4,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+5,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+6,go west,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+7,go north,,"-= Stuffed Closet =-
+You arrive in a closet. A stuffed kind of place. You start to take note of what's in the room.
+
+
+
+You don't like doors? Why not try going south, that entranceway is unblocked.",0,False
+8,go south,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+9,go west,,"-= Study =-
+Look at that board! What does it say? It says Welcome to the study? Well that's cool.
+
+
+
+There is an unblocked exit to the east. You need an unblocked exit? You should try going north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+10,go north,,"-= Closet =-
+You find yourself in a closet. A typical kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+11,go south,,"-= Study =-
+Look at that board! What does it say? It says Welcome to the study? Well that's cool.
+
+
+
+There is an unblocked exit to the east. You need an unblocked exit? You should try going north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+12,go north,,"-= Closet =-
+You find yourself in a closet. A typical kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+13,go south,,"-= Study =-
+Look at that board! What does it say? It says Welcome to the study? Well that's cool.
+
+
+
+There is an unblocked exit to the east. You need an unblocked exit? You should try going north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+14,go west,,"-= Laundromat =-
+You arrive in a laundromat. An usual one.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded.",0,False
+15,go east,,"-= Study =-
+Look at that board! What does it say? It says Welcome to the study? Well that's cool.
+
+
+
+There is an unblocked exit to the east. You need an unblocked exit? You should try going north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+16,go north,,"-= Closet =-
+You find yourself in a closet. A typical kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+17,go south,,"-= Study =-
+Look at that board! What does it say? It says Welcome to the study? Well that's cool.
+
+
+
+There is an unblocked exit to the east. You need an unblocked exit? You should try going north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+18,go west,,"-= Laundromat =-
+You arrive in a laundromat. An usual one.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded.",0,False
+19,go east,,"-= Study =-
+Look at that board! What does it say? It says Welcome to the study? Well that's cool.
+
+
+
+There is an unblocked exit to the east. You need an unblocked exit? You should try going north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+20,go north,,"-= Closet =-
+You find yourself in a closet. A typical kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+21,go west,,You can't go that way.,0,False
+22,go east,,You can't go that way.,0,False
+23,go north,,You can't go that way.,0,False
+24,go west,,You can't go that way.,0,False
+25,go east,,You can't go that way.,0,False
+26,go north,,You can't go that way.,0,False
+27,go west,,You can't go that way.,0,False
+28,go north,,You can't go that way.,0,False
+29,go west,,You can't go that way.,0,False
+30,go east,,You can't go that way.,0,False
+31,go north,,You can't go that way.,0,False
+32,go west,,You can't go that way.,0,False
+33,go north,,You can't go that way.,0,False
+34,go west,,You can't go that way.,0,False
+35,go north,,You can't go that way.,0,False
+36,go west,,You can't go that way.,0,False
+37,go east,,You can't go that way.,0,False
+38,go west,,You can't go that way.,0,False
+39,go north,,You can't go that way.,0,False
+40,go west,,You can't go that way.,0,False
+41,go east,,You can't go that way.,0,False
+42,go east,,You can't go that way.,0,False
+43,go west,,You can't go that way.,0,False
+44,go west,,You can't go that way.,0,False
+45,go west,,You can't go that way.,0,False
+46,go east,,You can't go that way.,0,False
+47,go west,,You can't go that way.,0,False
+48,go west,,You can't go that way.,0,False
+49,go west,,You can't go that way.,0,False
+50,go east,,You can't go that way.,0,False
+51,go west,,You can't go that way.,0,False
+52,CHOSEN_ACTION,,That's not a verb I recognise.,0,False
+53,go west,,You can't go that way.,0,False
+54,CHOSEN_ACTION go north,,That's not a verb I recognise.,0,False
+55,CHOSEN_ACTION go north,,That's not a verb I recognise.,0,False
+56,CHOSEN_ACTION go north,,That's not a verb I recognise.,0,False
+57,CHOSEN_ACTION go north,,That's not a verb I recognise.,0,False
+58,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+59,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+60,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+61,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+62,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+63,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+64,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+65,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+66,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+67,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+68,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+69,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+70,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+71,CHOSEN_ACTION,,That's not a verb I recognise.,0,False
+72,go east,,You can't go that way.,0,False
+73,That's not a verb I recognise.,,That's not a verb I recognise.,0,False
+74,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+75,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+76,That's not a verb I recognise.,,That's not a verb I recognise.,0,False
+77,CHOSEN_ACTION go east,,That's not a verb I recognise.,0,False
+78,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,False
+79,CHOSEN_ACTION go west,,That's not a verb I recognise.,0,True

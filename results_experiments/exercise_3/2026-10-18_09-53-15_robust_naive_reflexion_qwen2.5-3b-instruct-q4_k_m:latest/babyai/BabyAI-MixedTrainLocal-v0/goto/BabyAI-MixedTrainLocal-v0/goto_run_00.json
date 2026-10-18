@@ -1,0 +1,47 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "turn left": 10,
+        "turn right": 6,
+        "go forward": 21,
+        "drop": 1
+    },
+    "input_tokens": 26738,
+    "output_tokens": 243,
+    "done": true,
+    "episode_return": 0.46562499999999996,
+    "num_steps": 38,
+    "failed_candidates": [],
+    "mission": "go to the grey ball",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 2129906983,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "The agent tried to move closer to the grey ball but accidentally moved away or didn't use the toggle action to interact with the ball"
+    ]
+}

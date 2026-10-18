@@ -1,0 +1,93 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+1,go north,,You have to open the gateway first.,0,False
+2,open gateway,,You have to unlock the gateway with the key first.,0,False
+3,take key from gateway,,You can't see any such thing.,0,False
+4,unlock gateway with key,,You unlock gateway.,0,False
+5,go north,,You have to open the gateway first.,0,False
+6,open gateway,,You open gateway.,0,False
+7,go north,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see a closed normal looking trunk right there by you.
+
+There is a closed hatch leading east. There is an open gateway leading south.
+
+There is a passkey on the floor.",0,False
+8,open gateway with passkey,,You need to take the passkey first.,0,False
+9,take passkey from floor,,You can't see any such thing.,0,False
+10,take passkey from floor,,You can't see any such thing.,0,False
+11,take passkey from floor,,You can't see any such thing.,0,False
+12,take passkey from floor,,You can't see any such thing.,0,False
+13,take passkey from floor,,You can't see any such thing.,0,False
+14,take passkey from floor,,You can't see any such thing.,0,False
+15,open gateway with passkey,,You need to take the passkey first.,0,False
+16,take passkey from floor,,You can't see any such thing.,0,False
+17,take passkey from floor,,You can't see any such thing.,0,False
+18,open gateway with passkey,,You need to take the passkey first.,0,False
+19,take passkey from floor,,You can't see any such thing.,0,False
+20,take passkey from floor,,You can't see any such thing.,0,False
+21,take passkey from floor,,You can't see any such thing.,0,False
+22,open gateway with passkey,,You need to take the passkey first.,0,False
+23,take passkey from floor,,You can't see any such thing.,0,False
+24,take passkey from floor,,You can't see any such thing.,0,False
+25,open gateway with passkey,,You need to take the passkey first.,0,False
+26,take passkey from floor,,You can't see any such thing.,0,False
+27,take passkey from floor,,You can't see any such thing.,0,False
+28,take passkey from floor,,You can't see any such thing.,0,False
+29,take passkey from floor,,You can't see any such thing.,0,False
+30,take passkey from floor,,You can't see any such thing.,0,False
+31,take passkey from floor,,You can't see any such thing.,0,False
+32,take passkey from floor,,You can't see any such thing.,0,False
+33,take passkey from floor,,You can't see any such thing.,0,False
+34,take passkey from floor,,You can't see any such thing.,0,False
+35,take passkey from floor,,You can't see any such thing.,0,False
+36,open gateway with passkey,,You need to take the passkey first.,0,False
+37,take passkey from floor,,You can't see any such thing.,0,False
+38,take passkey from floor,,You can't see any such thing.,0,False
+39,take passkey from floor,,You can't see any such thing.,0,False
+40,take passkey from floor,,You can't see any such thing.,0,False
+41,take passkey from floor,,You can't see any such thing.,0,False
+42,take passkey from floor,,You can't see any such thing.,0,False
+43,take passkey from floor,,You can't see any such thing.,0,False
+44,take passkey from floor,,You can't see any such thing.,0,False
+45,take passkey from floor,,You can't see any such thing.,0,False
+46,take passkey from floor,,You can't see any such thing.,0,False
+47,take passkey from floor,,You can't see any such thing.,0,False
+48,take passkey from floor,,You can't see any such thing.,0,False
+49,take passkey from floor,,You can't see any such thing.,0,False
+50,take passkey from floor,,You can't see any such thing.,0,False
+51,take passkey from floor,,You can't see any such thing.,0,False
+52,go east,,You have to open the hatch first.,0,False
+53,go east,,You have to open the hatch first.,0,False
+54,open hatch,,You have to unlock the hatch with the passkey first.,0,False
+55,take passkey from floor,,You can't see any such thing.,0,False
+56,open hatch,,You have to unlock the hatch with the passkey first.,0,False
+57,unlock hatch with passkey,,You need to take the passkey first.,0,False
+58,take passkey from floor,,You can't see any such thing.,0,False
+59,take passkey from floor,,You can't see any such thing.,0,False
+60,take passkey from floor,,You can't see any such thing.,0,False
+61,take passkey from floor,,You can't see any such thing.,0,False
+62,take passkey from floor,,You can't see any such thing.,0,False
+63,take passkey from floor,,You can't see any such thing.,0,False
+64,take passkey from floor,,You can't see any such thing.,0,False
+65,open hatch,,You have to unlock the hatch with the passkey first.,0,False
+66,unlock hatch with passkey,,You need to take the passkey first.,0,False
+67,take passkey from floor,,You can't see any such thing.,0,False
+68,take passkey from floor,,You can't see any such thing.,0,False
+69,take passkey from floor,,You can't see any such thing.,0,False
+70,unlock hatch with passkey,,You need to take the passkey first.,0,False
+71,take passkey from floor,,You can't see any such thing.,0,False
+72,take passkey from floor,,You can't see any such thing.,0,False
+73,take passkey from floor,,You can't see any such thing.,0,False
+74,take passkey from floor,,You can't see any such thing.,0,False
+75,open hatch,,You have to unlock the hatch with the passkey first.,0,False
+76,unlock hatch with passkey,,You need to take the passkey first.,0,False
+77,take passkey from floor,,You can't see any such thing.,0,False
+78,take passkey from floor,,You can't see any such thing.,0,False
+79,take passkey from floor,,You can't see any such thing.,0,True

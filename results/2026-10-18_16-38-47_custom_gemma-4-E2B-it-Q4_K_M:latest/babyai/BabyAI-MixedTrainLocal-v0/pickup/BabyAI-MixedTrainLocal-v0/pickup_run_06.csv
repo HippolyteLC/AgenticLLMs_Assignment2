@@ -1,0 +1,54 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"Go left, then go forward twice.","a wall 2 steps left
+a green key 2 steps forward",0,False
+1,turn left,"Go left, then go forward twice.","a wall 2 steps forward
+a wall 2 steps left
+a green key 2 steps right",0,False
+2,turn right,"Turn right, then go forward twice.","a wall 2 steps left
+a green key 2 steps forward",0,False
+3,go forward,"Go forward, go forward","a wall 2 steps left
+a green key 1 step forward",0,False
+4,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+5,go forward,Go forward,"a wall 2 steps left
+a green key 1 step forward",0,False
+6,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+7,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+8,go forward,Go forward,"a wall 2 steps left
+a green key 1 step forward",0,False
+9,go forward,Go forward,"a wall 2 steps left
+a green key 1 step forward",0,False
+10,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps left
+a green key 1 step right",0,False
+11,turn left,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right",0,False
+12,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 3 steps right
+a green key 1 step left",0,False
+13,turn left,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+14,go forward,Go forward,"a wall 2 steps left
+a green key 1 step forward",0,False
+15,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+16,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+17,go forward,Go forward,"a wall 2 steps left
+a green key 1 step forward",0,False
+18,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 3 steps right
+a green key 1 step left",0,False
+19,turn left,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+20,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+21,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+22,go forward,No changes to the plan.,"a wall 2 steps left
+a green key 1 step forward",0,False
+23,pick up,No changes to the plan.,"You carry a green key
+a wall 4 steps forward
+a wall 2 steps left",0.6625,True

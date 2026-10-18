@@ -1,0 +1,58 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go west": 1,
+        "go south": 3,
+        "go north": 5,
+        "examine bed": 4,
+        "look": 20,
+        "ACTION": 2,
+        "tool_call": 1,
+        "LOOK": 5,
+        "look north": 1,
+        "examine cookbook": 3,
+        "dice carrot": 15,
+        "CHOSEN_ACTION|END|": 2,
+        "CHOSEN_ACTION|dice carrot|": 7,
+        "CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION|CHOSEN_ACTION": 1,
+        "That's not a verb I recognise.\n\n>                                                                                                                                -= Kitchen =-0/43": 8,
+        "ERROR": 2
+    },
+    "input_tokens": 175688,
+    "output_tokens": 6898,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1533124570,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "|REFLECTION|That's not a verb I recognise.|END|"
+    ]
+}

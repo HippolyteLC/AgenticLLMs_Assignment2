@@ -1,0 +1,351 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go east,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/2",0,False
+1,look,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/3",0,False
+2,examine raw purple potato,,"The raw purple potato looks savory.
+
+
+>                                                                                                                                -= Garden =-0/4",0,False
+3,examine raw purple potato,,"The raw purple potato looks savory.
+
+
+>                                                                                                                                -= Garden =-0/5",0,False
+4,examine raw purple potato,,"The raw purple potato looks savory.
+
+
+>                                                                                                                                -= Garden =-0/6",0,False
+5,go west,,"-= Backyard =-
+You make another one of your grand eccentric entrances into a backyard.
+
+You make out a patio table. The patio table is stylish. But oh no! there's nothing on this piece of junk. You scan the room, seeing a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. What, you think everything in TextWorld should have stuff on it? You see a BBQ. The light flickers for a second, but nothing else happens.
+
+There is a closed patio door leading north. There is a closed barn door leading south. You don't like doors? Why not try going east, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Backyard =-0/7",0,False
+6,go east,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/8",0,False
+7,examine raw purple potato,,"The raw purple potato looks savory.
+
+
+>                                                                                                                                -= Garden =-0/9",0,False
+8,examine raw purple potato,,"The raw purple potato looks savory.
+
+
+>                                                                                                                                -= Garden =-0/10",0,False
+9,examine raw purple potato,,"The raw purple potato looks savory.
+
+
+>                                                                                                                                -= Garden =-0/11",0,False
+10,go west,,"-= Backyard =-
+You make another one of your grand eccentric entrances into a backyard.
+
+You make out a patio table. The patio table is stylish. But oh no! there's nothing on this piece of junk. You scan the room, seeing a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. What, you think everything in TextWorld should have stuff on it? You see a BBQ. The light flickers for a second, but nothing else happens.
+
+There is a closed patio door leading north. There is a closed barn door leading south. You don't like doors? Why not try going east, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Backyard =-0/12",0,False
+11,look,,"-= Backyard =-
+You make another one of your grand eccentric entrances into a backyard.
+
+You make out a patio table. The patio table is stylish. But oh no! there's nothing on this piece of junk. You scan the room, seeing a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. What, you think everything in TextWorld should have stuff on it? You see a BBQ. The light flickers for a second, but nothing else happens.
+
+There is a closed patio door leading north. There is a closed barn door leading south. You don't like doors? Why not try going east, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Backyard =-0/13",0,False
+12,examine patio table,,"The patio table is wobbly.
+
+
+>                                                                                                                                -= Backyard =-0/14",0,False
+13,look,,"-= Backyard =-
+You make another one of your grand eccentric entrances into a backyard.
+
+You make out a patio table. The patio table is stylish. But oh no! there's nothing on this piece of junk. You scan the room, seeing a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. What, you think everything in TextWorld should have stuff on it? You see a BBQ. The light flickers for a second, but nothing else happens.
+
+There is a closed patio door leading north. There is a closed barn door leading south. You don't like doors? Why not try going east, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Backyard =-0/15",0,False
+14,go east,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/16",0,False
+15,examine raw purple potato,,"The raw purple potato looks savory.
+
+
+>                                                                                                                                -= Garden =-0/17",0,False
+16,look,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/18",0,False
+17,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-0/19",0,False
+18,look,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/20",0,False
+19,look,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/21",0,False
+20,look,,"-= Garden =-
+You find yourself in a garden. An usual one. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an exit to the west.
+
+There is a raw purple potato on the floor.
+
+
+>                                                                                                                                -= Garden =-0/22",0,False
+21,look aquarium,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+22,"Current Observation:
+You can't see any such thing.
+
+>                                                                                                                                -= Garden =-0/22
+
+None.
+
+Consider your past lessons below and the current observation to choose your next action.
+
+Past Lessons:
+None.
+
+Next Action:
+find cookbook",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+23,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+24,find cookbook,,"I beg your pardon?
+
+>                                                                                                                                -= Garden =-0/22",0,False
+25,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+26,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+27,look cookbook,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+28,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+29,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+30,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+31,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+32,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+33,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+34,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+35,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+36,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+37,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+38,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+39,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+40,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+41,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+42,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+43,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+44,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+45,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+46,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+47,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+48,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+49,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+50,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+51,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+52,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+53,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+54,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+55,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+56,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+57,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+58,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+59,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+60,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+61,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+62,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+63,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+64,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+65,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+66,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+67,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+68,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+69,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+70,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+71,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+72,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+73,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+74,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+75,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+76,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+77,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+78,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,False
+79,find cookbook,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/22",0,True

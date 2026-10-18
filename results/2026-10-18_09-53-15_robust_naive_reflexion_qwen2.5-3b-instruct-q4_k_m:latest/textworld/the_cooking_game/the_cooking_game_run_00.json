@@ -1,0 +1,51 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go south": 12,
+        "open door": 1,
+        "examine door": 1,
+        "go north": 6,
+        "look": 23,
+        "take raw white tuna from showcase": 25,
+        "examine showcase": 7,
+        "ACTION": 3,
+        "take raw cheese from showcase": 2
+    },
+    "input_tokens": 129562,
+    "output_tokens": 492,
+    "done": true,
+    "episode_return": 44.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.11764705882352941,
+    "process_num": null,
+    "seed": 788801900,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "Go direction was incorrect or the player might have taken an unnecessary action like examining showcase again when just taking the item was enough."
+    ]
+}

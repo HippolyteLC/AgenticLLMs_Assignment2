@@ -1,0 +1,158 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.
+
+There is a Microsoft limited edition latchkey on the floor.",0,False
+1,go south,,You have to open the hatch first.,0,False
+2,go south,,You have to open the hatch first.,0,False
+3,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+4,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+5,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+6,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+7,go north,,You have to open the Microsoft limited edition hatch first.,0,False
+8,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+9,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+10,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+11,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+12,take latchkey,,You pick up the Microsoft limited edition latchkey from the ground.,0,False
+13,go north,,You have to open the Microsoft limited edition hatch first.,0,False
+14,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+15,take latchkey,,You already have that.,0,False
+16,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+17,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+18,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+19,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+20,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+21,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+22,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+23,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+24,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+25,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+26,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+27,go north,,You have to open the Microsoft limited edition hatch first.,0,False
+28,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+29,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+30,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+31,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+32,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+33,go north,,You have to open the Microsoft limited edition hatch first.,0,False
+34,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+35,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+36,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+37,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+38,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+39,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+40,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+41,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+42,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+43,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+44,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+45,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+46,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+47,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+48,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+49,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+50,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+51,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+52,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+53,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+54,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+55,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+56,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+57,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+58,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+59,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+60,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+61,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+62,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+63,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+64,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+65,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+66,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+67,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+68,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+69,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+70,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+71,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+72,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+73,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+74,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+75,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+76,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+77,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+78,look,,"-= Cubicle =-
+You've entered a cubicle.
+
+
+
+There is a closed Microsoft limited edition hatch leading north. There is a closed hatch leading south.",0,False
+79,open hatch leading south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,True

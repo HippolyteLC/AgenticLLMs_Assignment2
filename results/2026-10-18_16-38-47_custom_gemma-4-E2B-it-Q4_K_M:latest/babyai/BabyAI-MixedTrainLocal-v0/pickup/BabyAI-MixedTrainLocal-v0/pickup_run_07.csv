@@ -1,0 +1,48 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+1,turn left,Explore the area by turning.,"a wall 5 steps forward
+a wall 2 steps right",0,False
+2,turn right,Explore the area by turning.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+3,turn right,Explore the area by turning.,"a wall 2 steps forward
+a wall 2 steps left",0,False
+4,turn right,Explore the area by turning.,"a wall 5 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 4 steps forward",0,False
+5,turn left,Turn left to approach the blue ball.,"a wall 2 steps forward
+a wall 2 steps left",0,False
+6,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+7,turn left,Turn left to approach the blue ball.,"a wall 5 steps forward
+a wall 2 steps right",0,False
+8,turn left,"Turn left, then go forward four times.","a wall 5 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 4 steps forward",0,False
+9,turn left,"Turn left, then go forward four times.","a wall 2 steps forward
+a wall 2 steps left",0,False
+10,turn left,"Turn left, then go forward four times.","a wall 2 steps forward
+a wall 2 steps right",0,False
+11,go forward,"Go forward four times, then turn left once.","a wall 1 step forward
+a wall 2 steps right",0,False
+12,turn right,Turn right then explore.,"a wall 2 steps forward
+a wall 1 step left",0,False
+13,go forward,"Move 1 step left, then 4 steps forward to reach the blue ball.","a wall 1 step forward
+a wall 1 step left",0,False
+14,turn left,"Move 1 step left, then 4 steps forward to reach the blue ball.","a wall 1 step forward
+a wall 1 step right",0,False
+15,turn left,"Move 1 step left, then 4 steps forward to reach the blue ball.","a wall 6 steps forward
+a wall 1 step right",0,False
+16,turn left,"Move 1 step left, then 4 steps forward to reach the blue ball.","a wall 1 step left
+a blue ball 5 steps forward",0,False
+17,go forward,Move forward 5 times to reach the blue ball.,"a wall 1 step left
+a blue ball 4 steps forward",0,False
+18,go forward,Move forward 4 times to reach the blue ball.,"a wall 1 step left
+a blue ball 3 steps forward",0,False
+19,go forward,Move forward 3 times to reach and pick up the blue ball.,"a wall 1 step left
+a blue ball 2 steps forward",0,False
+20,go forward,Go forward twice to reach and pick up the blue ball. (Avoiding repeated 'go forward' by planning the next two steps).,"a wall 1 step left
+a blue ball 1 step forward",0,False
+21,pick up,Pick up the blue ball.,"You carry a blue ball
+a wall 2 steps forward
+a wall 1 step left",0.690625,True
