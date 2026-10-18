@@ -1,0 +1,56 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go north": 8,
+        "examine closed wooden door": 4,
+        "open closed wooden door": 2,
+        "examine patio table": 13,
+        "examine BBQ": 3,
+        ">                                                                                                                                -= Backyard =-0/11": 1,
+        "go <|\\> north": 1,
+        "examine open wooden door": 3,
+        "open wooden door": 3,
+        "examine cookbook": 7,
+        "examine toolbox": 20,
+        "open toolbox": 2,
+        "take knife": 6,
+        "look around": 2,
+        "examine Shed": 1,
+        "examine shed": 3,
+        "go east": 1
+    },
+    "input_tokens": 155062,
+    "output_tokens": 375,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 3497519623,
+    "agent": {
+        "type": "reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 4,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

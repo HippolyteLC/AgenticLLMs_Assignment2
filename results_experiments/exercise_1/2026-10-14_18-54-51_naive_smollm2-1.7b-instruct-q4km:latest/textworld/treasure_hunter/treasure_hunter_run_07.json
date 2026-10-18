@@ -1,0 +1,63 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "look": 8,
+        "go north": 1,
+        "go south": 3,
+        "take the dresser": 2,
+        "go west": 1,
+        "unlock the dresser": 1,
+        "unlock the safe": 1,
+        "take the safe": 1,
+        "take": 10,
+        "close the safe": 1,
+        "close": 4,
+        "close the door": 1,
+        "open the safe": 2,
+        "open": 20,
+        "pick": 9,
+        "move to the left": 1,
+        "go east": 1,
+        "look on the desk": 2,
+        "move east": 1,
+        "pick up the desk top": 1,
+        "pick up the desktop": 1,
+        "open the desk drawer": 1,
+        "open the drawer": 2,
+        "pick up the drawer": 2,
+        "look inside the drawer": 2,
+        "pick up a drawer lid": 1
+    },
+    "input_tokens": 77209,
+    "output_tokens": 229,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 745926076,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

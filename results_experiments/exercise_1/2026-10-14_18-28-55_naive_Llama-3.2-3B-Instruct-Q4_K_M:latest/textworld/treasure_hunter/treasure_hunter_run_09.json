@@ -1,0 +1,55 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "open box": 7,
+        "inventory": 4,
+        "look": 4,
+        "go north": 6,
+        "take key": 15,
+        "go south": 7,
+        "go east": 4,
+        "open hatch": 8,
+        "unlock hatch": 14,
+        "take TextWorld style latchkey": 2,
+        "take latchkey": 1,
+        "pick up latchkey": 1,
+        "try key": 1,
+        "try to unlock hatch with key": 1,
+        "try use key": 1,
+        "try to unlock": 1,
+        "try": 2,
+        "try unlock": 1
+    },
+    "input_tokens": 73996,
+    "output_tokens": 247,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 4214411487,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

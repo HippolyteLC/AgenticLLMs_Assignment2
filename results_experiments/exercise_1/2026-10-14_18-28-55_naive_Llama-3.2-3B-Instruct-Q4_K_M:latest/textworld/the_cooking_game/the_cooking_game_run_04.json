@@ -1,0 +1,57 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "look": 4,
+        "inventory": 8,
+        "go east": 5,
+        "examine barn door": 3,
+        "open barn door": 1,
+        "examine barn": 3,
+        "take cookbook": 1,
+        "examine shed": 2,
+        "examine toolbox": 17,
+        "open toolbox": 4,
+        "take knife": 2,
+        "examine inside toolbox": 1,
+        "examine inside": 3,
+        "examine cookbook": 2,
+        "open Shed": 1,
+        "go north": 1,
+        "examine Shed": 1,
+        "go west": 4,
+        "examine BBQ": 16,
+        "examine workbench": 1
+    },
+    "input_tokens": 112938,
+    "output_tokens": 283,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1680847336,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

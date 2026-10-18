@@ -1,0 +1,55 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        " Agent Response \nlook at the cheese at the shelf at the showcase": 1,
+        "Agent Response \nInclude your previous observations": 1,
+        " look": 1,
+        "Agent Response \nLook at the cheese": 1,
+        "Agent Response": 14,
+        "No": 6,
+        "no": 7,
+        "agent response": 5,
+        "agent Response": 19,
+        "agent Action": 4,
+        "agent Observation": 1,
+        "agent I do not understand the response": 2,
+        "agent Query": 3,
+        "agent Output": 10,
+        "agent Initial Response": 1,
+        "agent Print": 2,
+        "agent Quit": 1,
+        "agent Yes": 1
+    },
+    "input_tokens": 105691,
+    "output_tokens": 269,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 538469768,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

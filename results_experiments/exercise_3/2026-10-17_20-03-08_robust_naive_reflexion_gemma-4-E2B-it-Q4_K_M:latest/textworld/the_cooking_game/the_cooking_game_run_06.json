@@ -1,0 +1,72 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go east": 2,
+        "examine raw purple potato": 1,
+        "take raw purple potato": 1,
+        "look": 10,
+        "go west": 4,
+        "examine BBQ": 1,
+        "go north": 2,
+        "open patio door": 1,
+        "go south": 1,
+        "examine cookbook": 3,
+        "take knife": 1,
+        "slice yellow potato with knife": 2,
+        "take yellow potato from counter": 2,
+        "slice pork chop with knife": 1,
+        "take pork chop from inventory": 1,
+        "take red onion from counter": 1,
+        "take red onion with knife": 1,
+        "take yellow onion from counter": 1,
+        "prepare meal": 1,
+        "cook pork chop with grill": 1,
+        "examine stove": 1,
+        "cook pork chop with stove": 1,
+        "take purple potato from counter": 2,
+        "open fridge": 1,
+        "take raw pork chop from fridge": 1,
+        "slice raw pork chop with knife": 1,
+        "grill pork chop with grill": 1,
+        "END": 1,
+        "take red onion from fridge": 1,
+        "chop red onion with knife": 1
+    },
+    "input_tokens": 98611,
+    "output_tokens": 4811,
+    "done": true,
+    "episode_return": 123.0,
+    "num_steps": 49,
+    "failed_candidates": [],
+    "progression": 0.35294117647058826,
+    "process_num": null,
+    "seed": 4233972171,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "take yellow onion from fridge"
+    ]
+}

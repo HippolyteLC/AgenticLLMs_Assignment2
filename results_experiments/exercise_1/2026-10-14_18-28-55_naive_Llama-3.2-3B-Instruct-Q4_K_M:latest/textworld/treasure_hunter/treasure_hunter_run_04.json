@@ -1,0 +1,55 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "look": 11,
+        "go north": 17,
+        "go south": 15,
+        "go west": 3,
+        "inventory": 12,
+        "open": 6,
+        "take": 1,
+        "take cuboid keycard": 1,
+        "open cuboid portal": 3,
+        "unlock cuboid portal with cuboid keycard": 1,
+        "open gate": 1,
+        "open coffer": 1,
+        "examine stand": 1,
+        "take rectangular latchkey": 1,
+        "go east": 1,
+        "open crate": 3,
+        "insert rectangular latchkey into lock": 1,
+        "examine crate": 1
+    },
+    "input_tokens": 86243,
+    "output_tokens": 235,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2641674244,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

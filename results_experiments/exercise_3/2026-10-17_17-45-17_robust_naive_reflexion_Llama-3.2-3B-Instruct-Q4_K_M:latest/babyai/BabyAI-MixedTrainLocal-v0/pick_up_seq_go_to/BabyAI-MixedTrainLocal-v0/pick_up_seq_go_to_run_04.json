@@ -1,0 +1,61 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "go forward": 76,
+        "turn left": 7,
+        "pick up": 13,
+        "turn right": 5,
+        "toggle": 16,
+        "drop": 11
+    },
+    "input_tokens": 99089,
+    "output_tokens": 1505,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "TURN LEFT",
+        "goto",
+        "goto",
+        "action",
+        "turn left and then pick up from the wall in front of you",
+        "TURN RIGHT",
+        "END",
+        "GO FORWARD",
+        "go toward the left",
+        "go toward the left",
+        "go toward the left"
+    ],
+    "mission": "pick up the purple ball, then go to the blue ball",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1206798873,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>Next time, when rewarded with an observation indicating an unseen item (in this case, the purple ball), choose to 'pick up' the object before advancing, to avoid missing the opportunity to interact with or reach the desired destination."
+    ]
+}

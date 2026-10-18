@@ -1,0 +1,69 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "go": 1,
+        "move north": 2,
+        "END": 5,
+        "None": 9,
+        "look": 3,
+        "end": 3,
+        "chosenone": 1,
+        "chosen_action": 1,
+        "choseend": 1,
+        "none": 20,
+        "search_again": 2,
+        "-= Basement =-\nYou've entered a basement.\n\n\n\nThere is a closed passageway leading south. There is an unblocked exit to the east. You don't like doors? Why not try going north, that entranceway is unguarded.": 1,
+        "-= Basement =-": 1,
+        "some_action": 12,
+        "search": 5,
+        "None.\n\nI'm ready to follow those instructions.": 1,
+        "DANCING ROCK": 1,
+        "that": 1,
+        "action": 1,
+        "None.": 1,
+        "observation": 2,
+        "Observation:\nThat's not a verb I recognise.": 1,
+        "ACTION: none": 1,
+        "Action": 1,
+        "CHARACTER_TO_REPLACE": 1,
+        "CHOSEN_ACTION": 1,
+        "ACTIVITY": 1
+    },
+    "input_tokens": 71558,
+    "output_tokens": 965,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 3911337879,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>no adjustment currently needed but add in future trials"
+    ]
+}

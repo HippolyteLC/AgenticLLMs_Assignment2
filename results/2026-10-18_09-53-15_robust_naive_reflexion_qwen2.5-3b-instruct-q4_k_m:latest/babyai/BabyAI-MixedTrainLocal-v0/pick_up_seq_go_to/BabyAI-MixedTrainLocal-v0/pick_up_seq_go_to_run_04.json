@@ -1,0 +1,48 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "turn left": 32,
+        "go forward": 54,
+        "pick up": 4,
+        "toggle": 26,
+        "turn right": 11
+    },
+    "input_tokens": 102127,
+    "output_tokens": 1410,
+    "done": true,
+    "episode_return": 0.10703125000000002,
+    "num_steps": 127,
+    "failed_candidates": [],
+    "mission": "go to the blue box after you pick up the purple box",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 2921832386,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "|REFLECTION|The agent successfully picked up the purple box but did not properly navigate to the blue box. The agent faced the blue box but then moved forward, heading away from the blue box. The agent should turn towards the blue box before going forward.|END|"
+    ]
+}

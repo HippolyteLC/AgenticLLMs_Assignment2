@@ -1,0 +1,455 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,examine BBQ,,"Useful for grilling things.
+
+
+>                                                                                                                                -= Backyard =-0/2",0,False
+1,go east,,"You have to open the barn door first.
+
+
+>                                                                                                                                -= Backyard =-0/3",0,False
+2,open barn door,,"You open barn door.
+
+
+>                                                                                                                                -= Backyard =-0/4",0,False
+3,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is a closed sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/5",0,False
+4,go east,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-0/6",0,False
+5,examine toolbox,,"The toolbox looks stuffy. You can't see inside it because the lid's in your way.
+
+
+>                                                                                                                                -= Shed =-0/7",0,False
+6,open toolbox,,"You open the toolbox.
+
+
+>                                                                                                                                -= Shed =-0/8",0,False
+7,examine workbench,,"The workbench is undependable.
+
+
+>                                                                                                                                -= Shed =-0/9",0,False
+8,look,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-0/10",0,False
+9,examine barn door,,"It's a commanding barn door You can see inside it.
+
+
+>                                                                                                                                -= Shed =-0/11",0,False
+10,examine barn door,,"It's a commanding barn door You can see inside it.
+
+
+>                                                                                                                                -= Shed =-0/12",0,False
+11,go west,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is a closed sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/13",0,False
+12,go west,,"You have to open the sliding patio door first.
+
+
+>                                                                                                                                -= Backyard =-0/14",0,False
+13,open sliding patio door,,"You open sliding patio door.
+
+
+>                                                                                                                                -= Backyard =-0/15",0,False
+14,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/16",0,False
+15,go north,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a carrot, a red onion, a tomato, a yellow bell pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-0/17",0,False
+16,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Garden =-0/17",0,False
+17,take carrot,,"You pick up the carrot from the ground.
+
+
+
+>                                                                                                                                -= Garden =-0/18",0,False
+18,take red onion,,"You pick up the red onion from the ground.
+
+
+
+>                                                                                                                                -= Garden =-0/19",0,False
+19,take tomato,,"You pick up the tomato from the ground.
+
+
+
+>                                                                                                                                -= Garden =-0/20",0,False
+20,take yellow bell pepper,,"You pick up the yellow bell pepper from the ground.
+
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Garden =-1/21",1,False
+21,slice carrot with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/21",1,False
+22,slice carrot with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/21",1,False
+23,slice carrot with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/21",1,False
+24,slice carrot with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/21",1,False
+25,slice carrot with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-1/21",1,False
+26,look,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-1/22",1,False
+27,take red onion,,"You already have that.
+
+
+
+>                                                                                                                                -= Garden =-1/23",1,False
+28,take red hot pepper,,"You pick up the red hot pepper from the ground.
+
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Garden =-2/24",2,False
+29,slice red hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-2/24",2,False
+30,take red apple,,"You pick up the red apple from the ground.
+
+
+
+>                                                                                                                                -= Garden =-2/25",2,False
+31,examine cookbook,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-2/25",2,False
+32,look,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-2/26",2,False
+33,go south,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-2/27",2,False
+34,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-2/28",2,False
+35,go east,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-2/29",2,False
+36,examine toolbox,,"The toolbox looks stuffy. You can see inside it.
+
+
+>                                                                                                                                -= Shed =-2/30",2,False
+37,take something from toolbox,,"You can't see any such thing.
+
+>                                                                                                                                -= Shed =-2/30",2,False
+38,examine workbench,,"The workbench is undependable.
+
+
+>                                                                                                                                -= Shed =-2/31",2,False
+39,examine barn door,,"It's a commanding barn door You can see inside it.
+
+
+>                                                                                                                                -= Shed =-2/32",2,False
+40,open barn door,,"That's already open.
+
+
+>                                                                                                                                -= Shed =-2/33",2,False
+41,go west,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-2/34",2,False
+42,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-2/35",2,False
+43,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-2/36",2,False
+44,inventory,,"You are carrying: a red apple, a red hot pepper, a yellow bell pepper, a tomato, a red onion and a carrot.
+
+
+>                                                                                                                                -= Backyard =-2/37",2,False
+45,prepare meal,,"Can only prepare meal in the -= Kitchen =-.
+
+
+>                                                                                                                                -= Backyard =-2/38",2,False
+46,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-2/39",2,False
+47,go north,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-2/40",2,False
+48,examine green hot pepper,,"You couldn't pay me to eat that green hot pepper.
+
+
+>                                                                                                                                -= Garden =-2/41",2,False
+49,take green hot pepper,,"You pick up the green hot pepper from the ground.
+
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Garden =-3/42",3,False
+50,take yellow onion,,"You pick up the yellow onion from the ground.
+
+
+
+>                                                                                                                                -= Garden =-3/43",3,False
+51,put yellow onion in toolbox,,"You can't see any such thing.
+
+>                                                                                                                                -= Garden =-3/43",3,False
+52,examine green hot pepper,,"You couldn't pay me to eat that green hot pepper.
+
+
+>                                                                                                                                -= Garden =-3/44",3,False
+53,take yellow onion,,"You already have that.
+
+
+
+>                                                                                                                                -= Garden =-3/45",3,False
+54,drop yellow onion,,"You drop the yellow onion on the ground.
+
+
+>                                                                                                                                -= Garden =-3/46",3,False
+55,examine yellow onion,,"You couldn't pay me to eat that yellow onion.
+
+
+>                                                                                                                                -= Garden =-3/47",3,False
+56,examine green hot pepper,,"You couldn't pay me to eat that green hot pepper.
+
+
+>                                                                                                                                -= Garden =-3/48",3,False
+57,take red onion,,"You already have that.
+
+
+
+>                                                                                                                                -= Garden =-3/49",3,False
+58,examine yellow onion,,"You couldn't pay me to eat that yellow onion.
+
+
+>                                                                                                                                -= Garden =-3/50",3,False
+59,take red onion,,"You already have that.
+
+
+
+>                                                                                                                                -= Garden =-3/51",3,False
+60,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-3/52",3,False
+61,go south,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-3/53",3,False
+62,go east,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-3/54",3,False
+63,go west|END,,"You can't see any such thing.
+
+>                                                                                                                                -= Shed =-3/54",3,False
+64,examine toolbox,,"The toolbox looks stuffy. You can see inside it.
+
+
+>                                                                                                                                -= Shed =-3/55",3,False
+65,drop yellow onion,,"I only understood you as far as wanting to drop the yellow bell pepper.
+
+>                                                                                                                                -= Shed =-3/55",3,False
+66,take yellow onion,,"I only understood you as far as wanting to take the yellow bell pepper.
+
+>                                                                                                                                -= Shed =-3/55",3,False
+67,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Shed =-3/55",3,False
+68,examine toolbox,,"The toolbox looks stuffy. You can see inside it.
+
+
+>                                                                                                                                -= Shed =-3/56",3,False
+69,take yellow onion,,"I only understood you as far as wanting to take the yellow bell pepper.
+
+>                                                                                                                                -= Shed =-3/56",3,False
+70,take yellow onion,,"I only understood you as far as wanting to take the yellow bell pepper.
+
+>                                                                                                                                -= Shed =-3/56",3,False
+71,look,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-3/57",3,False
+72,look,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-3/58",3,False
+73,look,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-3/59",3,False
+74,examine workbench,,"The workbench is undependable.
+
+
+>                                                                                                                                -= Shed =-3/60",3,False
+75,take something from workbench,,"You can't see any such thing.
+
+>                                                                                                                                -= Shed =-3/60",3,False
+76,look,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-3/61",3,False
+77,look,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-3/62",3,False
+78,look,,"-= Shed =-
+You find yourself in a shed. An ordinary one.
+
+You can make out a toolbox. The toolbox is empty, what a horrible day! You make out a workbench. The workbench is wooden. However, the workbench, like an empty workbench, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open barn door leading west.
+
+
+>                                                                                                                                -= Shed =-3/63",3,False
+79,go west,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is an open barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-3/64",3,True

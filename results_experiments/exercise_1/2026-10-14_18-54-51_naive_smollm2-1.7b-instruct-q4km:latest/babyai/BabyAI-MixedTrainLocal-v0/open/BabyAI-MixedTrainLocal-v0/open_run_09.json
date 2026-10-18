@@ -1,0 +1,66 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/open",
+    "action_frequency": {
+        "turn right": 23,
+        "go forward": 66,
+        "turn left": 27,
+        "pick up": 7,
+        "toggle": 5
+    },
+    "input_tokens": 108483,
+    "output_tokens": 406,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "take three steps forward",
+        "take off",
+        "turn around",
+        "turn around",
+        "look up",
+        "move your left arm up",
+        "look down",
+        "look up",
+        "move your tongue",
+        "wait",
+        "look up",
+        "look down",
+        "look forward",
+        "look forward",
+        "move your left foot back",
+        "move your right hand forward",
+        "look down",
+        "look forward",
+        "move your right foot back",
+        "look at the object in your hand",
+        "look forward",
+        "move your left foot forward"
+    ],
+    "mission": "open the door",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1725659684,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

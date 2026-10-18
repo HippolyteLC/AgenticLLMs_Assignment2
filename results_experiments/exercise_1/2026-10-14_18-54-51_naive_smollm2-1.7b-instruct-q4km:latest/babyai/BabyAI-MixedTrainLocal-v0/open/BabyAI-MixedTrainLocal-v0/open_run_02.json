@@ -1,0 +1,60 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/open",
+    "action_frequency": {
+        "turn left": 21,
+        "go forward": 71,
+        "turn right": 11,
+        "pick up": 25
+    },
+    "input_tokens": 104475,
+    "output_tokens": 386,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "move left",
+        "move right",
+        "move right",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "move forward",
+        "go back",
+        "move forward",
+        "check the observation",
+        "move forward",
+        "check the observation"
+    ],
+    "mission": "open the door",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 4152445640,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

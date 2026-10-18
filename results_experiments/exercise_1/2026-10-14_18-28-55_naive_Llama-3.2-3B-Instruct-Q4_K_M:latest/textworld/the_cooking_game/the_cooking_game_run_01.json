@@ -1,0 +1,61 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "look": 3,
+        "inventory": 13,
+        "go east": 4,
+        "examine sofa": 11,
+        "go west": 2,
+        "look kitchen": 1,
+        "go south": 7,
+        "examine cookbook": 7,
+        "take knife": 2,
+        "go north": 5,
+        "take green hot pepper": 2,
+        "slice green hot pepper": 2,
+        "examine green hot pepper": 2,
+        "take orange bell pepper": 1,
+        "take tomato": 3,
+        "examine orange bell pepper": 1,
+        "take kitchen knife": 1,
+        "open fridge": 4,
+        "examine fridge": 3,
+        "look inside fridge": 1,
+        "examine front door": 2,
+        "open front door": 1,
+        "examine door": 1,
+        "look around": 1
+    },
+    "input_tokens": 141410,
+    "output_tokens": 272,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 3502928284,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "turn left": 9,
+        "go forward": 58,
+        "turn right": 8,
+        "pick up": 1
+    },
+    "input_tokens": 56176,
+    "output_tokens": 22524,
+    "done": true,
+    "episode_return": 0.46562499999999996,
+    "num_steps": 76,
+    "failed_candidates": [],
+    "mission": "pick up the green box, then go to the purple key",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 4265043384,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "The agent successfully picked up the green box but failed to reach the purple key. The trajectory suggests inefficient movement towards the key or insufficient forward progress before turning or stopping. Next time, prioritize direct movement towards the target (the purple key) once it is in vicinity."
+    ]
+}

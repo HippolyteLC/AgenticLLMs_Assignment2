@@ -1,0 +1,64 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "examine block of cheese": 3,
+        "go south": 10,
+        "open sliding door": 2,
+        "GO SOUTH": 1,
+        "examine open sliding door": 1,
+        "go north": 10,
+        "examine": 6,
+        "examine raw white tuna": 10,
+        "inventory": 7,
+        "examine showcase": 5,
+        "examine street": 2,
+        "-action": 1,
+        "Cook raw white tuna with stove": 2,
+        "go east": 4,
+        "take cookbook": 1,
+        "examine driveway": 4,
+        "examine cookbook": 5,
+        "open front door": 1,
+        "open cookbook": 1,
+        "examine the bed": 2,
+        "go west": 1,
+        "open patio door": 1
+    },
+    "input_tokens": 122390,
+    "output_tokens": 1028,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 4056767979,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>Take the knife from the kitchen before approaching the patio door to prepare it for later use."
+    ]
+}

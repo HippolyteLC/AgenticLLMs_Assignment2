@@ -1,0 +1,96 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,east,,"-= Bedroom =-
+Ah, the bedroom. This is some kind of bedroom, really great normal vibes in this place, a wonderful normal atmosphere.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+1,north,,You can't go that way.,0,False
+2,the west-facing exit door is unguarded,,That's not a verb I recognise.,0,False
+3,some_action,,That's not a verb I recognise.,0,False
+4,some_action,,That's not a verb I recognise.,0,False
+5,none,,That's not a verb I recognise.,0,False
+6,east,,You can't go that way.,0,False
+7,east,,You can't go that way.,0,False
+8,east,,You can't go that way.,0,False
+9,east,,You can't go that way.,0,False
+10,east,,You can't go that way.,0,False
+11,east CHOSEN_ACTION,,I only understood you as far as wanting to (go) east.,0,False
+12,the west-facing exit door is unguarded,,That's not a verb I recognise.,0,False
+13,east,,You can't go that way.,0,False
+14,east,,You can't go that way.,0,False
+15,east,,You can't go that way.,0,False
+16,the_east,,That's not a verb I recognise.,0,False
+17,west,,"-= Recreation Zone =-
+You've just sauntered into a recreation zone.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded. You don't like doors? Why not try going north, that entranceway is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+18,east,,"-= Bedroom =-
+Ah, the bedroom. This is some kind of bedroom, really great normal vibes in this place, a wonderful normal atmosphere.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+19,east,,You can't go that way.,0,False
+20,east CHOSEN_ACTION,,I only understood you as far as wanting to (go) east.,0,False
+21,east,,You can't go that way.,0,False
+22,east,,You can't go that way.,0,False
+23,east,,You can't go that way.,0,False
+24,east,,You can't go that way.,0,False
+25,east,,You can't go that way.,0,False
+26,east,,You can't go that way.,0,False
+27,east,,You can't go that way.,0,False
+28,east,,You can't go that way.,0,False
+29,east,,You can't go that way.,0,False
+30,east,,You can't go that way.,0,False
+31,none,,That's not a verb I recognise.,0,False
+32,none,,That's not a verb I recognise.,0,False
+33,none,,That's not a verb I recognise.,0,False
+34,none,,That's not a verb I recognise.,0,False
+35,east,,You can't go that way.,0,False
+36,none,,That's not a verb I recognise.,0,False
+37,no_action,,That's not a verb I recognise.,0,False
+38,take coin,,You can't see any such thing.,0,False
+39,east,,You can't go that way.,0,False
+40,current_observation_with_plain_text,,That's not a verb I recognise.,0,False
+41,,,I beg your pardon?,0,False
+42,do_action,,That's not a verb I recognise.,0,False
+43,none,,That's not a verb I recognise.,0,False
+44,no_choice,,That's not a verb I recognise.,0,False
+45,do_action,,That's not a verb I recognise.,0,False
+46,take coin,,You can't see any such thing.,0,False
+47,do_action,,That's not a verb I recognise.,0,False
+48,go,,You'll have to say which compass direction to go in.,0,False
+49,go south,,You can't go that way.,0,False
+50,none,,That's not a verb I recognise.,0,False
+51,east,,You can't go that way.,0,False
+52,east,,You can't go that way.,0,False
+53,do_a_thing,,That's not a verb I recognise.,0,False
+54,north,,You can't go that way.,0,False
+55,east,,You can't go that way.,0,False
+56,do_a_thing,,That's not a verb I recognise.,0,False
+57,do_a_thing,,That's not a verb I recognise.,0,False
+58,north,,You can't go that way.,0,False
+59,None.,,That's not a verb I recognise.,0,False
+60,action_taken,,That's not a verb I recognise.,0,False
+61,do,,That's not a verb I recognise.,0,False
+62,None,,That's not a verb I recognise.,0,False
+63,end,,That's not a verb I recognise.,0,False
+64,move_left,,That's not a verb I recognise.,0,False
+65,None.,,That's not a verb I recognise.,0,False
+66,none,,That's not a verb I recognise.,0,False
+67,END,,That's not a verb I recognise.,0,False
+68,none,,That's not a verb I recognise.,0,False
+69,none,,That's not a verb I recognise.,0,False
+70,Observation,,That's not a verb I recognise.,0,False
+71,None,,That's not a verb I recognise.,0,False
+72,observation,,That's not a verb I recognise.,0,False
+73,go left,,You can't see any such thing.,0,False
+74,Choose an action,,That's not a verb I recognise.,0,False
+75,go north,,You can't go that way.,0,False
+76,go left,,You can't see any such thing.,0,False
+77,I have finished with the actions. Your next action can be selected by going east.,,I only understood you as far as wanting to take inventory.,0,False
+78,go right,,You can't see any such thing.,0,False
+79,go forward,,You can't see any such thing.,0,True

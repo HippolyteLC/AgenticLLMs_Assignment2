@@ -1,0 +1,267 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/1",0,False
+1,EXIT,,"But you aren't in anything at the moment.
+
+
+>                                                                                                                                -= Street =-0/2",0,False
+2,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+3,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+4,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+5,>                                                                                                                                -= Street =-0/3,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+6,consider_the,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+7,consider,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+8,|,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+9,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+10,consider,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+11,some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+12,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+13,CHOOSED_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+14,CHOOSED_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+15,CHOOSED_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+16,some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+17,CHOOSED_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+18,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+19,ACT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+20,some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+21,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+22,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+23,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+24,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+25,CHOOSED_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+26,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+27,CHOOSED_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+28,CHOOSED_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+29,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+30,choose,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+31,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+32,choose,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+33,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+34,"None.
+
+The game continues with the status:
+
+None.
+
+Output:
+
+None.",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+35,None,,"I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",0,False
+36,CHOOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+37,None,,"I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",0,False
+38,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+39,None,,"I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",0,False
+40,"Observation:
+I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2
+
+Choose:
+none",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+41,choose,,"I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",0,False
+42,Some_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+43,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+44,"Observation:
+I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+45,None,,"I only understood you as far as wanting to take inventory.
+
+>                                                                                                                                -= Street =-0/2",0,False
+46,None.,,"I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",0,False
+47,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+48,choose,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+49,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+50,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+51,"Observation:
+I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+52,none,,"I only understood you as far as wanting to take inventory.
+
+>                                                                                                                                -= Street =-0/2",0,False
+53,None.,,"I beg your pardon?
+
+>                                                                                                                                -= Street =-0/2",0,False
+54,CHOSEN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+55,take_inventory,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+56,CHOENN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+57,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+58,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+59,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+60,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+61,take_inventory,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+62,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/2",0,False
+63,pick,,"(up commercial glass door)
+That's fixed in place.
+
+
+>                                                                                                                                -= Street =-0/3",0,False
+64,picking.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+65,ASK_FOR_LESSON,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+66,"Current Observation:
+That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+67,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+68,None,,"I beg your pardon?
+
+>                                                                                                                                -= Street =-0/3",0,False
+69,CHOENN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+70,ask_for_lesson,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+71,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+72,pick_up,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+73,ask_for_lesson,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+74,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+75,ASK_FOR_LESSON,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+76,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+77,ACT,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+78,INVALID_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,False
+79,CHOENN_ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Street =-0/3",0,True

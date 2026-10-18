@@ -1,0 +1,627 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+1,take cookbook,,"You take the cookbook from the table.
+
+
+>                                                                                                                                -= Kitchen =-0/3",0,False
+2,go north,,"-= Livingroom =-
+You find yourself in a livingroom. An usual one.
+
+You make out a sofa. But oh no! there's nothing on this piece of trash. You swear loudly.
+
+There is a closed fiberglass door leading west. You don't like doors? Why not try going north, that entranceway is not blocked by one. There is an exit to the south.
+
+
+>                                                                                                                                -= Livingroom =-0/4",0,False
+3,inventory,,"You are carrying: a cookbook.
+
+
+>                                                                                                                                -= Livingroom =-0/5",0,False
+4,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Livingroom =-0/5",0,False
+5,go west,,"You have to open the fiberglass door first.
+
+
+>                                                                                                                                -= Livingroom =-0/6",0,False
+6,open fiberglass door,,"You open fiberglass door.
+
+
+>                                                                                                                                -= Livingroom =-0/7",0,False
+7,examine sofa,,"The sofa is shaky.
+
+
+>                                                                                                                                -= Livingroom =-0/8",0,False
+8,examine sofa,,"The sofa is shaky.
+
+
+>                                                                                                                                -= Livingroom =-0/9",0,False
+9,go west,,"-= Driveway =-
+You find yourself in a driveway. A normal kind of place.
+
+
+
+There is an open fiberglass door leading east. There is an exit to the west.
+
+
+>                                                                                                                                -= Driveway =-0/10",0,False
+10,open fiberglass door,,"That's already open.
+
+
+>                                                                                                                                -= Driveway =-0/11",0,False
+11,examine driveway,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/11",0,False
+12,go east,,"-= Livingroom =-
+You find yourself in a livingroom. An usual one.
+
+You make out a sofa. But oh no! there's nothing on this piece of trash. You swear loudly.
+
+There is an open fiberglass door leading west. You don't like doors? Why not try going north, that entranceway is not blocked by one. There is an exit to the south.
+
+
+>                                                                                                                                -= Livingroom =-0/12",0,False
+13,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Livingroom =-0/12",0,False
+14,examine sofa,,"The sofa is shaky.
+
+
+>                                                                                                                                -= Livingroom =-0/13",0,False
+15,go south,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/14",0,False
+16,examine counter,,"The counter is an unstable piece of garbage.
+
+On the counter are a raw purple potato, a tomato and a raw yellow potato.
+
+
+>                                                                                                                                -= Kitchen =-0/15",0,False
+17,take raw purple potato,,"You take the purple potato from the counter.
+
+
+Your score has just gone up by one point.
+
+>                                                                                                                                -= Kitchen =-1/16",1,False
+18,go north,,"-= Livingroom =-
+You find yourself in a livingroom. An usual one.
+
+You make out a sofa. But oh no! there's nothing on this piece of trash. You swear loudly.
+
+There is an open fiberglass door leading west. You don't like doors? Why not try going north, that entranceway is not blocked by one. There is an exit to the south.
+
+
+>                                                                                                                                -= Livingroom =-1/17",1,False
+19,examine sofa,,"The sofa is shaky.
+
+
+>                                                                                                                                -= Livingroom =-1/18",1,False
+20,go south,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-1/19",1,False
+21,take raw yellow potato,,"You take the yellow potato from the counter.
+
+
+>                                                                                                                                -= Kitchen =-1/20",1,False
+22,examine counter,,"The counter is an unstable piece of garbage.
+
+On the counter is a tomato.
+
+
+>                                                                                                                                -= Kitchen =-1/21",1,False
+23,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-1/22",1,False
+24,take block of cheese,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-1/22",1,False
+25,-action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-1/22",1,False
+26,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-1/23",1,False
+27,go north,,"-= Livingroom =-
+You find yourself in a livingroom. An usual one.
+
+You make out a sofa. But oh no! there's nothing on this piece of trash. You swear loudly.
+
+There is an open fiberglass door leading west. You don't like doors? Why not try going north, that entranceway is not blocked by one. There is an exit to the south.
+
+
+>                                                                                                                                -= Livingroom =-1/24",1,False
+28,go north,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/25",1,False
+29,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/26",1,False
+30,examine toilet,,"The toilet is shaky.
+
+
+>                                                                                                                                -= Bathroom =-1/27",1,False
+31,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/28",1,False
+32,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/29",1,False
+33,examine the toilet,,"The toilet is shaky.
+
+
+>                                                                                                                                -= Bathroom =-1/30",1,False
+34,examine toilet,,"The toilet is shaky.
+
+
+>                                                                                                                                -= Bathroom =-1/31",1,False
+35,examine the toilet,,"The toilet is shaky.
+
+
+>                                                                                                                                -= Bathroom =-1/32",1,False
+36,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/33",1,False
+37,examine toilet,,"You can't see any such thing.
+
+>                                                                                                                                -= Corridor =-1/33",1,False
+38,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/34",1,False
+39,take toilet,,"That's fixed in place.
+
+
+
+>                                                                                                                                -= Bathroom =-1/35",1,False
+40,examine toilet,,"The toilet is shaky.
+
+
+>                                                                                                                                -= Bathroom =-1/36",1,False
+41,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/37",1,False
+42,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/38",1,False
+43,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/39",1,False
+44,go south,,"-= Livingroom =-
+You find yourself in a livingroom. An usual one.
+
+You make out a sofa. But oh no! there's nothing on this piece of trash. You swear loudly.
+
+There is an open fiberglass door leading west. You don't like doors? Why not try going north, that entranceway is not blocked by one. There is an exit to the south.
+
+
+>                                                                                                                                -= Livingroom =-1/40",1,False
+45,open fiberglass door,,"That's already open.
+
+
+>                                                                                                                                -= Livingroom =-1/41",1,False
+46,examine sofa,,"The sofa is shaky.
+
+
+>                                                                                                                                -= Livingroom =-1/42",1,False
+47,go north,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/43",1,False
+48,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/44",1,False
+49,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bathroom =-1/44",1,False
+50,"|
+
+go east",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Bathroom =-1/44",1,False
+51,go east,,"I beg your pardon?
+
+>                                                                                                                                -= Bathroom =-1/44",1,False
+52,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/45",1,False
+53,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Corridor =-1/46",1,False
+54,inventory,,"You are carrying: a raw yellow potato, a raw purple potato and a cookbook.
+
+
+>                                                                                                                                -= Corridor =-1/47",1,False
+55,look,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/48",1,False
+56,examine,,"What do you want to examine?
+
+>                                                                                                                                -= Corridor =-1/48",1,False
+57,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Corridor =-1/49",1,False
+58,take the orange bell pepper and the purple potato,,"You can't see any such thing.
+
+>                                                                                                                                -= Corridor =-1/49",1,False
+59,examine notebook,,"You can't see any such thing.
+
+>                                                                                                                                -= Corridor =-1/49",1,False
+60,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Corridor =-1/50",1,False
+61,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+block of cheese
+  orange bell pepper
+  purple potato
+  red hot pepper
+  yellow onion
+
+Directions:
+slice the block of cheese
+  fry the block of cheese
+  chop the orange bell pepper
+  fry the orange bell pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  dice the yellow onion
+  grill the yellow onion
+  prepare meal
+
+
+
+>                                                                                                                                -= Corridor =-1/51",1,False
+62,open purple potato,,"It isn't something you can open.
+
+
+>                                                                                                                                -= Corridor =-1/52",1,False
+63,go north,,"-= Bedroom =-
+You are in a bedroom. It seems to be pretty normal here. The room is well lit.
+
+Look out! It's a- oh, never mind, it's just a bed. But there isn't a thing on it. Silly bed, silly, empty, good for nothing bed.
+
+You don't like doors? Why not try going south, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Bedroom =-1/53",1,False
+64,go south,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/54",1,False
+65,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Corridor =-1/54",1,False
+66,inventory,,"You are carrying: a raw yellow potato, a raw purple potato and a cookbook.
+
+
+>                                                                                                                                -= Corridor =-1/55",1,False
+67,go north,,"-= Bedroom =-
+You are in a bedroom. It seems to be pretty normal here. The room is well lit.
+
+Look out! It's a- oh, never mind, it's just a bed. But there isn't a thing on it. Silly bed, silly, empty, good for nothing bed.
+
+You don't like doors? Why not try going south, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Bedroom =-1/56",1,False
+68,go south,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/57",1,False
+69,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/58",1,False
+70,examine toilet,,"The toilet is shaky.
+
+
+>                                                                                                                                -= Bathroom =-1/59",1,False
+71,open toilet,,"It isn't something you can open.
+
+
+>                                                                                                                                -= Bathroom =-1/60",1,False
+72,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/61",1,False
+73,inventory,,"You are carrying: a raw yellow potato, a raw purple potato and a cookbook.
+
+
+>                                                                                                                                -= Corridor =-1/62",1,False
+74,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/63",1,False
+75,inventory,,"You are carrying: a raw yellow potato, a raw purple potato and a cookbook.
+
+
+>                                                                                                                                -= Bathroom =-1/64",1,False
+76,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/65",1,False
+77,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/66",1,False
+78,go east,,"-= Corridor =-
+You've entered a corridor.
+
+
+
+There is an exit to the north. There is an exit to the south. Don't worry, there is no door. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Corridor =-1/67",1,False
+79,go west,,"-= Bathroom =-
+You are in a bathroom. A typical kind of place. I guess you better just go and list everything you see here.
+
+You see a toilet. The toilet is white. But the thing is empty. Oh! Why couldn't there just be stuff on it?
+
+There is an exit to the east.
+
+
+>                                                                                                                                -= Bathroom =-1/68",1,True

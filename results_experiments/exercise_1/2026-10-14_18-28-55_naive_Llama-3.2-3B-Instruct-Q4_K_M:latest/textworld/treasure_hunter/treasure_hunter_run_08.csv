@@ -1,0 +1,144 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+1,go east,,You have to open the rectangular portal first.,0,False
+2,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+3,inventory,,You are carrying: a key.,0,False
+4,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+5,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+6,drop key,,You drop the key on the ground.,0,False
+7,pickup key,,That's not a verb I recognise.,0,False
+8,pickup key,,That's not a verb I recognise.,0,False
+9,pickup key,,That's not a verb I recognise.,0,False
+10,inventory,,You are carrying nothing.,0,False
+11,inventory,,You are carrying nothing.,0,False
+12,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+13,go north,,You have to open the gateway first.,0,False
+14,open gateway,,You have to unlock the gateway with the key first.,0,False
+15,pick up key,,You pick up the key from the ground.,0,False
+16,take key,,You already have that.,0,False
+17,open gateway,,You have to unlock the gateway with the key first.,0,False
+18,open gateway,,You have to unlock the gateway with the key first.,0,False
+19,unlock gateway,,"(with the key)
+You unlock gateway.",0,False
+20,go north,,You have to open the gateway first.,0,False
+21,open gateway,,You open gateway.,0,False
+22,go north,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see a closed normal looking trunk right there by you.
+
+There is a closed hatch leading east. There is an open gateway leading south.
+
+There is a passkey on the floor.",0,False
+23,open normal looking trunk,,You can't see any such thing.,0,False
+24,take passkey,,You pick up the passkey from the ground.,0,False
+25,go south,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+26,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+27,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+28,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+29,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+30,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+31,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+32,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+33,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+34,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+35,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+36,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+37,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+38,open rectangular latchkey with passkey,,I only understood you as far as wanting to open rectangular portal.,0,False
+39,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+40,open rectangular latchkey with passkey,,I only understood you as far as wanting to open rectangular portal.,0,False
+41,go east,,You have to open the rectangular portal first.,0,False
+42,inventory,,You are carrying: a passkey and a key.,0,False
+43,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+44,open rectangular latchkey with passkey,,I only understood you as far as wanting to open rectangular portal.,0,False
+45,unlock rectangular portal,,"(with rectangular portal)
+The rectangular portal is fixed in place.",0,False
+46,examine portal,,it's a stuffy rectangular portal It is closed.,0,False
+47,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+48,open rectangular latchkey with passkey,,I only understood you as far as wanting to open rectangular portal.,0,False
+49,unlock rectangular portal,,"(with rectangular portal)
+The rectangular portal is fixed in place.",0,False
+50,unlock rectangular portal,,"(with rectangular portal)
+The rectangular portal is fixed in place.",0,False
+51,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+52,unlock rectangular portal,,"(with rectangular portal)
+The rectangular portal is fixed in place.",0,False
+53,open rectangular latchkey with passkey,,I only understood you as far as wanting to open rectangular portal.,0,False
+54,unlock rectangular portal,,"(with rectangular portal)
+The rectangular portal is fixed in place.",0,False
+55,open rectangular latchkey with passkey,,I only understood you as far as wanting to open rectangular portal.,0,False
+56,unlock rectangular latchkey with passkey,,I didn't understand that sentence.,0,False
+57,inventory,,You are carrying: a passkey and a key.,0,False
+58,go north,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see a closed normal looking trunk right there by you.
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+59,examine trunk,,"The trunk looks strong, and impossible to crack. It is closed.",0,False
+60,open trunk,,You open the trunk.,0,False
+61,look inside trunk,,The trunk is empty.,0,False
+62,open hatch,,You have to unlock the hatch with the passkey first.,0,False
+63,go south,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+64,examine pan,,The pan is balanced.,0,False
+65,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+66,go north,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+67,examine portal,,You can't see any such thing.,0,False
+68,inventory,,You are carrying: a passkey and a key.,0,False
+69,go east,,You have to open the hatch first.,0,False
+70,open hatch,,You have to unlock the hatch with the passkey first.,0,False
+71,unlock hatch with passkey,,You unlock hatch.,0,False
+72,unlock hatch,,"(with hatch)
+The hatch is fixed in place.",0,False
+73,open hatch,,You open hatch.,0,False
+74,go east,,"-= Bar =-
+Well, here we are in a bar. I guess you better just go and list everything you see here.
+
+
+
+There is an open hatch leading west. There is an unguarded exit to the east.
+
+There is a rectangular latchkey on the floor.",0,False
+75,go east,,"-= Laundromat =-
+You find yourself in a laundromat. A standard kind of place. Let's see what's in here.
+
+You rest your hand against a wall, but you miss the wall and fall onto a shelf. What a coincidence, weren't you just thinking about a shelf? The shelf is usual. Looks like someone's already been here and taken everything off it, though. What's the point of an empty shelf?
+
+You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+76,go west,,"-= Bar =-
+Well, here we are in a bar. I guess you better just go and list everything you see here.
+
+
+
+There is an open hatch leading west. There is an unguarded exit to the east.
+
+There is a rectangular latchkey on the floor.",0,False
+77,take rectangular latchkey,,You pick up the rectangular latchkey from the ground.,0,False
+78,unlock hatch with rectangular latchkey,,That's unlocked at the moment.,0,False
+79,go west,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is an open hatch leading east. There is an open gateway leading south.",0,True

@@ -1,0 +1,85 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,take latchkey,,You pick up the Microsoft limited edition latchkey from the ground.,0,False
+1,go south,,You have to open the hatch first.,0,False
+2,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+3,unlock hatch south with latchkey,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+4,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+5,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+6,unlock hatch south with latchkey,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+7,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+8,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+9,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+10,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+11,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+12,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+13,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+14,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+15,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+16,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+17,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+18,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+19,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+20,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+21,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+22,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+23,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+24,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+25,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+26,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+27,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+28,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+29,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+30,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+31,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+32,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+33,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+34,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+35,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+36,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+37,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+38,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+39,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+40,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+41,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+42,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+43,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+44,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+45,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+46,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+47,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+48,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+49,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+50,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+51,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+52,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+53,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+54,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+55,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+56,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+57,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+58,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+59,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+60,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+61,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+62,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+63,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+64,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+65,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+66,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+67,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+68,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+69,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+70,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+71,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+72,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+73,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+74,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+75,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+76,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+77,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+78,open hatch south,,"Which do you mean, Microsoft limited edition hatch or hatch?",0,False
+79,"I seem to have made a mistake in my guidance In TextWorld when you encounter a hatch you dont necessarily need to open it to move east Lets correct this:
+
+Since you observed Which do you mean Microsoft limited edition hatch or hatch it suggests the hatch might be part of a closed door or container Lets try opening it to see what happens:
+
+open hatch south",,"Which do you mean, Microsoft limited edition hatch or hatch?",0,True

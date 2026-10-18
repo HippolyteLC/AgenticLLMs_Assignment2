@@ -1,0 +1,166 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+1,END,,That's not a verb I recognise.,0,False
+2,look,,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+3,look,,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+4,pick the locker,,I didn't understand that sentence.,0,False
+5,go north,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+6,END,,That's not a verb I recognise.,0,False
+7,pick the spork,,I didn't understand that sentence.,0,False
+8,look,,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+9,go north,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.
+
+There is a passkey on the floor.",0,False
+10,pick the passkey,,I didn't understand that sentence.,0,False
+11,pick,,"(up the passkey)
+You pick up the passkey from the ground.",0,False
+12,"pick the passkey
+end",,I didn't understand that sentence.,0,False
+13,look,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+14,look,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+15,look,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+16,END,,That's not a verb I recognise.,0,False
+17,move north,,You must name something more substantial.,0,False
+18,you are choosing an object randomly from previous objects.,,That's not a verb I recognise.,0,False
+19,choose randomly from previous actions,,That's not a verb I recognise.,0,False
+20,you are choosing an object randomly from previous objects.,,That's not a verb I recognise.,0,False
+21,ask about the adjective,,You can't see any such thing.,0,False
+22,pick randomly from previous objects,,I didn't understand that sentence.,0,False
+23,you do nothing,,That's not a verb I recognise.,0,False
+24,say_anything,,That's not a verb I recognise.,0,False
+25,pick,,"(up the passkey)
+You already have that.",0,False
+26,chose_randomly,,That's not a verb I recognise.,0,False
+27,you are choosing an object randomly from previous objects.,,That's not a verb I recognise.,0,False
+28,you are choosing an object randomly from previous objects.,,That's not a verb I recognise.,0,False
+29,CHOOSEN_ACTION,,That's not a verb I recognise.,0,False
+30,no,,That was a rhetorical question.,0,False
+31,input,,That's not a verb I recognise.,0,False
+32,input,,That's not a verb I recognise.,0,False
+33,input,,That's not a verb I recognise.,0,False
+34,input,,That's not a verb I recognise.,0,False
+35,look,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+36,END,,That's not a verb I recognise.,0,False
+37,pick,,"(up the passkey)
+You already have that.",0,False
+38,your_action,,That's not a verb I recognise.,0,False
+39,no_action,,That's not a verb I recognise.,0,False
+40,look,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+41,move,,"(the passkey)
+Nothing obvious happens.",0,False
+42,YOU_CAN_CHOOSE,,That's not a verb I recognise.,0,False
+43,look,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+44,move,,"(the passkey)
+Nothing obvious happens.",0,False
+45,take,,"(the passkey)
+You already have that.",0,False
+46,hold,,"(the passkey)
+You already have that.",0,False
+47,none,,That's not a verb I recognise.,0,False
+48,take,,"(the passkey)
+You already have that.",0,False
+49,take,,"(the passkey)
+You already have that.",0,False
+50,look,,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.",0,False
+51,no action,,I only understood you as far as wanting to no.,0,False
+52,you_can_choose,,That's not a verb I recognise.,0,False
+53,No,,That was a rhetorical question.,0,False
+54,choose_your_action,,That's not a verb I recognise.,0,False
+55,you_can_choose,,That's not a verb I recognise.,0,False
+56,none,,That's not a verb I recognise.,0,False
+57,observation_reboot,,That's not a verb I recognise.,0,False
+58,none,,That's not a verb I recognise.,0,False
+59,observation_reboot,,That's not a verb I recognise.,0,False
+60,pick,,"(up the passkey)
+You already have that.",0,False
+61,none,,That's not a verb I recognise.,0,False
+62,none,,That's not a verb I recognise.,0,False
+63,END,,That's not a verb I recognise.,0,False
+64,"Observation:
+(the target object)
+You have not found the target object yet.",,That's not a verb I recognise.,0,False
+65,CHOOSE,,That's not a verb I recognise.,0,False
+66,END,,That's not a verb I recognise.,0,False
+67,none,,That's not a verb I recognise.,0,False
+68,none,,That's not a verb I recognise.,0,False
+69,none,,That's not a verb I recognise.,0,False
+70,none,,That's not a verb I recognise.,0,False
+71,observation_action_reboot,,That's not a verb I recognise.,0,False
+72,none,,That's not a verb I recognise.,0,False
+73,none,,That's not a verb I recognise.,0,False
+74,None,,That's not a verb I recognise.,0,False
+75,CHOOSE,,That's not a verb I recognise.,0,False
+76,Observation,,That's not a verb I recognise.,0,False
+77,None,,That's not a verb I recognise.,0,False
+78,None,,That's not a verb I recognise.,0,False
+79,"Observation:
+None.",,That's not a verb I recognise.,0,True

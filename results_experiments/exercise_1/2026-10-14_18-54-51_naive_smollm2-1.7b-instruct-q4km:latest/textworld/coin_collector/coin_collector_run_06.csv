@@ -1,0 +1,300 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+1,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+2,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+3,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+4,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+5,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+6,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+7,go east,,You can't go that way.,0,False
+8,go north,,You can't go that way.,0,False
+9,go south,,You can't go that way.,0,False
+10,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+11,go south,,"-= Absurdly Hot Dish-Pit =-
+You arrive in a dish-pit. An absurdly hot one.
+
+
+
+There is an unblocked exit to the north.",0,False
+12,go north,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+13,go north,,You can't go that way.,0,False
+14,go south,,"-= Absurdly Hot Dish-Pit =-
+You arrive in a dish-pit. An absurdly hot one.
+
+
+
+There is an unblocked exit to the north.",0,False
+15,go north,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+16,go north,,You can't go that way.,0,False
+17,go north,,You can't go that way.,0,False
+18,go south,,"-= Absurdly Hot Dish-Pit =-
+You arrive in a dish-pit. An absurdly hot one.
+
+
+
+There is an unblocked exit to the north.",0,False
+19,go north,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+20,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+21,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+22,go west,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+23,go east,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+24,go south,,"-= Absurdly Hot Dish-Pit =-
+You arrive in a dish-pit. An absurdly hot one.
+
+
+
+There is an unblocked exit to the north.",0,False
+25,go north,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+26,go west,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+27,go east,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+28,go north,,You can't go that way.,0,False
+29,go west,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+30,go east,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+31,You can go east,,That's not a verb I recognise.,0,False
+32,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+33,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+34,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+35,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+36,go west,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+37,go east,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+38,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+39,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+40,go north,,You can't go that way.,0,False
+41,go north,,You can't go that way.,0,False
+42,go west,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+43,go west,,"-= Study =-
+Look at that board! What does it say? It says Welcome to the study? Well that's cool.
+
+
+
+There is an unblocked exit to the east. You need an unblocked exit? You should try going north. There is an unblocked exit to the south. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+44,Output an action:,,That's not a verb I recognise.,0,False
+45,go east,,"-= Bedchamber =-
+Well, here we are in the bedchamber. You decide to start listing off everything you see in the room, as if you were in a text adventure.
+
+
+
+There is an unguarded exit to the east. There is an unblocked exit to the north. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unguarded.",0,False
+46,go east,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+47,Output a new observation:,,That's not a verb I recognise.,0,False
+48,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+49,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+50,Output a new observation:,,That's not a verb I recognise.,0,False
+51,Output an action:,,That's not a verb I recognise.,0,False
+52,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+53,go west,,"-= Kitchenette =-
+Well, here we are in the kitchenette. Let's see what's in here.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the south. Don't worry, it is unblocked. You don't like doors? Why not try going west, that entranceway is unblocked.",0,False
+54,Output an action:,,That's not a verb I recognise.,0,False
+55,go east,,"-= Sauna =-
+You're now in a sauna.
+
+
+
+You need an unblocked exit? You should try going west.",0,False
+56,Output an action:,,That's not a verb I recognise.,0,False
+57,Output an action:,,That's not a verb I recognise.,0,False
+58,go north,,You can't go that way.,0,False
+59,"Observation:
+Well thats not a verb I recognise",,That's not a verb I recognise.,0,False
+60,Output an action:,,That's not a verb I recognise.,0,False
+61,Output an action:,,That's not a verb I recognise.,0,False
+62,Output new observation:,,That's not a verb I recognise.,0,False
+63,Output a new action:,,That's not a verb I recognise.,0,False
+64,Output a verb,,That's not a verb I recognise.,0,False
+65,Output:,,That's not a verb I recognise.,0,False
+66,Output an action without extra text:,,That's not a verb I recognise.,0,False
+67,go north,,You can't go that way.,0,False
+68,go east,,You can't go that way.,0,False
+69,go south,,You can't go that way.,0,False
+70,"Output:
+
+ go west
+ go north
+ go east
+ go south
+ go north
+ go east
+ go south
+ go north
+ go east
+ go west",,That's not a verb I recognise.,0,False
+71,Output a:,,That's not a verb I recognise.,0,False
+72,Output an action:,,That's not a verb I recognise.,0,False
+73,Output a verb,,That's not a verb I recognise.,0,False
+74,Output an action without extra text:,,That's not a verb I recognise.,0,False
+75,Output action:,,That's not a verb I recognise.,0,False
+76,go north,,You can't go that way.,0,False
+77,"Output an action:
+Output a:",,That's not a verb I recognise.,0,False
+78,"Output action:
+Output a:",,That's not a verb I recognise.,0,False
+79,go north,,You can't go that way.,0,True

@@ -1,0 +1,66 @@
+{
+    "task": "coin_collector",
+    "action_frequency": {
+        "go east": 6,
+        "go west": 3,
+        "north": 2,
+        "go to the right": 1,
+        "move_around": 1,
+        "go_forward": 1,
+        "no_command": 2,
+        "go_north": 1,
+        "go north": 7,
+        "none": 12,
+        "goal": 4,
+        "go southeast": 1,
+        "south": 1,
+        "take coin": 5,
+        "go south": 2,
+        "You can only choose one action from the list or write a new action.": 1,
+        "None": 18,
+        "None.": 4,
+        "None.\n\nYou did not specify any action I can do.": 1,
+        "do_none": 2,
+        "input": 1,
+        "can_not_choose": 1,
+        "CHOOSEN_ACTION": 1,
+        "asker": 2
+    },
+    "input_tokens": 56492,
+    "output_tokens": 675,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 999741611,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "None"
+    ]
+}

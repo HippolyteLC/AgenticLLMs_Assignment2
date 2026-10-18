@@ -1,0 +1,69 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go north": 8,
+        "CTION": 1,
+        "look": 1,
+        "inventory": 7,
+        "examine door": 1,
+        "examine wooden door": 1,
+        "open wooden door": 1,
+        "open patio door": 1,
+        "examine patio door": 1,
+        "go south": 10,
+        "go east": 3,
+        "examine white onion": 3,
+        "take white onion": 1,
+        "examine cookbook": 2,
+        "examine garden": 4,
+        "try to remember what you were doing": 1,
+        "END": 1,
+        "go west": 3,
+        "take raw purple potato": 1,
+        "examine": 3,
+        "open toolbox": 3,
+        "examine workbench": 5,
+        "examine toolbox": 8,
+        "examine BBQ": 6,
+        "take white onion from inventory": 2,
+        "cook white onion with BBQ": 1,
+        "examine shed": 1
+    },
+    "input_tokens": 145415,
+    "output_tokens": 1062,
+    "done": true,
+    "episode_return": 55.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.058823529411764705,
+    "process_num": null,
+    "seed": 3269780393,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>At the end of each episode, review the inventory interactions. If I can keep track of my items, I can make better use of them to solve the current episode."
+    ]
+}

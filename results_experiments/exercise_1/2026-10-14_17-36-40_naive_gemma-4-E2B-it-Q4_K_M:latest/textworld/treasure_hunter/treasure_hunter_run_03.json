@@ -1,0 +1,50 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "go south": 6,
+        "go north": 5,
+        "take passkey": 1,
+        "look": 4,
+        "open hatch": 2,
+        "unlock hatch with passkey": 1,
+        "go west": 6,
+        "go east": 2,
+        "open cabinet": 1,
+        "take keycard": 1,
+        "open counter": 1,
+        "open coffer": 1,
+        "take mouse": 1
+    },
+    "input_tokens": 39803,
+    "output_tokens": 1269,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 32,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1368089845,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

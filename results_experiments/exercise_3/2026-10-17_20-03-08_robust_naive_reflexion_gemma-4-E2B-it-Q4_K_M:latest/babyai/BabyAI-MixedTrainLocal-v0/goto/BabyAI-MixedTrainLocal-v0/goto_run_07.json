@@ -1,0 +1,46 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "go forward": 10,
+        "turn left": 2,
+        "turn right": 7
+    },
+    "input_tokens": 10544,
+    "output_tokens": 8344,
+    "done": true,
+    "episode_return": 0.7328125,
+    "num_steps": 19,
+    "failed_candidates": [],
+    "mission": "go to the green box",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 671386339,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "The agent was positioned very close to the green box (2 steps away). The optimal move to reach the goal is to continue going forward. The previous trajectory was successful in getting close, but the final step to the goal was missed or not prioritized. Next time, prioritize moving forward when the goal is within a few steps."
+    ]
+}

@@ -1,0 +1,121 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go south,,"-= Well Lit Parlor =-
+You are in a parlor. A well lit one. You begin looking for stuff.
+
+
+
+You need an unblocked exit? You should try going north.",0,False
+1,take coin,,You can't see any such thing.,0,False
+2,look,,"-= Well Lit Parlor =-
+You are in a parlor. A well lit one. You begin looking for stuff.
+
+
+
+You need an unblocked exit? You should try going north.",0,False
+3,take coin,,You can't see any such thing.,0,False
+4,END,,That's not a verb I recognise.,0,False
+5,look,,"-= Well Lit Parlor =-
+You are in a parlor. A well lit one. You begin looking for stuff.
+
+
+
+You need an unblocked exit? You should try going north.",0,False
+6,Look,,"-= Well Lit Parlor =-
+You are in a parlor. A well lit one. You begin looking for stuff.
+
+
+
+You need an unblocked exit? You should try going north.",0,False
+7,look,,"-= Well Lit Parlor =-
+You are in a parlor. A well lit one. You begin looking for stuff.
+
+
+
+You need an unblocked exit? You should try going north.",0,False
+8,END,,That's not a verb I recognise.,0,False
+9,look,,"-= Well Lit Parlor =-
+You are in a parlor. A well lit one. You begin looking for stuff.
+
+
+
+You need an unblocked exit? You should try going north.",0,False
+10,END,,That's not a verb I recognise.,0,False
+11,END,,That's not a verb I recognise.,0,False
+12,some_action,,That's not a verb I recognise.,0,False
+13,some_action,,That's not a verb I recognise.,0,False
+14,some_action,,That's not a verb I recognise.,0,False
+15,none,,That's not a verb I recognise.,0,False
+16,None,,That's not a verb I recognise.,0,False
+17,END,,That's not a verb I recognise.,0,False
+18,some_action,,That's not a verb I recognise.,0,False
+19,some_action,,That's not a verb I recognise.,0,False
+20,END,,That's not a verb I recognise.,0,False
+21,some_action,,That's not a verb I recognise.,0,False
+22,some_action,,That's not a verb I recognise.,0,False
+23,None,,That's not a verb I recognise.,0,False
+24,take coin,,You can't see any such thing.,0,False
+25,None,,That's not a verb I recognise.,0,False
+26,some_action,,That's not a verb I recognise.,0,False
+27,some_action,,That's not a verb I recognise.,0,False
+28,END,,That's not a verb I recognise.,0,False
+29,none,,That's not a verb I recognise.,0,False
+30,some_action,,That's not a verb I recognise.,0,False
+31,None,,That's not a verb I recognise.,0,False
+32,None,,That's not a verb I recognise.,0,False
+33,None,,That's not a verb I recognise.,0,False
+34,take coin,,You can't see any such thing.,0,False
+35,none,,That's not a verb I recognise.,0,False
+36,none,,That's not a verb I recognise.,0,False
+37,None.,,That's not a verb I recognise.,0,False
+38,some_action,,That's not a verb I recognise.,0,False
+39,None.,,That's not a verb I recognise.,0,False
+40,some_action,,That's not a verb I recognise.,0,False
+41,None,,That's not a verb I recognise.,0,False
+42,none,,That's not a verb I recognise.,0,False
+43,None.,,That's not a verb I recognise.,0,False
+44,None,,That's not a verb I recognise.,0,False
+45,take coin,,You can't see any such thing.,0,False
+46,go north,,"-= Bedroom =-
+This just in- You, in the bedroom.
+
+
+
+There is an unblocked exit to the east. You don't like doors? Why not try going south, that entranceway is unblocked. There is an unblocked exit to the west.",0,False
+47,go north,,You can't go that way.,0,False
+48,some_action.,,That's not a verb I recognise.,0,False
+49,END,,That's not a verb I recognise.,0,False
+50,some_action,,That's not a verb I recognise.,0,False
+51,go north,,You can't go that way.,0,False
+52,go west,,"-= Parlor =-
+You find yourself in a parlor. An usual one.
+
+
+
+There is an unblocked exit to the east.",0,False
+53,go north CHOSEN_ACTION,,I only understood you as far as wanting to go north.,0,False
+54,go south,,You can't go that way.,0,False
+55,Go south,,You can't go that way.,0,False
+56,go south,,You can't go that way.,0,False
+57,|ACTION |,,That's not a verb I recognise.,0,False
+58,some_action,,That's not a verb I recognise.,0,False
+59,end,,That's not a verb I recognise.,0,False
+60,none,,That's not a verb I recognise.,0,False
+61,EXIT,,But you aren't in anything at the moment.,0,False
+62,some_action,,That's not a verb I recognise.,0,False
+63,some_action,,That's not a verb I recognise.,0,False
+64,exit,,But you aren't in anything at the moment.,0,False
+65,move west CHOSEN_ACTION,,You can't see any such thing.,0,False
+66,some_action,,That's not a verb I recognise.,0,False
+67,some_action,,That's not a verb I recognise.,0,False
+68,move east,,You must name something more substantial.,0,False
+69,some_action,,That's not a verb I recognise.,0,False
+70,some_action,,That's not a verb I recognise.,0,False
+71,some_action,,That's not a verb I recognise.,0,False
+72,no action,,I only understood you as far as wanting to no.,0,False
+73,take coin,,You can't see any such thing.,0,False
+74,take coin,,You can't see any such thing.,0,False
+75,END,,That's not a verb I recognise.,0,False
+76,some_action,,That's not a verb I recognise.,0,False
+77,the only action you can do is exit for now,,That's not a verb I recognise.,0,False
+78,take coin,,You can't see any such thing.,0,False
+79,you are the chosen one,,That's not a verb I recognise.,0,True

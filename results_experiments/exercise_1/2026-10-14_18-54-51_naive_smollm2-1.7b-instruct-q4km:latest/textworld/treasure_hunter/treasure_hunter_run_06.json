@@ -1,0 +1,63 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "look": 3,
+        "look: check the wall for any writing": 1,
+        "look: examine the wall": 9,
+        "look: examine the table": 7,
+        "open your inventory": 1,
+        "look: examine the suitcase": 1,
+        "look: examine the door": 5,
+        "open my inventory": 1,
+        "inventory: describe your inventory": 2,
+        "open my eyes": 1,
+        "go north": 3,
+        "open the north exit": 1,
+        "look north": 20,
+        "open the door with the key": 2,
+        "open the north entrance": 1,
+        "go east": 2,
+        "go west": 1,
+        "take an object from the bookshelf": 2,
+        "open the book on the bookshelf": 2,
+        "look west": 1,
+        "take an object": 6,
+        "look east again": 2,
+        "look east": 1,
+        "open the door": 2,
+        "pick up the key": 1,
+        "take a step forward": 2
+    },
+    "input_tokens": 76494,
+    "output_tokens": 367,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2797555104,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "smollm2-1.7b-instruct-q4km:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

@@ -1,0 +1,377 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a carrot, a red onion, a tomato, a yellow bell pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-0/2",0,False
+1,look,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a carrot, a red onion, a tomato, a yellow bell pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-0/3",0,False
+2,examine green hot pepper,,"You couldn't pay me to eat that green hot pepper.
+
+
+>                                                                                                                                -= Garden =-0/4",0,False
+3,examine carrot,,"That's a carrot!
+
+
+>                                                                                                                                -= Garden =-0/5",0,False
+4,examine red onion,,"You couldn't pay me to eat that red onion.
+
+
+>                                                                                                                                -= Garden =-0/6",0,False
+5,examine tomato,,"That's a tomato!
+
+
+>                                                                                                                                -= Garden =-0/7",0,False
+6,examine yellow bell pepper,,"That's a yellow bell pepper!
+
+
+>                                                                                                                                -= Garden =-0/8",0,False
+7,examine red hot pepper,,"You couldn't pay me to eat that red hot pepper.
+
+
+>                                                                                                                                -= Garden =-0/9",0,False
+8,examine tomato,,"That's a tomato!
+
+
+>                                                                                                                                -= Garden =-0/10",0,False
+9,examine yellow onion,,"You couldn't pay me to eat that yellow onion.
+
+
+>                                                                                                                                -= Garden =-0/11",0,False
+10,examine red apple,,"That's a red apple!
+
+
+>                                                                                                                                -= Garden =-0/12",0,False
+11,examine yellow bell pepper,,"That's a yellow bell pepper!
+
+
+>                                                                                                                                -= Garden =-0/13",0,False
+12,examine red hot pepper,,"You couldn't pay me to eat that red hot pepper.
+
+
+>                                                                                                                                -= Garden =-0/14",0,False
+13,examine tomato,,"That's a tomato!
+
+
+>                                                                                                                                -= Garden =-0/15",0,False
+14,examine yellow onion,,"You couldn't pay me to eat that yellow onion.
+
+
+>                                                                                                                                -= Garden =-0/16",0,False
+15,go west,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-0/17",0,False
+16,go north,,"You can't go that way.
+
+
+>                                                                                                                                -= Garden =-0/18",0,False
+17,Inventory: ,,"You are carrying nothing.
+
+
+>                                                                                                                                -= Garden =-0/19",0,False
+18,look,,"-= Garden =-
+Look around you. Take it all in. It's not every day someone gets to be in a garden. Okay, just remember what you're here to do, and everything will go great.
+
+
+
+There is an exit to the south. Don't worry, there is no door.
+
+There is a green hot pepper, a carrot, a red onion, a tomato, a yellow bell pepper, a red hot pepper, a red apple and a yellow onion on the floor.
+
+
+>                                                                                                                                -= Garden =-0/20",0,False
+19,examine red hot pepper,,"You couldn't pay me to eat that red hot pepper.
+
+
+>                                                                                                                                -= Garden =-0/21",0,False
+20,examine yellow onion,,"You couldn't pay me to eat that yellow onion.
+
+
+>                                                                                                                                -= Garden =-0/22",0,False
+21,examine tomato,,"That's a tomato!
+
+
+>                                                                                                                                -= Garden =-0/23",0,False
+22,go south,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is a closed barn door leading east. There is a closed sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/24",0,False
+23,examine BBQ,,"Useful for grilling things.
+
+
+>                                                                                                                                -= Backyard =-0/25",0,False
+24,examine red apple,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/25",0,False
+25,examine tomato,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/25",0,False
+26,examine yellow onion,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/25",0,False
+27,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is a closed barn door leading east. There is a closed sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/26",0,False
+28,go west,,"You have to open the sliding patio door first.
+
+
+>                                                                                                                                -= Backyard =-0/27",0,False
+29,open sliding patio door,,"You open sliding patio door.
+
+
+>                                                                                                                                -= Backyard =-0/28",0,False
+30,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is a closed barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/29",0,False
+31,examine BBQ,,"Useful for grilling things.
+
+
+>                                                                                                                                -= Backyard =-0/30",0,False
+32,examine red hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/30",0,False
+33,examine carrot,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/30",0,False
+34,examine green hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/30",0,False
+35,examine tomato,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/30",0,False
+36,look,,"-= Backyard =-
+You've just walked into a backyard. I guess you better just go and list everything you see here.
+
+You can see a patio table. But the thing is empty, unfortunately. You make out a patio chair. However, the patio chair, like an empty patio chair, has nothing on it. Silly patio chair, silly, empty, good for nothing patio chair. You make out a BBQ.
+
+There is a closed barn door leading east. There is an open sliding patio door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Backyard =-0/31",0,False
+37,examine BBQ,,"Useful for grilling things.
+
+
+>                                                                                                                                -= Backyard =-0/32",0,False
+38,examine closed barn door,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/32",0,False
+39,examine BBQ,,"Useful for grilling things.
+
+
+>                                                                                                                                -= Backyard =-0/33",0,False
+40,examine green pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Backyard =-0/33",0,False
+41,examine BBQ,,"Useful for grilling things.
+
+
+>                                                                                                                                -= Backyard =-0/34",0,False
+42,go west,,"-= Kitchen =-
+You are in a kitchen. An ordinary one.
+
+You see a fridge. You see an oven. You can make out a table. On the table you can make out a knife. You see a counter. The counter is vast. On the counter you can make out a raw yellow potato, a raw purple potato, a yellow apple and a cookbook. You see a stove. The stove is conventional. But the thing is empty, unfortunately. Hopefully this doesn't make you too upset.
+
+There is an open sliding patio door leading east. There is a closed frosted-glass door leading north. You need an exit without a door? You should try going south. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Kitchen =-0/35",0,False
+43,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  purple potato
+  red hot pepper
+  yellow bell pepper
+  yellow potato
+
+Directions:
+dice the green hot pepper
+  fry the green hot pepper
+  slice the purple potato
+  grill the purple potato
+  dice the red hot pepper
+  fry the red hot pepper
+  chop the yellow bell pepper
+  grill the yellow bell pepper
+  slice the yellow potato
+  roast the yellow potato
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+44,dice green hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+45,slice purple potato,,"(with the purple potato)
+Cutting something requires a knife.
+
+
+>                                                                                                                                -= Kitchen =-0/37",0,False
+46,take purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/37",0,False
+47,slice purple potato with knife,,"You need to take the purple potato first.
+
+
+>                                                                                                                                -= Kitchen =-0/38",0,False
+48,examine green hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/38",0,False
+49,slice purple potato with knife,,"You need to take the purple potato first.
+
+
+>                                                                                                                                -= Kitchen =-0/39",0,False
+50,take purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/39",0,False
+51,dice green hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/39",0,False
+52,examine green hot pepper,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/39",0,False
+53,slice purple potato with knife,,"You need to take the purple potato first.
+
+
+>                                                                                                                                -= Kitchen =-0/40",0,False
+54,take purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/40",0,False
+55,dice green hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/40",0,False
+56,look,,"-= Kitchen =-
+You are in a kitchen. An ordinary one.
+
+You see a fridge. You see an oven. You can make out a table. On the table you can make out a knife. You see a counter. The counter is vast. On the counter you can make out a raw yellow potato, a raw purple potato, a yellow apple and a cookbook. You see a stove. The stove is conventional. But the thing is empty, unfortunately. Hopefully this doesn't make you too upset.
+
+There is an open sliding patio door leading east. There is a closed frosted-glass door leading north. You need an exit without a door? You should try going south. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Kitchen =-0/41",0,False
+57,go north,,"You have to open the frosted-glass door first.
+
+
+>                                                                                                                                -= Kitchen =-0/42",0,False
+58,open frostedglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/42",0,False
+59,examine knife,,"The knife is clean.
+
+
+>                                                                                                                                -= Kitchen =-0/43",0,False
+60,look,,"-= Kitchen =-
+You are in a kitchen. An ordinary one.
+
+You see a fridge. You see an oven. You can make out a table. On the table you can make out a knife. You see a counter. The counter is vast. On the counter you can make out a raw yellow potato, a raw purple potato, a yellow apple and a cookbook. You see a stove. The stove is conventional. But the thing is empty, unfortunately. Hopefully this doesn't make you too upset.
+
+There is an open sliding patio door leading east. There is a closed frosted-glass door leading north. You need an exit without a door? You should try going south. You don't like doors? Why not try going west, that entranceway is not blocked by one.
+
+
+>                                                                                                                                -= Kitchen =-0/44",0,False
+61,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/45",0,False
+62,examine raw yellow potato,,"You couldn't pay me to eat that raw yellow potato.
+
+
+>                                                                                                                                -= Kitchen =-0/46",0,False
+63,slice raw purple potato with knife,,"You need to take the purple potato first.
+
+
+>                                                                                                                                -= Kitchen =-0/47",0,False
+64,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/47",0,False
+65,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/48",0,False
+66,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/48",0,False
+67,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/49",0,False
+68,slice raw purple potato with knife,,"You need to take the purple potato first.
+
+
+>                                                                                                                                -= Kitchen =-0/50",0,False
+69,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/50",0,False
+70,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/51",0,False
+71,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/51",0,False
+72,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/52",0,False
+73,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/52",0,False
+74,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/53",0,False
+75,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/53",0,False
+76,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/54",0,False
+77,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/54",0,False
+78,examine raw purple potato,,"The raw purple potato looks inviting.
+
+
+>                                                                                                                                -= Kitchen =-0/55",0,False
+79,take raw purple potato with knife,,"I only understood you as far as wanting to take the purple potato.
+
+>                                                                                                                                -= Kitchen =-0/55",0,True

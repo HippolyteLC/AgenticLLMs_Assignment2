@@ -1,0 +1,56 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/open",
+    "action_frequency": {
+        "go forward": 75,
+        "toggle": 33,
+        "turn left": 6,
+        "turn right": 4,
+        "pick up": 2,
+        "drop": 8
+    },
+    "input_tokens": 102803,
+    "output_tokens": 1554,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "no action",
+        "END",
+        "<- turn right<-",
+        "go backward",
+        "open",
+        "-toggle"
+    ],
+    "mission": "open the door",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 131344694,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>Turn left during forward movement to align with wall orientation and detect doors."
+    ]
+}

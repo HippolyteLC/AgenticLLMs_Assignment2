@@ -1,0 +1,298 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+1,take pan,,That's fixed in place.,0,False
+2,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+3,go east,,You have to open the rectangular portal first.,0,False
+4,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+5,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+6,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+7,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+8,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+9,go north,,You have to open the gateway first.,0,False
+10,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+11,inventory,,You are carrying: a key.,0,False
+12,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+13,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+14,unlock rectangular portal with key,,That doesn't seem to fit the lock.,0,False
+15,open gateway,,You have to unlock the gateway with the key first.,0,False
+16,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+17,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+18,inventory,,You are carrying: a key.,0,False
+19,unlock gateway with a key,,You unlock gateway.,0,False
+20,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+21,take pan,,That's fixed in place.,0,False
+22,goal,,,0,False
+23,go east,,You have to open the rectangular portal first.,0,False
+24,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+25,unlock rectangular portal with key,,That doesn't seem to fit the lock.,0,False
+26,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+27,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is a closed gateway leading north.",0,False
+28,take pan,,That's fixed in place.,0,False
+29,go north,,You have to open the gateway first.,0,False
+30,open gateway,,You open gateway.,0,False
+31,go east,,You have to open the rectangular portal first.,0,False
+32,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+33,unlock rectangular portal with key,,That doesn't seem to fit the lock.,0,False
+34,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+35,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+36,take pan,,That's fixed in place.,0,False
+37,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+38,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+39,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+40,go north,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see a closed normal looking trunk right there by you.
+
+There is a closed hatch leading east. There is an open gateway leading south.
+
+There is a passkey on the floor.",0,False
+41,take passkey,,You pick up the passkey from the ground.,0,False
+42,look,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see a closed normal looking trunk right there by you.
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+43,open trunk,,You open the trunk.,0,False
+44,look,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+45,open hatch,,You have to unlock the hatch with the passkey first.,0,False
+46,unlock hatch with passkey,,You unlock hatch.,0,False
+47,look,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+48,go south,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+49,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+50,go east,,You have to open the rectangular portal first.,0,False
+51,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+52,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+53,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+54,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+55,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+56,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+57,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+58,go north,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+59,go south,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+60,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+61,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+62,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+63,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+64,take pan,,That's fixed in place.,0,False
+65,go east,,You have to open the rectangular portal first.,0,False
+66,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+67,open rectangular portal,,You have to unlock the rectangular portal with the rectangular latchkey first.,0,False
+68,take rectangular latchkey,,I only understood you as far as wanting to take rectangular portal.,0,False
+69,unlock rectangular portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+70,unlock rectangular portal with rectangular latchkey,,I only understood you as far as wanting to unlock rectangular portal with rectangular portal.,0,False
+71,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+72,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+73,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+74,look,,"-= Cookery =-
+Well, here we are in a cookery. You begin looking for stuff.
+
+You can see a pan. Looks like someone's already been here and taken everything off it, though.
+
+There is a closed rectangular portal leading east. There is an open gateway leading north.",0,False
+75,take pan,,That's fixed in place.,0,False
+76,go north,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+77,look,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,False
+78,open trunk,,That's already open.,0,False
+79,look,,"-= Sauna =-
+You arrive in a sauna. A typical kind of place. You begin looking for stuff.
+
+You see an opened normal looking trunk right there by you. The trunk is empty, what a horrible day!
+
+There is a closed hatch leading east. There is an open gateway leading south.",0,True

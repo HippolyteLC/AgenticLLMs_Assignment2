@@ -1,0 +1,294 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+1,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+2,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+3,pick_up_fridge,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+4,fridge,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+5,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/2",0,False
+6,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/3",0,False
+7,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/3",0,False
+8,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/4",0,False
+9,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/4",0,False
+10,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/4",0,False
+11,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/5",0,False
+12,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/6",0,False
+13,pick_up_fridge,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/6",0,False
+14,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/6",0,False
+15,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/6",0,False
+16,look,,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/7",0,False
+17,pick_up_fridge,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/7",0,False
+18,Action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/7",0,False
+19,pick_up_fridge,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/7",0,False
+20,choose_next_action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/7",0,False
+21,ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/7",0,False
+22,"look
+
+Replace ""look"" with the specific action you choose.",,"-= Kitchen =-
+You are in a kitchen. A standard one. You begin looking for stuff.
+
+You see a fridge. There's something strange about this thing being here, but you don't have time to worry about that now. You make out a closed oven. You can see a table. You see a cookbook and a knife on the table. You rest your hand against a wall, but you miss the wall and fall onto a counter. You shudder, but continue examining the counter. The counter is vast. On the counter you can make out a raw purple potato, a tomato and a raw yellow potato. Hmmm... what else, what else? Were you looking for a stove? Because look over there, it's a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. You move on, clearly angry about TextWorld.
+
+There is a closed plain door leading south. There is a closed screen door leading west. There is an exit to the north. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+23,pick_up_fridge,,"I beg your pardon?
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+24,move,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+25,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+26,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+27,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+28,ACTION,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+29,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+30,none,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+31,Action,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+32,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+33,pick_up_fridge,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+34,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+35,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+36,picksupplies CHOSEN_picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+37,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+38,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+39,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+40,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+41,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+42,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+43,CHOENZED_picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+44,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+45,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+46,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+47,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+48,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+49,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+50,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+51,CHOENZEN_picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+52,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+53,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+54,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+55,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+56,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+57,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+58,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+59,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+60,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+61,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+62,take_off_kitchen_supplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+63,pickupproduct,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+64,picksuppliespicked,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+65,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+66,"Observation:
+That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8
+
+None.
+
+Action:
+none",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+67,"None.
+
+There are no past lessons provided.",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+68,None,,"I beg your pardon?
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+69,None.,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+70,pickupproduct,,"I beg your pardon?
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+71,"picksupplieschosen_action_picksupplies_picked
+
+Remember, choose carefully.",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+72,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+73,"picksuppliespicked
+
+Remember, choose carefully.",,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+74,None,,"I beg your pardon?
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+75,None,,"You seem to want to talk to someone, but I can't see whom.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+76,picksupplies,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+77,picksuppliespicked,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+78,None,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,False
+79,picksuppliespicked,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/8",0,True

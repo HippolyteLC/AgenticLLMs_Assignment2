@@ -1,0 +1,206 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,west,,"-= Laundry Place =-
+You find yourself in a typical kind of place. That is to say, you're in a laundry place.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unblocked.",0,False
+1,east,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+2,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+3,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+4,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+5,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+6,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+7,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+8,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+9,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+10,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+11,east,,You can't go that way.,0,False
+12,east,,You can't go that way.,0,False
+13,east,,You can't go that way.,0,False
+14,east,,You can't go that way.,0,False
+15,east,,You can't go that way.,0,False
+16,east,,You can't go that way.,0,False
+17,east,,You can't go that way.,0,False
+18,east,,You can't go that way.,0,False
+19,east,,You can't go that way.,0,False
+20,east,,You can't go that way.,0,False
+21,east,,You can't go that way.,0,False
+22,east,,You can't go that way.,0,False
+23,east,,You can't go that way.,0,False
+24,east,,You can't go that way.,0,False
+25,east,,You can't go that way.,0,False
+26,east,,You can't go that way.,0,False
+27,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+28,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+29,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+30,north,,You can't go that way.,0,False
+31,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+32,east,,You can't go that way.,0,False
+33,east,,You can't go that way.,0,False
+34,east,,You can't go that way.,0,False
+35,east,,You can't go that way.,0,False
+36,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+37,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+38,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+39,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+40,east,,You can't go that way.,0,False
+41,east,,You can't go that way.,0,False
+42,east,,You can't go that way.,0,False
+43,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+44,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+45,east,,You can't go that way.,0,False
+46,east,,You can't go that way.,0,False
+47,east,,You can't go that way.,0,False
+48,east,,You can't go that way.,0,False
+49,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+50,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+51,east,,You can't go that way.,0,False
+52,east,,You can't go that way.,0,False
+53,west,,"-= Study =-
+Well, here we are in a study. You can barely contain your excitement.
+
+
+
+You need an unguarded exit? You should try going east. There is an exit to the south. Don't worry, it is unguarded. There is an exit to the west. Don't worry, it is unblocked.",0,False
+54,east,,"-= Chamber =-
+Well, here we are in a chamber.
+
+
+
+There is an exit to the west. Don't worry, it is unguarded.",0,False
+55,east,,You can't go that way.,0,False
+56,east,,You can't go that way.,0,False
+57,east,,You can't go that way.,0,False
+58,east,,You can't go that way.,0,False
+59,east,,You can't go that way.,0,False
+60,east,,You can't go that way.,0,False
+61,east,,You can't go that way.,0,False
+62,east,,You can't go that way.,0,False
+63,east,,You can't go that way.,0,False
+64,east,,You can't go that way.,0,False
+65,east,,You can't go that way.,0,False
+66,east,,You can't go that way.,0,False
+67,east,,You can't go that way.,0,False
+68,east,,You can't go that way.,0,False
+69,east,,You can't go that way.,0,False
+70,east,,You can't go that way.,0,False
+71,east,,You can't go that way.,0,False
+72,east,,You can't go that way.,0,False
+73,east,,You can't go that way.,0,False
+74,east,,You can't go that way.,0,False
+75,east,,You can't go that way.,0,False
+76,east,,You can't go that way.,0,False
+77,east,,You can't go that way.,0,False
+78,east,,You can't go that way.,0,False
+79,east,,You can't go that way.,0,True

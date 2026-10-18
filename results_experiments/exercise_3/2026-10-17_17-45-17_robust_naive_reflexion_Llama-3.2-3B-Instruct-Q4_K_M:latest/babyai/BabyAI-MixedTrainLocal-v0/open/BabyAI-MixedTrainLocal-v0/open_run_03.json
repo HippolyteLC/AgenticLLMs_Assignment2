@@ -1,0 +1,57 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/open",
+    "action_frequency": {
+        "go forward": 82,
+        "drop": 6,
+        "pick up": 4,
+        "toggle": 25,
+        "turn left": 4,
+        "turn right": 7
+    },
+    "input_tokens": 111865,
+    "output_tokens": 1556,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "-toggle",
+        "go back to previous position",
+        "go back",
+        "go right",
+        "pick up</p",
+        "TURN RIGHT",
+        "TURN RIGHT"
+    ],
+    "mission": "open the green door",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1717306889,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "<|REFLECTION|>Reflex: I was moving too forward instead of using the key to unlock the door after being in a similar situation in the previous episode. When there's an opportunity to use the key to unlock the door, it's best to pick it up, toggle it, and go forward."
+    ]
+}
