@@ -1,0 +1,541 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go east,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is a closed front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/2",0,False
+1,go east,,"You have to open the front door first.
+
+
+>                                                                                                                                -= Livingroom =-0/3",0,False
+2,open front door,,"You open front door.
+
+
+>                                                                                                                                -= Livingroom =-0/4",0,False
+3,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/5",0,False
+4,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/6",0,False
+5,examine sofa,,"The sofa is an unstable piece of junk.
+
+
+>                                                                                                                                -= Livingroom =-0/7",0,False
+6,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/8",0,False
+7,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/9",0,False
+8,go south,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. On the counter you can make out a knife. You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/10",0,False
+9,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/11",0,False
+10,slice green hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/11",0,False
+11,examine knife,,"The knife appears out of place here
+
+
+>                                                                                                                                -= Kitchen =-0/12",0,False
+12,take knife from counter,,"You take the knife from the counter.
+
+
+>                                                                                                                                -= Kitchen =-0/13",0,False
+13,slice green hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/13",0,False
+14,examine counter,,"The counter is balanced.
+
+
+>                                                                                                                                -= Kitchen =-0/14",0,False
+15,take green hot pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/14",0,False
+16,take orange bell pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/14",0,False
+17,go north,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/15",0,False
+18,take tomato from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Livingroom =-0/15",0,False
+19,take white tuna from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Livingroom =-0/15",0,False
+20,take yellow apple from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Livingroom =-0/15",0,False
+21,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/16",0,False
+22,print goal,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Livingroom =-0/16",0,False
+23,tell me about the game,,"You talk to yourself a while.
+
+
+>                                                                                                                                -= Livingroom =-0/17",0,False
+24,look,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/18",0,False
+25,go east,,"-= Driveway =-
+You find yourself in a driveway. A typical kind of place.
+
+
+
+There is an open front door leading west. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Driveway =-0/19",0,False
+26,examine front door,,"It is what it is, a front door. It is open.
+
+
+>                                                                                                                                -= Driveway =-0/20",0,False
+27,go west,,"-= Livingroom =-
+Wow! You're in a livingroom. You begin to take stock of what's here.
+
+As if things weren't amazing enough already, you can even see a sofa. The sofa is comfy. The sofa appears to be empty.
+
+There is an open front door leading east. There is an exit to the south. Don't worry, there is no door. There is an exit to the west. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Livingroom =-0/21",0,False
+28,go south,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/22",0,False
+29,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/23",0,False
+30,take green hot pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/23",0,False
+31,take orange bell pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/23",0,False
+32,take tomato from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/23",0,False
+33,take white tuna from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/23",0,False
+34,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/24",0,False
+35,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/25",0,False
+36,examine stove,,"Useful for frying things.
+
+
+>                                                                                                                                -= Kitchen =-0/26",0,False
+37,END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/26",0,False
+38,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is a closed frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/27",0,False
+39,examine door,,"It is what it is, a frosted-glass door. You can't see inside it because the lid's in your way.
+
+
+>                                                                                                                                -= Kitchen =-0/28",0,False
+40,open door,,"You open frosted-glass door.
+
+
+>                                                                                                                                -= Kitchen =-0/29",0,False
+41,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/30",0,False
+42,examine counter,,"The counter is balanced.
+
+
+>                                                                                                                                -= Kitchen =-0/31",0,False
+43,take white tuna from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/31",0,False
+44,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/32",0,False
+45,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/33",0,False
+46,take green hot pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/33",0,False
+47,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/34",0,False
+48,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/35",0,False
+49,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/36",0,False
+50,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/37",0,False
+51,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/38",0,False
+52,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/39",0,False
+53,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/40",0,False
+54,examine counter,,"The counter is balanced.
+
+
+>                                                                                                                                -= Kitchen =-0/41",0,False
+55,take green hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/41",0,False
+56,take green hot pepper with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/41",0,False
+57,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/42",0,False
+58,examine counter,,"The counter is balanced.
+
+
+>                                                                                                                                -= Kitchen =-0/43",0,False
+59,take orange bell pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/43",0,False
+60,take orange bell pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/43",0,False
+61,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/44",0,False
+62,examine fridge,,"The fridge looks durable. It is closed.
+
+
+>                                                                                                                                -= Kitchen =-0/45",0,False
+63,examine stove,,"Useful for frying things.
+
+
+>                                                                                                                                -= Kitchen =-0/46",0,False
+64,cook green hot pepper with stove,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/46",0,False
+65,take tomato from counter,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/46",0,False
+66,chop tomato with knife,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/46",0,False
+67,take orange bell pepper from fridge,,"You can't see any such thing.
+
+>                                                                                                                                -= Kitchen =-0/46",0,False
+68,open fridge,,"You open the fridge.
+
+
+>                                                                                                                                -= Kitchen =-0/47",0,False
+69,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. Empty! What kind of nightmare TextWorld is this? You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/48",0,False
+70,examine cookbook,,"You open the copy of ""Cooking: A Modern Approach (3rd Ed.)"" and start reading:
+
+Recipe #1
+---------
+Gather all following ingredients and follow the directions to prepare this tasty meal.
+
+Ingredients:
+green hot pepper
+  orange bell pepper
+  tomato
+  white tuna
+  yellow apple
+
+Directions:
+slice the green hot pepper
+  fry the green hot pepper
+  dice the orange bell pepper
+  grill the orange bell pepper
+  chop the tomato
+  fry the tomato
+  slice the white tuna
+  fry the white tuna
+  dice the yellow apple
+  fry the yellow apple
+  prepare meal
+
+
+
+>                                                                                                                                -= Kitchen =-0/49",0,False
+71,go south,,"-= Pantry =-
+You find yourself in a pantry. A normal kind of place.
+
+You scan the room for a shelf, and you find a shelf. The shelf is wooden. But oh no! there's nothing on this piece of garbage. It would have been so cool if there was stuff on the shelf! oh well.
+
+There is an open frosted-glass door leading north.
+
+
+>                                                                                                                                -= Pantry =-0/50",0,False
+72,look,,"-= Pantry =-
+You find yourself in a pantry. A normal kind of place.
+
+You scan the room for a shelf, and you find a shelf. The shelf is wooden. But oh no! there's nothing on this piece of garbage. It would have been so cool if there was stuff on the shelf! oh well.
+
+There is an open frosted-glass door leading north.
+
+
+>                                                                                                                                -= Pantry =-0/51",0,False
+73,look,,"-= Pantry =-
+You find yourself in a pantry. A normal kind of place.
+
+You scan the room for a shelf, and you find a shelf. The shelf is wooden. But oh no! there's nothing on this piece of garbage. It would have been so cool if there was stuff on the shelf! oh well.
+
+There is an open frosted-glass door leading north.
+
+
+>                                                                                                                                -= Pantry =-0/52",0,False
+74,go north,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. Empty! What kind of nightmare TextWorld is this? You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/53",0,False
+75,look|CHOSEN_ACTION|END,,"That's not a verb I recognise.
+
+>                                                                                                                                -= Kitchen =-0/53",0,False
+76,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. Empty! What kind of nightmare TextWorld is this? You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/54",0,False
+77,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. Empty! What kind of nightmare TextWorld is this? You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/55",0,False
+78,look,,"-= Kitchen =-
+You've entered a kitchen.
+
+You bend down to tie your shoe. When you stand up, you notice a fridge. The light flickers for a second, but nothing else happens. Empty! What kind of nightmare TextWorld is this? You scan the room for an oven, and you find an oven. You make out a table! You see a cookbook on the table. You scan the room for a counter, and you find a counter. The counter is vast. But there isn't a thing on it. Aw, here you were, all excited for there to be things on it! You see a stove. The stove is conventional. However, the stove, like an empty stove, has nothing on it. Oh! Why couldn't there just be stuff on it?
+
+There is an open frosted-glass door leading south. There is an exit to the north.
+
+
+>                                                                                                                                -= Kitchen =-0/56",0,False
+79,open door south,,"I only understood you as far as wanting to open frosted-glass door.
+
+>                                                                                                                                -= Kitchen =-0/56",0,True

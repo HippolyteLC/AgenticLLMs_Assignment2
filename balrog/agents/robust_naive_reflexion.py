@@ -5,6 +5,11 @@ from balrog.agents.base import BaseAgent
 
 from collections import deque
 
+EV_PROMPT = """
+
+
+"""
+ 
 SR_PROMPT = """ 
 Analyze why the previous episode failed or succeeded based on the trajectory and reward above. 
 Write a short, direct rule or adjustment for the next trial. Focus on what specific movement, item interaction, or navigation choice went wrong.
@@ -131,5 +136,5 @@ class RobustNaiveReflexion(BaseAgent):
         extracted_action = inner.group(1).strip() if inner else content
 
         final_answer = copy.deepcopy(answer)
-        
+
         return final_answer._replace(completion=extracted_action)

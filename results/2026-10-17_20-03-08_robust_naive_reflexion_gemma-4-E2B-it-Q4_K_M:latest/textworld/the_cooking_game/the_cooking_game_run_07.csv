@@ -1,0 +1,494 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,,"You have to open the front door first.
+
+
+>                                                                                                                                -= Livingroom =-0/2",0,False
+1,open front door,,"You open front door.
+
+
+>                                                                                                                                -= Livingroom =-0/3",0,False
+2,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/4",0,False
+3,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/5",0,False
+4,go north,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/6",0,False
+5,go north,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is a closed sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/7",0,False
+6,go north,,"You have to open the sliding door first.
+
+
+>                                                                                                                                -= Street =-0/8",0,False
+7,open sliding door,,"You open sliding door.
+
+
+>                                                                                                                                -= Street =-0/9",0,False
+8,go south,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/10",0,False
+9,go north,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/11",0,False
+10,look,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/12",0,False
+11,go south,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/13",0,False
+12,examine front door,,"It is what it is, a front door. It is open.
+
+
+>                                                                                                                                -= Driveway =-0/14",0,False
+13,go south,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/15",0,False
+14,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/16",0,False
+15,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/17",0,False
+16,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/18",0,False
+17,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/19",0,False
+18,goal,,>                                                                                                                                -= Livingroom =-0/20,0,False
+19,examine front door,,"It is what it is, a front door. It is open.
+
+
+>                                                                                                                                -= Livingroom =-0/21",0,False
+20,go north,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/22",0,False
+21,go east,,"You can't go that way.
+
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+22,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+23,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+24,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+25,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+26,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+27,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+28,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+29,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+30,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+31,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+32,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+33,open closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/23",0,False
+34,go west,,"You have to open the fiberglass door first.
+
+
+>                                                                                                                                -= Driveway =-0/24",0,False
+35,look,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+36,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+37,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+38,examine closed fiberglass door,,"You can't see any such thing.
+
+>                                                                                                                                -= Driveway =-0/25",0,False
+39,go north,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/26",0,False
+40,go north,,"-= Supermarket =-
+You've just shown up in a supermarket. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You see a showcase. But there isn't a thing on it. You swear loudly.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/27",0,False
+41,examine showcase,,"The showcase is unstable.
+
+
+>                                                                                                                                -= Supermarket =-0/28",0,False
+42,go south,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/29",0,False
+43,go south,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/30",0,False
+44,go north,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/31",0,False
+45,look,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/32",0,False
+46,look,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/33",0,False
+47,look,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/34",0,False
+48,look,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/35",0,False
+49,go south,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/36",0,False
+50,go south,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/37",0,False
+51,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/38",0,False
+52,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/39",0,False
+53,go north,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/40",0,False
+54,go south,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/41",0,False
+55,go north|END,,"You can't see any such thing.
+
+>                                                                                                                                -= Livingroom =-0/41",0,False
+56,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/42",0,False
+57,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/43",0,False
+58,look,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/44",0,False
+59,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/45",0,False
+60,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/46",0,False
+61,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/47",0,False
+62,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/48",0,False
+63,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/49",0,False
+64,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/50",0,False
+65,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/51",0,False
+66,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/52",0,False
+67,take sofa,,"That's fixed in place.
+
+
+
+>                                                                                                                                -= Livingroom =-0/53",0,False
+68,take sofa,,"That's fixed in place.
+
+
+
+>                                                                                                                                -= Livingroom =-0/54",0,False
+69,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/55",0,False
+70,examine sofa,,"The sofa is stable.
+
+
+>                                                                                                                                -= Livingroom =-0/56",0,False
+71,go north,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/57",0,False
+72,go north,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/58",0,False
+73,go north,,"-= Supermarket =-
+You've just shown up in a supermarket. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You see a showcase. But there isn't a thing on it. You swear loudly.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/59",0,False
+74,look,,"-= Supermarket =-
+You've just shown up in a supermarket. You try to gain information on your surroundings by using a technique you call ""looking.""
+
+You see a showcase. But there isn't a thing on it. You swear loudly.
+
+There is an open sliding door leading south.
+
+
+>                                                                                                                                -= Supermarket =-0/60",0,False
+75,go south,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/61",0,False
+76,look,,"-= Street =-
+You are in a street. A standard one.
+
+
+
+There is an open sliding door leading north. There is an exit to the south. Don't worry, there is no door.
+
+
+>                                                                                                                                -= Street =-0/62",0,False
+77,go south,,"-= Driveway =-
+You've just walked into a driveway. You begin to take stock of what's in the room.
+
+
+
+There is an open front door leading south. There is a closed fiberglass door leading west. You need an exit without a door? You should try going north.
+
+
+>                                                                                                                                -= Driveway =-0/63",0,False
+78,examine front door,,"It is what it is, a front door. It is open.
+
+
+>                                                                                                                                -= Driveway =-0/64",0,False
+79,go south,,"-= Livingroom =-
+You are in a livingroom. A normal kind of place.
+
+You can make out a sofa. The sofa is comfy. The sofa appears to be empty. Oh! Why couldn't there just be stuff on it?
+
+There is an open front door leading north. There is an exit to the east. Don't worry, there is no door. There is an exit to the west.
+
+
+>                                                                                                                                -= Livingroom =-0/65",0,True

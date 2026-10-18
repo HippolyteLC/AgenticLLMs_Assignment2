@@ -1,0 +1,56 @@
+{
+    "task": "treasure_hunter",
+    "action_frequency": {
+        "take Microsoft limited edition latchkey": 1,
+        "look": 21,
+        "go north": 8,
+        "open Microsoft limited edition hatch": 8,
+        "unlock Microsoft limited edition hatch with Microsoft limited edition latchkey": 1,
+        "go south": 13,
+        "go west": 10,
+        "take passkey": 3,
+        "open dresser": 1,
+        "drop passkey": 1,
+        "go east": 7,
+        "open hatch south": 3,
+        "open closed hatch south": 2,
+        "open Microsoft limited edition hatch south": 1
+    },
+    "input_tokens": 121422,
+    "output_tokens": 6029,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1085576667,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "look"
+    ]
+}

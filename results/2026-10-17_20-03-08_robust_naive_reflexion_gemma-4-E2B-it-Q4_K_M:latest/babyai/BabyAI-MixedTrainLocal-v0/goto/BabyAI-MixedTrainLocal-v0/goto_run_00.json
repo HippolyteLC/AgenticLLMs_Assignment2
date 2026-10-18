@@ -1,0 +1,46 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "turn left": 4,
+        "turn right": 7,
+        "go forward": 15
+    },
+    "input_tokens": 16034,
+    "output_tokens": 13303,
+    "done": true,
+    "episode_return": 0.6343749999999999,
+    "num_steps": 26,
+    "failed_candidates": [],
+    "mission": "go to the red box",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 1261935657,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "The agent was in direct adjacency to the target (the red box, 2 steps forward) but failed to execute the final movement to reach it. The immediate next action should be 'go forward'."
+    ]
+}

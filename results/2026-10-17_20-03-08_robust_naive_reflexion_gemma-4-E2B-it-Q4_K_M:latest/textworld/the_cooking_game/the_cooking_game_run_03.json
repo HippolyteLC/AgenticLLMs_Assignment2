@@ -1,0 +1,58 @@
+{
+    "task": "the_cooking_game",
+    "action_frequency": {
+        "go west": 7,
+        "go south": 9,
+        "look": 31,
+        "go north": 9,
+        "examine sofa": 3,
+        "open fiberglass door": 2,
+        "examine bed": 4,
+        "examine commercial glass door": 2,
+        "open commercial glass door": 2,
+        "take raw pork chop with the showcase": 3,
+        "examine raw pork chop": 1,
+        "examine showcase": 1,
+        "go east": 3,
+        "END": 1,
+        "examine fiberglass door": 1,
+        "take raw pork chop with supermarket": 1
+    },
+    "input_tokens": 164091,
+    "output_tokens": 8336,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 80,
+    "failed_candidates": [],
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1406369313,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "gemma-4-E2B-it-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "examine raw pork chop"
+    ]
+}

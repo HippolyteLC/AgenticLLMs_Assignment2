@@ -1,0 +1,55 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/putnext",
+    "action_frequency": {
+        "turn left": 20,
+        "go forward": 63,
+        "toggle": 30,
+        "turn right": 6,
+        "pick up": 8,
+        "drop": 1
+    },
+    "input_tokens": 103598,
+    "output_tokens": 953,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "pick up purple ball",
+        "pick up purple ball",
+        "pick up purple ball",
+        "pick up purple ball",
+        "toggle CHOSEN_ACTION"
+    ],
+    "mission": "put the purple ball next to the purple key",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 4253354183,
+    "agent": {
+        "type": "robust_naive_reflexion",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "qwen2.5-3b-instruct-q4_k_m:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": [
+        "Failed to pick up the purple key or ball"
+    ]
+}
