@@ -1,0 +1,130 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,Go towards the green key.,"a wall 2 steps right
+a green key 1 step forward",0,False
+1,go forward,Go towards the green key.,"a wall 2 steps right
+a green key 1 step forward",0,False
+2,go forward,Go towards the green key.,"a wall 2 steps right
+a green key 1 step forward",0,False
+3,pick up,Go towards the green key and pick it up.,"You carry a green key
+a wall 5 steps forward
+a wall 2 steps right",0,False
+4,turn left,"Go towards the door. The door was initially described as being 2 steps left. Since I am facing EAST, turning left and then moving forward 2 steps might lead to it.","You carry a green key
+a wall 5 steps forward
+a locked green door 2 steps left",0,False
+5,turn left,Go towards the door and use the key.,"You carry a green key
+a wall 2 steps left
+a locked green door 2 steps forward",0,False
+6,go forward,"Go forward to reach the door, then use the key.","You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+7,go forward,"Go forward to reach the door, then open it with the key.","You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+8,go forward,"Go forward to reach the door, then open it with the key.","You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+9,turn right,"Go forward to reach the door, then open it with the key.","You carry a green key
+a wall 5 steps forward
+a locked green door 1 step left",0,False
+10,go forward,"Go forward to reach the door, then open it with the key.","You carry a green key
+a wall 4 steps forward
+a wall 1 step left",0,False
+11,turn right,Go right to find the door.,"You carry a green key
+a wall 6 steps forward
+a wall 3 steps right",0,False
+12,go forward,Go right to find the door.,"You carry a green key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+13,,Go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a green key
+a wall 4 steps forward
+a wall 3 steps right",0,False
+14,go forward,No changes to the plan.,"You carry a green key
+a wall 3 steps forward
+a wall 3 steps right",0,False
+15,turn right,Turn right,"You carry a green key
+a wall 3 steps forward
+a wall 3 steps left",0,False
+16,turn right,Turn right,"You carry a green key
+a wall 4 steps forward
+a wall 3 steps left
+a locked green door 1 step left and 4 steps forward",0,False
+17,turn right,Turn right,"You carry a green key
+a wall 4 steps forward
+a wall 3 steps right",0,False
+18,turn left,No changes to the plan.,"You carry a green key
+a wall 4 steps forward
+a wall 3 steps left
+a locked green door 1 step left and 4 steps forward",0,False
+19,go forward,No changes to the plan.,"You carry a green key
+a wall 3 steps forward
+a wall 3 steps left
+a locked green door 1 step left and 3 steps forward",0,False
+20,turn right,Turn right,"You carry a green key
+a wall 4 steps forward
+a wall 3 steps left",0,False
+21,turn right,Turn right,"You carry a green key
+a wall 4 steps forward
+a wall 3 steps right",0,False
+22,turn right,No changes to the plan.,"You carry a green key
+a wall 3 steps forward
+a wall 3 steps right
+a locked green door 3 steps right and 1 step forward",0,False
+23,go forward,Go forward,"You carry a green key
+a wall 2 steps forward
+a locked green door 3 steps right",0,False
+24,turn right,No changes to the plan.,"You carry a green key
+a wall 2 steps left
+a locked green door 3 steps forward",0,False
+25,go forward,No changes to the plan.,"You carry a green key
+a wall 2 steps left
+a locked green door 2 steps forward",0,False
+26,go forward,No changes to the plan.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+27,go forward,No changes to the plan.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+28,go forward,No changes to the plan.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+29,turn right,No changes to the plan.,"You carry a green key
+a wall 5 steps forward
+a locked green door 1 step left",0,False
+30,turn left,"Turn left, then go forward.","You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+31,turn left,"Turn left, then go forward","You carry a green key
+a wall 2 steps forward
+a locked green door 1 step right",0,False
+32,turn left,"Turn left, then go forward","You carry a green key
+a wall 6 steps forward
+a wall 2 steps right",0,False
+33,turn left,"Go North, then explore.","You carry a green key
+a wall 5 steps forward
+a locked green door 1 step left",0,False
+34,turn left,Go to the locked green door.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+35,go forward,Go forward to reach the locked green door.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+36,go forward,Go forward to open the green door.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+37,go forward,No changes to the plan.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+38,go forward,Go forward to reach and interact with the locked green door.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+39,go forward,Go forward to reach the locked green door and attempt to interact with it.,"You carry a green key
+a wall 2 steps left
+a locked green door 1 step forward",0,False
+40,toggle,Go forward to reach the locked green door and attempt to interact with it.,"You carry a green key
+a wall 2 steps left
+a open green door 1 step forward",0.71171875,True

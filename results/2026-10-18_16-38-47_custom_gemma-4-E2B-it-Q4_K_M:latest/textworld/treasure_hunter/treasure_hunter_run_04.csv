@@ -1,0 +1,160 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,Go north to find an unguarded exit.,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+1,go north,Go north to find an unguarded exit.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is a closed cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.
+
+There is a cuboid keycard on the floor.",0,False
+2,go south,No changes to the plan.,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+3,take cuboid keycard,Take the cuboid keycard on the floor.,You can't see any such thing.,0,False
+4,go south,No changes to the plan.,"-= Sweaty Scullery =-
+You've entered a sweaty scullery. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unguarded exit? You should try going north.",0,False
+5,go north,Go north to follow the prompt in the current room.,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+6,go north,Go north.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is a closed cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.
+
+There is a cuboid keycard on the floor.",0,False
+7,open cuboid portal,Try to open the closed cuboid portal leading north.,You have to unlock the cuboid portal with the cuboid keycard first.,0,False
+8,open cuboid portal,Open the cuboid portal leading north.,You have to unlock the cuboid portal with the cuboid keycard first.,0,False
+9,unlock cuboid portal with cuboid keycard,Unlock the cuboid portal with the cuboid keycard.,You need to take the cuboid keycard first.,0,False
+10,take cuboid keycard,Take the cuboid keycard.,You pick up the cuboid keycard from the ground.,0,False
+11,open cuboid portal,Unlock the cuboid portal with the cuboid keycard and go north.,You have to unlock the cuboid portal with the cuboid keycard first.,0,False
+12,go north,Go north through the unlocked cuboid portal.,You have to open the cuboid portal first.,0,False
+13,go north,Go north through the opened portal.,You have to open the cuboid portal first.,0,False
+14,open cuboid portal,Go through the cuboid portal.,You have to unlock the cuboid portal with the cuboid keycard first.,0,False
+15,unlock cuboid portal with cuboid keycard,Unlock the cuboid portal with the cuboid keycard and then go north.,You unlock cuboid portal.,0,False
+16,go north,Proceed north into the new area.,You have to open the cuboid portal first.,0,False
+17,go north,Proceed through the open cuboid portal.,You have to open the cuboid portal first.,0,False
+18,go north,Move through the open cuboid portal.,You have to open the cuboid portal first.,0,False
+19,open cuboid portal,Go through the open cuboid portal.,You open cuboid portal.,0,False
+20,go north,Go through the open cuboid portal.,"-= Steam Room =-
+You find yourself in a steam room. A normal one. The room is well lit.
+
+
+
+There is a closed gate leading north. There is an open cuboid portal leading south.",0,False
+21,go south,Go through the open cuboid portal.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+22,go south,Proceed through the open cuboid portal.,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+23,go north,Proceed through the open cuboid portal.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+24,go north,Go north through the cuboid portal.,"-= Steam Room =-
+You find yourself in a steam room. A normal one. The room is well lit.
+
+
+
+There is a closed gate leading north. There is an open cuboid portal leading south.",0,False
+25,go south,Go south through the cuboid portal.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+26,go south,No changes to the plan.,"-= Kitchenette =-
+You find yourself in a kitchenette. A typical kind of place.
+
+
+
+There is an open door leading north. You need an unblocked exit? You should try going south.",0,False
+27,go north,Explore the area using available doors and portals.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+28,go west,Explore the West direction via the closed rectangular hatch.,You have to open the rectangular hatch first.,0,False
+29,open rectangular hatch,Open the rectangular hatch to explore the West direction.,You have to unlock the rectangular hatch with the rectangular latchkey first.,0,False
+30,look,Find the rectangular latchkey to unlock and open the rectangular hatch.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+31,look,Find the rectangular latchkey to unlock and open the rectangular hatch.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+32,look,Search the kitchen for the rectangular latchkey.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+33,look,Search the kitchen for the rectangular latchkey.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+34,go west,Search the closed rectangular hatch for a key or latchkey.,You have to open the rectangular hatch first.,0,False
+35,look,Look for a latchkey or key on the closed rectangular hatch.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+36,take rectangular latchkey,Look for a latchkey or key on the closed rectangular hatch.,I only understood you as far as wanting to take rectangular hatch.,0,False
+37,look,Look for a latchkey or key on the closed rectangular hatch.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+38,open rectangular hatch,Look for a latchkey or key on the closed rectangular hatch.,You have to unlock the rectangular hatch with the rectangular latchkey first.,0,False
+39,take rectangular latchkey,Look for a latchkey or key on the closed rectangular hatch.,I only understood you as far as wanting to take rectangular hatch.,0,False
+40,look,Search the current room for the rectangular latchkey.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+41,look,Search the current room for the rectangular latchkey.,"-= Kitchen =-
+You've just shown up in a kitchen. You start to take note of what's in the room.
+
+
+
+There is an open cuboid portal leading north. There is a closed rectangular hatch leading west. There is an open door leading south.",0,False
+42,open rectangular hatch,Open the rectangular hatch.,You have to unlock the rectangular hatch with the rectangular latchkey first.,0,False
+43,open rectangular hatch,Open the rectangular hatch.,You have to unlock the rectangular hatch with the rectangular latchkey first.,0,False
+44,open rectangular hatch,Open the rectangular hatch.,You have to unlock the rectangular hatch with the rectangular latchkey first.,0,False

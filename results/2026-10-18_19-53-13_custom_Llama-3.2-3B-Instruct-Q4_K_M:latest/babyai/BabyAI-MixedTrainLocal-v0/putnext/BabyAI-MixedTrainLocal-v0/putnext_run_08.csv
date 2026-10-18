@@ -1,0 +1,361 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green box 1 step left and 3 steps forward",0,False
+1,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+2,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green box 1 step left and 3 steps forward",0,False
+3,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps left
+a blue box 1 step left and 2 steps forward
+a green box 3 steps right and 1 step forward",0,False
+4,turn right,"No changes to the plan.
+
+Since I was not making changes to my plan in my last actions before this, I keep the original plan set.","a wall 5 steps forward
+a wall 2 steps right
+a green box 1 step left and 3 steps forward",0,False
+5,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps left
+a blue box 1 step left and 2 steps forward
+a green box 3 steps right and 1 step forward",0,False
+6,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps left
+a blue box 1 step left and 1 step forward
+a green box 3 steps right",0,False
+7,turn right,No changes to the plan.,"a wall 3 steps right
+a green box 3 steps forward",0,False
+8,turn left,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps left
+a blue box 1 step left and 1 step forward
+a green box 3 steps right",0,False
+9,go forward,No changes to the plan.,"a wall 3 steps forward
+a blue box 1 step left",0,False
+10,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps left",0,False
+11,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps left
+a green box 2 steps right and 3 steps forward",0,False
+12,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green box 3 steps left and 2 steps forward
+a blue box 1 step right and 1 step forward",0,False
+13,go forward,No changes to the plan.,"a wall 4 steps forward
+a green box 3 steps left and 1 step forward
+a blue box 1 step right",0,False
+14,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 3 steps left
+a green box 1 step right and 3 steps forward",0,False
+15,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 3 steps left
+a green box 1 step right and 3 steps forward",0,False
+16,turn right,No changes to the plan.,"a wall 4 steps forward
+a green box 3 steps left and 1 step forward
+a blue box 1 step right",0,False
+17,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right
+a green box 3 steps left",0,False
+18,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right
+a green box 3 steps left",0,False
+19,toggle,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right
+a green box 3 steps left",0,False
+20,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps left
+a blue box 1 step right and 1 step forward",0,False
+21,toggle,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps left
+a blue box 1 step right and 1 step forward",0,False
+22,pick up,"No changes to the plan.
+
+Since the current observation and the previous changes suggest that the plan should be to put the object (the blue box with the green box handled) next to the green box, I will attempt to continue with the plan.","a wall 2 steps forward
+a wall 3 steps left
+a blue box 1 step right and 1 step forward",0,False
+23,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps left
+a blue box 1 step left and 1 step forward
+a green box 3 steps right",0,False
+24,go forward,No changes to the plan.,"a wall 3 steps forward
+a blue box 1 step left",0,False
+25,pick up,Continue to put the blue box handle with the green box next to the green box.,"a wall 3 steps forward
+a blue box 1 step left",0,False
+26,turn left,The current plan is still to put the blue box handle with the green box next to the green box.,"a wall 3 steps right
+a blue box 1 step forward",0,False
+27,turn right,No changes to the plan.,"a wall 3 steps forward
+a blue box 1 step left",0,False
+28,drop,No changes to the plan.,"a wall 3 steps forward
+a blue box 1 step left",0,False
+29,toggle,"No changes to the plan.
+
+Since the current observation and plan are aligned, I will continue to pursue my initial goal. In this case, my initial plan is simply to get the blue box next to the green box.","a wall 3 steps forward
+a blue box 1 step left",0,False
+30,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps left",0,False
+31,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps left",0,False
+32,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right
+a blue box 2 steps left and 1 step forward",0,False
+33,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+34,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+35,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+36,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+37,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+38,turn left,No changes to the plan,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+39,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+40,turn left,No changes to the plan.,"a wall 1 step right
+a blue box 2 steps forward",0,False
+41,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+42,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+43,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+44,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+45,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step left
+a blue box 2 steps right
+a green box 3 steps right and 4 steps forward",0,False
+46,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+47,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+48,pick up,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+49,toggle,No changes to the plan,"a wall 4 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+50,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left
+a green box 3 steps right and 1 step forward",0,False
+51,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step left
+a green box 3 steps right",0,False
+52,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+53,pick up,No changes to the plan,"a wall 1 step forward
+a wall 1 step left",0,False
+54,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step left
+a green box 1 step right and 3 steps forward",0,False
+55,toggle,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step left
+a green box 1 step right and 3 steps forward",0,False
+56,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left
+a green box 1 step right and 2 steps forward",0,False
+57,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left
+a green box 1 step right and 2 steps forward",0,False
+58,toggle,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left
+a green box 1 step right and 2 steps forward",0,False
+59,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 2 steps right
+a green box 2 steps left and 1 step forward
+a blue box 1 step left and 5 steps forward",0,False
+60,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green box 2 steps left
+a blue box 1 step left and 4 steps forward",0,False
+61,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps right
+a blue box 1 step left and 3 steps forward",0,False
+62,pick up,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps right
+a blue box 1 step left and 3 steps forward",0,False
+63,pick up,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps right
+a blue box 1 step left and 3 steps forward",0,False
+64,drop,No changes to the plan,"a wall 4 steps forward
+a wall 2 steps right
+a blue box 1 step left and 3 steps forward",0,False
+65,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps right",0,False
+66,drop,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps right",0,False
+67,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+68,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+69,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+70,turn left,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right
+a blue box 2 steps left and 3 steps forward",0,False
+71,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+72,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+73,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+74,toggle,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+75,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps right
+a green box 2 steps left and 3 steps forward
+a blue box 2 steps right and 2 steps forward",0,False
+76,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+77,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps right
+a green box 2 steps left and 3 steps forward
+a blue box 2 steps right and 2 steps forward",0,False
+78,turn south,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 3 steps right
+a green box 2 steps left and 2 steps forward
+a blue box 2 steps right and 1 step forward",0,False
+79,go forward,No changes to the plan.,"a wall 4 steps forward
+a green box 2 steps left and 1 step forward
+a blue box 2 steps right",0,False
+80,pick up,No changes to the plan.,"a wall 4 steps forward
+a green box 2 steps left and 1 step forward
+a blue box 2 steps right",0,False
+81,turn right,No changes to the plan.,"a wall 3 steps right
+a blue box 2 steps forward",0,False
+82,turn left,No changes to the plan.,"a wall 4 steps forward
+a green box 2 steps left and 1 step forward
+a blue box 2 steps right",0,False
+83,turn right,No changes to the plan.,"a wall 3 steps right
+a blue box 2 steps forward",0,False
+84,turn right,No changes to the plan.,"a wall 3 steps forward
+a blue box 2 steps left",0,False
+85,"no action, just consider the observation.",No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 3 steps left",0,False
+86,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+87,toggle,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+88,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+89,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+90,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+91,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+92,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+93,turn left,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+94,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+95,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+96,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left
+a green box 3 steps right and 1 step forward",0,False
+97,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step left
+a green box 3 steps right",0,False
+98,turn right,No changes to the plan.,"a wall 2 steps left
+a green box 3 steps forward",0,False
+99,go forward,No changes to the plan.,"a wall 2 steps left
+a green box 2 steps forward",0,False
+100,go forward,No changes to the plan.,"a wall 2 steps left
+a green box 1 step forward",0,False
+101,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps left
+a green box 1 step right",0,False
+102,turn right,No changes to the plan.,"a wall 2 steps left
+a green box 1 step forward",0,False
+103,turn right,No changes to the plan.,"a wall 3 steps right
+a green box 1 step left
+a blue box 4 steps forward",0,False
+104,go forward,No changes to the plan.,"a wall 3 steps right
+a blue box 3 steps forward",0,False
+105,drop,No changes to the plan.,"a wall 3 steps right
+a blue box 3 steps forward",0,False
+106,drop,No changes to the plan.,"a wall 3 steps right
+a blue box 3 steps forward",0,False
+107,turn left,No changes to the plan.,"a wall 4 steps forward
+a wall 3 steps left
+a green box 1 step left and 1 step forward
+a blue box 3 steps right",0,False
+108,turn left,No changes to the plan,"a wall 3 steps forward
+a wall 3 steps left
+a green box 1 step right and 1 step forward",0,False
+109,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps left
+a green box 1 step right",0,False
+110,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+111,turn left,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right",0,False
+112,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+113,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+114,turn left,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right",0,False
+115,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+116,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a green box 1 step right and 1 step forward",0,False
+117,turn right,No changes to the plan.,"a wall 3 steps right
+a green box 1 step left and 1 step forward
+a blue box 5 steps forward",0,False
+118,turn left,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a green box 1 step right and 1 step forward",0,False
+119,turn right,No changes to the plan.,"a wall 3 steps right
+a green box 1 step left and 1 step forward
+a blue box 5 steps forward",0,False
+120,go forward,No changes to the plan.,"a wall 3 steps right
+a green box 1 step left
+a blue box 4 steps forward",0,False
+121,pick up,No changes to the plan.,"a wall 3 steps right
+a green box 1 step left
+a blue box 4 steps forward",0,False
+122,go forward,No changes to the plan.,"a wall 3 steps right
+a blue box 3 steps forward",0,False
+123,go forward,No changes to the plan.,"a wall 3 steps right
+a blue box 2 steps forward",0,False
+124,pick up,No changes to the plan.,"a wall 3 steps right
+a blue box 2 steps forward",0,False
+125,pick up,No changes to the plan.,"a wall 3 steps right
+a blue box 2 steps forward",0,False
+126,toggle,No changes to the plan.,"a wall 3 steps right
+a blue box 2 steps forward",0,False
+127,toggle,No changes to the plan.,"a wall 3 steps right
+a blue box 2 steps forward",0,True

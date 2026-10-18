@@ -1,0 +1,56 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,Navigate towards the yellow key to find the yellow door.,"a wall 6 steps forward
+a wall 2 steps left
+a locked yellow door 1 step left and 6 steps forward
+a yellow key 1 step left and 3 steps forward",0,False
+1,turn left,"Navigate towards the yellow key to pick it up, then use it on the yellow door.","a wall 2 steps forward
+a wall 1 step left
+a yellow key 3 steps right and 1 step forward",0,False
+2,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left
+a yellow key 3 steps right",0,False
+3,turn right,"Navigate towards the yellow key to pick it up, then use it on the yellow door.","a wall 1 step left
+a locked yellow door 6 steps forward
+a yellow key 3 steps forward",0,False
+4,go forward,"Navigate towards the yellow key to pick it up, then use it on the yellow door.","a wall 1 step left
+a locked yellow door 5 steps forward
+a yellow key 2 steps forward",0,False
+5,go forward,"Navigate towards the yellow key (2 steps forward), then use it on the yellow door (5 steps forward).","a wall 1 step left
+a locked yellow door 4 steps forward
+a yellow key 1 step forward",0,False
+6,go forward,"Pick up the yellow key, then use it on the yellow door.","a wall 1 step left
+a locked yellow door 4 steps forward
+a yellow key 1 step forward",0,False
+7,go forward,"Pick up the yellow key, then use it on the yellow door.","a wall 1 step left
+a locked yellow door 4 steps forward
+a yellow key 1 step forward",0,False
+8,pick up,"Pick up the yellow key, then use it on the yellow door.","You carry a yellow key
+a wall 1 step left
+a locked yellow door 4 steps forward",0,False
+9,go forward,No changes to the plan.,"You carry a yellow key
+a wall 1 step left
+a locked yellow door 3 steps forward",0,False
+10,go forward,"Go forward to reach the door, then interact with the door using the key.","You carry a yellow key
+a wall 1 step left
+a locked yellow door 2 steps forward",0,False
+11,go forward,Go forward until the door is opened. Then use the yellow key on the door.,"You carry a yellow key
+a wall 1 step left
+a locked yellow door 1 step forward",0,False
+12,go forward,Go forward until the door is opened. Then use the yellow key on the door.,"You carry a yellow key
+a wall 1 step left
+a locked yellow door 1 step forward",0,False
+13,go forward,"Go forward to reach the door, then use the yellow key.","You carry a yellow key
+a wall 1 step left
+a locked yellow door 1 step forward",0,False
+14,go forward,"Go forward to reach the door, then use the yellow key.","You carry a yellow key
+a wall 1 step left
+a locked yellow door 1 step forward",0,False
+15,go forward,"Go forward to reach the door, then interact with the door using the key.","You carry a yellow key
+a wall 1 step left
+a locked yellow door 1 step forward",0,False
+16,go forward,Go forward to reach the door and attempt to open it.,"You carry a yellow key
+a wall 1 step left
+a locked yellow door 1 step forward",0,False
+17,toggle,Interact with the locked yellow door using the yellow key.,"You carry a yellow key
+a wall 1 step left
+a open yellow door 1 step forward",0.8734375,True

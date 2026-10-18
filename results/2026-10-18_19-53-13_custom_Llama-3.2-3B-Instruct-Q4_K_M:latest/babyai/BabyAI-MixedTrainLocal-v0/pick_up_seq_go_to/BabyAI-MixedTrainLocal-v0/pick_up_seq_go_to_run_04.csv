@@ -1,0 +1,19 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps right
+a grey box 2 steps left and 1 step forward",0,False
+1,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right
+a grey box 2 steps left",0,False
+2,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right
+a grey box 2 steps left",0,False
+3,turn left,No changes to the plan.,"a wall 1 step right
+a grey box 4 steps forward
+a grey box 2 steps forward",0,False
+4,go forward,No changes to the plan.,"a wall 1 step right
+a grey box 3 steps forward
+a grey box 1 step forward",0,False
+5,pick up,No changes to the plan.,"You carry a grey box
+a wall 1 step right
+a grey box 3 steps forward",0.9578125,True

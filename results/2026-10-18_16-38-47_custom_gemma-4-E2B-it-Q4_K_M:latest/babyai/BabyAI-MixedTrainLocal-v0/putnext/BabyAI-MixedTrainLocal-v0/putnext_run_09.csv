@@ -1,0 +1,419 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,No changes to the plan.,"a wall 1 step right
+a grey key 2 steps forward",0,False
+1,go forward,Go forward to get closer to the grey key.,"a wall 1 step right
+a grey key 1 step forward",0,False
+2,go forward,Go forward to get closer to the grey key.,"a wall 1 step right
+a grey key 1 step forward",0,False
+3,go forward,Go forward to interact with the grey key.,"a wall 1 step right
+a grey key 1 step forward",0,False
+4,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps left
+a red ball 2 steps left and 2 steps forward
+a grey key 1 step right",0,False
+5,go forward,Go forward 2 steps to pick up the red ball. Then turn right and move 1 step to place the red ball next to the grey key.,"a wall 5 steps forward
+a wall 3 steps left
+a red ball 2 steps left and 1 step forward",0,False
+6,go forward,Go forward 1 step.,"a wall 4 steps forward
+a red ball 2 steps left",0,False
+7,go forward,Go forward 1 step.,"a wall 3 steps forward
+a wall 3 steps left",0,False
+8,turn left,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right
+a red ball 1 step left and 2 steps forward",0,False
+9,go forward,Go forward 1 step.,"a wall 2 steps forward
+a wall 3 steps right
+a red ball 1 step left and 1 step forward",0,False
+10,go forward,Go forward 1 step.,"a wall 1 step forward
+a wall 3 steps right
+a red ball 1 step left",0,False
+11,turn left,No changes to the plan.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+12,go forward,Go forward 1 step.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+13,go forward,Go forward 1 step.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+14,go forward,No changes to the plan.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+15,go forward,No changes to the plan.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+16,go forward,Go forward to move closer to the key and the red ball.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+17,go forward,Go forward to approach the objects.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+18,go forward,Go forward to get closer to the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+19,go forward,Move the red ball closer to the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+20,go forward,Move the red ball closer to the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+21,go forward,No changes to the plan. Continue moving forward to progress towards the goal.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+22,go forward,No changes to the plan. Move forward to approach the key and the ball.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+23,go forward,No changes to the plan. Move forward to approach the key and the ball.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+24,turn left,No changes to the plan. Try turning to change direction relative to the key and ball.,"a wall 6 steps forward
+a wall 3 steps left
+a red ball 1 step right
+a grey key 3 steps right and 3 steps forward",0,False
+25,turn right,No changes to the plan. Turning right aligns the agent towards the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+26,turn left,No changes to the plan. Turning left brings the agent closer to the general direction of the key.,"a wall 6 steps forward
+a wall 3 steps left
+a red ball 1 step right
+a grey key 3 steps right and 3 steps forward",0,False
+27,turn right,No changes to the plan. Turning right will orient the agent towards the key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+28,go forward,No changes to the plan. Moving forward seems like a good starting point to advance the red ball and potentially get closer to the key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+29,go forward,No changes to the plan. Continue moving forward to progress towards the key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+30,go forward,No changes to the plan. Continue moving forward to progress towards the key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+31,turn left,No changes to the plan. I need to start moving towards the key and the red ball.,"a wall 6 steps forward
+a wall 3 steps left
+a red ball 1 step right
+a grey key 3 steps right and 3 steps forward",0,False
+32,turn right,No changes to the plan. I need to move towards the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+33,go forward,No changes to the plan. Move towards the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+34,go forward,No changes to the plan. Move towards the grey key and reposition the red ball.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+35,go forward,Go forward towards the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+36,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps left
+a red ball 1 step right
+a grey key 3 steps right and 3 steps forward",0,False
+37,turn right,Move towards the grey key to position the red ball next to it.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+38,turn left,Move towards the grey key to position the red ball next to it.,"a wall 6 steps forward
+a wall 3 steps left
+a red ball 1 step right
+a grey key 3 steps right and 3 steps forward",0,False
+39,turn right,No changes to the plan. Move towards the grey key area and position the red ball next to it.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+40,go forward,No changes to the plan. Move towards the grey key and position the red ball next to it.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+41,go forward,No changes to the plan. Move towards the grey key and position the red ball next to it.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+42,go forward,Move forward towards the grey key.,"a wall 1 step right
+a grey key 3 steps left and 3 steps forward
+a red ball 1 step forward",0,False
+43,pick up,"Pick up the red ball, then move it next to the grey key, and drop it.","You carry a red ball
+a wall 4 steps forward
+a wall 1 step right
+a grey key 3 steps left and 3 steps forward",0,False
+44,turn left,No changes to the plan.,"You carry a red ball
+a wall 6 steps forward
+a wall 3 steps left
+a grey key 3 steps right and 3 steps forward",0,False
+45,turn right,No changes to the plan.,"You carry a red ball
+a wall 4 steps forward
+a wall 1 step right
+a grey key 3 steps left and 3 steps forward",0,False
+46,turn left,Move the red ball towards the grey key.,"You carry a red ball
+a wall 6 steps forward
+a wall 3 steps left
+a grey key 3 steps right and 3 steps forward",0,False
+47,turn right,Move the red ball towards the grey key by navigating towards its location.,"You carry a red ball
+a wall 4 steps forward
+a wall 1 step right
+a grey key 3 steps left and 3 steps forward",0,False
+48,turn left,Move the red ball towards the grey key by navigating to the key's location (3 steps left and 3 steps forward).,"You carry a red ball
+a wall 6 steps forward
+a wall 3 steps left
+a grey key 3 steps right and 3 steps forward",0,False
+49,go forward,Move towards the grey key (3 steps right and 3 steps forward).,"You carry a red ball
+a wall 5 steps forward
+a wall 3 steps left
+a grey key 3 steps right and 2 steps forward",0,False
+50,turn right,Move towards the grey key (3 steps right and 2 steps forward).,"You carry a red ball
+a wall 4 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 3 steps forward",0,False
+51,go forward,No changes to the plan. Move towards the grey key (3 steps left and 3 steps forward).,"You carry a red ball
+a wall 3 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 2 steps forward",0,False
+52,turn left,Go left until reaching the grey key.,"You carry a red ball
+a wall 5 steps forward
+a wall 3 steps right
+a grey key 2 steps right and 2 steps forward",0,False
+53,turn right,Go to the grey key by turning right and moving forward/sideways.,"You carry a red ball
+a wall 3 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 2 steps forward",0,False
+54,turn left,"Turn left, then move forward twice, then move left twice to reach the grey key.","You carry a red ball
+a wall 5 steps forward
+a wall 3 steps right
+a grey key 2 steps right and 2 steps forward",0,False
+55,turn right,"Turn right, go forward, go forward, turn left, go forward, go forward.","You carry a red ball
+a wall 3 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 2 steps forward",0,False
+56,turn left,"Turn left, go forward, go forward, turn right, go forward, go forward.","You carry a red ball
+a wall 5 steps forward
+a wall 3 steps right
+a grey key 2 steps right and 2 steps forward",0,False
+57,turn right,"Turn right, go forward, go forward, go forward, go forward.","You carry a red ball
+a wall 3 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 2 steps forward",0,False
+58,go forward,"Go forward, turn left, go forward, go forward (then drop the ball).","You carry a red ball
+a wall 2 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 1 step forward",0,False
+59,turn left,Turn left,"You carry a red ball
+a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step right and 2 steps forward",0,False
+60,turn left,No changes to the plan.,"You carry a red ball
+a wall 5 steps forward
+a wall 2 steps left",0,False
+61,turn right,No changes to the plan.,"You carry a red ball
+a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step right and 2 steps forward",0,False
+62,turn left,Turn left,"You carry a red ball
+a wall 5 steps forward
+a wall 2 steps left",0,False
+63,turn right,No changes to the plan.,"You carry a red ball
+a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step right and 2 steps forward",0,False
+64,turn right,No changes to the plan.,"You carry a red ball
+a wall 2 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 1 step forward",0,False
+65,turn left,Turn left,"You carry a red ball
+a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step right and 2 steps forward",0,False
+66,turn right,No changes to the plan.,"You carry a red ball
+a wall 2 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 1 step forward",0,False
+67,turn left,No changes to the plan.,"You carry a red ball
+a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step right and 2 steps forward",0,False
+68,turn right,"Turn right, go forward, go forward, turn right, go forward.","You carry a red ball
+a wall 2 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 1 step forward",0,False
+69,turn left,"Go left, go forward","You carry a red ball
+a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step right and 2 steps forward",0,False
+70,go forward,"Go forward, go forward","You carry a red ball
+a wall 4 steps forward
+a wall 2 steps right
+a grey key 1 step right and 1 step forward",0,False
+71,turn right,No changes to the plan.,"You carry a red ball
+a wall 2 steps forward
+a wall 3 steps right
+a grey key 1 step left and 1 step forward",0,False
+72,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step forward
+a wall 3 steps right
+a grey key 1 step left",0,False
+73,turn left,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+74,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+75,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+76,go forward,Go forward,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+77,turn right,No changes to the plan.,"You carry a red ball
+a wall 1 step forward
+a wall 3 steps right
+a grey key 1 step left",0,False
+78,turn left,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+79,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+80,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+81,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+82,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+83,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+84,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+85,toggle,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+86,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+87,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+88,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+89,toggle,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+90,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+91,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+92,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+93,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+94,turn left,No changes to the plan.,"You carry a red ball
+a wall 6 steps forward
+a wall 3 steps left
+a grey key 1 step right",0,False
+95,turn right,Go to the grey key by turning right and moving forward.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+96,go forward,Go forward to place the red ball next to the grey key.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+97,go forward,Go forward to move closer to the grey key.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+98,go forward,Go forward to reach the grey key.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+99,go forward,Go forward to reach the grey key.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+100,go forward,"Go forward to reach the grey key, then drop the red ball.","You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+101,turn right,"Go forward to reach the grey key, then drop the red ball.","You carry a red ball
+a wall 1 step forward
+a wall 3 steps right
+a grey key 1 step left",0,False
+102,turn left,"Go left to reach the grey key, then go forward next to it.","You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+103,go forward,Go forward to get closer to the grey key.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+104,go forward,Go forward.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+105,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+106,go forward,Go forward,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+107,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+108,turn right,No changes to the plan.,"You carry a red ball
+a wall 1 step forward
+a wall 3 steps right
+a grey key 1 step left",0,False
+109,turn left,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+110,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+111,go forward,Go forward,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+112,go forward,Go forward,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+113,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+114,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+115,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+116,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+117,turn right,No changes to the plan.,"You carry a red ball
+a wall 1 step forward
+a wall 3 steps right
+a grey key 1 step left",0,False
+118,turn left,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+119,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+120,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+121,go forward,Go forward,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+122,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+123,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+124,go forward,No changes to the plan.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+125,turn right,No changes to the plan.,"You carry a red ball
+a wall 1 step forward
+a wall 3 steps right
+a grey key 1 step left",0,False
+126,turn left,Go left towards the grey key.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,False
+127,go forward,Go forward to reach the grey key.,"You carry a red ball
+a wall 1 step right
+a grey key 1 step forward",0,True

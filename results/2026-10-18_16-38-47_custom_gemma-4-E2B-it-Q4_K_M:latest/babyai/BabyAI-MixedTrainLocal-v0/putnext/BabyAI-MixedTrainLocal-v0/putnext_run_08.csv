@@ -1,0 +1,315 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,Go left and then forward to reach the purple ball.,"a wall 4 steps forward
+a wall 2 steps left
+a blue key 1 step left and 1 step forward
+a purple ball 2 steps right and 1 step forward",0,False
+1,go forward,Go forward to move closer to both objects.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+2,turn left,Go towards the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+3,go forward,Go forward to pick up the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+4,go forward,Go forward to pick up the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+5,go forward,Go forward to pick up the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+6,go forward,Go forward to reach the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+7,turn right,No changes to the plan.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+8,turn left,No changes to the plan.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+9,go forward,Go forward to pick up the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+10,go forward,Go forward to pick up the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+11,go forward,Go forward to pick up the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+12,turn right,No changes to the plan.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+13,turn left,Go towards the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+14,go forward,Go forward to continue exploring towards the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+15,go forward,Go forward to continue exploring towards the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+16,go forward,Keep going forward towards the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+17,turn right,Turn right to face the direction toward the purple ball.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+18,turn right,Turn right to face the direction toward the purple ball.,"a wall 3 steps left
+a purple ball 2 steps forward",0,False
+19,turn right,Turn right to face the purple ball.,"a wall 4 steps forward
+a purple ball 2 steps left
+a blue key 1 step right",0,False
+20,turn right,No changes to the plan.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+21,turn right,Turn right to face the purple ball.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+22,turn right,Turn right to face the purple ball.,"a wall 3 steps left
+a purple ball 2 steps forward",0,False
+23,go forward,"Go forward until hitting the obstacle, then turn to maneuver around it.","a wall 3 steps left
+a purple ball 1 step forward",0,False
+24,go forward,Go forward to reach the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+25,turn left,No changes to the plan. Search for the blue key.,"a wall 3 steps forward
+a blue key 2 steps left
+a purple ball 1 step right",0,False
+26,turn right,No changes to the plan. Search for the blue key.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+27,go forward,Search for the blue key and the purple ball to determine the necessary steps.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+28,go forward,Go forward to investigate the purple ball's location further.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+29,go forward,Go forward to investigate the purple ball's location further.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+30,turn left,Go towards the blue key.,"a wall 3 steps forward
+a blue key 2 steps left
+a purple ball 1 step right",0,False
+31,turn left,Go towards the blue key.,"a wall 3 steps right
+a blue key 2 steps forward",0,False
+32,go forward,"Explore the environment to locate the purple ball, then maneuver the blue key next to it.","a wall 3 steps right
+a blue key 1 step forward",0,False
+33,go forward,Locate the purple ball and move the blue key next to it.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+34,go forward,Locate the purple ball and move the blue key next to it.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+35,go forward,No changes to the plan. I need to continue exploring to locate the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+36,turn right,No changes to the plan. Continue exploring to locate the purple ball.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+37,turn right,No changes to the plan. Focus on reaching the purple ball first.,"a wall 3 steps left
+a purple ball 2 steps forward",0,False
+38,go forward,No changes to the plan. Focus on reaching the purple ball first.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+39,go forward,No changes to the plan. Navigate towards the objects.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+40,go forward,No changes to the plan. Focus on moving towards the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+41,go forward,No changes to the plan. Continue moving forward towards the purple ball to explore the area.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+42,go forward,No changes to the plan. Continue moving forward towards the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+43,turn left,No changes to the plan.,"a wall 3 steps forward
+a blue key 2 steps left
+a purple ball 1 step right",0,False
+44,turn right,No changes to the plan. Turn right to face the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+45,turn right,Turn right to face the purple ball.,"a wall 4 steps forward
+a purple ball 1 step left
+a blue key 2 steps right",0,False
+46,turn right,"Turn right to face the purple ball, then move towards the blue key.","a wall 3 steps right
+a blue key 2 steps forward",0,False
+47,go forward,Move forward to explore the surroundings and potentially find the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+48,go forward,Explore the area to find the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+49,go forward,Explore the area around the blue key and the wall to find the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+50,go forward,Explore the area around the blue key and the wall to find the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+51,turn left,Explore the area around the blue key and the wall to find the purple ball.,"a wall 4 steps forward
+a purple ball 2 steps left
+a blue key 1 step right",0,False
+52,go forward,Go forward to pick up the blue key.,"a wall 3 steps forward
+a wall 2 steps right",0,False
+53,turn left,Explore the area by turning left.,"a wall 5 steps forward
+a wall 3 steps right
+a purple ball 1 step left and 2 steps forward",0,False
+54,go forward,Move towards the purple ball.,"a wall 4 steps forward
+a wall 3 steps right
+a purple ball 1 step left and 1 step forward",0,False
+55,go forward,Move towards the purple ball.,"a wall 3 steps forward
+a wall 3 steps right
+a purple ball 1 step left",0,False
+56,turn left,Move towards the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+57,go forward,Move towards the blue key to position it next to the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+58,go forward,Move forward towards the blue key and purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+59,go forward,Move forward to reach the purple ball and assess the position of the blue key.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+60,go forward,Move forward to reach the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+61,go forward,Move forward towards the objects.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+62,go forward,Move forward to close the gap with the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+63,go forward,Move forward to get closer to the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+64,go forward,Move forward towards the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+65,go forward,No changes to the plan.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+66,go forward,Move forward towards the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+67,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right
+a purple ball 1 step left",0,False
+68,turn left,Move towards the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+69,go forward,Move forward to approach the purple ball and the blue key.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+70,go forward,"Move forward to align the objects and then pick up the key if necessary, or proceed to get them next to each other.","a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+71,go forward,"Go forward to reach the purple ball, then turn left to align the blue key next to it.","a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+72,go forward,"Go forward to reach the purple ball. Then, we need to move the key relative to the ball.","a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+73,go forward,Go forward to approach the purple ball.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+74,go forward,Go forward to approach the objects.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+75,go forward,Go forward a few times to move towards the objects and assess the layout.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+76,go forward,Go towards the objects.,"a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+77,go forward,"Go to the position of the purple ball, then try to position the blue key next to it.","a wall 3 steps right
+a blue key 3 steps left and 1 step forward
+a purple ball 1 step forward",0,False
+78,turn left,Go towards the blue key location.,"a wall 4 steps forward
+a wall 3 steps left
+a blue key 1 step right and 3 steps forward
+a purple ball 1 step right",0,False
+79,turn left,Go towards the blue key location.,"a wall 3 steps forward
+a wall 3 steps left",0,False
+80,turn right,Go towards the blue key location by exploring.,"a wall 4 steps forward
+a wall 3 steps left
+a blue key 1 step right and 3 steps forward
+a purple ball 1 step right",0,False
+81,go forward,Go towards the blue key location.,"a wall 3 steps forward
+a wall 3 steps left
+a blue key 1 step right and 2 steps forward",0,False
+82,turn right,"Go towards the blue key, then look for the purple ball.","a wall 4 steps forward
+a wall 3 steps left
+a blue key 2 steps left and 1 step forward
+a purple ball 1 step right and 1 step forward",0,False
+83,go forward,Go towards the blue key.,"a wall 3 steps forward
+a blue key 2 steps left
+a purple ball 1 step right",0,False
+84,turn left,Go towards the blue key by turning left and moving forward.,"a wall 3 steps right
+a blue key 2 steps forward",0,False
+85,go forward,No changes to the plan.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+86,turn left,Go towards the blue key by turning left and moving forward.,"a wall 4 steps forward
+a purple ball 2 steps left
+a blue key 1 step right",0,False
+87,turn left,"Go towards the purple ball by turning left twice and moving forward, then adjust to the blue key.","a wall 3 steps left
+a purple ball 2 steps forward",0,False
+88,turn left,"Go towards the purple ball by turning left twice and moving forward, then adjusting to the blue key.","a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+89,turn right,Go towards the purple ball by turning right and moving forward.,"a wall 3 steps left
+a purple ball 2 steps forward",0,False
+90,turn right,Go towards the purple ball by turning right and moving forward.,"a wall 4 steps forward
+a purple ball 2 steps left
+a blue key 1 step right",0,False
+91,turn left,Go left to approach the purple ball.,"a wall 3 steps left
+a purple ball 2 steps forward",0,False
+92,go forward,Go forward to reach the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+93,turn left,Find the blue key and then move it next to the purple ball.,"a wall 3 steps forward
+a blue key 2 steps left
+a purple ball 1 step right",0,False
+94,turn right,"Go towards the blue key, pick it up, and then move it next to the purple ball.","a wall 3 steps left
+a purple ball 1 step forward",0,False
+95,go forward,Go towards the blue key.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+96,turn right,Find the blue key and move it next to the purple ball.,"a wall 4 steps forward
+a purple ball 1 step left
+a blue key 2 steps right",0,False
+97,turn right,No changes to the plan.,"a wall 3 steps right
+a blue key 2 steps forward",0,False
+98,go forward,Find the purple ball and then position the blue key next to it.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+99,go forward,Find the purple ball and then position the blue key next to it.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+100,go forward,Find the purple ball and then position the blue key next to it.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+101,go forward,Find the purple ball and then position the blue key next to it.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+102,go forward,Find the purple ball and move the blue key next to it.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+103,go forward,No changes to the plan. I need to explore the area to find the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+104,go forward,No changes to the plan. I need to continue exploring to find the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+105,turn right,No changes to the plan. I need to continue exploring to find the purple ball and the blue key.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+106,turn right,No changes to the plan. Focus on navigating towards the target objects.,"a wall 3 steps left
+a purple ball 2 steps forward",0,False
+107,go forward,No changes to the plan. Focus on reaching the vicinity of the objects.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+108,go forward,Go forward towards the blue key.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+109,go forward,"Go forward, then check surroundings for the blue key.","a wall 3 steps left
+a purple ball 1 step forward",0,False
+110,turn left,"Go left to investigate the area near the wall, hoping to find the blue key.","a wall 3 steps forward
+a blue key 2 steps left
+a purple ball 1 step right",0,False
+111,turn left,Go left toward the blue key.,"a wall 3 steps right
+a blue key 2 steps forward",0,False
+112,turn left,Go left toward the blue key.,"a wall 4 steps forward
+a purple ball 1 step left
+a blue key 2 steps right",0,False
+113,turn right,Go towards the blue key.,"a wall 3 steps right
+a blue key 2 steps forward",0,False
+114,go forward,No changes to the plan.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+115,go forward,Go forward to get closer to the blue key.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+116,go forward,Go forward to continue exploring and moving towards the target area.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+117,turn right,No changes to the plan.,"a wall 3 steps forward
+a blue key 1 step left
+a purple ball 2 steps right",0,False
+118,turn left,Go towards the blue key and the purple ball.,"a wall 3 steps right
+a blue key 1 step forward",0,False
+119,turn left,Go towards the purple ball.,"a wall 4 steps forward
+a purple ball 2 steps left
+a blue key 1 step right",0,False
+120,turn left,"Go towards the purple ball. Turn left to face North, then move forward, attempting to navigate past the possible obstructions to reach the target area.","a wall 3 steps left
+a purple ball 2 steps forward",0,False
+121,go forward,Go towards the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+122,go forward,Go towards the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+123,go forward,Move towards the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+124,go forward,Go towards the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+125,go forward,Go towards the purple ball to get closer to the target area.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+126,go forward,Go towards the purple ball.,"a wall 3 steps left
+a purple ball 1 step forward",0,False
+127,turn right,Go towards the blue key.,"a wall 4 steps forward
+a purple ball 1 step left
+a blue key 2 steps right",0,True

@@ -1,0 +1,131 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Go forward 5 steps, then turn left, and go forward 2 steps to pick up the key.","a wall 5 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 4 steps forward",0,False
+1,turn left,"Go left 2 steps, then go forward 4 steps to pick up the purple key.","a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+2,turn left,"Go left 2 steps, then go forward 4 steps to pick up the purple key.","a wall 2 steps forward
+a wall 3 steps left",0,False
+3,turn left,"Go left 2 steps, then go forward 4 steps to pick up the purple key.","a wall 3 steps forward
+a wall 2 steps right",0,False
+4,turn left,Go left 2 steps,"a wall 5 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 4 steps forward",0,False
+5,go forward,Go forward 4 steps,"a wall 4 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 3 steps forward",0,False
+6,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 2 steps forward",0,False
+7,pick up,Pick up the purple key,"a wall 3 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 2 steps forward",0,False
+8,turn left,Pick up the purple key,"a wall 4 steps forward
+a wall 3 steps right
+a locked purple door 1 step right and 4 steps forward
+a purple key 2 steps right and 2 steps forward",0,False
+9,turn right,Pick up the purple key,"a wall 3 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 2 steps forward",0,False
+10,turn left,Pick up the purple key,"a wall 4 steps forward
+a wall 3 steps right
+a locked purple door 1 step right and 4 steps forward
+a purple key 2 steps right and 2 steps forward",0,False
+11,turn right,Pick up the purple key,"a wall 3 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 2 steps forward",0,False
+12,go forward,Pick up the purple key,"a wall 2 steps forward
+a wall 3 steps right
+a purple key 2 steps left and 1 step forward",0,False
+13,go forward,Pick up the purple key,"a wall 1 step forward
+a wall 3 steps right
+a purple key 2 steps left",0,False
+14,pick up,Pick up the purple key,"a wall 1 step forward
+a wall 3 steps right
+a purple key 2 steps left",0,False
+15,pick up,Pick up the purple key.,"a wall 1 step forward
+a wall 3 steps right
+a purple key 2 steps left",0,False
+16,turn left,Pick up the purple key.,"a wall 1 step right
+a locked purple door 1 step left and 4 steps forward
+a purple key 2 steps forward",0,False
+17,go forward,"Pick up the purple key, then go forward to open the door.","a wall 1 step right
+a locked purple door 1 step left and 3 steps forward
+a purple key 1 step forward",0,False
+18,go forward,"Pick up the purple key, then go forward to open the door.","a wall 1 step right
+a locked purple door 1 step left and 3 steps forward
+a purple key 1 step forward",0,False
+19,go forward,"Pick up the purple key, then go forward to open the door.","a wall 1 step right
+a locked purple door 1 step left and 3 steps forward
+a purple key 1 step forward",0,False
+20,pick up,"Pick up the purple key, then go forward to open the door.","You carry a purple key
+a wall 3 steps forward
+a wall 1 step right
+a locked purple door 1 step left and 3 steps forward",0,False
+21,toggle,Pick up the locked purple door using the purple key.,"You carry a purple key
+a wall 3 steps forward
+a wall 1 step right
+a locked purple door 1 step left and 3 steps forward",0,False
+22,toggle,Open the locked purple door.,"You carry a purple key
+a wall 3 steps forward
+a wall 1 step right
+a locked purple door 1 step left and 3 steps forward",0,False
+23,toggle,Open the locked purple door.,"You carry a purple key
+a wall 3 steps forward
+a wall 1 step right
+a locked purple door 1 step left and 3 steps forward",0,False
+24,go forward,Open the locked purple door using the purple key.,"You carry a purple key
+a wall 2 steps forward
+a wall 1 step right
+a locked purple door 1 step left and 2 steps forward",0,False
+25,toggle,Open the locked purple door using the purple key.,"You carry a purple key
+a wall 2 steps forward
+a wall 1 step right
+a locked purple door 1 step left and 2 steps forward",0,False
+26,toggle,No changes to the plan.,"You carry a purple key
+a wall 2 steps forward
+a wall 1 step right
+a locked purple door 1 step left and 2 steps forward",0,False
+27,go forward,Open the locked purple door using the purple key.,"You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+28,go forward,Open the locked purple door using the purple key.,"You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+29,turn left,No changes to the plan.,"You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+30,toggle,No changes to the plan.,"You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+31,toggle,Open the locked purple door using the purple key.,"You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+32,toggle,No changes to the plan.,"You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+33,go forward,Navigate to the door and use the key to open it.,"You carry a purple key
+a wall 5 steps forward
+a locked purple door 1 step right",0,False
+34,turn right,Navigate to the door and use the key to open it.,"You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+35,go forward,Navigate to the door and use the key to open it.,"You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+36,go forward,Navigate to the door and use the key to open it.,"You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+37,go forward,Navigate to the door and use the key to open it.,"You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+38,toggle,Navigate to the door and use the key to open it.,"You carry a purple key
+a wall 2 steps right
+a open purple door 1 step forward",0.72578125,True

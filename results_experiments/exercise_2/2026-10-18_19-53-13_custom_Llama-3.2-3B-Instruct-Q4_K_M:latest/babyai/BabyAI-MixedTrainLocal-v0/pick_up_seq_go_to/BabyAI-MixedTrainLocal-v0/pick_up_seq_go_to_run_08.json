@@ -1,0 +1,49 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "go forward": 51,
+        "turn left": 15,
+        "turn right": 23,
+        "pick up": 29,
+        "drop": 7,
+        "toggle": 3
+    },
+    "input_tokens": 104365,
+    "output_tokens": 1834,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "turn left to face the wall 1 step forward"
+    ],
+    "mission": "go to the yellow key after you pick up the grey box",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 1162675825,
+    "agent": {
+        "type": "custom",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": []
+}

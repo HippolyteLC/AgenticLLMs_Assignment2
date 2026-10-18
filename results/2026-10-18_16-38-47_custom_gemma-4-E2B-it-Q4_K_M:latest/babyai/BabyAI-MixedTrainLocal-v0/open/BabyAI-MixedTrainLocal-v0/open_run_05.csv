@@ -1,0 +1,131 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,No changes to the plan. Explore the environment.,"a wall 2 steps forward
+a wall 3 steps right
+a locked yellow door 1 step right and 2 steps forward",0,False
+1,turn left,"No changes to the plan. Turn left, go forward, go forward, turn right, go forward.","a wall 4 steps forward
+a wall 2 steps right",0,False
+2,turn right,"Turn right, then go forward twice.","a wall 2 steps forward
+a wall 3 steps right
+a locked yellow door 1 step right and 2 steps forward",0,False
+3,go forward,"Go forward, then turn right, then go forward.","a wall 1 step forward
+a wall 3 steps right
+a locked yellow door 1 step right and 1 step forward",0,False
+4,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right
+a locked yellow door 1 step right and 1 step forward",0,False
+5,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right
+a locked yellow door 1 step right and 1 step forward",0,False
+6,go forward,Go forward,"a wall 1 step forward
+a wall 3 steps right
+a locked yellow door 1 step right and 1 step forward",0,False
+7,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left
+a locked yellow door 1 step left and 1 step forward
+a yellow key 3 steps right and 1 step forward",0,False
+8,go forward,Go forward,"a wall 2 steps forward
+a locked yellow door 1 step left
+a yellow key 3 steps right",0,False
+9,turn left,Turn left,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+10,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+11,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+12,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+13,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+14,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+15,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+16,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+17,turn left,Turn left,"a wall 5 steps forward
+a yellow key 3 steps left
+a locked yellow door 1 step right",0,False
+18,turn right,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+19,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+20,go forward,No changes to the plan.,"a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+21,turn left,Turn left,"a wall 5 steps forward
+a yellow key 3 steps left
+a locked yellow door 1 step right",0,False
+22,go forward,Go 3 steps left to get the yellow key.,"a wall 4 steps forward
+a wall 1 step right",0,False
+23,turn left,Go 3 steps left to get the yellow key.,"a wall 6 steps forward
+a wall 3 steps left
+a yellow key 1 step left and 3 steps forward",0,False
+24,go forward,"Go forward 3 steps, then turn left and pick up the yellow key.","a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step left and 2 steps forward",0,False
+25,go forward,"Go forward, then go forward again. Then, turn left and pick up the yellow key.","a wall 4 steps forward
+a wall 3 steps left
+a yellow key 1 step left and 1 step forward",0,False
+26,go forward,"Go forward. If this leads to the key, then proceed to pick it up.","a wall 3 steps forward
+a yellow key 1 step left",0,False
+27,turn left,Go left to get the yellow key.,"a wall 3 steps right
+a yellow key 1 step forward",0,False
+28,go forward,Pick up the yellow key.,"a wall 3 steps right
+a yellow key 1 step forward",0,False
+29,pick up,Pick up the yellow key.,"You carry a yellow key
+a wall 3 steps forward
+a wall 3 steps right",0,False
+30,turn left,"Pick up the yellow key, then locate and open the locked yellow door.","You carry a yellow key
+a wall 4 steps forward
+a wall 3 steps right
+a locked yellow door 1 step right and 4 steps forward",0,False
+31,go forward,No changes to the plan.,"You carry a yellow key
+a wall 3 steps forward
+a wall 3 steps right
+a locked yellow door 1 step right and 3 steps forward",0,False
+32,go forward,"Pick up the yellow key (done), then move towards the goal (the locked yellow door).","You carry a yellow key
+a wall 2 steps forward
+a wall 3 steps right
+a locked yellow door 1 step right and 2 steps forward",0,False
+33,go forward,Go forward towards the door.,"You carry a yellow key
+a wall 1 step forward
+a wall 3 steps right
+a locked yellow door 1 step right and 1 step forward",0,False
+34,turn right,"Turn right to face the door, then go forward to open it.","You carry a yellow key
+a wall 3 steps forward
+a wall 1 step left
+a locked yellow door 1 step left and 1 step forward",0,False
+35,turn left,"Turn left to face the door, then go forward to open it.","You carry a yellow key
+a wall 1 step forward
+a wall 3 steps right
+a locked yellow door 1 step right and 1 step forward",0,False
+36,turn right,"Turn right to face the door, then go forward to open it.","You carry a yellow key
+a wall 3 steps forward
+a wall 1 step left
+a locked yellow door 1 step left and 1 step forward",0,False
+37,go forward,"Go forward, then turn left to open the door.","You carry a yellow key
+a wall 2 steps forward
+a locked yellow door 1 step left",0,False
+38,turn left,"Go left to reach the door, then interact with the door if necessary.","You carry a yellow key
+a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+39,go forward,Go forward to reach the door.,"You carry a yellow key
+a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+40,go forward,No changes to the plan.,"You carry a yellow key
+a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+41,go forward,No changes to the plan.,"You carry a yellow key
+a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+42,go forward,Go forward to reach and interact with the locked yellow door.,"You carry a yellow key
+a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+43,go forward,"Go forward to reach the door, then attempt to use the key on it.","You carry a yellow key
+a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+44,go forward,Go forward to reach the door and use the key.,"You carry a yellow key
+a wall 2 steps right
+a locked yellow door 1 step forward",0,False
+45,toggle,Go to the door and use the key.,"You carry a yellow key
+a wall 2 steps right
+a open yellow door 1 step forward",0.6765625,True

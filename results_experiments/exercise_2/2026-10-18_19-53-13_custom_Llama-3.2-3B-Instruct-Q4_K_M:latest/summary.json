@@ -1,0 +1,38 @@
+{
+    "average_progress": 32.0,
+    "standard_error": 6.596969000988259,
+    "environments": {
+        "babyai": {
+            "progression_percentage": 32.0,
+            "standard_error": 6.596969000988259,
+            "episodes_played": 50
+        }
+    },
+    "total_input_tokens": 3647208,
+    "total_output_tokens": 59860,
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "agent": {
+        "type": "custom",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    }
+}

@@ -1,0 +1,56 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"Go left, then go forward twice to reach the purple box.","a wall 3 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 2 steps forward
+a purple box 1 step right and 2 steps forward",0,False
+1,go forward,"Go forward twice, then turn left twice to reach the grey key and pick it up. Then navigate to the purple box.","a wall 2 steps forward
+a wall 2 steps right
+a grey key 2 steps left and 1 step forward
+a purple box 1 step right and 1 step forward",0,False
+2,turn right,"Turn right, then go forward.","a wall 2 steps forward
+a wall 2 steps left
+a purple box 1 step left and 1 step forward",0,False
+3,turn right,"Turn right, then go forward.","a wall 5 steps forward
+a wall 2 steps left",0,False
+4,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step right and 2 steps forward",0,False
+5,go forward,Navigate towards the grey key.,"a wall 4 steps forward
+a wall 2 steps right
+a grey key 1 step right and 1 step forward",0,False
+6,go forward,Navigate towards the grey key.,"a wall 3 steps forward
+a grey key 1 step right",0,False
+7,turn right,Navigate towards the grey key.,"a wall 3 steps left
+a grey key 1 step forward
+a purple box 3 steps right and 1 step forward",0,False
+8,go forward,"Pick up the grey key, then go to the purple box.","a wall 3 steps left
+a grey key 1 step forward
+a purple box 3 steps right and 1 step forward",0,False
+9,go forward,"Pick up the grey key, then go to the purple box.","a wall 3 steps left
+a grey key 1 step forward
+a purple box 3 steps right and 1 step forward",0,False
+10,pick up,"Pick up the grey key, then go to the purple box.","You carry a grey key
+a wall 2 steps forward
+a wall 3 steps left
+a purple box 3 steps right and 1 step forward",0,False
+11,turn right,No changes to the plan.,"You carry a grey key
+a wall 4 steps forward
+a wall 2 steps left
+a purple box 1 step left and 3 steps forward",0,False
+12,turn left,No changes to the plan.,"You carry a grey key
+a wall 2 steps forward
+a wall 3 steps left
+a purple box 3 steps right and 1 step forward",0,False
+13,go forward,No changes to the plan.,"You carry a grey key
+a wall 1 step forward
+a wall 3 steps left
+a purple box 3 steps right",0,False
+14,turn right,No changes to the plan.,"You carry a grey key
+a wall 1 step left
+a purple box 3 steps forward",0,False
+15,go forward,No changes to the plan.,"You carry a grey key
+a wall 1 step left
+a purple box 2 steps forward",0,False
+16,go forward,No changes to the plan.,"You carry a grey key
+a wall 1 step left
+a purple box 1 step forward",0.88046875,True

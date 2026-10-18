@@ -1,0 +1,46 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,Explore the environment to find the grey key and the yellow ball.,"a wall 3 steps forward
+a wall 1 step right
+a grey key 3 steps left and 2 steps forward",0,False
+1,go forward,Explore the environment to find the grey key and the yellow ball.,"a wall 2 steps forward
+a wall 1 step right
+a grey key 3 steps left and 1 step forward",0,False
+2,pick up,"Pick up the grey key, then proceed towards the yellow ball.","a wall 2 steps forward
+a wall 1 step right
+a grey key 3 steps left and 1 step forward",0,False
+3,go forward,"Pick up the grey key, then proceed towards the yellow ball.","a wall 1 step forward
+a wall 1 step right
+a grey key 3 steps left",0,False
+4,turn left,"Pick up the grey key, then proceed towards the yellow ball.","a wall 1 step right
+a yellow ball 1 step left and 5 steps forward
+a grey key 3 steps forward",0,False
+5,go forward,"Pick up the grey key, then proceed towards the yellow ball.","a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a grey key 2 steps forward",0,False
+6,go forward,"Pick up the grey key, then proceed towards the yellow ball.","a wall 1 step right
+a yellow ball 1 step left and 3 steps forward
+a grey key 1 step forward",0,False
+7,go forward,"Pick up the grey key, then proceed towards the yellow ball.","a wall 1 step right
+a yellow ball 1 step left and 3 steps forward
+a grey key 1 step forward",0,False
+8,pick up,"Pick up the grey key, then proceed towards the yellow ball.","You carry a grey key
+a wall 4 steps forward
+a wall 1 step right
+a yellow ball 1 step left and 3 steps forward",0,False
+9,turn left,Go towards the yellow ball.,"You carry a grey key
+a wall 6 steps forward
+a wall 3 steps left
+a yellow ball 3 steps right and 1 step forward",0,False
+10,go forward,Go towards the yellow ball.,"You carry a grey key
+a wall 5 steps forward
+a wall 3 steps left
+a yellow ball 3 steps right",0,False
+11,turn right,Go towards the yellow ball.,"You carry a grey key
+a wall 2 steps right
+a yellow ball 3 steps forward",0,False
+12,go forward,Go towards the yellow ball.,"You carry a grey key
+a wall 2 steps right
+a yellow ball 2 steps forward",0,False
+13,go forward,Go towards the yellow ball.,"You carry a grey key
+a wall 2 steps right
+a yellow ball 1 step forward",0.9015625,True

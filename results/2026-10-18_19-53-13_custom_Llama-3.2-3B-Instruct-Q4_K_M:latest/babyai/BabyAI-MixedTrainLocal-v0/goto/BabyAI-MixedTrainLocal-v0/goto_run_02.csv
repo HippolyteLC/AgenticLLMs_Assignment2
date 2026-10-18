@@ -1,0 +1,21 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps left
+a blue box 3 steps right",0,False
+1,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right",0,False
+2,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps left
+a blue box 3 steps right",0,False
+3,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps left
+a blue box 3 steps right",0,False
+4,turn right,"No changes to the plan.
+ ACTION: turn right","a wall 1 step left
+a blue box 3 steps forward",0,False
+5,toggle,No changes to the plan.,"a wall 1 step left
+a blue box 3 steps forward",0,False
+6,go forward,No changes to the plan.,"a wall 1 step left
+a blue box 2 steps forward",0,False
+7,go forward,No changes to the plan.,"a wall 1 step left
+a blue box 1 step forward",0.8875,True

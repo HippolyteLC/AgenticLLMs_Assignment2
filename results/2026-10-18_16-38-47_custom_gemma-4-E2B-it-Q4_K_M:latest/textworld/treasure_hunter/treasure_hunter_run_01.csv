@@ -1,0 +1,139 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go north,"Explore the maze, starting by moving north through the exit.","-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+1,go north,No changes to the plan.,"-= Lounge =-
+You arrive in a lounge. An ordinary kind of place.
+
+
+
+There is an unguarded exit to the south.
+
+There is a passkey on the floor.",0,False
+2,go south,Explore the maze. Move south through the exit in the Lounge.,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+3,go south,Explore the Cookery and check for new paths or items.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+4,go north,"Continue exploring the maze, looking for the target object.","-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+5,go west,"Continue exploring the maze, looking for the target object.",You have to open the American style passageway first.,0,False
+6,open the American style passageway,"Continue exploring the maze, following accessible paths to find the target object.",You have to unlock the American style passageway with the American style passkey first.,0,False
+7,inventory,Search for the American style passkey to unlock the American style passageway.,You are carrying nothing.,0,False
+8,look,Search for the American style passkey to unlock the American style passageway.,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+9,look,Search for an American style passkey or any useful items.,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+10,look,Search for an American style passkey or any useful items.,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+11,go south,Search for items or exits from the current location.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+12,take something from the locker,Search for items or exits from the current location.,You can't see any such thing.,0,False
+13,look,Search for items or exits from the current location.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+14,look,Search for the target object in the Cubicle.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+15,look,Search for the target object in the Cubicle.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+16,open the locker,Search for the target object in the Cubicle. Try to interact with the locker.,You have to unlock the locker with the passkey first.,0,False
+17,insert the American style passkey into the locker,Continue searching for the target object in the Cubicle. Try to interact with the locker.,You can't see any such thing.,0,False
+18,look,Continue searching for the target object in the Cubicle. Try to interact with the locker.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+19,look,Continue searching for the target object in the Cubicle.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+20,look,Continue searching for the target object in the Cubicle.,"-= Cubicle =-
+You arrive in a cubicle. Okay, just remember what you're here to do, and everything will go great.
+
+You can see a locker. You make out a mantle. What a coincidence, weren't you just thinking about a mantle? But there isn't a thing on it.
+
+There is an unblocked exit to the north.",0,False
+21,go north,Continue searching for the target object in the Cubicle.,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+22,go west,Continue searching for the target object in the Cubicle.,You have to open the American style passageway first.,0,False
+23,look,Search the Cookery for the target object.,"-= Cookery =-
+You've entered a cookery.
+
+
+
+There is a closed American style passageway leading west. There is an unguarded exit to the north. There is an unblocked exit to the south.
+
+There is a spork on the floor.",0,False
+24,take spork,Search the Cookery for the target object.,"You pick up the spork from the ground.
+
+
+
+                              *** You lost! ***
+
+You scored 0 out of a possible 1, in 23 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>",0,True

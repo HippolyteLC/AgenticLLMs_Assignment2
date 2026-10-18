@@ -1,0 +1,395 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps right
+a green key 2 steps left and 2 steps forward",0,False
+1,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps right",0,False
+2,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps left",0,False
+3,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps right",0,False
+4,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+5,turn left,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right
+a green key 3 steps left and 2 steps forward",0,False
+6,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a green key 3 steps left and 1 step forward",0,False
+7,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+8,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left",0,False
+9,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left",0,False
+10,turn right,No changes to the plan.,"a wall 3 steps left
+a locked green door 6 steps forward
+a green key 2 steps right and 3 steps forward",0,False
+11,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right
+a green key 3 steps left and 2 steps forward",0,False
+12,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a green key 3 steps left and 1 step forward",0,False
+13,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+14,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left",0,False
+15,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+16,turn left,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a green key 3 steps left and 1 step forward",0,False
+17,pick up,ACTION: pick up,"a wall 3 steps forward
+a wall 1 step right
+a green key 3 steps left and 1 step forward",0,False
+18,toggle,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a green key 3 steps left and 1 step forward",0,False
+19,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right
+a green key 3 steps left",0,False
+20,pick up,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right
+a green key 3 steps left",0,False
+21,toggle,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right
+a green key 3 steps left",0,False
+22,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+23,TURN LEFT,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+24,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+25,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+26,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+27,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 6 steps forward
+a green key 1 step left and 3 steps forward",0,False
+28,pick up,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 6 steps forward
+a green key 1 step left and 3 steps forward",0,False
+29,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 2 steps forward",0,False
+30,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 2 steps forward",0,False
+31,drop,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 2 steps forward",0,False
+32,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 4 steps forward
+a green key 1 step left and 1 step forward",0,False
+33,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 3 steps forward
+a green key 1 step left",0,False
+34,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 3 steps forward
+a green key 1 step left",0,False
+35,use the green key on the locked green door,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 2 steps forward",0,False
+36,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+37,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+38,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+39,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+40,drop,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+41,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+42,toggle,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+43,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+44,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+45,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+46,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right
+a locked green door 3 steps left and 1 step forward",0,False
+47,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step right
+a green key 2 steps left and 1 step forward
+a locked green door 1 step right and 3 steps forward",0,False
+48,pick up,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step right
+a green key 2 steps left and 1 step forward
+a locked green door 1 step right and 3 steps forward",0,False
+49,use the green key on the locked green door,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right
+a green key 2 steps left
+a locked green door 1 step right and 2 steps forward",0,False
+50,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right
+a locked green door 1 step right and 1 step forward",0,False
+51,use the green key on the locked green door,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a locked green door 1 step right",0,False
+52,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right",0,False
+53,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps left
+a locked green door 1 step right and 1 step forward",0,False
+54,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right",0,False
+55,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 2 steps right
+a green key 3 steps left and 2 steps forward",0,False
+56,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+57,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+58,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+59,toggle,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+60,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+61,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps right
+a green key 3 steps left",0,False
+62,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right",0,False
+63,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right",0,False
+64,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right",0,False
+65,pick up,No changes to the plan,"a wall 3 steps forward
+a wall 2 steps right",0,False
+66,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+67,turn right,No changes to the plan,"a wall 2 steps forward
+a wall 2 steps left",0,False
+68,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps left
+a locked green door 1 step right and 5 steps forward
+a green key 3 steps right and 2 steps forward",0,False
+69,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps left
+a locked green door 1 step right and 4 steps forward
+a green key 3 steps right and 1 step forward",0,False
+70,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 3 steps right
+a green key 1 step left and 3 steps forward",0,False
+71,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 3 steps right
+a green key 1 step left and 2 steps forward",0,False
+72,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right",0,False
+73,toggle,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right",0,False
+74,toggle,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right",0,False
+75,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right",0,False
+76,pick up,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps right",0,False
+77,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps right",0,False
+78,try to pick up the key,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps right",0,False
+79,turn left,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right
+a green key 3 steps left and 2 steps forward",0,False
+80,try to pick up the key,No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right
+a green key 3 steps left and 1 step forward",0,False
+81,use the key,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right
+a green key 3 steps left",0,False
+82,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+83,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+84,go forward,No changes to the plan,"a wall 1 step forward
+a wall 1 step right",0,False
+85,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+86,turn left,No changes to the plan,"a wall 6 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 6 steps forward
+a green key 1 step left and 3 steps forward",0,False
+87,go forward,No changes to the plan,"a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 2 steps forward",0,False
+88,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 2 steps forward",0,False
+89,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 2 steps forward",0,False
+90,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 2 steps forward",0,False
+91,use the key,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 4 steps forward
+a green key 1 step left and 1 step forward",0,False
+92,use the key,No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 3 steps forward
+a green key 1 step left",0,False
+93,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 2 steps forward",0,False
+94,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 2 steps right
+a green key 1 step left and 1 step forward
+a locked green door 2 steps right and 3 steps forward",0,False
+95,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 1 step left
+a locked green door 2 steps right and 2 steps forward",0,False
+96,go forward,No changes to the plan,"a wall 4 steps forward
+a wall 2 steps right
+a locked green door 2 steps right and 1 step forward",0,False
+97,go forward,No changes to the plan.,"a wall 3 steps forward
+a locked green door 2 steps right",0,False
+98,go forward,No changes to the plan,"a wall 2 steps forward
+a wall 2 steps right",0,False
+99,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+100,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+101,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+102,pick up,No changes to the plan,"a wall 5 steps forward
+a wall 2 steps right
+a green key 3 steps left and 1 step forward",0,False
+103,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+104,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+105,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+106,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+107,pick up,No changes to the plan,"a wall 1 step forward
+a wall 2 steps right",0,False
+108,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+109,pick up,No changes to the plan,"a wall 1 step forward
+a wall 2 steps right",0,False
+110,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+111,turn left,No changes to the plan,"a wall 5 steps forward
+a wall 1 step right",0,False
+112,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right",0,False
+113,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step right",0,False
+114,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step right",0,False
+115,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+116,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+117,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+118,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step left
+a locked green door 2 steps right and 6 steps forward",0,False
+119,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+120,go forward,"No changes to the plan.
+ ACTION: go forward","a wall 1 step forward
+a wall 1 step left",0,False
+121,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+122,turn right,"Turn right, then go forward","a wall 6 steps forward
+a wall 1 step left
+a locked green door 2 steps right and 6 steps forward",0,False
+123,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step right
+a green key 3 steps left and 4 steps forward",0,False
+124,go forward,Continue with the current plan to turn right and then go forward.,"a wall 5 steps forward
+a wall 1 step right
+a green key 3 steps left and 3 steps forward",0,False
+125,turn right,Continue with the current plan to turn right and then go forward.,"a wall 1 step forward
+a wall 2 steps right",0,False
+126,turn right,Continue with the current plan to turn right and then go forward.,"a wall 2 steps forward
+a wall 1 step left",0,False
+127,go forward,Continue with the current plan to turn right and then go forward.,"a wall 1 step forward
+a wall 1 step left",0,True

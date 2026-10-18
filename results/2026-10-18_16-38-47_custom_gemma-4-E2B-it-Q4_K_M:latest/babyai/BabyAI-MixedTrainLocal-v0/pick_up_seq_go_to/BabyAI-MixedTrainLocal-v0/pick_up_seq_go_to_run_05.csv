@@ -1,0 +1,57 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"Pick up the blue box, then navigate to the red box.","a wall 6 steps forward
+a wall 2 steps right
+a red box 3 steps left and 4 steps forward
+a blue box 2 steps left and 1 step forward",0,False
+1,go forward,"Pick up the blue box, then navigate to the red box.","a wall 5 steps forward
+a wall 2 steps right
+a red box 3 steps left and 3 steps forward
+a blue box 2 steps left",0,False
+2,turn left,"Pick up the blue box, then navigate to the red box.","a wall 2 steps left
+a blue box 2 steps forward
+a red box 3 steps right and 3 steps forward",0,False
+3,go forward,"Pick up the blue box, then navigate to the red box.","a wall 2 steps left
+a blue box 1 step forward
+a red box 3 steps right and 2 steps forward",0,False
+4,pick up,"Pick up the blue box, then navigate to the red box.","You carry a blue box
+a wall 4 steps forward
+a wall 2 steps left
+a red box 3 steps right and 2 steps forward",0,False
+5,turn right,No changes to the plan.,"You carry a blue box
+a wall 5 steps forward
+a wall 3 steps right
+a red box 2 steps left and 3 steps forward",0,False
+6,go forward,No changes to the plan.,"You carry a blue box
+a wall 4 steps forward
+a wall 3 steps right
+a red box 2 steps left and 2 steps forward",0,False
+7,turn left,No changes to the plan.,"You carry a blue box
+a wall 4 steps forward
+a wall 3 steps left
+a red box 2 steps right and 2 steps forward",0,False
+8,turn right,No changes to the plan.,"You carry a blue box
+a wall 4 steps forward
+a wall 3 steps right
+a red box 2 steps left and 2 steps forward",0,False
+9,go forward,No changes to the plan.,"You carry a blue box
+a wall 3 steps forward
+a wall 3 steps right
+a red box 2 steps left and 1 step forward",0,False
+10,turn left,No changes to the plan.,"You carry a blue box
+a wall 4 steps forward
+a wall 3 steps right
+a red box 1 step right and 2 steps forward",0,False
+11,turn right,No changes to the plan.,"You carry a blue box
+a wall 3 steps forward
+a wall 3 steps right
+a red box 2 steps left and 1 step forward",0,False
+12,go forward,No changes to the plan.,"You carry a blue box
+a wall 2 steps forward
+a wall 3 steps right
+a red box 2 steps left",0,False
+13,turn left,No changes to the plan.,"You carry a blue box
+a wall 2 steps right
+a red box 2 steps forward",0,False
+14,go forward,No changes to the plan.,"You carry a blue box
+a wall 2 steps right
+a red box 1 step forward",0.89453125,True

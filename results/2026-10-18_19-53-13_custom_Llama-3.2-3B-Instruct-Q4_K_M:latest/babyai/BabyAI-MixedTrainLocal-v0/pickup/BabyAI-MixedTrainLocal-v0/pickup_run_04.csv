@@ -1,0 +1,189 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left
+a blue key 2 steps right",0,False
+1,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left
+a blue key 2 steps right",0,False
+2,turn around,"Go back to the original observation, plan is incomplete","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps left
+a blue key 2 steps right",0,False
+3,turn left,"Go back to the original observation, plan is incomplete","a wall 3 steps forward
+a wall 1 step right",0,False
+4,turn around,"Go back to the original observation
+
+Since the goal is to reach the blue key and I made a detour, I should head back to the previous observations.
+
+Given the observation of being at a wall 1 step forward and 3 steps left, I should attempt to find the wall that was originally 3 steps forward.
+
+The current wall is now 1 step forward, so I should try to figure out how to get in front of it to see the other wall.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+5,turn left,Make adjustments to reach the previously missed wall,"a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+6,turn right,Make adjustments to reach the previously missed wall,"a wall 2 steps forward
+a wall 1 step right",0,False
+7,turn around,"Make adjustments to reach the previously missed wall
+
+Given the current observation and my compass direction (FACING NORTH):
+The wall to my left appears to be 2 steps forward and 1 step right. This setup resembles the original wall setup at the start of the game.
+
+My current direction (FACING NORTH) is directly opposite the original wall setup.
+
+Since the wall doesn't provide an option to navigate towards it directly (due to facing the wall), I can turn to make myself face the correct direction.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+8,turn around,Make adjustments to reach the previously missed wall,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+9,turn left,"Continue making adjustments to reach the previously missed wall, especially making adjustments to face it correctly","a wall 6 steps forward
+a wall 1 step right",0,False
+10,go forward,"Continue making adjustments to reach the previously missed wall, especially making adjustments to face it correctly","a wall 5 steps forward
+a wall 1 step right",0,False
+11,turn right,"Continue making adjustments to face the previously missed wall, which should help in picking up the blue key","a wall 1 step forward
+a wall 2 steps right",0,False
+12,turn left,Continue making adjustments to face the previously missed wall,"a wall 5 steps forward
+a wall 1 step right",0,False
+13,turn right,Continue making adjustments to face the previously missed wall,"a wall 1 step forward
+a wall 2 steps right",0,False
+14,turn right,Continue making adjustments to face the previously missed wall,"a wall 2 steps forward
+a wall 1 step left",0,False
+15,go forward,Continue making adjustments to face the previously missed wall,"a wall 1 step forward
+a wall 1 step left",0,False
+16,turn right,Continue making adjustments to face the previously missed wall,"a wall 1 step left
+a blue key 4 steps forward",0,False
+17,turn left,"Continue making adjustments to face the previously missed wall, and then turn to face the blue key.","a wall 1 step forward
+a wall 1 step left",0,False
+18,turn around,"Continue making adjustments to face the previously missed wall, and then turn to face the blue key.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+19,go forward,Make adjustments to face the previously missed wall and then turn to face the blue key,"a wall 1 step forward
+a wall 1 step left",0,False
+20,turn around,Make adjustments to face the previously missed wall,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+21,turn left,Change the plan to face the previously missed wall,"a wall 1 step forward
+a wall 1 step right",0,False
+22,turn left,Change the plan to face the wall that was missed when turning left,"a wall 6 steps forward
+a wall 1 step right",0,False
+23,turn around,No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right",0,False
+24,pick up,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right",0,False
+25,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right",0,False
+26,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps left
+a blue key 2 steps left and 4 steps forward",0,False
+27,pick up,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps left
+a blue key 2 steps left and 4 steps forward",0,False
+28,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 3 steps left
+a blue key 2 steps left and 3 steps forward",0,False
+29,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 2 steps right",0,False
+30,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right",0,False
+31,go forward,No changes to the plan,"a wall 2 steps forward
+a wall 2 steps right",0,False
+32,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+33,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step left",0,False
+34,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+35,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step left",0,False
+36,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left",0,False
+37,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left",0,False
+38,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left",0,False
+39,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+40,turn right,No changes to the plan,"a wall 3 steps forward
+a wall 1 step left",0,False
+41,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step left",0,False
+42,go forward,No changes to the plan,"a wall 1 step forward
+a wall 1 step left",0,False
+43,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+44,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step right",0,False
+45,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right",0,False
+46,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+47,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+48,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right",0,False
+49,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+50,return,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+51,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+52,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step right",0,False
+53,go forward,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step right",0,False
+54,turn right,No changes to the plan,"a wall 1 step forward
+a wall 3 steps right",0,False
+55,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left",0,False
+56,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+57,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+58,pick up,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+59,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+60,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+61,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left",0,False
+62,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step left",0,False
+63,pick up,No changes to the plan.,"a wall 2 steps forward
+a wall 1 step left",0,True

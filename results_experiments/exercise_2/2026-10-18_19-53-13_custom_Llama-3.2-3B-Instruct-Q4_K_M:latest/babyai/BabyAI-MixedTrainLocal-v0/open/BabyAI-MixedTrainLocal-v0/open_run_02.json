@@ -1,0 +1,58 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/open",
+    "action_frequency": {
+        "turn right": 21,
+        "go forward": 76,
+        "pick up": 6,
+        "turn left": 9,
+        "toggle": 12,
+        "drop": 4
+    },
+    "input_tokens": 106940,
+    "output_tokens": 1639,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "examine (since you didn't choose an action)",
+        "Go forward",
+        "examine",
+        "examine",
+        null,
+        "examine",
+        "go backward",
+        "unlock the purple door",
+        "unlock the purple door",
+        "unlock the purple door"
+    ],
+    "mission": "open the purple door",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2896046377,
+    "agent": {
+        "type": "custom",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false,
+        "max_experiences": 3,
+        "verbose": false
+    },
+    "client": {
+        "client_name": "ollama",
+        "model_id": "Llama-3.2-3B-Instruct-Q4_K_M:latest",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    },
+    "final_experience_buffer": []
+}
