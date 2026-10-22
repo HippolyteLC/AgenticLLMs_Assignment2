@@ -1,0 +1,13 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,Go left to explore the environment.,"a wall 4 steps forward
+a wall 3 steps left",0,False
+1,turn left,Go left to explore the environment.,"a wall 3 steps forward
+a wall 3 steps left
+a blue key 1 step left and 2 steps forward",0,False
+2,go forward,Go towards the blue key.,"a wall 2 steps forward
+a wall 3 steps left
+a blue key 1 step left and 1 step forward",0,False
+3,go forward,No changes to the plan.,"a wall 1 step forward
+a blue key 1 step left",0,False
+4,turn left,Go towards the blue key.,"a wall 1 step right
+a blue key 1 step forward",0.9296875,True

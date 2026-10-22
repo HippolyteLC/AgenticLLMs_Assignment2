@@ -1,0 +1,137 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,Go forward to move closer to the blue ball.,"a wall 4 steps forward
+a wall 1 step right
+a blue ball 1 step left",0,False
+1,turn left,Go left to reach the blue ball.,"a wall 3 steps left
+a blue ball 1 step forward
+a yellow key 1 step right and 5 steps forward",0,False
+2,go forward,"Pick up the blue ball, then go to the yellow key.","a wall 3 steps left
+a blue ball 1 step forward
+a yellow key 1 step right and 5 steps forward",0,False
+3,pick up,"Pick up the blue ball, then go to the yellow key.","You carry a blue ball
+a wall 6 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 5 steps forward",0,False
+4,go forward,No changes to the plan.,"You carry a blue ball
+a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 4 steps forward",0,False
+5,turn right,No changes to the plan.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps right",0,False
+6,turn right,No changes to the plan.,"You carry a blue ball
+a wall 2 steps forward
+a wall 3 steps right",0,False
+7,turn right,No changes to the plan.,"You carry a blue ball
+a wall 3 steps forward
+a wall 2 steps left",0,False
+8,turn left,No changes to the plan.,"You carry a blue ball
+a wall 2 steps forward
+a wall 3 steps right",0,False
+9,turn right,No changes to the plan.,"You carry a blue ball
+a wall 3 steps forward
+a wall 2 steps left",0,False
+10,turn right,No changes to the plan.,"You carry a blue ball
+a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 4 steps forward",0,False
+11,turn right,No changes to the plan.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps right",0,False
+12,turn left,No changes to the plan.,"You carry a blue ball
+a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 4 steps forward",0,False
+13,turn right,No changes to the plan.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps right",0,False
+14,turn right,No changes to the plan.,"You carry a blue ball
+a wall 2 steps forward
+a wall 3 steps right",0,False
+15,turn right,"Pick up the blue ball (done), then go to the yellow key.","You carry a blue ball
+a wall 3 steps forward
+a wall 2 steps left",0,False
+16,turn right,No changes to the plan. The goal is to go to the yellow key.,"You carry a blue ball
+a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 4 steps forward",0,False
+17,turn right,No changes to the plan. The goal is to go to the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps right",0,False
+18,turn left,No changes to the plan. The goal is to navigate to the yellow key.,"You carry a blue ball
+a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 4 steps forward",0,False
+19,turn right,No changes to the plan. The goal is to navigate to the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps right",0,False
+20,turn right,Go to the yellow key.,"You carry a blue ball
+a wall 2 steps forward
+a wall 3 steps right",0,False
+21,turn right,No changes to the plan.,"You carry a blue ball
+a wall 3 steps forward
+a wall 2 steps left",0,False
+22,turn right,No changes to the plan.,"You carry a blue ball
+a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 4 steps forward",0,False
+23,turn right,No changes to the plan. The immediate goal is to reach the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps right",0,False
+24,go forward,No changes to the plan. Focus on moving toward the yellow key.,"You carry a blue ball
+a wall 3 steps forward
+a wall 2 steps right",0,False
+25,turn left,No changes to the plan. Continue navigating toward the yellow key.,"You carry a blue ball
+a wall 3 steps right
+a yellow key 4 steps forward",0,False
+26,turn right,Go to the yellow key.,"You carry a blue ball
+a wall 3 steps forward
+a wall 2 steps right",0,False
+27,turn right,No changes to the plan. Go to the yellow key.,"You carry a blue ball
+a wall 2 steps forward
+a wall 3 steps left",0,False
+28,turn right,No changes to the plan. Go to the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps left",0,False
+29,go forward,Go to the yellow key.,"You carry a blue ball
+a wall 3 steps forward
+a wall 2 steps left",0,False
+30,turn left,No changes to the plan.,"You carry a blue ball
+a wall 2 steps forward
+a wall 3 steps right",0,False
+31,turn left,Go to the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 2 steps right",0,False
+32,turn left,Go to the yellow key.,"You carry a blue ball
+a wall 5 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 4 steps forward",0,False
+33,go forward,Go to the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 3 steps forward",0,False
+34,turn right,Go to the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps right
+a yellow key 3 steps left and 1 step forward",0,False
+35,turn left,No changes to the plan.,"You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps left
+a yellow key 1 step right and 3 steps forward",0,False
+36,turn right,Go to the yellow key.,"You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps right
+a yellow key 3 steps left and 1 step forward",0,False
+37,go forward,Go to the yellow key.,"You carry a blue ball
+a wall 3 steps forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+38,turn left,Go to the yellow key.,"You carry a blue ball
+a wall 3 steps right
+a yellow key 3 steps forward",0,False
+39,go forward,No changes to the plan.,"You carry a blue ball
+a wall 3 steps right
+a yellow key 2 steps forward",0,False
+40,go forward,Go forward to reach the yellow key.,"You carry a blue ball
+a wall 3 steps right
+a yellow key 1 step forward",0.71171875,True

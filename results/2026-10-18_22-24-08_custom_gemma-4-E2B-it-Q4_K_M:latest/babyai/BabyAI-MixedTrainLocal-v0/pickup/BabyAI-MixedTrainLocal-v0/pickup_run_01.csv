@@ -1,0 +1,19 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Go forward 1 step, then turn left and go forward 3 steps.","a wall 3 steps forward
+a wall 2 steps right
+a blue box 3 steps left",0,False
+1,turn left,"Turn left, then go forward 3 steps.","a wall 3 steps right
+a blue box 3 steps forward",0,False
+2,go forward,"Go forward three times to reach the blue box, then pick it up.","a wall 3 steps right
+a blue box 2 steps forward",0,False
+3,go forward,"Go forward until the blue box is reached, then pick it up.","a wall 3 steps right
+a blue box 1 step forward",0,False
+4,go forward,No changes to the plan.,"a wall 3 steps right
+a blue box 1 step forward",0,False
+5,go forward,"Go forward, then pick up.","a wall 3 steps right
+a blue box 1 step forward",0,False
+6,go forward,"Go forward, then pick up.","a wall 3 steps right
+a blue box 1 step forward",0,False
+7,pick up,No changes to the plan.,"You carry a blue box
+a wall 3 steps forward
+a wall 3 steps right",0.8875,True

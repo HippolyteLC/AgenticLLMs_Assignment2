@@ -1,0 +1,41 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,Go right to explore the area.,"a wall 5 steps forward
+a wall 1 step left",0,False
+1,turn right,Go right to explore the area.,"a wall 6 steps forward
+a wall 2 steps right
+a grey key 1 step left and 4 steps forward",0,False
+2,go forward,"Go forward 4 steps, then turn left to pick up the grey key.","a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step left and 3 steps forward",0,False
+3,go forward,Go forward 3 steps.,"a wall 4 steps forward
+a wall 2 steps right
+a grey key 1 step left and 2 steps forward",0,False
+4,go forward,Go forward to get closer to the grey key.,"a wall 3 steps forward
+a wall 2 steps right
+a grey key 1 step left and 1 step forward",0,False
+5,go forward,Go forward one step closer to the grey key.,"a wall 2 steps forward
+a wall 2 steps right
+a grey key 1 step left",0,False
+6,turn left,Turn left to face the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+7,go forward,Go forward and pick up the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+8,go forward,No changes to the plan.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+9,go forward,Go forward and pick up the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+10,go forward,Go forward and pick up the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+11,go forward,Go forward to pick up the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+12,go forward,Go forward one step to reach the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+13,go forward,No changes to the plan.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+14,go forward,Go forward one step to reach the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+15,go forward,Go forward one step to reach the grey key.,"a wall 2 steps right
+a grey key 1 step forward",0,False
+16,pick up,Pick up the grey key.,"You carry a grey key
+a wall 5 steps forward
+a wall 2 steps right",0.7609375,True

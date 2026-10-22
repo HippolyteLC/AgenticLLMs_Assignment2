@@ -1,0 +1,7 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"Go left, then go forward 3 times to reach the red box.","a wall 3 steps left
+a red box 3 steps forward",0,False
+1,go forward,No changes to the plan.,"a wall 3 steps left
+a red box 2 steps forward",0,False
+2,go forward,No changes to the plan.,"a wall 3 steps left
+a red box 1 step forward",0.9578125,True

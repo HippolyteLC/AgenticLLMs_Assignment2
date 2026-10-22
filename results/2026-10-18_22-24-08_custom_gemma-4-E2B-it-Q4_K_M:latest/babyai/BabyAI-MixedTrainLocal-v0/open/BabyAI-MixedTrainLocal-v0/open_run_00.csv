@@ -1,0 +1,154 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,No changes to the plan.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+1,turn right,Explore the environment by turning and moving forward.,"a wall 2 steps forward
+a wall 2 steps left",0,False
+2,turn left,Explore the environment by turning and moving forward.,"a wall 2 steps forward
+a wall 2 steps right",0,False
+3,go forward,Explore the environment by going forward.,"a wall 1 step forward
+a wall 2 steps right",0,False
+4,turn left,Explore the area by turning left to see if there is an opening.,"a wall 1 step right
+a locked blue door 5 steps forward",0,False
+5,turn left,Explore the area by turning left to see if there is an opening.,"a wall 6 steps forward
+a wall 2 steps left
+a blue key 3 steps right and 4 steps forward",0,False
+6,go forward,Go towards the blue key to acquire it and proceed with the objective.,"a wall 5 steps forward
+a wall 2 steps left
+a blue key 3 steps right and 3 steps forward",0,False
+7,turn right,Go towards the blue key to acquire it and proceed with the objective.,"a wall 5 steps forward
+a wall 2 steps right
+a blue key 3 steps left and 3 steps forward
+a locked blue door 1 step right and 5 steps forward",0,False
+8,go forward,Go towards the blue key and pick it up.,"a wall 4 steps forward
+a wall 2 steps right
+a blue key 3 steps left and 2 steps forward
+a locked blue door 1 step right and 4 steps forward",0,False
+9,go forward,Go towards the blue key and pick it up.,"a wall 3 steps forward
+a wall 2 steps right
+a blue key 3 steps left and 1 step forward
+a locked blue door 1 step right and 3 steps forward",0,False
+10,go forward,Go towards the blue key and pick it up.,"a wall 2 steps forward
+a wall 2 steps right
+a blue key 3 steps left
+a locked blue door 1 step right and 2 steps forward",0,False
+11,turn left,Go towards the blue key and pick it up.,"a wall 2 steps right
+a blue key 3 steps forward",0,False
+12,go forward,Go 3 steps forward to pick up the blue key.,"a wall 2 steps right
+a blue key 2 steps forward",0,False
+13,go forward,Go forward 2 steps to pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+14,go forward,Go forward to pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+15,go forward,Go forward to pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+16,go forward,Pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+17,go forward,Pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+18,go forward,Pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+19,go forward,Pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+20,go forward,Pick up the blue key.,"a wall 2 steps right
+a blue key 1 step forward",0,False
+21,pick up,Pick up the blue key.,"You carry a blue key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+22,go forward,Navigate towards the locked blue door using the key.,"You carry a blue key
+a wall 2 steps forward
+a wall 2 steps right",0,False
+23,go forward,Navigate towards the locked blue door by checking adjacent paths and moving forward.,"You carry a blue key
+a wall 1 step forward
+a wall 2 steps right",0,False
+24,turn right,Navigate towards the locked blue door. The door is 1 step right and 4 steps forward from the current position.,"You carry a blue key
+a wall 2 steps forward
+a wall 1 step left",0,False
+25,go forward,"Navigate towards the locked blue door. Since the immediate forward path is blocked by a wall, I will try to move past it or check if a turn will lead to the goal.","You carry a blue key
+a wall 1 step forward
+a wall 1 step left",0,False
+26,turn right,Navigate towards the locked blue door. I need to turn right to proceed towards the door area.,"You carry a blue key
+a wall 6 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 5 steps forward",0,False
+27,turn right,Navigate towards the locked blue door by turning right and then moving forward.,"You carry a blue key
+a wall 6 steps forward
+a wall 1 step right",0,False
+28,turn right,"Navigate towards the locked blue door by turning right and then moving forward 5 steps, adjusting for the left turn if necessary.","You carry a blue key
+a wall 1 step forward
+a wall 1 step right",0,False
+29,turn left,"Turn left to approach the door location, then proceed towards it.","You carry a blue key
+a wall 6 steps forward
+a wall 1 step right",0,False
+30,go forward,Go forward 5 steps to reach the locked blue door.,"You carry a blue key
+a wall 5 steps forward
+a wall 1 step right",0,False
+31,turn right,"Go forward 1 step, then turn right, then go forward 4 steps to reach the door.","You carry a blue key
+a wall 1 step forward
+a wall 2 steps right",0,False
+32,turn left,"Turn left, go forward 5 steps, turn left, go forward 1 step.","You carry a blue key
+a wall 5 steps forward
+a wall 1 step right",0,False
+33,turn left,"Turn left, go forward 5 steps, turn left, go forward 1 step.","You carry a blue key
+a wall 6 steps forward
+a wall 2 steps left
+a locked blue door 2 steps left and 5 steps forward",0,False
+34,go forward,"Go forward 5 steps, turn left, go forward 2 steps.","You carry a blue key
+a wall 5 steps forward
+a wall 2 steps left
+a locked blue door 2 steps left and 4 steps forward",0,False
+35,go forward,"Go forward 5 steps, turn left, go forward 2 steps.","You carry a blue key
+a wall 4 steps forward
+a wall 2 steps left
+a locked blue door 2 steps left and 3 steps forward",0,False
+36,go forward,Go forward 3 steps.,"You carry a blue key
+a wall 3 steps forward
+a wall 2 steps left
+a locked blue door 2 steps left and 2 steps forward",0,False
+37,turn left,Turn left,"You carry a blue key
+a wall 2 steps forward
+a wall 3 steps right
+a locked blue door 2 steps right and 2 steps forward",0,False
+38,turn left,Turn left,"You carry a blue key
+a wall 4 steps forward
+a wall 2 steps right",0,False
+39,turn left,Turn left,"You carry a blue key
+a wall 5 steps forward
+a wall 3 steps left",0,False
+40,go forward,No changes to the plan.,"You carry a blue key
+a wall 4 steps forward
+a wall 3 steps left",0,False
+41,turn left,Turn left,"You carry a blue key
+a wall 3 steps forward
+a wall 3 steps left
+a locked blue door 3 steps left and 2 steps forward",0,False
+42,go forward,Turn left,"You carry a blue key
+a wall 2 steps forward
+a wall 3 steps left
+a locked blue door 3 steps left and 1 step forward",0,False
+43,go forward,No changes to the plan.,"You carry a blue key
+a wall 1 step forward
+a locked blue door 3 steps left",0,False
+44,turn left,"Turn left, then go forward three times.","You carry a blue key
+a wall 1 step right
+a locked blue door 3 steps forward",0,False
+45,go forward,No changes to the plan.,"You carry a blue key
+a wall 1 step right
+a locked blue door 2 steps forward",0,False
+46,turn left,"Turn left, then go forward three times.","You carry a blue key
+a wall 6 steps forward
+a locked blue door 2 steps right",0,False
+47,turn right,"Turn right, then go forward twice.","You carry a blue key
+a wall 1 step right
+a locked blue door 2 steps forward",0,False
+48,go forward,Go forward twice.,"You carry a blue key
+a wall 1 step right
+a locked blue door 1 step forward",0,False
+49,go forward,No changes to the plan.,"You carry a blue key
+a wall 1 step right
+a locked blue door 1 step forward",0,False
+50,go forward,Go forward.,"You carry a blue key
+a wall 1 step right
+a locked blue door 1 step forward",0,False
+51,toggle,No changes to the plan.,"You carry a blue key
+a wall 1 step right
+a open blue door 1 step forward",0.6343749999999999,True

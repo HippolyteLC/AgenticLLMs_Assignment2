@@ -1,0 +1,387 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps left",0,False
+1,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left
+a yellow key 3 steps right and 1 step forward",0,False
+2,go forward,Go forward 1 step.,"a wall 4 steps forward
+a wall 1 step left
+a yellow key 3 steps right",0,False
+3,turn right,No changes to the plan.,"a wall 3 steps right
+a grey key 3 steps left and 4 steps forward
+a yellow key 3 steps forward",0,False
+4,go forward,"Go forward 4 steps, then turn left and go forward 3 steps to pick up the grey key.","a wall 3 steps right
+a grey key 3 steps left and 3 steps forward
+a yellow key 2 steps forward",0,False
+5,go forward,Go forward 3 steps to pick up the grey key.,"a wall 3 steps right
+a grey key 3 steps left and 2 steps forward
+a yellow key 1 step forward",0,False
+6,go forward,Go forward 3 steps to pick up the grey key.,"a wall 3 steps right
+a grey key 3 steps left and 2 steps forward
+a yellow key 1 step forward",0,False
+7,go forward,Go forward 1 step towards the grey key.,"a wall 3 steps right
+a grey key 3 steps left and 2 steps forward
+a yellow key 1 step forward",0,False
+8,pick up,Go to the grey key and pick it up.,"You carry a yellow key
+a wall 4 steps forward
+a wall 3 steps right
+a grey key 3 steps left and 2 steps forward",0,False
+9,go forward,Go to the grey key and pick it up.,"You carry a yellow key
+a wall 3 steps forward
+a wall 3 steps right
+a grey key 3 steps left and 1 step forward",0,False
+10,go forward,Go forward to reach the grey key.,"You carry a yellow key
+a wall 2 steps forward
+a wall 3 steps right
+a grey key 3 steps left",0,False
+11,turn left,"Go to the grey key, then go to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 3 steps forward",0,False
+12,go forward,"Go to the grey key, then go to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 2 steps forward",0,False
+13,go forward,"Go to the grey key, then go to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+14,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+15,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+16,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+17,go forward,"Go forward to pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+18,pick up,No changes to the plan.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+19,pick up,"Pick up the grey key, then navigate towards the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+20,go forward,"Pick up the grey key, then navigate towards the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+21,go forward,No changes to the plan.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+22,pick up,"Pick up the grey key, then navigate towards the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+23,go forward,"No changes to the plan. I have the yellow key, which completes the goal of picking up the grey key and then going to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+24,go forward,"No changes to the plan. I am carrying the yellow key, and I need to navigate to the target location.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+25,pick up,"Go to the grey key and pick it up first, then proceed to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+26,go forward,"Go to the grey key and pick it up first, then proceed to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+27,pick up,"Pick up the grey key, then go to the yellow key (which I already possess).","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+28,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+29,go forward,No changes to the plan.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+30,pick up,Go to the grey key and pick it up.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+31,pick up,Go to the grey key and pick it up.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+32,go forward,Go to the grey key and pick it up.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+33,go forward,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+34,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+35,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+36,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+37,go forward,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+38,go forward,Go forward to reach the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+39,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+40,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+41,pick up,Pick up the grey key so I have both keys.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+42,pick up,"Pick up the grey key, then move towards the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+43,go forward,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+44,go forward,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+45,pick up,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+46,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+47,go forward,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+48,pick up,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+49,go forward,No changes to the plan. Continue moving forward to navigate the environment.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+50,pick up,No changes to the plan. I need to interact with the grey key to fulfill the sequence of actions.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+51,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+52,pick up,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+53,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+54,pick up,Go forward and pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+55,go forward,Go forward and pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+56,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+57,go forward,Go forward to reach and pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+58,pick up,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+59,go forward,"Go forward to pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+60,go forward,Go forward to pick up the grey key. Then navigate to the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+61,pick up,Go forward to pick up the grey key. Then continue moving forward towards the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+62,go forward,Go forward to pick up the grey key. Then move towards the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+63,go forward,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+64,pick up,Pick up the grey key. Then move towards the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+65,go forward,Pick up the grey key. Then navigate to the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+66,pick up,No changes to the plan.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+67,go forward,"Pick up the grey key, then navigate to the yellow key's location.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+68,pick up,"Pick up the grey key, then navigate to the yellow key's location.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+69,pick up,"Pick up the grey key, then navigate to the yellow key's location.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+70,go forward,"Pick up the grey key, then navigate to the yellow key's location.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+71,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+72,go forward,"Go forward one step to reach the grey key, then pick it up.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+73,go forward,Go forward one step to reach the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+74,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+75,go forward,Go forward to reach and pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+76,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+77,pick up,Pick up the grey key and then navigate to the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+78,go forward,"Go forward to pick up the grey key, then navigate towards the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+79,go forward,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+80,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+81,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+82,pick up,Pick up the grey key to complete the task.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+83,go forward,"No changes to the plan. Since I am carrying the yellow key, I will move forward to explore the environment, hoping to find the yellow key or the next objective.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+84,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+85,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+86,go forward,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+87,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+88,go forward,Go forward to reach the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+89,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+90,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+91,go forward,Go forward towards the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+92,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+93,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+94,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+95,go forward,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+96,pick up,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+97,go forward,No changes to the plan.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+98,go forward,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+99,pick up,"Pick up the grey key, then navigate to the yellow key.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+100,go forward,"No changes to the plan. I am carrying the yellow key, and the grey key is in front of me. I need to continue navigating.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+101,pick up,"Go to the grey key, then proceed.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+102,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+103,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+104,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+105,go forward,No changes to the plan. I have the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+106,pick up,Go to the yellow key after picking up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+107,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+108,go forward,"No changes to the plan. (The objective is to get to the yellow key after picking up the grey key. Since the observation suggests we are near the target/intermediate step, I will continue moving forward.)","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+109,go forward,No changes to the plan. Continue moving towards the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+110,pick up,Go to the grey key and then proceed towards the yellow key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+111,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+112,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+113,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+114,go forward,Go forward one step to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+115,pick up,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+116,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+117,drop,"No changes to the plan. The goal is to acquire the yellow key. Since I am carrying it, I will now drop the grey key, assuming the sequence is complete.","You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+118,go forward,Pick up the grey key to satisfy the goal condition.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+119,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+120,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+121,pick up,Go to the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+122,pick up,Pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+123,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+124,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+125,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+126,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,False
+127,go forward,Go forward to pick up the grey key.,"You carry a yellow key
+a wall 2 steps right
+a grey key 1 step forward",0,True

@@ -1,0 +1,106 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Go forward, then turn left, then go forward, then pick up.","a wall 1 step forward
+a purple ball 1 step left",0,False
+1,turn left,"Turn left, then go forward, then pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+2,turn left,"Turn left, then go forward, then pick up.","a wall 6 steps forward
+a purple ball 1 step right",0,False
+3,turn right,"Turn right, go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+4,go forward,"Go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+5,go forward,"Go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+6,go forward,"Go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+7,turn right,"Go forward, pick up. (Attempting to avoid repeating 'go forward'.)","a wall 1 step forward
+a purple ball 1 step left",0,False
+8,turn left,"Turn left, go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+9,turn left,"Turn left, go forward, pick up.","a wall 6 steps forward
+a purple ball 1 step right",0,False
+10,turn left,"Turn left, go forward, pick up.","a wall 4 steps forward
+a wall 1 step left",0,False
+11,turn left,"Turn left, go forward, pick up.","a wall 1 step forward
+a purple ball 1 step left",0,False
+12,turn left,"Turn left, go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+13,go forward,No changes to the plan.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+14,go forward,"Go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+15,go forward,"Go forward, pick up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+16,go forward,"Go forward, then pick up the ball.","a wall 1 step right
+a purple ball 1 step forward",0,False
+17,turn right,"Go forward, then pick up the ball.","a wall 1 step forward
+a purple ball 1 step left",0,False
+18,turn left,"Go left, then go forward, then pick up the ball.","a wall 1 step right
+a purple ball 1 step forward",0,False
+19,go forward,Go forward to reach the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+20,go forward,Go forward to reach and pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+21,go forward,Go forward to reach and pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+22,turn right,No changes to the plan. The goal remains to reach and pick up the purple ball.,"a wall 1 step forward
+a purple ball 1 step left",0,False
+23,turn left,"No changes to the plan. Turn left to face the ball, then go forward to pick it up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+24,go forward,Go forward to move towards the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+25,go forward,No changes to the plan.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+26,go forward,Go forward to get closer to the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+27,turn right,No changes to the plan.,"a wall 1 step forward
+a purple ball 1 step left",0,False
+28,turn left,"Go left to face the purple ball, then go forward to pick it up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+29,go forward,No changes to the plan.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+30,go forward,No changes to the plan.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+31,go forward,Go forward to pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+32,go forward,Go forward to interact with the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+33,go forward,Go forward to reach and pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+34,go forward,Go forward to reach the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+35,turn right,No changes to the plan.,"a wall 1 step forward
+a purple ball 1 step left",0,False
+36,turn left,"Go left to reach the purple ball, then pick it up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+37,go forward,"Go forward to reach the purple ball, then pick it up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+38,go forward,"Go forward to reach the purple ball, then pick it up.","a wall 1 step right
+a purple ball 1 step forward",0,False
+39,go forward,"Go forward, then pick up the purple ball.","a wall 1 step right
+a purple ball 1 step forward",0,False
+40,go forward,Go forward to reach and pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+41,toggle,No changes to the plan.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+42,go forward,Go forward to reach and pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+43,go forward,Go forward to pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+44,go forward,No changes to the plan.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+45,turn right,Navigate to the purple ball by changing direction.,"a wall 1 step forward
+a purple ball 1 step left",0,False
+46,turn left,"Turn left, then go forward to pick up the purple ball.","a wall 1 step right
+a purple ball 1 step forward",0,False
+47,go forward,Go forward to pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+48,go forward,No changes to the plan.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+49,go forward,Go forward to reach and pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+50,go forward,Pick up the purple ball.,"a wall 1 step right
+a purple ball 1 step forward",0,False
+51,pick up,No changes to the plan.,"You carry a purple ball
+a wall 3 steps forward
+a wall 1 step right",0.26874999999999993,True

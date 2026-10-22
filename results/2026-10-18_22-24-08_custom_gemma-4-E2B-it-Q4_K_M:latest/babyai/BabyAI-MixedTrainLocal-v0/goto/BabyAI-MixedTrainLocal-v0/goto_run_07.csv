@@ -1,0 +1,45 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Go 2 steps forward, then turn right and go 2 steps forward.","a wall 4 steps forward
+a wall 3 steps right
+a grey ball 2 steps right and 1 step forward",0,False
+1,go forward,Go forward 1 step.,"a wall 3 steps forward
+a grey ball 2 steps right",0,False
+2,go forward,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps right",0,False
+3,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right",0,False
+4,turn right,Go right.,"a wall 3 steps forward
+a wall 1 step left
+a grey ball 2 steps right and 2 steps forward",0,False
+5,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps left
+a grey ball 2 steps left and 2 steps forward",0,False
+6,go forward,"Go forward, go forward, turn left, go forward, go forward.","a wall 5 steps forward
+a wall 3 steps left
+a grey ball 2 steps left and 1 step forward",0,False
+7,go forward,No changes to the plan.,"a wall 4 steps forward
+a grey ball 2 steps left",0,False
+8,go forward,"Go forward, go forward, turn left, go forward, go forward.","a wall 3 steps forward
+a wall 3 steps left",0,False
+9,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 3 steps left",0,False
+10,go forward,"Go forward, go forward, turn left, go forward, go forward.","a wall 3 steps forward
+a wall 3 steps left",0,False
+11,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 3 steps left
+a grey ball 3 steps right and 1 step forward",0,False
+12,turn right,"Go forward, go forward, turn left, go forward, go forward. (The original plan seems too simplistic, but I will try to follow the intent if it leads to the goal.)","a wall 4 steps forward
+a wall 3 steps right
+a grey ball 1 step left and 3 steps forward",0,False
+13,turn left,"Go forward, turn left, go forward, turn left, go forward.","a wall 4 steps forward
+a wall 3 steps left
+a grey ball 3 steps right and 1 step forward",0,False
+14,go forward,No changes to the plan.,"a wall 3 steps forward
+a wall 3 steps left
+a grey ball 3 steps right",0,False
+15,turn right,No changes to the plan.,"a wall 3 steps left
+a grey ball 3 steps forward",0,False
+16,go forward,"Go forward, go forward, go forward.","a wall 3 steps left
+a grey ball 2 steps forward",0,False
+17,go forward,"Go forward, go forward.","a wall 3 steps left
+a grey ball 1 step forward",0.746875,True

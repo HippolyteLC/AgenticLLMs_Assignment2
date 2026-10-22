@@ -1,0 +1,842 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Go forward 1 step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right",0,False
+1,go forward 1 step,go forward 1 step,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+2,go forward 1 step,go forward 1 step,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+3,"""No changes to the plan.""","""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+4,go left 1 step,"Currently facing NORTH, current plan is to continue to go to the wall to the left of my current face-direction.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+5,,"no changes so far, continue with the current plan, ""No changes to the plan.""
+
+To continue with the original plan, no changes are needed, so the updated plan remains the same, which is: ""No changes to the plan."" Then the next action is: go left 1 step.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+6,"no changes
+
+Current Observation:
+a wall 3 steps left
+a wall 1 step right
+Current Plan: no changes
+Current Position: facing NORTH, 1 step left, 1 step out",no changes,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+7,go forward 1 step,no changes to the existing plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+8,,"go forward 1 step, turn right 1 step","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+9,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+10,no changes,no changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+11,"go forward
+
+Current Plan: ""no changes to the plan.""
+Current Position: facing NORTH, 1 step left, 2 steps out","""no changes to the plan.""
+Current Position: facing NORTH, 1 step left, 2 steps out","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+12,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+13,go forward 1 step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+14,go forward 1 step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+15,go forward 1 step,"""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+16,"""go forward 1 step""","""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+17,,No changes,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+18,go right,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+19,go forward 1 step,"""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+20,go forward,no changes,"a wall 1 step forward
+a wall 1 step right",0,False
+21,go right,no changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+22,go right,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+23,go forward,no changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+24,go right,There is currently no change to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+25,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+26,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+27,"""go forward""",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+28,go forward,no changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+29,Go forward 1 step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+30,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+31,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+32,go forward,no changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+33,go forward 1 step 1,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+34,go forward 1 step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+35,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+36,go forward 1 step,"Since the current plan is no changes to the plan., I will not change it.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+37,go forward,"""No changes to the plan.""","a wall 1 step forward
+a wall 1 step right",0,False
+38,go forward 1 step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+39,Stop and turn left.,"The current plan is ""go forward.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+40,go forward 1 step,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+41,go forward 1 step 1,"I will go forward and check the wall to my left. If there is no wall there, I will go forward and check the wall to my right. If there is also no wall there, I will go forward and pick up the object in front of me. If there is a wall there, I will go forward and drop the object in my hand.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+42,Go straight forward.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+43,Go forward one step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+44,Go forward 1 step,Go forward one step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+45,Go forward 1 step.,Go forward one step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+46,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+47,Go forward 1 step 1,Go forward 1 step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+48,"""turn left.""","""toggle""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+49,turn left,"<no changes to the plan, as the current plan ""turn left"" aligns to face the left wall>","a wall 6 steps forward
+a wall 1 step right",0,False
+50,go forward 1 step,no changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right",0,False
+51,go forward,no changes to the plan,"a wall 4 steps forward
+a wall 1 step right",0,False
+52,go forward,"I'm satisfied with the current plan, No changes to the plan.","a wall 3 steps forward
+a wall 1 step right",0,False
+53,"Continue with the current plan.
+
+Next, I will take the next action: ""go forward 1 step.""",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+54,go forward 1 step,"Yes, I will go forward 1 step","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+55,"""go forward 1 step""",Go forward 1 step,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+56,Go forward 1 step.,I will go forward one step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+57,go forward 1 step.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+58,"""go forward 1 step.""",no changes to the current plan. The current plan is to go forward one step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+59,go forward 1 step.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+60,,"No changes to the plan.
+
+ACTION","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+61,,"(No Changes to the Current Plan)
+
+No changes to the plan.
+
+ACTION
+
+(No changes to the Current Plan)","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+62,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+63,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+64,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+65,go forward 1 step,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+66,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+67,Go forward.,"Keep the current plan unchanged, ""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+68,"""go forward 1 step""","""go forward 1 step""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+69,"""go forward 1 step.""","I will continue with the current plan and take ""go forward 1 step.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+70,Go forward 1 step.,Go forward 1 step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+71,go forward 2 steps,go forward 2 steps,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+72,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+73,Turn right,"None yet (or ""No changes to the plan."" if the current plan is good)","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+74,go forward 1 step.,Go forward 1 step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+75,Go forward 1 step.,Continue with the original plan of going forward 1 step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+76,Go forward 1 step.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+77,Go forward 1 step.,Continue going forward 1 step.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+78,"continue with ""Go forward 1 step.""",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+79,Turn right,Add a turn to the right to face NORTH,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+80,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+81,go forward,"Change the current plan to ""go forward""","a wall 1 step forward
+a wall 1 step left",0,False
+82,Go forward 2 steps,"Yes changes to the plan.  I suggest switching to ""go forward 2 steps.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+83,go forward 2 steps,go forward 2 steps,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+84,"Turn right, and go forward 2 steps.","Turn right, so face EAST.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+85,"Turn right, go forward 2 steps, drop the brick, pick up the brick, and go forward 3 steps.","The current plan is to turn right, go forward 2 steps, then drop a brick, pick up another brick, and go forward 3 steps.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+86,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+87,Go forward 2 steps and then drop a brick.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+88,I will turn left and go forward 3 steps.,"I will go forward 2 steps, then drop a brick, pick up another brick, and go forward 3 steps.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+89,turn right and go forward 3 steps,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+90,"Turn left and go forward 5 steps, turn left, drop a brick, pick it up, and turn right, go forward 5 steps, turn right, drop another brick then pick it up and pick up the third brick while going forward a few steps, turn left and go forward a few steps. After you've dropped all 3 bricks, pick up the object.","I will go forward 5 steps, then turn right, drop a brick, pick up another brick, pick up the other brick, turn left, go forward 3 steps, and then pick it up. ACTION: Turn left and go forward 5 steps, turn left, drop a brick, pick it up, and turn right, go forward 5 steps, turn right, drop another brick then pick it up and pick up the third brick while going forward a few steps, turn left and go forward a few steps. After you've dropped all 3 bricks, pick up the object.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+91,Go forward 4 steps,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+92,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+93,"Turn left, go forward 2 steps, drop a brick","""go forward, turn left, go forward 2 steps, drop a brick, pick up another brick, and drop a brick""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+94,Turn right,Turn right,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+95,Continue making the same progress direction,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+96,turn left,no changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+97,"""Go forward two steps.""","""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+98,Go forward 3 steps,"Go forward 3 steps and then drop a brick, pick up the brick, and go forward 3 steps.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+99,"Go forward, drop a brick, pick up the brick, go forward",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+100,"""Go forward 3 steps and then drop the brick, pick up the brick, go forward 3 steps to examine the left wall.""","""Go forward, drop a brick, pick up the brick, and go forward 5 steps and check the left wall for a wall.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+101,Turn right,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+102,Go forward.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+103,"Go forward 2 steps, drop a brick, pick up the brick, go forward 5 steps and check the left wall for a wall.","Yes, I will go forward 2 steps, then drop a brick.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+104,Go forward 5 steps,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+105,Go forward 5 steps.,I will drop a brick and then continue on the current plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+106,"continue with the current plan: go forward, turn left, drop a brick, pick up the brick, go forward and then drop another brick, pick up the brick, go forward and drop the third brick, then pick up the brick.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+107,"Go forward, drop a brick.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+108,"""Go forward, grab another brick.""","""Go forward, grab another brick.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+109,"Go forward two steps, grab another brick and drop a brick.",Keep going forward and grab an additional brick.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+110,"Turn right, go forward",Check and examine the wall carefully if the additional brick drop doesn't fix issues.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+111,"Keep going, pick up a brick, go forward","Drop a brick, grab another brick, no changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+112,Go forward 2 steps,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+113,"Go forward, drop a brick, grab another brick, go forward",No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+114,"Go forward, follow the yellow brick trail",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+115,"""Turn left.""","""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+116,Turn right.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+117,"""Turn left.""","""No changes to the plan.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+118,"""Go forward""",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+119,"Go forward two steps, grab a brick, drop a brick, pick up the brick, go forward three steps","Go forward two steps, grab a brick, drop a brick, pick up the brick, go forward three steps","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+120,"""Go forward 5 steps, grab a brick, drop the brick, pick up the brick, go forward 3 steps""","""Go forward, grab a block, drop the block, pick up the block.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+121,"go forward, toggle.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+122,,"""Go forward, grab a block, drop the block, pick up the block.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+123,Go forward,Go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+124,Examine the current observation for any change in the layout of the room.,"""Reconsider the current action 'go forward' to see if it is correct and make any necessary adjustments based on the current observation.""","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+125,"""No changes to the plan.""",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+126,"go forward
+
+Observation:
+a wall 2 steps forward
+a wall 2 steps left
+
+
+Review the current plan above if present, consider it if possible and make changes, then provide the new plan and the next action if appropriate.
+No changes made to the plan.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+127,Go forward three steps,"Go forward three steps, pick up a brick, drop a brick.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,True

@@ -1,0 +1,386 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+1,go forward,"Go forward 3 steps, then turn right, then go forward 3 steps to reach the green box.","a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+2,turn left,"Go forward 1 step, then turn left to navigate around the wall.","a wall 1 step forward
+a wall 2 steps left",0,False
+3,go forward,"Go forward, then turn left.","a wall 1 step forward
+a wall 2 steps left",0,False
+4,go forward,Go forward,"a wall 1 step forward
+a wall 2 steps left",0,False
+5,go forward,Go forward,"a wall 1 step forward
+a wall 2 steps left",0,False
+6,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 2 steps forward",0,False
+7,turn right,"Turn right, then go forward to reach the green box.","a wall 2 steps right
+a green box 2 steps left and 3 steps forward
+a yellow ball 5 steps forward",0,False
+8,go forward,Go forward towards the yellow ball.,"a wall 2 steps right
+a green box 2 steps left and 2 steps forward
+a yellow ball 4 steps forward",0,False
+9,go forward,Go forward towards the yellow ball.,"a wall 2 steps right
+a green box 2 steps left and 1 step forward
+a yellow ball 3 steps forward",0,False
+10,go forward,Go forward 2 steps to position myself near the green box.,"a wall 2 steps right
+a green box 2 steps left
+a yellow ball 2 steps forward",0,False
+11,turn right,No changes to the plan.,"a wall 2 steps forward
+a yellow ball 2 steps left",0,False
+12,pick up,Pick up the yellow ball and then move towards the green box.,"a wall 2 steps forward
+a yellow ball 2 steps left",0,False
+13,turn left,"Pick up the yellow ball, then move towards the green box.","a wall 2 steps right
+a green box 2 steps left
+a yellow ball 2 steps forward",0,False
+14,go forward,"Pick up the yellow ball, then move towards the green box.","a wall 2 steps right
+a yellow ball 1 step forward",0,False
+15,go forward,"Pick up the yellow ball, then move towards the green box.","a wall 2 steps right
+a yellow ball 1 step forward",0,False
+16,pick up,"Pick up the yellow ball, then move towards the green box.","You carry a yellow ball
+a wall 2 steps forward
+a wall 2 steps right",0,False
+17,turn left,"Put the yellow ball next to the green box. First, navigate around the walls to find the green box.","You carry a yellow ball
+a wall 5 steps forward
+a wall 2 steps right
+a green box 1 step left and 2 steps forward",0,False
+18,turn left,Navigate towards the green box.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 2 steps left
+a green box 2 steps right and 1 step forward",0,False
+19,turn right,Navigate towards the green box by turning right and moving forward/right to reach it.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 2 steps right
+a green box 1 step left and 2 steps forward",0,False
+20,turn right,Go towards the green box.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 2 steps right",0,False
+21,turn right,Go towards the green box.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 2 steps left",0,False
+22,turn right,Go toward the green box.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 2 steps left
+a green box 2 steps right and 1 step forward",0,False
+23,turn right,Go to the green box and place the ball next to it.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 2 steps right
+a green box 1 step left and 2 steps forward",0,False
+24,turn left,"Put the yellow ball next to the green box. First, navigate towards the green box.","You carry a yellow ball
+a wall 5 steps forward
+a wall 2 steps left
+a green box 2 steps right and 1 step forward",0,False
+25,turn right,Put the yellow ball next to the green box. Navigate towards the green box.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 2 steps right
+a green box 1 step left and 2 steps forward",0,False
+26,go forward,Navigate towards the green box.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 2 steps right
+a green box 1 step left and 1 step forward",0,False
+27,go forward,Navigate to the green box.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 2 steps right
+a green box 1 step left",0,False
+28,turn left,"Navigate to the green box, then position the yellow ball next to it.","You carry a yellow ball
+a wall 3 steps right
+a green box 1 step forward",0,False
+29,go forward,Go forward to reach the green box.,"You carry a yellow ball
+a wall 3 steps right
+a green box 1 step forward",0,False
+30,go forward,Go forward to reach the green box and then drop the ball.,"You carry a yellow ball
+a wall 3 steps right
+a green box 1 step forward",0,False
+31,go forward,Go forward to reach the green box and then drop the ball.,"You carry a yellow ball
+a wall 3 steps right
+a green box 1 step forward",0,False
+32,go forward,"Go forward to reach the green box, then reposition the ball next to it.","You carry a yellow ball
+a wall 3 steps right
+a green box 1 step forward",0,False
+33,toggle,"Go to the green box by toggling it, then reposition the ball.","You carry a yellow ball
+a wall 5 steps forward
+a wall 3 steps right",0,False
+34,toggle,"Go to the green box by toggling it, then reposition the ball.","You carry a yellow ball
+a wall 5 steps forward
+a wall 3 steps right",0,False
+35,toggle,"Go to the green box by toggling it, then reposition the ball.","You carry a yellow ball
+a wall 5 steps forward
+a wall 3 steps right",0,False
+36,go forward,Go forward to explore the environment and locate the green box.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 3 steps right",0,False
+37,turn left,Navigate towards the green box by turning left and moving forward.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 3 steps left",0,False
+38,turn left,Navigate towards the green box by turning left and moving forward.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 3 steps left",0,False
+39,turn left,No changes to the plan.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 3 steps right",0,False
+40,turn left,"Navigate towards the green box. If possible, use the current turn to move around obstacles or proceed towards the goal.","You carry a yellow ball
+a wall 4 steps forward
+a wall 3 steps right",0,False
+41,go forward,"Navigate towards the green box by attempting to move forward, using turns to maneuver around the walls.","You carry a yellow ball
+a wall 3 steps forward
+a wall 3 steps right",0,False
+42,turn left,Navigate towards the green box by moving around the walls.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 3 steps right",0,False
+43,turn right,Navigate around the walls to locate the green box.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 3 steps right",0,False
+44,go forward,Navigate towards the green box.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 3 steps right",0,False
+45,turn right,Navigate towards the green box by moving around obstacles.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 2 steps left",0,False
+46,turn right,Navigate around the walls to find the green box.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 3 steps left",0,False
+47,go forward,Navigate the environment to locate the green box.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 3 steps left",0,False
+48,go forward,Navigate the environment to find the green box.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 3 steps left",0,False
+49,go forward,Navigate the environment to find the green box.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 3 steps left",0,False
+50,go forward,Find the green box. Move forward cautiously.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+51,go forward,No changes to the plan. Continue moving forward to explore the environment.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+52,turn left,No changes to the plan. Navigate around the walls by turning left.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+53,go forward,Go forward to explore the area.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 1 step right",0,False
+54,go forward,Go forward to continue navigation.,"You carry a yellow ball
+a wall 1 step forward
+a wall 1 step right",0,False
+55,turn left,No changes to the plan.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 1 step right",0,False
+56,turn left,Go left to navigate around immediate obstacles.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 1 step left",0,False
+57,turn right,Navigate by turning and moving towards the goal.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 1 step right",0,False
+58,turn right,Navigate around the obstacles to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 1 step right",0,False
+59,turn left,Navigate towards the green box by exploring the current area.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 1 step right",0,False
+60,go forward,Navigate towards the green box by continuing to move forward.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 1 step right",0,False
+61,go forward,No changes to the plan. I will continue moving forward to explore the space.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 1 step right",0,False
+62,go forward,No changes to the plan. Continue moving forward.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+63,turn right,No changes to the plan. I will turn right to change direction.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+64,turn left,No changes to the plan. I will continue moving around the obstacle.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+65,turn right,No changes to the plan. I need to navigate towards the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+66,go forward,No changes to the plan. Keep moving forward to explore the environment and find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+67,go forward,Keep moving forward to explore the environment and find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+68,go forward,Keep moving forward to explore the environment and find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+69,turn left,Explore the environment by turning and moving.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+70,turn right,Explore the environment by turning and moving to find the goal.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+71,go forward,Explore the environment to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+72,go forward,Explore the environment to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+73,go forward,Explore the environment to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+74,turn right,Explore the environment to find the green box. Turn right to see what is around the corner.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 1 step left",0,False
+75,turn right,Explore the environment to find the green box. Turn right to see what is around the corner.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 3 steps right",0,False
+76,turn right,Explore the environment to find the green box. Turn right to see what is around the corner.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+77,turn right,"Explore the area by turning right to see what is around the corner, hoping to find the green box.","You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+78,go forward,Explore the area by going forward to see what is around the corner or next to the walls.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+79,turn right,Explore the area by turning right to see if it offers a new path or reveals the green box.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 1 step left",0,False
+80,turn right,Explore the area by turning right to see if it offers a new path or reveals the green box.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 3 steps right",0,False
+81,turn right,Explore the area by turning right.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+82,turn left,No changes to the plan.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 3 steps right",0,False
+83,turn right,Explore the area by continuing to turn right.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+84,go forward,Explore the area by continuing to move forward.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 1 step right",0,False
+85,go forward,"Continue moving forward, attempting to find the destination.","You carry a yellow ball
+a wall 1 step forward
+a wall 1 step right",0,False
+86,turn left,No changes to the plan.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 1 step right",0,False
+87,turn left,Continue exploring the area by turning left to navigate around the immediate obstacle.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 1 step left",0,False
+88,go forward,Continue moving forward and exploring the environment to find the green box.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 1 step left",0,False
+89,go forward,No changes to the plan. Continue moving forward and exploring the environment to find the green box.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 1 step left",0,False
+90,go forward,No changes to the plan. Continue moving forward and exploring the environment to find the green box.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step left",0,False
+91,turn right,No changes to the plan. Keep exploring and moving around to locate the green box.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 3 steps left",0,False
+92,go forward,No changes to the plan. Keep exploring and moving around to locate the green box.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 3 steps left",0,False
+93,go forward,No changes to the plan. Continue exploring to find the green box.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 3 steps left",0,False
+94,turn left,No changes to the plan. Continue exploring to find the green box.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 3 steps left",0,False
+95,go forward,No changes to the plan. Continue exploring to find the green box.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 3 steps left",0,False
+96,go forward,No changes to the plan. Continue exploring to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+97,go forward,No changes to the plan. Continue exploring to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+98,turn right,No changes to the plan. Continue exploring to find the green box.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 1 step left",0,False
+99,turn right,Explore the area by turning to a new direction.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 3 steps right",0,False
+100,turn right,Go around the current obstacles to explore the area.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+101,turn right,Explore the area by turning right to bypass the immediate obstacle.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+102,turn left,Navigate around the walls to reach the goal.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+103,turn right,Navigate the environment to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+104,go forward,Navigate the environment towards the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+105,turn right,No changes to the plan.,"You carry a yellow ball
+a wall 4 steps forward
+a wall 1 step left",0,False
+106,turn left,No changes to the plan. I need to explore the environment to locate the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+107,turn left,No changes to the plan. I need to explore the environment to locate the green box.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+108,turn right,No changes to the plan. Continue navigating to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+109,go forward,No changes to the plan. Continue navigating to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+110,go forward,No changes to the plan. Continue navigating to find the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 3 steps left",0,False
+111,turn left,No changes to the plan. Continue navigating to find the green box.,"You carry a yellow ball
+a wall 3 steps forward
+a wall 1 step right",0,False
+112,go forward,Find the green box and put the yellow ball next to it.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 1 step right",0,False
+113,turn left,No changes to the plan.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 2 steps right",0,False
+114,turn right,Find the green box and put the yellow ball next to it.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 1 step right",0,False
+115,go forward,Find the green box and put the yellow ball next to it.,"You carry a yellow ball
+a wall 1 step forward
+a wall 1 step right",0,False
+116,go forward,Find the green box and put the yellow ball next to it.,"You carry a yellow ball
+a wall 1 step forward
+a wall 1 step right",0,False
+117,turn left,Find the green box and put the yellow ball next to it.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 1 step right",0,False
+118,go forward,Find the green box and put the yellow ball next to it.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 1 step right",0,False
+119,turn right,Find the green box and put the yellow ball next to it.,"You carry a yellow ball
+a wall 1 step forward
+a wall 2 steps right",0,False
+120,turn right,Search the environment for the green box and move the yellow ball next to it.,"You carry a yellow ball
+a wall 2 steps forward
+a wall 1 step left",0,False
+121,turn left,Search the environment for the green box and move the yellow ball next to it.,"You carry a yellow ball
+a wall 1 step forward
+a wall 2 steps right",0,False
+122,go forward,Search the environment to locate the green box and move the yellow ball next to it.,"You carry a yellow ball
+a wall 1 step forward
+a wall 2 steps right",0,False
+123,go forward,Search the environment to locate the green box and move the yellow ball next to it. I need to explore the area.,"You carry a yellow ball
+a wall 1 step forward
+a wall 2 steps right",0,False
+124,go forward,Search the environment to locate the green box and move the yellow ball next to it.,"You carry a yellow ball
+a wall 1 step forward
+a wall 2 steps right",0,False
+125,go forward,Explore the area to locate the green box.,"You carry a yellow ball
+a wall 1 step forward
+a wall 2 steps right",0,False
+126,turn left,Explore the area to find the green box by turning left.,"You carry a yellow ball
+a wall 5 steps forward
+a wall 1 step right",0,False
+127,turn left,Explore the area to find the green box by turning left.,"You carry a yellow ball
+a wall 6 steps forward
+a wall 2 steps left",0,True

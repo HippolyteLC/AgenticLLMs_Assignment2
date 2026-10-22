@@ -1,0 +1,38 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Go forward 3 times, then pick up the yellow key, then navigate to the red ball.","a wall 2 steps right
+a yellow key 2 steps forward
+a red ball 1 step right and 3 steps forward",0,False
+1,go forward,"Go forward twice, then pick up.","a wall 2 steps right
+a yellow key 1 step forward
+a red ball 1 step right and 2 steps forward",0,False
+2,go forward,"Go forward, go forward, then pick up.","a wall 2 steps right
+a yellow key 1 step forward
+a red ball 1 step right and 2 steps forward",0,False
+3,go forward,"Go forward, then pick up.","a wall 2 steps right
+a yellow key 1 step forward
+a red ball 1 step right and 2 steps forward",0,False
+4,go forward,"Go forward, then pick up.","a wall 2 steps right
+a yellow key 1 step forward
+a red ball 1 step right and 2 steps forward",0,False
+5,pick up,"Pick up the yellow key, then go to the red ball.","You carry a yellow key
+a wall 3 steps forward
+a wall 2 steps right
+a red ball 1 step right and 2 steps forward",0,False
+6,go forward,No changes to the plan.,"You carry a yellow key
+a wall 2 steps forward
+a wall 2 steps right
+a red ball 1 step right and 1 step forward",0,False
+7,turn right,No changes to the plan.,"You carry a yellow key
+a wall 2 steps forward
+a wall 2 steps left
+a red ball 1 step left and 1 step forward",0,False
+8,turn left,"Pick up the yellow key, then go to the red ball.","You carry a yellow key
+a wall 2 steps forward
+a wall 2 steps right
+a red ball 1 step right and 1 step forward",0,False
+9,go forward,No changes to the plan.,"You carry a yellow key
+a wall 1 step forward
+a red ball 1 step right",0,False
+10,turn right,No changes to the plan.,"You carry a yellow key
+a wall 1 step left
+a red ball 1 step forward",0.92265625,True

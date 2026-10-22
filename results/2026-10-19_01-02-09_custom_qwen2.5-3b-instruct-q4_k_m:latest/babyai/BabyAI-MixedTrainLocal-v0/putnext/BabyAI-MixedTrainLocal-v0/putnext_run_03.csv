@@ -1,0 +1,478 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,No changes to the plan.,"a wall 5 steps forward
+a wall 3 steps right
+a blue ball 2 steps left
+a grey key 1 step left and 1 step forward",0,False
+1,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right",0,False
+2,turn right,No changes to the plan.,"a wall 2 steps forward
+a wall 3 steps left
+a blue ball 2 steps right",0,False
+3,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+4,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+5,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+6,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+7,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+8,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+9,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+10,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+11,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+12,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+13,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+14,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+15,turn right,Turn right to face the blue ball,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+16,turn right,Turn right to face the blue ball,"a wall 6 steps forward
+a wall 3 steps right
+a blue ball 2 steps left and 1 step forward
+a grey key 1 step left and 2 steps forward",0,False
+17,turn right,turn right to face the blue ball,"a wall 3 steps forward
+a wall 1 step right",0,False
+18,turn right,turn right,"a wall 1 step forward
+a wall 3 steps left",0,False
+19,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+20,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 3 steps right
+a blue ball 2 steps left and 1 step forward
+a grey key 1 step left and 2 steps forward",0,False
+21,turn right,turn right,"a wall 3 steps forward
+a wall 1 step right",0,False
+22,turn right,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps left",0,False
+23,turn right,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+24,toggle,turn right,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+25,toggle,None,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+26,toggle,Pick up the grey key using the toggle action since it's the next object to be interacted with,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+27,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+28,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+29,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+30,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+31,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+32,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+33,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+34,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+35,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+36,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+37,pick up,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+38,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+39,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+40,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+41,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+42,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+43,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+44,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+45,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+46,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+47,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+48,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+49,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+50,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+51,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+52,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+53,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+54,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+55,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+56,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+57,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+58,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+59,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+60,pick up,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+61,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+62,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+63,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+64,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+65,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+66,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+67,pick up,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+68,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+69,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+70,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+71,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+72,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+73,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+74,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+75,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+76,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+77,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+78,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+79,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+80,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+81,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+82,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+83,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+84,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+85,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+86,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+87,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+88,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+89,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+90,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+91,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+92,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+93,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+94,pick up,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+95,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+96,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+97,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+98,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+99,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+100,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+101,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+102,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+103,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+104,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+105,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+106,toggle,Pick up the grey key using the toggle action since it's the next object to be interact with,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+107,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+108,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+109,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+110,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+111,toggle,Continue with the plan to pick up the grey key using the toggle action.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+112,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+113,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+114,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+115,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+116,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+117,pick up,Continue with the plan to pick up the grey key using the toggle action.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+118,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+119,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+120,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+121,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+122,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+123,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+124,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+125,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+126,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,False
+127,toggle,No changes to the plan.,"a wall 4 steps forward
+a wall 1 step left
+a blue ball 1 step right and 2 steps forward
+a grey key 2 steps right and 1 step forward",0,True
